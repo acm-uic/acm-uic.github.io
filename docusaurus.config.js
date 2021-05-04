@@ -47,12 +47,28 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              // label: "Discord",
+              html: `
+                <a class="footer__link-item" href="https://discord.gg/Afy6gf4" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
+                  <img alt="Discord" src="https://img.shields.io/discord/652006495675875359?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2">
+                </a>
+              `,
             },
             {
-              label: 'Slack',
-              href: 'https://uicacm.slack.com/signup',
+              // label: 'Slack',
+              html: `
+                <a class="footer__link-item" href="https://uicacm.slack.com/signup" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Slack Workspace">
+                  <img alt="Slack" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white">
+                </a>
+              `,
+            },
+            {
+              // label: 'GitHub',
+              html: `
+                <a class="footer__link-item" href="https://github.com/acm-uic" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC GitHub Organization">
+                  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white">
+                </a>
+              `,
             }
           ],
         },
@@ -62,11 +78,7 @@ module.exports = {
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/acm-uic',
-            },
+            }
           ],
         },
       ],
