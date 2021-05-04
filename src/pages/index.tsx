@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
+import { HomepageProfiles } from "../components/HomepageProfiles";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -37,6 +38,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <HomepageProfiles />
       </main>
     </Layout>
   );
