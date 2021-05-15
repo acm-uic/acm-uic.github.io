@@ -4,7 +4,7 @@ Current Location: SELE 2266
 
 ## Description
 
-This is a server donated by Bharat in memory of our previous admin, Chase Lee.
+This is a server donated by Bharat in memory of our previous admin, [Chase Lee](https://github.com/clee231).
 
 ## Hardware Configuration
 
