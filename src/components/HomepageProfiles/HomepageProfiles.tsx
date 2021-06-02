@@ -15,7 +15,13 @@ const officers = [
     name: "Anastasiia Evdokimova",
     image: "https://avatars.githubusercontent.com/u/36254266?s=200&v=4",
     url: "https://github.com/SkylinSky",
-    description: <>Vice President &amp; Treasurer</>,
+    description: <>Vice President</>,
+  },
+  {
+    name: "Kalpkumar Shah",
+    image: "https://avatars.githubusercontent.com/u/76023884?s=200&v=4",
+    url: "https://github.com/kalps358",
+    description: <>Treasurer</>,
   },
 ];
 
