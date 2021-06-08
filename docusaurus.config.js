@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'acm-uic', // Usually your GitHub org/user name.
   projectName: 'acm-uic.github.io', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'ACM@UIC',
       logo: {
