@@ -10,8 +10,8 @@ We have some infrastructure.
 
 |     U | Name       | Type          | Description               |
 | ----: | :--------- | :------------ | :------------------------ |
-|     _N/A_ | nas        | NAS Appliance | Synology NAS Appliance    |
-|     _N/A_ | oven-temp  | RPi           | Temperature Monitoring Pi |
+| _N/A_ | nas        | NAS Appliance | Synology NAS Appliance    |
+| _N/A_ | oven-temp  | RPi           | Temperature Monitoring Pi |
 |    42 |            | _Blank_       |                           |
 |    41 | acmswitch2 | Switch        | Arista 10G Base-T         |
 |    40 | acmswitch  | Switch        | Arista 10G SFP+           |
