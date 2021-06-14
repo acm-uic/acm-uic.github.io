@@ -39,7 +39,7 @@ jobs:
           node-version: "14.x"
 
       - name: Setup SSH Keys 🔑
-        uses: webfactory/ssh-agent@v0.5.2
+        uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
 
