@@ -1,53 +1,59 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'ACM@UIC',
-  tagline: 'Association for Computing Machinery Student Chapter at University of Illinois at Chicago',
-  url: 'https://acm-uic.github.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
-  organizationName: 'acm-uic', // Usually your GitHub org/user name.
-  projectName: 'acm-uic.github.io', // Usually your repo name.
+  title: "ACM@UIC",
+  tagline:
+    "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
+  url: "https://acm-uic.github.io",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.png",
+  organizationName: "acm-uic", // Usually your GitHub org/user name.
+  projectName: "acm-uic.github.io", // Usually your repo name.
   themeConfig: {
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'ACM@UIC',
+      title: "ACM@UIC",
       logo: {
-        alt: 'ACM@UIC Logo',
-        src: 'img/logo.png',
+        alt: "ACM@UIC Logo",
+        src: "img/logo.png",
       },
       items: [
         {
-          type: 'doc',
-          position: 'left',
-          docId: 'introduction',
-          label: 'Intro/Docs',
+          label: "About",
+          position: "left",
+          href: "/about",
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/acm-uic/acm-uic.github.io',
-          label: 'GitHub',
-          position: 'right',
+          type: "doc",
+          position: "left",
+          docId: "introduction",
+          label: "Docs",
+        },
+        { to: "/blog", label: "Blog", position: "left" },
+        {
+          href: "https://github.com/acm-uic/acm-uic.github.io",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Intro/Docs',
-              to: '/docs/introduction',
+              label: "Docs",
+              to: "/docs/introduction",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
               // label: "Discord",
@@ -72,46 +78,50 @@ module.exports = {
                   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white">
                 </a>
               `,
-            }
+            },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            }
+              label: "About",
+              to: "/about",
+            },
+            {
+              label: "Blog",
+              to: "/blog",
+            },
           ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} ACM@UIC. Built with Docusaurus.`,
     },
     announcementBar: {
-      id: 'support_us', // Any value that will identify this message.
+      id: "support_us", // Any value that will identify this message.
       content:
-        'We are revamping our docs and website. This website is very much a work in progress.',
-      backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
+        "We are revamping our docs and website. This website is very much a work in progress.",
+      backgroundColor: "#fafbfc", // Defaults to `#fff`.
+      textColor: "#091E42", // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            'https://github.com/acm-uic/acm-uic.github.io/edit/main/website/',
+            "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/acm-uic/acm-uic.github.io/edit/main/website/blog/',
+            "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
