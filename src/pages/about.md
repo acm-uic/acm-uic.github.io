@@ -10,4 +10,4 @@ and projects.
 Additionally, ACM@UIC provides computing resources such as servers, software and a working network in our office, accounts for
 members along with the opportunity to obtain practice maintaining and improving these resources through
 activities and SIGs. See the documentation pages and the blog for more information or attend an event
-such as the General Body Meeting scheduled near the beginning of each semester..
+such as the General Body Meeting scheduled near the beginning of each semester.
