@@ -75,7 +75,7 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => {
       <div className="container">
         <div className="row">
           <div className={clsx("col text--center", styles.title)}>
-            <h2>Meet the People</h2>
+            <h2>Meet the Board</h2>
           </div>
         </div>
       </div>
