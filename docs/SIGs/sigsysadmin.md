@@ -1,7 +1,7 @@
 # SIG SysAdmin
 
-| **Weekday** | Saturday                                            |
-| **Time**    | 1 PM                                                |
+| **Weekday** | TBA, attend the ACM GBM to find out!                |
+| **Time**    | TBA, attend the ACM GBM to find out!                |
 | **Location**| ACM Office, SELE 2264, CS Lab SELE 2254, or Discord |
 | **Leaders** | Chase Lee & Christian Bingman                       |
 
