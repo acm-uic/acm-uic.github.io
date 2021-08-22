@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import { HomepageProfiles } from "../components/HomepageProfiles";
+import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed"
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -38,6 +39,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <GoogleCalendarEmbed />
         <HomepageProfiles />
       </main>
     </Layout>
