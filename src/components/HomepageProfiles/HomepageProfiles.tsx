@@ -7,8 +7,8 @@ export type HomepageOfficerProps = Record<string, never>;
 const officers = [
   {
     name: "Christian Bingman",
-    image: "https://avatars.githubusercontent.com/u/42191425?s=200&v=4",
-    url: "https://github.com/ChristianBingman",
+    image: "https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=1160",
+    url: "https://git.christianbingman.com/ChristianBingman",
     description: <>President</>,
   },
   {
@@ -52,8 +52,8 @@ const sysadmins = [
   },
   {
     name: "Christian Bingman",
-    image: "https://avatars.githubusercontent.com/u/42191425?s=200&v=4",
-    url: "https://github.com/ChristianBingman",
+    image: "https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=1160",
+    url: "https://git.christianbingman.com/ChristianBingman",
     description: <>The new guy</>,
   },
 ];

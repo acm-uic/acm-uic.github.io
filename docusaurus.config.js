@@ -21,18 +21,18 @@ module.exports = {
         src: "img/logo.png",
       },
       items: [
-        {
-          label: "About",
-          position: "left",
-          href: "/about",
-        },
+        { to: "/blog", label: "Events", position: "left" },
         {
           type: "doc",
           position: "left",
           docId: "introduction",
-          label: "Docs",
+          label: "About",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          label: "Who are we?",
+          position: "left",
+          href: "/about",
+        },
         {
           href: "https://github.com/acm-uic/acm-uic.github.io",
           label: "GitHub",

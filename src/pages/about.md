@@ -1,4 +1,4 @@
-# About
+# Who are we?
 
 The Association for Computing Machinery Student Chapter at the University of Illinois at Chicago (ACM@UIC) is a community for all UIC students interested in computing, computing machinery and related technologies. ACM@UIC members engage in computing-related social and educational activities. Additionally, members are encouraged to provide computing resources and assistance to members and non-members alike. Above all, the driving force behind ACM@UIC is its students' insatiable desire to understand and contribute to the computing technology around us. It is this desire which drives us to excel and keeps this organization fun.
 
