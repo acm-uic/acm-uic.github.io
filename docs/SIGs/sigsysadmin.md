@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # SIGSysAdmin
 
+|  <!-- -->   |  <!-- -->                                           |
+|-------------|-----------------------------------------------------|
 | **Weekday** | TBA, attend the ACM GBM to find out!                |
 | **Time**    | TBA, attend the ACM GBM to find out!                |
 | **Location**| ACM Office, SELE 2264, CS Lab SELE 2254, or Discord |
@@ -21,13 +23,17 @@ SIG SysAdmin is the system administration special interest group, the Spring 201
 * Bharat Middha
 * Christian Bingman
 
-::: Wanna Join?
+
+:::tip
 
 Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 
 :::
 
 ## Contact
+
+|  <!-- -->                 |  <!-- -->                                                       |
+|---------------------------|-----------------------------------------------------------------|
 | **Email us**              | sigsysadmin AT acm.cs.uic.edu                                   |
 | **Join our mailing list** | Send an blank email to: sigsysadmin-subscribe AT acm.cs.uic.edu |
 
