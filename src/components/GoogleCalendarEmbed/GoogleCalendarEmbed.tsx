@@ -16,7 +16,7 @@ export const GoogleCalendarEmbed: React.FC<GoogleCalendarEmbedProps> = () => {
         <div className="row">
           <iframe
 						className={clsx(styles.calendar)}
-            src="https://calendar.google.com/calendar/embed?src=kc72g1ctfg8b88df34qqb62d1s%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+            src="https://calendar.google.com/calendar/embed?src=kc72g1ctfg8b88df34qqb62d1s%40group.calendar.google.com"
             width="800"
             height="600"
             scrolling="no"
