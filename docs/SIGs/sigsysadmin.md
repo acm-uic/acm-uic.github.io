@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
-# SIGSysAdmin
+# SIG SysAdmin
 
 We have a lot of servers.
