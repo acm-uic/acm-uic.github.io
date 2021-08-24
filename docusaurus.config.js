@@ -37,7 +37,10 @@ module.exports = {
           docId: "introduction",
           label: "Docs",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog",
+          label: "Announcements",
+          position: "left",
+        },
         {
           href: "https://github.com/acm-uic/acm-uic.github.io",
           label: "GitHub",
