@@ -27,6 +27,11 @@ module.exports = {
           href: "/about",
         },
         {
+          to: "/sigs/Overview",
+          position: "left",
+          label: "SIGs",
+        },
+        {
           type: "doc",
           position: "left",
           docId: "introduction",
@@ -123,6 +128,18 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'sigs',
+        path: 'SIGs',
+        routeBasePath: 'sigs',
+        sidebarPath: require.resolve('./sigsidebars.js'),
+        // ... other options
       },
     ],
   ],
