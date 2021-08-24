@@ -19,7 +19,10 @@ module.exports = {
       collapsed: false,
       items: [
         'siggame',
+        'sigmath',
+        'sigquantitativetrading',
         'sigsysadmin',
+        'sigwebdev',
       ],
     },
     {
