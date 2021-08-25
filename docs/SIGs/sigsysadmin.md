@@ -35,9 +35,9 @@ Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 
 ## Additional Resources
 
-[ACM Wiki](/wiki)   *Note: many specific details on the wiki may now be out of date, but you can help by updating them!*
+[ACM Wiki](https://acm.cs.uic.edu/wiki)   *Note: many specific details on the wiki may now be out of date, but you can help by updating them!*
 
-[SIGSysAdmin Wiki Page](/wiki/sig:sysadmin)
+[SIGSysAdmin Wiki Page](https://acm.cs.uic.edu/wiki/sig:sysadmin)
 
 ## Meeting Notes
 
