@@ -42,6 +42,11 @@ module.exports = {
           href: "/about",
         },
         {
+          label: "Join ACM",
+          position: "left",
+          href: "/join",
+        },
+        {
           href: "https://github.com/acm-uic/acm-uic.github.io",
           label: "GitHub",
           position: "right",
@@ -99,6 +104,10 @@ module.exports = {
             {
               label: "Blog",
               to: "/blog",
+            },
+            {
+              label: "Join ACM",
+              to: "/join",
             },
           ],
         },

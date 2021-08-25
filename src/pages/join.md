@@ -1,0 +1,43 @@
+# Join ACM
+
+If you are looking to get involved with ACM, there's no better way than simply showing up! Drop by our office or one of our many meetings or events. You don't have to be an official member or an engineering major...you just have to have an interest!
+
+That said, there are definite perks in official membership.
+
+* an Active Directory account that gives you access to our server, website, office machines, and Local Area Network
+* access to our technical library
+* eligibility to start SIGs and run for leadership positions in the ACM
+
+To officially join the ACM at UIC, all you have to do is fill out a Membership Application form at a general meeting or at our office and pay the annual membership fee of $10 (covers the academic year starting in Fall).
+
+:::info
+Due to the impact of COVID-19 on student activities at UIC, we are waiving the $10 UIC membership fee for this year.
+:::
+
+
+
+**To sign up for this ACM Chapter, please fill out this online form!:**
+:::warning
+Form is not open yet, please come to the first General Body Meeting to join. Additional event details can be found on our calendar (see front page).
+:::
+
+**Other ways to join:**
+
+* Come find an ACM officer
+* Email officers@acm.cs.uic.edu
+* Come to an ACM General Body Meeting (see calendar)
+
+
+If the form give you a permission denied error, please make sure to sign out of all other google accounts before logging into your UIC GApps Account.
+
+ 
+
+**Ways to connect with us:**
+
+* [Join the ACM@UIC Discord Server](https://discord.gg/Afy6gf4) **(Preferred)**
+* [Sign up for the mailing list](https://acm.cs.uic.edu/mailsignup) (Announce-only or General Discussion)
+* [Follow us on Facebook](http://www.facebook.com/pages/UIC-ACM/78488002212)
+* [Join ACM's Slack workspace](https://uicacm.slack.com/signup)
+
+
+**Interested? Contact us!**
