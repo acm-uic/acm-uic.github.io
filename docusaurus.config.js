@@ -141,7 +141,7 @@ module.exports = {
         id: 'sigs',
         path: 'SIGs',
         routeBasePath: 'sigs',
-        sidebarPath: require.resolve('./sigsidebars.js'),
+        sidebarPath: require.resolve('./sigsidebar.js'),
         // ... other options
       },
     ],
