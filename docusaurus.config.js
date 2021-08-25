@@ -21,10 +21,9 @@ module.exports = {
         src: "img/logo.png",
       },
       items: [
-        {
-          label: "About",
+        { to: "/blog",
+          label: "Announcements",
           position: "left",
-          href: "/about",
         },
         {
           to: "/sigs/Overview",
@@ -37,9 +36,10 @@ module.exports = {
           docId: "introduction",
           label: "Docs",
         },
-        { to: "/blog",
-          label: "Announcements",
+        {
+          label: "About",
           position: "left",
+          href: "/about",
         },
         {
           href: "https://github.com/acm-uic/acm-uic.github.io",
