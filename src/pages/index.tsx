@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import { HomepageProfiles } from "../components/HomepageProfiles";
+import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed"
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -15,13 +16,13 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/blog">
-            Blog 📰
+            Announcements 📰
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/introduction"
+            to="/about"
           >
-            Documentation ✏
+            About ACM❓
           </Link>
         </div>
       </div>
@@ -38,6 +39,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <GoogleCalendarEmbed />
         <HomepageProfiles />
       </main>
     </Layout>

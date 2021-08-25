@@ -1,0 +1,8 @@
+.title {
+  color: var(--ifm-color-primary);
+}
+
+.calendar {
+	border: 0;
+  margin: 0 auto;
+}
