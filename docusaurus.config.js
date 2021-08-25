@@ -21,10 +21,14 @@ module.exports = {
         src: "img/logo.png",
       },
       items: [
-        {
-          label: "About",
+        { to: "/blog",
+          label: "Announcements",
           position: "left",
-          href: "/about",
+        },
+        {
+          to: "/sigs/Overview",
+          position: "left",
+          label: "SIGs",
         },
         {
           type: "doc",
@@ -32,7 +36,11 @@ module.exports = {
           docId: "introduction",
           label: "Docs",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          label: "About",
+          position: "left",
+          href: "/about",
+        },
         {
           href: "https://github.com/acm-uic/acm-uic.github.io",
           label: "GitHub",
@@ -123,6 +131,18 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'sigs',
+        path: 'SIGs',
+        routeBasePath: 'sigs',
+        sidebarPath: require.resolve('./sigsidebar.js'),
+        // ... other options
       },
     ],
   ],
