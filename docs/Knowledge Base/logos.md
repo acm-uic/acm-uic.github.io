@@ -39,13 +39,13 @@ Due to complains from the Student Organization Registration for the 2014-2015 sc
 
 [Fully Vectorized Logo](/media/acm_logos/acm2-fullvector-outlined.svg)
 
-[Favicon, 121px x 29px](https://acm.cs.uic.edu/wiki/_media/logos:acm2-favicon.png)
+[Favicon, 121px x 29px](/media/acm_logos/acm2-favicon.png)
 
-[Large Size Rasterized Logo, 2048px, no-transparency](https://acm.cs.uic.edu/wiki/_media/logos:newacm2logo.png)
+[Large Size Rasterized Logo, 2048px, no-transparency](/media/acm_logos/newacm2logo.png)
 
-[Large Size Rasterized Logo, 8518px X 3291px, transparent](https://acm.cs.uic.edu/wiki/_media/logos:acm2-logo-transparent.png)
+[Large Size Rasterized Logo, 8518px X 3291px, transparent](/media/acm_logos/acm2-logo-transparent.png)
 
-[Vector Logo, before subtraction operation (Only use this version if you would like to heavily modify the logo)](https://acm.cs.uic.edu/wiki/_media/logos:acm2.svg)
+[Vector Logo, before subtraction operation (Only use this version if you would like to heavily modify the logo)](/media/acm_logos/acm2.svg)
 
 ## 2013
 
