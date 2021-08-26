@@ -6,6 +6,24 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+### Cloning
+
+This repository uses git submodules to link to the [media repo](https://github.com/acm-uic/web-media.git).
+
+To clone with the submodules use `--recurse-submodules` flag:
+
+```console
+git clone --recurse-submodules https://github.com/acm-uic/acm-uic.github.io.git
+```
+
+To initialize the submodule on a already cloned repo use the following command:
+
+```console
+git submodule update --init
+```
+
+Reference: [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
 ### Installation
 
 ```console

@@ -1,5 +1,6 @@
 ":memo: documentation":
   - docs/**/*
+  - SIGs/**/*
 ":pencil2: blog":
   - blog/**/*
 ":taco: app":

@@ -1,0 +1,3 @@
+[submodule "static/media"]
+	path = static/media
+	url = https://github.com/acm-uic/web-media
