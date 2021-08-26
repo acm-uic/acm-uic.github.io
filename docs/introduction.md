@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-::::caution
+:::caution
 
 Documentation migration in process from old website. 
 
