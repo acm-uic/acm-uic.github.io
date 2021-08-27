@@ -4,7 +4,7 @@ Current Location: SELE 2266
 
 ## Description
 
-This is a server donated by Chase in memory of our previous admin, [Bharat Middha](https://github.com/bmiddha).
+This is a server donated by Chase in honor of our previous admin, [Bharat Middha](https://github.com/bmiddha).
 This server is currently a Type-1 Hypervisor hosting Virtual Machines supporting the ACM Infrastructure.
 This chassis supports VMs that requires mass storage.
 
