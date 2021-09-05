@@ -1,12 +1,15 @@
 .title {
   color: var(--ifm-color-primary);
 }
+
 .profile_section_title {
   margin-bottom: 10px;
 }
+
 .profile_name {
   margin-top: 10px;
 }
+
 .profile_avatar {
   border-radius: 50%;
   height: var(--ifm-avatar-photo-size-xl);
@@ -15,6 +18,7 @@
   margin: 0 auto;
   overflow: hidden;
 }
+
 .profile_section {
   display: flex;
   align-items: center;

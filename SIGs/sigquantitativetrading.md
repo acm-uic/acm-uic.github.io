@@ -6,13 +6,13 @@ This SIG page is currently under construction! Check back later for more informa
 
 :::
 
-|  <!-- -->   |  <!-- -->                                           |
-|-------------|-----------------------------------------------------|
-| **Weekday** | TBA, attend the ACM GBM to find out!                |
-| **Time**    | TBA, attend the ACM GBM to find out!                |
-| **Location**| GroupMe + Hangouts                                  |
-| **Leaders** | Jason Bohne                                         |
-| **Website** | https://www.notion.so/Quantitative-Trading-Club-71a6625b95a144799f04729db7e4e79c |
+| <!-- -->     | <!-- -->                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| **Weekday**  | TBA, attend the ACM GBM to find out!                                                       |
+| **Time**     | TBA, attend the ACM GBM to find out!                                                       |
+| **Location** | GroupMe + Hangouts                                                                         |
+| **Leaders**  | Jason Bohne                                                                                |
+| **Website**  | [Notion](https://www.notion.so/Quantitative-Trading-Club-71a6625b95a144799f04729db7e4e79c) |
 
 ## Who are we?
 
@@ -20,7 +20,7 @@ Quantitative Trading Club is a student-based organization at the University of I
 
 ## Leaders
 
-* Jason Bohne
+- Jason Bohne
 
 ## Contact
 
@@ -28,4 +28,4 @@ Quantitative Trading Club is a student-based organization at the University of I
 
 ## Additional Resources
 
-* https://www.notion.so/Quantitative-Trading-Club-71a6625b95a144799f04729db7e4e79c
+- [Notion](https://www.notion.so/Quantitative-Trading-Club-71a6625b95a144799f04729db7e4e79c)

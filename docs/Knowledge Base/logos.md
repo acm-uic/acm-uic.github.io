@@ -1,6 +1,6 @@
 # ACM Logo Archives
 
-## 2017
+## 2017 Logo
 
 ![2017 logo](/media/acm_logos/website-logo-replacement-2017.png)
 
@@ -8,8 +8,7 @@ Due to a notice from National ACM, we have to modify the current logo to denote 
 
 The logo itself is not using a formalized font. The subheading are using Bitstream Vera Sans Bold and the Offical UIC logo font.
 
-
-### Specs
+### 2017 Logo - Specs
 
 | <!--  -->                   | <!--  -->                                         |
 | --------------------------- | ------------------------------------------------- |
@@ -22,20 +21,20 @@ The logo itself is not using a formalized font. The subheading are using Bitstre
 >
 > Chase
 
-## 2014
+## 2014 Logo
 
 ![2014 logo](/media/acm_logos/acmlogo2014.png)
 
 Due to complains from the Student Organization Registration for the 2014-2015 school year, we have changed the logos. This logo was created by Chase Lee, LUG Vice-President 2012-2014, Flourish! Chairman 2013-2014. There is no formalized font that was used to create this logo, All strokes were drawn.
 
-### Specs
+### 2014 Logo - Specs
 
 | <!--  -->              | <!--  --> |
 | ---------------------- | --------- |
 | Red Color Value(RGB)   | #d90000   |
 | White Color Value(RGB) | #fff      |
 
-### Links
+### 2014 Logo - Links
 
 [Fully Vectorized Logo](/media/acm_logos/acm2-fullvector-outlined.svg)
 
@@ -47,13 +46,13 @@ Due to complains from the Student Organization Registration for the 2014-2015 sc
 
 [Vector Logo, before subtraction operation (Only use this version if you would like to heavily modify the logo)](/media/acm_logos/acm2.svg)
 
-## 2013
+## 2013 Logo
 
 ![2013 logo](/media/acm_logos/acm-rasterized.png)
 
 This was a modified logo of the 2010 version to include the full name of the ACM. Used for ACM Workstations & Flourish! banners. Vector versions created by Chase Lee.
 
-### Specs
+### 2013 Logo - Specs
 
 | <!--  -->                                          | <!--  -->                                                                           |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -65,8 +64,7 @@ This was a modified logo of the 2010 version to include the full name of the ACM
 | Font Used for “@”                                  | Mukti Narrow                                                                        |
 | Font Used for “Association for Computer Machinery” | Advent Pro                                                                          |
 
-
-### Links
+### 2013 Logo - Links
 
 [Fully Vectorized Logo for Web & Color Printing](/media/acm_logos/acm2010-logo_for_web-fullvector.svg)
 
@@ -80,13 +78,13 @@ This was a modified logo of the 2010 version to include the full name of the ACM
 
 [Mono Tone, Variation 5 for T-Shirts & B/W printing](/media/acm_logos/acm2010-logo_mono_print-fullvector5.svg)
 
-## 2010
+## 2010 Logo
 
 ![2010 logo](/media/acm_logos/acm2010-rasterized.png)
 
 This is the original logo as far as we know. Vector Logo created by Joel Luellwitz (evilJoel).
 
-### Specs
+### 2010 Logo - Specs
 
 | <!--  -->                   | <!--  -->                                                                           |
 | --------------------------- | ----------------------------------------------------------------------------------- |
@@ -97,8 +95,7 @@ This is the original logo as far as we know. Vector Logo created by Joel Luellwi
 | Font Used for “ACM” & “UIC” | Bitstream Vera Sans                                                                 |
 | Font Used for “@”           | Mukti Narrow                                                                        |
 
-
-### Links
+### 2010 Logo - Links
 
 [Original Vector (Note you need the correct fonts installed to view this SVG properly!)](/media/acm_logos/uicatacm-square-20100412.svg)
 

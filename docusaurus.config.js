@@ -1,8 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "ACM@UIC",
-  tagline:
-    "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
+  tagline: "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
   url: "https://acm-uic.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -21,10 +20,7 @@ module.exports = {
         src: "img/logo.png",
       },
       items: [
-        { to: "/blog",
-          label: "Announcements",
-          position: "left",
-        },
+        { to: "/blog", label: "Announcements", position: "left" },
         {
           to: "/sigs/Overview",
           position: "left",
@@ -116,8 +112,7 @@ module.exports = {
     },
     announcementBar: {
       id: "support_us", // Any value that will identify this message.
-      content:
-        "We are revamping our docs and website. This website is very much a work in progress.",
+      content: "We are revamping our docs and website. This website is very much a work in progress.",
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
@@ -128,14 +123,12 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/",
+          sidebarPath: require.resolve("./src/sidebars/docsSidebar.js"),
+          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/blog/",
+          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -145,12 +138,12 @@ module.exports = {
   ],
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'sigs',
-        path: 'SIGs',
-        routeBasePath: 'sigs',
-        sidebarPath: require.resolve('./sigsidebar.js'),
+        id: "sigs",
+        path: "SIGs",
+        routeBasePath: "sigs",
+        sidebarPath: require.resolve("./src/sidebars/sigsSidebar.js"),
         // ... other options
       },
     ],

@@ -1,11 +1,11 @@
 # SIG SysAdmin
 
-|  <!-- -->   |  <!-- -->                                           |
-|-------------|-----------------------------------------------------|
-| **Weekday** | TBA, attend the ACM GBM to find out!                |
-| **Time**    | TBA, attend the ACM GBM to find out!                |
-| **Location**| ACM Office, SELE 2264, CS Lab SELE 2254, or Discord |
-| **Leaders** | Chase Lee & Christian Bingman                       |
+| <!-- -->     | <!-- -->                                            |
+| ------------ | --------------------------------------------------- |
+| **Weekday**  | TBA, attend the ACM GBM to find out!                |
+| **Time**     | TBA, attend the ACM GBM to find out!                |
+| **Location** | ACM Office, SELE 2264, CS Lab SELE 2254, or Discord |
+| **Leaders**  | Chase Lee & Christian Bingman                       |
 
 ## About
 
@@ -13,12 +13,11 @@ SIG SysAdmin is the system administration special interest group, the Spring 201
 
 ## Systems Administrators
 
-* Walter Dworak (Alumni)
-* Chase Lee (Alumni)
-* Daniel Stempniewicz (Alumni)
-* Bharat Middha
-* Christian Bingman
-
+- Walter Dworak (Alumni)
+- Chase Lee (Alumni)
+- Daniel Stempniewicz (Alumni)
+- Bharat Middha
+- Christian Bingman
 
 :::tip
 
@@ -28,14 +27,14 @@ Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 
 ## Contact
 
-|  <!-- -->                 |  <!-- -->                                                       |
-|---------------------------|-----------------------------------------------------------------|
+| <!-- -->                  | <!-- -->                                                        |
+| ------------------------- | --------------------------------------------------------------- |
 | **Email us**              | sigsysadmin AT acm.cs.uic.edu                                   |
 | **Join our mailing list** | Send an blank email to: sigsysadmin-subscribe AT acm.cs.uic.edu |
 
 ## Additional Resources
 
-[ACM Wiki](https://acm.cs.uic.edu/wiki)   *Note: many specific details on the wiki may now be out of date, but you can help by updating them!*
+[ACM Wiki](https://acm.cs.uic.edu/wiki) _Note: many specific details on the wiki may now be out of date, but you can help by updating them!_
 
 [SIGSysAdmin Wiki Page](https://acm.cs.uic.edu/wiki/sig:sysadmin)
 
@@ -52,7 +51,7 @@ Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 [3/13/2021 - Terraform Pt2](https://docs.google.com/presentation/d/1vFKPVSAMJrqJ1MSopHz40c0_PtH_VULOF70qfe-u3qk/edit?usp=sharing)
 
 [Non-presentation Meeting Notes 2020-2021](https://drive.google.com/drive/folders/1--yKLFZ3tVpnwE-NsbzIG0Xm6_AsNIGs?usp=sharing)
-*Ask an admin for access. Please provide them with the link above.*
+_Ask an admin for access. Please provide them with the link above._
 
 ### Fall 2021
 
@@ -110,7 +109,6 @@ Due to the COVID-19 pandemic, all meeting have been cancelled.
 
 [12/4/2017 - {network, internet} foundations (Continued)](https://docs.google.com/presentation/d/19vDi5DYfVhNveOgRK-OlaOoIDADLt43FRFtntqehgnk/edit?usp=sharing)
 
-
 ### Spring 2017
 
 [01/30/2017 - Bash Scripting](https://docs.google.com/presentation/d/1wCPMsQcBbRSNLf_2TaLdra3FsCvQXp_-tdwUsvzTPFQ/edit?usp=sharing)
@@ -129,7 +127,7 @@ Due to the COVID-19 pandemic, all meeting have been cancelled.
 
 [04/17/2017 - System Hardening](https://drive.google.com/open?id=1KneXVeBhxkcojzD1DXpR6rtbrMBcu0kKmZquu4tGqyM)
 
-[04/24/2017 - Jeopardy SIGSysAdmin Review ](http://www.superteachertools.us/jeopardyx/jeopardy-review-game.php?gamefile=2183029)
+[04/24/2017 - Jeopardy SIGSysAdmin Review](http://www.superteachertools.us/jeopardyx/jeopardy-review-game.php?gamefile=2183029)
 
 ### Fall 2016
 

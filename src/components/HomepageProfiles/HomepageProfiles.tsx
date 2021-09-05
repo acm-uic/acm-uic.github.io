@@ -69,68 +69,46 @@ const sections = [
   },
 ];
 
-export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => {
-  return (
-    <>
-      <div className="container">
-        <div className="row">
-          <div className={clsx("col text--center", styles.title)}>
-            <h2>Meet the Board</h2>
-          </div>
+export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => (
+  <>
+    <div className="container">
+      <div className="row">
+        <div className={clsx("col text--center", styles.title)}>
+          <h2>Meet the Board</h2>
         </div>
       </div>
-      {sections.map((section, sectionKey) => (
-        <>
-          <section className={clsx(styles.profile_section)} key={sectionKey}>
-            <div className="container">
-              <div className="row">
-                <div
-                  className={clsx(
-                    "col text--center",
-                    styles.profile_section_title
-                  )}
-                >
-                  <h3>{section.name}</h3>
-                </div>
-              </div>
-              <div className="row">
-                {section.profiles.map((profile, key) => (
-                  <div className={clsx("col")} key={key}>
-                    <div className="text--center">
-                      <a
-                        href={profile.url}
-                        className={clsx(styles.profile_avatar)}
-                      >
-                        <img
-                          src={profile.image}
-                          alt={`Avatar of ${profile.name}`}
-                        />
-                      </a>
-                    </div>
-                    <div
-                      className={clsx(
-                        "text--center padding-horiz--md",
-                        styles.profile_name
-                      )}
-                    >
-                      <h3>
-                        <a
-                          href={profile.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {profile.name}
-                        </a>
-                      </h3>
-                      <p>{profile.description}</p>
-                    </div>
-                  </div>
-                ))}
+    </div>
+    {sections.map((section, sectionKey) => (
+      <>
+        <section className={clsx(styles.profile_section)} key={sectionKey}>
+          <div className="container">
+            <div className="row">
+              <div className={clsx("col text--center", styles.profile_section_title)}>
+                <h3>{section.name}</h3>
               </div>
             </div>
-          </section>
-        </>
-      ))}
-    </>
-  );
-};
+            <div className="row">
+              {section.profiles.map((profile, key) => (
+                <div className={clsx("col")} key={key}>
+                  <div className="text--center">
+                    <a href={profile.url} className={clsx(styles.profile_avatar)}>
+                      <img src={profile.image} alt={`Avatar of ${profile.name}`} />
+                    </a>
+                  </div>
+                  <div className={clsx("text--center padding-horiz--md", styles.profile_name)}>
+                    <h3>
+                      <a href={profile.url} target="_blank" rel="noopener noreferrer">
+                        {profile.name}
+                      </a>
+                    </h3>
+                    <p>{profile.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </>
+    ))}
+  </>
+);
