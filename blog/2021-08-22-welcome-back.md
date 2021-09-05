@@ -4,7 +4,7 @@ title: Welcome Back!
 author: Christian Bingman
 author_title: President 2021-2022 @ ACM@UIC
 author_url: https://git.christianbingman.com/ChristianBingman
-author_image_url: https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=200
+author_image_url: https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=50
 tags: ["welcome", "officer"]
 ---
 
