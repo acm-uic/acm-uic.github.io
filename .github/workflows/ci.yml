@@ -21,12 +21,17 @@ jobs:
         with:
           node-version: "14.x"
 
-      - name: Install deps and build (with cache) 📦
+      - name: Install dependencies (with cache) 📦
         uses: bahmutov/npm-install@v1
 
-      - name: Test Build 🚧
+      - name: Run linters and formatter checks ��
         run: |
-          yarn build
+          yarn typecheck
+          yarn lint:ci
+          yarn prettier:ci
+
+      - name: Test Build 🚧
+        run: yarn build
 
   gh-release:
     if: github.event_name != 'pull_request'
@@ -47,7 +52,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
 
-      - name: Install deps and build (with cache) 📦
+      - name: Install dependencies (with cache) 📦
         uses: bahmutov/npm-install@v1
 
       - name: Release to GitHub Pages 🚀
