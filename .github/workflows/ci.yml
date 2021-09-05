@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies (with cache) 📦
         uses: bahmutov/npm-install@v1
 
-      - name: Run linters and formatter checks ��
+      - name: Run linters and formatter checks 🚨
         run: |
           yarn typecheck
           yarn lint:ci
@@ -55,7 +55,7 @@ jobs:
       - name: Install dependencies (with cache) 📦
         uses: bahmutov/npm-install@v1
 
-      - name: Run linters and formatter checks ��
+      - name: Run linters and formatter checks 🚨
         run: |
           yarn typecheck
           yarn lint:ci
