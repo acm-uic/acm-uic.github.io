@@ -1,5 +1,6 @@
-build
-.docusaurus
-.github
+dist
 node_modules
+.yarn
+build
+coverage
 static
