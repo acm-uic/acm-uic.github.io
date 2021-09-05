@@ -34,12 +34,15 @@
     "file-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "swr": "^1.0.0",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-beta.0",
     "@tsconfig/docusaurus": "^1.0.2",
     "@types/eslint": "^7.28.0",
+    "@types/gapi": "^0.0.41",
+    "@types/gapi.client.calendar": "^3.0.10",
     "@types/react": "^17.0.6",
     "@types/react-helmet": "^6.1.1",
     "@types/react-router-dom": "^5.1.7",

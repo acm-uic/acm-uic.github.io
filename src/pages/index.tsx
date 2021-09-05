@@ -4,8 +4,9 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
-import { HomepageProfiles } from "../components/HomepageProfiles";
-import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed";
+
+const EventsAgenda = React.lazy(() => import("../components/EventsAgenda"));
+const HomepageProfiles = React.lazy(() => import("../components/HomepageProfiles"));
 
 const HomepageHeader: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
@@ -33,8 +34,12 @@ export const Home: React.FC = () => {
     <Layout title={`Hello from ${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
-        <GoogleCalendarEmbed />
-        <HomepageProfiles />
+        <React.Suspense fallback={<div />}>
+          <EventsAgenda />
+        </React.Suspense>
+        <React.Suspense fallback={<div />}>
+          <HomepageProfiles />
+        </React.Suspense>
       </main>
     </Layout>
   );
