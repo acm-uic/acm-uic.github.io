@@ -5,9 +5,9 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import { HomepageProfiles } from "../components/HomepageProfiles";
-import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed"
+import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed";
 
-function HomepageHeader() {
+const HomepageHeader: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -18,25 +18,19 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/blog">
             Announcements 📰
           </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/about"
-          >
+          <Link className="button button--secondary button--lg" to="/about">
             About ACM❓
           </Link>
         </div>
       </div>
     </header>
   );
-}
+};
 
-export default function Home() {
+export const Home: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description={`${siteConfig.tagline}`}
-    >
+    <Layout title={`Hello from ${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <GoogleCalendarEmbed />
@@ -44,4 +38,6 @@ export default function Home() {
       </main>
     </Layout>
   );
-}
+};
+
+export default Home;

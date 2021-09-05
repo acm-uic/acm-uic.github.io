@@ -12,17 +12,16 @@ This chassis supports VMs that requires mass storage.
 
 Machine Model: Supermicro CSE-846 | Penguin Computing Icebreaker 4824
 
-Chassis Details: 
+Chassis Details:
+
 - 24-Bay 3.5" HDD drive bays
 - 4U
-
 
 ### CPU
 
 - Model: Intel(R) Xeon(R) CPU E5-2620
 - Cores: 12
 - Clock Speed: 2.0 Ghz
-
 
 ### Mainboard
 
@@ -31,8 +30,6 @@ Chassis Details:
 - Type: DDR3 ECC Registered 4Rx4 PC3-10600L (1333MHz)
 - Capacity: 256 GB
 
-
-
 ## Current Configuration
 
 Last Inventory: May 15, 2021
@@ -40,13 +37,12 @@ Last Inventory: May 15, 2021
 - Hostname: bharat.acm.cs
 - Out-of-Band Management: bharat-ipmi.acm.cs
 
-
 ### Operating System
 
 - OS: VMWare ESXi-6.5.0-20190702001-standard (VMware, Inc.)
 
-
 ### Virtual Machines
+
 - TrueNAS
 
 ### Storage Configuration

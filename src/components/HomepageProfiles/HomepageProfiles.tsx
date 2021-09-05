@@ -69,8 +69,7 @@ const sections = [
   },
 ];
 
-export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => {
-  return (
+export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => (
     <>
       <div className="container">
         <div className="row">
@@ -84,12 +83,7 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => {
           <section className={clsx(styles.profile_section)} key={sectionKey}>
             <div className="container">
               <div className="row">
-                <div
-                  className={clsx(
-                    "col text--center",
-                    styles.profile_section_title
-                  )}
-                >
+                <div className={clsx("col text--center", styles.profile_section_title)}>
                   <h3>{section.name}</h3>
                 </div>
               </div>
@@ -97,28 +91,13 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => {
                 {section.profiles.map((profile, key) => (
                   <div className={clsx("col")} key={key}>
                     <div className="text--center">
-                      <a
-                        href={profile.url}
-                        className={clsx(styles.profile_avatar)}
-                      >
-                        <img
-                          src={profile.image}
-                          alt={`Avatar of ${profile.name}`}
-                        />
+                      <a href={profile.url} className={clsx(styles.profile_avatar)}>
+                        <img src={profile.image} alt={`Avatar of ${profile.name}`} />
                       </a>
                     </div>
-                    <div
-                      className={clsx(
-                        "text--center padding-horiz--md",
-                        styles.profile_name
-                      )}
-                    >
+                    <div className={clsx("text--center padding-horiz--md", styles.profile_name)}>
                       <h3>
-                        <a
-                          href={profile.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <a href={profile.url} target="_blank" rel="noopener noreferrer">
                           {profile.name}
                         </a>
                       </h3>
@@ -133,4 +112,3 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => {
       ))}
     </>
   );
-};

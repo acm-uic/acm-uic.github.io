@@ -1,1 +1,1 @@
-export * from './GoogleCalendarEmbed';
+export * from "./GoogleCalendarEmbed";
