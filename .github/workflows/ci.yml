@@ -55,6 +55,12 @@ jobs:
       - name: Install dependencies (with cache) 📦
         uses: bahmutov/npm-install@v1
 
+      - name: Run linters and formatter checks ��
+        run: |
+          yarn typecheck
+          yarn lint:ci
+          yarn prettier:ci
+
       - name: Release to GitHub Pages 🚀
         env:
           USE_SSH: true
