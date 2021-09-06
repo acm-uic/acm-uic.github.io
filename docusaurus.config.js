@@ -14,12 +14,12 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "ACM@UIC",
       logo: {
-        alt: "ACM@UIC Logo",
+        alt: "ACM@UIC",
         src: "img/logo.png",
       },
       items: [
+        { to: "/", label: "Home", position: "left" },
         { to: "/blog", label: "Announcements", position: "left" },
         {
           to: "/sigs/Overview",
