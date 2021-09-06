@@ -77,36 +77,34 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => (
       </div>
     </div>
     {sections.map((section, sectionIndex) => (
-      <>
-        <section key={`${section.name}-${sectionIndex}`}>
-          <div className="container">
-            <div className="row">
-              <div className="col text--center margin-bottom--xs">
-                <h3>{section.name}</h3>
-              </div>
-            </div>
-            <div className="row">
-              {section.profiles.map((profile, profileIndex) => (
-                <div className="col avatar avatar--vertical margin-bottom--lg" key={`${profile.name}-${profileIndex}`}>
-                  <div className="margin-bottom--sm">
-                    <a href={profile.url} className="avatar__photo-link avatar__photo avatar__photo--xl">
-                      <img src={profile.image} alt={`Avatar of ${profile.name}`} />
-                    </a>
-                  </div>
-                  <div className="avatar__intro">
-                    <div className="avatar__name">
-                      <a href={profile.url} target="_blank" rel="noopener noreferrer">
-                        {profile.name}
-                      </a>
-                    </div>
-                    <small className="avatar__subtitle">{profile.description}</small>
-                  </div>
-                </div>
-              ))}
+      <section key={`${section.name}-${sectionIndex}`}>
+        <div className="container">
+          <div className="row">
+            <div className="col text--center margin-bottom--xs">
+              <h3>{section.name}</h3>
             </div>
           </div>
-        </section>
-      </>
+          <div className="row">
+            {section.profiles.map((profile, profileIndex) => (
+              <div className="col avatar avatar--vertical margin-bottom--lg" key={`${profile.name}-${profileIndex}`}>
+                <div className="margin-bottom--sm">
+                  <a href={profile.url} className="avatar__photo-link avatar__photo avatar__photo--xl">
+                    <img src={profile.image} alt={`Avatar of ${profile.name}`} />
+                  </a>
+                </div>
+                <div className="avatar__intro">
+                  <div className="avatar__name">
+                    <a href={profile.url} target="_blank" rel="noopener noreferrer">
+                      {profile.name}
+                    </a>
+                  </div>
+                  <small className="avatar__subtitle">{profile.description}</small>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     ))}
   </>
 );
