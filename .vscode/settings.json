@@ -3,5 +3,16 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["browserslist", "clsx", "markdownlint", "prettierrc", "sigs", "stylelint", "svgr", "typecheck"]
+  "cSpell.words": [
+    "browserslist",
+    "clsx",
+    "gapi",
+    "horiz",
+    "markdownlint",
+    "prettierrc",
+    "sigs",
+    "stylelint",
+    "svgr",
+    "typecheck"
+  ]
 }
