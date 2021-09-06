@@ -14,9 +14,8 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "ACM@UIC",
       logo: {
-        alt: "ACM@UIC Logo",
+        alt: "ACM@UIC",
         src: "img/logo.png",
       },
       items: [
