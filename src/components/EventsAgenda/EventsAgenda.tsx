@@ -48,7 +48,7 @@ const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDat
 };
 
 export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
-  const { data, error } = useSWR('/', () => getEvents(apiKey, calendarId));
+  const { data, error } = useSWR("/", () => getEvents(apiKey, calendarId));
 
   if (error) {
     return <div>failed to load events</div>;
