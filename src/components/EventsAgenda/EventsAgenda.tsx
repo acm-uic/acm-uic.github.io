@@ -45,6 +45,7 @@ const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDat
     }
     return `${dateTimeFormatter.format(startParsed)} ➡ ${dateTimeFormatter.format(endParsed)}`;
   }
+  return ``;
 };
 
 export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
@@ -73,7 +74,11 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
               </div>
               <div className="card__body">
                 <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
-                {event.location && <Linkify><div>📍 {event.location}</div></Linkify>}
+                {event.location && (
+                  <Linkify>
+                    <div>📍 {event.location}</div>
+                  </Linkify>
+                )}
               </div>
             </div>
           </div>
