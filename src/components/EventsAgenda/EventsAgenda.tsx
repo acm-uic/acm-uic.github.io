@@ -52,10 +52,12 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
   const { data, error } = useSWR("/", () => getEvents(apiKey, calendarId));
 
   if (error) {
-    return <div>failed to load events</div>;
+    console.error("error while getting calendar data", error);
+    return <></>;
   }
-  if (!data) {
-    return <div>loading events...</div>;
+  if (!data || !data.items) {
+    console.error("no calendar data returned");
+    return <></>;
   }
 
   return (
