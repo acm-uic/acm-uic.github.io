@@ -8,6 +8,7 @@
     "clsx",
     "gapi",
     "horiz",
+    "linkify",
     "markdownlint",
     "prettierrc",
     "sigs",

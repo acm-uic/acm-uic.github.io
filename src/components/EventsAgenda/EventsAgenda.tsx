@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "@docusaurus/Link";
 import useSWR from "swr";
+import Linkify from "react-linkify";
 import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
 import { googleCalendarApiKey as apiKey, googleCalendarId as calendarId } from "../../config";
 
@@ -72,7 +73,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
               </div>
               <div className="card__body">
                 <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
-                {event.location && <div>📍 {event.location}</div>}
+                {event.location && <Linkify><div>📍 {event.location}</div></Linkify>}
               </div>
             </div>
           </div>
