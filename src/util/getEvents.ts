@@ -24,7 +24,7 @@ export const getEvents = async (apiKey: string, calendarId: string): Promise<Cal
     timeMin: new Date().toISOString(),
     timeMax: new Date(+Date.now() + A_YEAR).toISOString(),
     maxResults: "10",
-    // timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    orderBy: "startTime",
   };
   const calendarResponse = await fetch(
     `https://content.googleapis.com/calendar/v3/calendars/${calendarId}/events?${new URLSearchParams(

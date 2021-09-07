@@ -1,50 +1,49 @@
 import React from "react";
+import Link from "@docusaurus/Link";
 import useSWR from "swr";
 import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
-import {
-  googleCalendarApiKey as apiKey,
-  googleCalendarId as calendarId,
-  googleCalendarLink as calendarLink,
-} from "../../config";
+import { googleCalendarApiKey as apiKey, googleCalendarId as calendarId } from "../../config";
+
+const ALL_DAY_EVENT = "All Day";
+const A_DAY = 1000 * 3600 * 24;
 
 export type EventsAgendaProps = Record<string, never>;
 
-const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDateTime): [string, string] => {
-  const datesAreOnSameDay = (first: Date, second: Date) =>
+const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDateTime): string => {
+  const datesAreOnSameDay = (first: Date, second: Date): boolean =>
     first.getFullYear() === second.getFullYear() &&
     first.getMonth() === second.getMonth() &&
     first.getDate() === second.getDate();
 
-  const dateFormatter = new Intl.DateTimeFormat(undefined, { day: "numeric", month: "short", year: "2-digit" });
-  const timeFormatter = new Intl.DateTimeFormat(undefined, { hour: "numeric", minute: "numeric" });
-  const dateTimeFormatter = new Intl.DateTimeFormat(undefined, {
+  const isAllDayEvent = (_start: Date, _end: Date) => _end.getTime() - _start.getTime() === A_DAY;
+
+  const dateFormatter = new Intl.DateTimeFormat("en-us", { day: "numeric", month: "short", weekday: "short" });
+  const timeFormatter = new Intl.DateTimeFormat("en-us", { hour: "numeric", minute: "numeric" });
+  const dateTimeFormatter = new Intl.DateTimeFormat("en-us", {
     day: "numeric",
     month: "short",
     year: "2-digit",
     hour: "numeric",
     minute: "numeric",
   });
-  let startString: string = "format error";
-  let endString: string = "format error";
-  if (start.date) {
-    startString = dateFormatter.format(new Date(start.date));
-  }
-  if (start.dateTime) {
-    startString = dateTimeFormatter.format(new Date(start.dateTime));
-  }
-  if (end.date) {
-    endString = dateFormatter.format(new Date(end.date));
-  }
-  if (end.dateTime) {
-    if (start.dateTime) {
-      const _startDate = new Date(start.dateTime);
-      const _endDate = new Date(end.dateTime);
-      if (datesAreOnSameDay(_startDate, _endDate)) {
-        endString = timeFormatter.format(_endDate);
-      }
+  if (start.date && end.date) {
+    const startParsed = new Date(start.date);
+    const endParsed = new Date(end.date);
+    if (isAllDayEvent(startParsed, endParsed)) {
+      return `${dateFormatter.format(startParsed)} ${ALL_DAY_EVENT}`;
     }
+    return `${dateFormatter.format(startParsed)} ➡ ${dateFormatter.format(endParsed)}`;
   }
-  return [startString, endString];
+  if (start.dateTime && end.dateTime) {
+    const startParsed = new Date(start.dateTime);
+    const endParsed = new Date(end.dateTime);
+    if (datesAreOnSameDay(startParsed, endParsed)) {
+      return `${dateFormatter.format(startParsed)} ${timeFormatter.format(startParsed)} ➡ ${timeFormatter.format(
+        endParsed
+      )}`;
+    }
+    return `${dateTimeFormatter.format(startParsed)} ➡ ${dateTimeFormatter.format(endParsed)}`;
+  }
 };
 
 export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
@@ -65,29 +64,22 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
         </div>
       </div>
       <div className="row">
-        {data.items.map((event, eventIndex) => {
-          const [startString, endString] = timePeriodFormatter(event.start, event.end);
-          return (
-            <div className="col col--4" key={`${eventIndex}-${event.id}`}>
-              <div className="card margin--xs">
-                <div className="card__header">
-                  <h3>{event.summary}</h3>
-                </div>
-                <div className="card__body">
-                  <div>
-                    ⌚ {startString} ➡ {endString}
-                  </div>
-                  {event.location && <div>📍 {event.location}</div>}
-                </div>
+        {data.items.map((event, eventIndex) => (
+          <div className="col col--4" key={`${eventIndex}-${event.id}`}>
+            <div className="card margin--xs">
+              <div className="card__header">
+                <h3>{event.summary}</h3>
+              </div>
+              <div className="card__body">
+                <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
+                {event.location && <div>📍 {event.location}</div>}
               </div>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
       <div className="row">
-        <a href={calendarLink} target="_blank" rel="noreferrer">
-          View calendar
-        </a>
+        <Link to="/calendar">View calendar</Link>
       </div>
     </div>
   );
