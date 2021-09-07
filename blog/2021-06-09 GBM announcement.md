@@ -10,7 +10,7 @@ tags: ["general-body-meeting", "events", "SIGs"]
 
 Hi ACM members,
 
-It is my pleasure to announce our ACM General Body Meeting, which will be held on Friday Sep 10th at 5PM. You'll get to learn about all the exciting events we planned for this semester, as well as meet SIG leaders and learn what they are about.
+It is my pleasure to announce our ACM General Body Meeting, which will be held on **Friday, Sep 10th at 5PM.** You'll get to learn about all the exciting events we planned for this semester, as well as meet SIG leaders and learn what they are about.
 
 The meeting will be in hybrid format, held in the CS Lounge (Science and Engineering Labs East, 2nd floor) and Discord simultaneously.
 
