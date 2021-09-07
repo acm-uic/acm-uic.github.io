@@ -15,7 +15,7 @@ const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDat
     first.getMonth() === second.getMonth() &&
     first.getDate() === second.getDate();
 
-  const isAllDayEvent = (_start: Date, _end: Date) => _end.getTime() - _start.getTime() === A_DAY;
+  const isAllDayEvent = (_start: Date, _end: Date): boolean => _end.getTime() - _start.getTime() === A_DAY;
 
   const dateFormatter = new Intl.DateTimeFormat("en-us", { day: "numeric", month: "short", weekday: "short" });
   const timeFormatter = new Intl.DateTimeFormat("en-us", { hour: "numeric", minute: "numeric" });
