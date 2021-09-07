@@ -1,4 +1,12 @@
-#ACM General Body Meeting Announcement
+---
+slug: gbm-fall-2021
+title: ACM General Body Meeting Announcement
+author: Sam Effendy
+author_title: Secretary 2021-2022 @ ACM@UIC
+author_url: https://github.com/dejazzhands
+author_image_url: https://avatars.githubusercontent.com/u/49312226?s=50&v=4
+tags: ["general-body-meeting", "events", "SIGs"]
+---
 
 Hi ACM members,
 
