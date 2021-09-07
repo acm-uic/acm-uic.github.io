@@ -16,4 +16,5 @@ The meeting will be in hybrid format, held in the CS Lounge (Science and Enginee
 
 This Wednesday is the engineering org fair in the Maker Space parking lot from 12-4PM. Please make time to come by and say hi. Some orgs will also be doing demonstrations, so it will be a fun experience.
 
-As we are coming up with times for our events and SIG meeting times, we would like your input to better understand what everyone's availability is! When you find some time please [fill out this form!] (https://forms.gle/5D7Pdv6EpicF5UUV7)
+As we are coming up with times for our events and SIG meeting times, we would like your input to better understand what everyone's availability is! When you find some time please fill out this form! 
+(https://forms.gle/5D7Pdv6EpicF5UUV7)
