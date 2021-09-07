@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./GoogleCalendarEmbed.module.css";
+import { googleCalendarLink as calendarLink } from "../../config";
 
 export type GoogleCalendarEmbedProps = Record<string, never>;
 
@@ -8,7 +9,7 @@ export const GoogleCalendarEmbed: React.FC<GoogleCalendarEmbedProps> = () => (
   <>
     <div className="container">
       <div className="row">
-        <div className={clsx("col text--center", styles.title)}>
+        <div className={clsx("text--center", styles.title)}>
           <h2>Events Calendar</h2>
         </div>
       </div>
@@ -16,8 +17,8 @@ export const GoogleCalendarEmbed: React.FC<GoogleCalendarEmbedProps> = () => (
         <iframe
           title="ACM@UIC Google Calendar"
           className={clsx(styles.calendar)}
-          src="https://calendar.google.com/calendar/embed?src=kc72g1ctfg8b88df34qqb62d1s%40group.calendar.google.com"
-          width="800"
+          src={calendarLink}
+          width="100%"
           height="600"
           scrolling="no"
         />

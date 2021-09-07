@@ -5,7 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import { HomepageProfiles } from "../components/HomepageProfiles";
-import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed";
+import { EventsAgenda } from "../components/EventsAgenda";
 
 const HomepageHeader: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
     <Layout title={`Hello from ${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
-        <GoogleCalendarEmbed />
+        <EventsAgenda />
         <HomepageProfiles />
       </main>
     </Layout>

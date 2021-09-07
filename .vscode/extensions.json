@@ -3,6 +3,7 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "DavidAnson.vscode-markdownlint",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "silvenon.mdx"
   ]
 }
