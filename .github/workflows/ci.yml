@@ -9,7 +9,7 @@ on:
 
 jobs:
   check_build_and_deploy_job:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
     name: Build PR and Deploy
     steps:
@@ -45,10 +45,22 @@ jobs:
           skip_app_build: true
           skip_deploy_on_missing_secrets: true
 
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Cleanup Staging Environment
+    steps:
+      - name: Cleanup Staging Environment
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: "close"
+          skip_deploy_on_missing_secrets: true
+
   build_release_gh_pages:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
-    name: Build and Push Github Pages Site
+    name: Build and Push GitHub Pages Site
     steps:
       - name: Checkout repo 🛎
         uses: actions/checkout@v2
@@ -68,7 +80,7 @@ jobs:
       - name: Install dependencies (with cache) 📦
         uses: bahmutov/npm-install@v1
 
-      - name: Run linters and formatter checks 🚨
+      - name: Run linter and formatter checks 🚨
         run: |
           yarn typecheck
           yarn lint:ci
@@ -84,15 +96,3 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
           yarn deploy
-
-  close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    name: Cleanup Staging Environment
-    steps:
-      - name: Cleanup Staging Environment
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          action: "close"
-          skip_deploy_on_missing_secrets: true
