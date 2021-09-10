@@ -14,10 +14,7 @@ To officially join the ACM at UIC, all you have to do is fill out a Membership A
 Due to the impact of COVID-19 on student activities at UIC, we are waiving the $10 UIC membership fee for this year.
 :::
 
-**To sign up for this ACM Chapter, please fill out this online form!:**
-:::warning
-Form is not open yet, please come to the first General Body Meeting to join. Additional event details can be found on our calendar (see front page).
-:::
+**To sign up for this ACM Chapter, please fill out this online form!:** [https://forms.gle/k2ncRGPk91xJx9j37](https://forms.gle/k2ncRGPk91xJx9j37)
 
 **Other ways to join:**
 
