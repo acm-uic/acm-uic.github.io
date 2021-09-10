@@ -42,6 +42,10 @@ Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 
 [Link to presentations folder](https://drive.google.com/open?id=0BxDVEKn0XtfOeGZkY3d0QW1Mdjg)
 
+### Fall 2021
+
+**Meeting notes to be announced!**
+
 ### Spring 2021
 
 [2/13/2021 - A little bit of Everything](https://docs.google.com/presentation/d/1VMOxuMkhINY4K7KD9guettbWTkDhXOnktaJT_7F0LKs/edit?usp=sharing)
@@ -53,7 +57,7 @@ Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 [Non-presentation Meeting Notes 2020-2021](https://drive.google.com/drive/folders/1--yKLFZ3tVpnwE-NsbzIG0Xm6_AsNIGs?usp=sharing)
 _Ask an admin for access. Please provide them with the link above._
 
-### Fall 2021
+### Fall 2020
 
 Due to the COVID-19 pandemic, all meeting have been cancelled.
 
