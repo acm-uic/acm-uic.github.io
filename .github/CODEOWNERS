@@ -2,15 +2,17 @@
 
 /docs/ @acm-uic/sysadmins
 /blog/ @acm-uic/editors
+/SIGs/ @acm-uic/editors
+/src/pages/ @acm-uic/editors
 /src/ @acm-uic/web-developers
 /.github/ @acm-uic/sysadmins
 
+.gitmodules @acm-uic/sysadmins
 
 *.md @acm-uic/editors
-
 *.js @acm-uic/web-developers
 *.jsx @acm-uic/web-developers
 *.ts @acm-uic/web-developers
 *.tsx @acm-uic/web-developers
 *.json @acm-uic/web-developers
-*.mdx @acm-uic/web-developers
+*.mdx @acm-uic/editors @acm-uic/web-developers

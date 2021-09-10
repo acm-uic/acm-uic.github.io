@@ -1,0 +1,19 @@
+{
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": [
+    "browserslist",
+    "clsx",
+    "gapi",
+    "horiz",
+    "linkify",
+    "markdownlint",
+    "prettierrc",
+    "sigs",
+    "stylelint",
+    "svgr",
+    "typecheck"
+  ]
+}

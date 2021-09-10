@@ -1,1 +1,2 @@
-export * from './HomepageProfiles';
+export * from "./HomepageProfiles";
+export { HomepageProfiles as default } from "./HomepageProfiles";
