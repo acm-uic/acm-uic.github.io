@@ -57,7 +57,7 @@ Want to be a SysAdmin? Let your interest be known by contacting an ACM Officer!
 [Non-presentation Meeting Notes 2020-2021](https://drive.google.com/drive/folders/1--yKLFZ3tVpnwE-NsbzIG0Xm6_AsNIGs?usp=sharing)
 _Ask an admin for access. Please provide them with the link above._
 
-### Fall 2021
+### Fall 2020
 
 Due to the COVID-19 pandemic, all meeting have been cancelled.
 
