@@ -48,6 +48,7 @@ jobs:
   build_release_gh_pages:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
+    name: Build and Push Github Pages Site
     steps:
       - name: Checkout repo 🛎
         uses: actions/checkout@v2
