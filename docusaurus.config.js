@@ -22,7 +22,7 @@ module.exports = {
         { to: "/", label: "Home", position: "left" },
         { to: "/blog", label: "Announcements", position: "left" },
         {
-          to: "/sigs/Overview",
+          to: "/sigs/overview",
           position: "left",
           label: "SIGs",
         },
@@ -43,6 +43,11 @@ module.exports = {
           href: "/join",
         },
         {
+          href: "https://discord.gg/Afy6gf4",
+          label: "Discord",
+          position: "right",
+        },
+        {
           href: "https://github.com/acm-uic/acm-uic.github.io",
           label: "GitHub",
           position: "right",
@@ -58,6 +63,10 @@ module.exports = {
             {
               label: "Docs",
               to: "/docs/introduction",
+            },
+            {
+              label: "SIGs",
+              to: "/sigs/overview",
             },
           ],
         },

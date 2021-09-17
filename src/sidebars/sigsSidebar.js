@@ -1,6 +1,6 @@
 module.exports = {
   sigsSidebar: [
-    "Overview",
+    "overview",
     {
       type: "category",
       label: "Active",
