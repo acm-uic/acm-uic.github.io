@@ -1,3 +1,7 @@
+---
+stub: /sigs/quant-trading
+---
+
 # SIG Quantitative Trading
 
 :::caution

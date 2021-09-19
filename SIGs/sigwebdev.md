@@ -1,3 +1,7 @@
+---
+stub: /sigs/webdev
+---
+
 # SIG WebDev
 
 :::caution

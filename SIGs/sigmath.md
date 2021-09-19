@@ -1,3 +1,7 @@
+---
+stub: /sigs/math
+---
+
 # SIG Math
 
 :::caution
