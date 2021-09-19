@@ -12,8 +12,10 @@
     "linkify",
     "markdownlint",
     "prettierrc",
+    "SELE",
     "sigs",
     "stylelint",
+    "Supermicro",
     "svgr",
     "typecheck"
   ]
