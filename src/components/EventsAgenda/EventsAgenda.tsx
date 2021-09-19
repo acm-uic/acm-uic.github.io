@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 import useSWR from "swr";
 import Linkify from "react-linkify";
 import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
-import { googleCalendarApiKey as apiKey, googleCalendarId as calendarId } from "../../config";
+import config from "../../../appConfig";
 
 const ALL_DAY_EVENT = "All Day";
 const A_DAY = 1000 * 3600 * 24;
@@ -49,7 +49,7 @@ const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDat
 };
 
 export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
-  const { data, error } = useSWR("/", () => getEvents(apiKey, calendarId));
+  const { data, error } = useSWR("/", () => getEvents(config.googleCalendarApiKey, config.googleCalendarId));
 
   if (error) {
     console.error("error while getting calendar data", error);
