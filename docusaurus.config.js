@@ -81,7 +81,7 @@ const config = {
             {
               // label: "Discord",
               html: `
-                <a class="footer__link-item" href=${appConfig.discordServerLink} target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
+                <a class="footer__link-item" href="${appConfig.discordServerLink}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
                   <img alt="Discord" src="https://img.shields.io/discord/652006495675875359?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2">
                 </a>
               `,
@@ -89,7 +89,7 @@ const config = {
             {
               // label: 'Slack',
               html: `
-                <a class="footer__link-item" href="https://uicacm.slack.com/signup" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Slack Workspace">
+                <a class="footer__link-item" href="${appConfig.slackWorkspaceSignUpLink}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Slack Workspace">
                   <img alt="Slack" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white">
                 </a>
               `,
