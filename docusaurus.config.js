@@ -148,6 +148,6 @@ module.exports = {
         routeBasePath: "sigs",
         sidebarPath: require.resolve("./src/sidebars/sigsSidebar.js"),
       },
-    ]
+    ],
   ],
 };

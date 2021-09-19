@@ -4,9 +4,9 @@ import config from "../../../appConfig";
 
 export type DiscordRedirectProps = {
   delay?: number;
-}
+};
 
-export const DiscordRedirect: React.FC<DiscordRedirectProps> = ({delay}) => (
+export const DiscordRedirect: React.FC<DiscordRedirectProps> = ({ delay }) => (
   <Head>
     <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${config.discordServerLink}`} />
   </Head>
