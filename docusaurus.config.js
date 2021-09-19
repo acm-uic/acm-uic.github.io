@@ -124,14 +124,7 @@ const config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} ACM@UIC. Built with Docusaurus.`,
-    },
-    announcementBar: {
-      id: "support_us", // Any value that will identify this message.
-      content: "We are revamping our docs and website. This website is very much a work in progress.",
-      backgroundColor: "#fafbfc", // Defaults to `#fff`.
-      textColor: "#091E42", // Defaults to `#000`.
-      isCloseable: false, // Defaults to `true`.
-    },
+    }
   },
   presets: [
     [
