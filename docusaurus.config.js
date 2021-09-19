@@ -1,4 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+const appConfig = require.resolve("./appConfig");
+
 module.exports = {
   title: "ACM@UIC",
   tagline: "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
@@ -76,7 +79,7 @@ module.exports = {
             {
               // label: "Discord",
               html: `
-                <a class="footer__link-item" href="https://discord.gg/Afy6gf4" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
+                <a class="footer__link-item" href=${appConfig.discordServerLink} target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
                   <img alt="Discord" src="https://img.shields.io/discord/652006495675875359?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2">
                 </a>
               `,
@@ -153,7 +156,6 @@ module.exports = {
         path: "SIGs",
         routeBasePath: "sigs",
         sidebarPath: require.resolve("./src/sidebars/sigsSidebar.js"),
-        // ... other options
       },
     ],
   ],

@@ -2,7 +2,7 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "include": ["src/"],
   "compilerOptions": {
-    "allowJs": false,
+    "allowJs": true,
     "skipLibCheck": true
   }
 }
