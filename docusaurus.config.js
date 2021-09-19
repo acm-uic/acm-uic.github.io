@@ -1,8 +1,9 @@
 // @ts-check
+/* eslint-disable @typescript-eslint/no-var-requires */
 
 const {
   config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink },
-} = require("./appConfig"); // eslint-disable-line @typescript-eslint/no-var-requires
+} = require("./appConfig");
 
 const gitHubOrg = "acm-uic";
 const gitHubRepoName = "acm-uic.github.io";
@@ -29,9 +30,9 @@ const getImageHtml = (url, alt) => `
  */
 const footerExternalLink = (link, innerHtml) => ({
   html: `
-      <a class="footer__link-item" href="${link}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
-       ${innerHtml} 
-      </a>
+<a class="footer__link-item" href="${link}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
+ ${innerHtml} 
+</a>
     `,
 });
 
@@ -162,11 +163,22 @@ const config = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          id: "default",
+          path: "docs",
+          routeBasePath: "docs",
           sidebarPath: require.resolve("./src/sidebars/docsSidebar.js"),
           editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
+          path: "blog",
+          blogTitle: "ACM@UIC Announcements",
+          blogDescription: "ACM@UIC Announcements and Updates",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Posts",
+          routeBasePath: "blog",
           editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
         },
         theme: {
@@ -183,6 +195,9 @@ const config = {
         path: "SIGs",
         routeBasePath: "sigs",
         sidebarPath: require.resolve("./src/sidebars/sigsSidebar.js"),
+        editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
       },
     ],
   ],
