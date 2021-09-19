@@ -46,7 +46,7 @@ module.exports = {
           href: "/join",
         },
         {
-          href: "https://discord.gg/Afy6gf4",
+          href: appConfig.discordServerLink,
           label: "Discord",
           position: "right",
         },
