@@ -1,8 +1,10 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+// @ts-check
 
-const appConfig = require.resolve("./appConfig");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { config: appConfig } = require("./appConfig");
 
-module.exports = {
+/** @type {Partial<import('@docusaurus/types').DocusaurusConfig>} */
+const config = {
   title: "ACM@UIC",
   tagline: "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
   url: "https://acm-uic.github.io",
@@ -160,3 +162,6 @@ module.exports = {
     ],
   ],
 };
+
+exports.default = config;
+module.exports = config;
