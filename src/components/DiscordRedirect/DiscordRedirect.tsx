@@ -8,6 +8,6 @@ export type DiscordRedirectProps = {
 
 export const DiscordRedirect: React.FC<DiscordRedirectProps> = ({ delay }) => (
   <Head>
-    <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${config.discordServerLink}`} />
+    <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${config.discordServerInviteLink}`} />
   </Head>
 );
