@@ -1,8 +1,11 @@
+// @ts-check
+
 const OFF = 0;
 const WARNING = 1;
 const ERROR = 2;
 
-module.exports = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   root: true,
   env: {
     browser: true,
@@ -66,3 +69,5 @@ module.exports = {
     "@typescript-eslint/no-use-before-define": [ERROR, { functions: false, classes: false, variables: true }],
   },
 };
+
+module.exports = config;
