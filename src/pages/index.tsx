@@ -15,11 +15,11 @@ const HomepageHeader: React.FC = () => {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/join">
+            Join ACM 💖
+          </Link>
           <Link className="button button--secondary button--lg" to="/blog">
             Announcements 📰
-          </Link>
-          <Link className="button button--secondary button--lg" to="/about">
-            About ACM❓
           </Link>
         </div>
       </div>
