@@ -147,11 +147,11 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./src/sidebars/docsSidebar.js"),
-          editUrl: `${websiteRepoDefaultBranch}/edit/${websiteRepoDefaultBranch}/docs`,
+          editUrl: `${websiteRepoUrl}/edit/${websiteRepoDefaultBranch}/`,
         },
         blog: {
           showReadingTime: true,
-          editUrl: `${websiteRepoDefaultBranch}/edit/${websiteRepoDefaultBranch}/blog`,
+          editUrl: `${websiteRepoUrl}/edit/${websiteRepoDefaultBranch}/`,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
