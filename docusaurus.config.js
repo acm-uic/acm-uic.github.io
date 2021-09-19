@@ -124,7 +124,7 @@ const config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} ACM@UIC. Built with Docusaurus.`,
-    }
+    },
   },
   presets: [
     [
