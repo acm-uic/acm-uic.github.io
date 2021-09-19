@@ -1,7 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./GoogleCalendarEmbed.module.css";
-import config from "../../../appConfig";
+import { config } from "../../../appConfig";
 
 export type GoogleCalendarEmbedProps = Record<string, never>;
 

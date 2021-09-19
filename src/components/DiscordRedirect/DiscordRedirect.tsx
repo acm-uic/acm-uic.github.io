@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "@docusaurus/Head";
-import config from "../../../appConfig";
+import { config } from "../../../appConfig";
 
 export type DiscordRedirectProps = {
   delay?: number;

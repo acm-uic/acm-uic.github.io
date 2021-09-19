@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 import useSWR from "swr";
 import Linkify from "react-linkify";
 import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
-import config from "../../../appConfig";
+import { config } from "../../../appConfig";
 
 const ALL_DAY_EVENT = "All Day";
 const A_DAY = 1000 * 3600 * 24;
