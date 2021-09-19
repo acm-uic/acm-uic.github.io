@@ -132,11 +132,11 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./src/sidebars/docsSidebar.js"),
-          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/",
+          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/docs",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/blog/",
+          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
