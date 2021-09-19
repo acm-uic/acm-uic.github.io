@@ -119,6 +119,7 @@ const config = {
               label: "Join ACM",
               to: "/join",
             },
+            { label: "Contact us", to: "/contact" },
           ],
         },
       ],
