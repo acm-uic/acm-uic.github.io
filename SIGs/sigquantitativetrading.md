@@ -1,5 +1,5 @@
 ---
-stub: /sigs/quant-trading
+slug: /quant-trading
 ---
 
 # SIG Quantitative Trading

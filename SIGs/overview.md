@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-stub: /sigs/overview
+slug: /overview
 ---
 
 # SIGs Overview

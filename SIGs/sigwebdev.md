@@ -1,5 +1,5 @@
 ---
-stub: /sigs/webdev
+slug: /webdev
 ---
 
 # SIG WebDev

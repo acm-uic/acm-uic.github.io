@@ -1,5 +1,5 @@
 ---
-stub: /sigs/sysadmin
+slug: /sysadmin
 ---
 
 # SIG SysAdmin
