@@ -1,3 +1,9 @@
+---
+slug: /kb/logos
+description: Logos used by ACM@UIC.
+tags: [style, logo]
+---
+
 # ACM Logo Archives
 
 ## 2017 Logo

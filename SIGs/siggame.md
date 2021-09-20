@@ -1,3 +1,7 @@
+---
+stub: /sigs/game
+---
+
 # SIG Game
 
 ## Meeting dates are still being decided

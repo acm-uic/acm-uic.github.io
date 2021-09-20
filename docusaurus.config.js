@@ -1,19 +1,52 @@
 // @ts-check
+/* eslint-disable @typescript-eslint/no-var-requires */
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { config: appConfig } = require("./appConfig");
+const {
+  config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink },
+} = require("./appConfig");
+
+const gitHubOrg = "acm-uic";
+const gitHubRepoName = "acm-uic.github.io";
+const gitHubOrgUrl = `https://github.com/${gitHubOrg}`;
+const gitHubRepoUrl = `${gitHubOrgUrl}/${gitHubRepoName}`;
+const gitHubRepoDefaultBranch = "main";
+const gitHubPagesUrl = `https://${gitHubRepoName}`;
+
+/**
+ *
+ * @param {string} url
+ * @param {string} alt
+ * @returns {string}
+ */
+const getImageHtml = (url, alt) => `
+<img alt="${alt}" src="${url}"></img>
+`;
+
+/**
+ *
+ * @param {string} link
+ * @param {string} innerHtml
+ * @returns {{html: string}}
+ */
+const footerExternalLink = (link, innerHtml) => ({
+  html: `
+<a class="footer__link-item" href="${link}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
+ ${innerHtml} 
+</a>
+    `,
+});
 
 /** @type {Partial<import('@docusaurus/types').DocusaurusConfig>} */
 const config = {
   title: "ACM@UIC",
   tagline: "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
-  url: "https://acm-uic.github.io",
+  url: gitHubPagesUrl,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  organizationName: "acm-uic", // Usually your GitHub org/user name.
-  projectName: "acm-uic.github.io", // Usually your repo name.
+  organizationName: gitHubOrg,
+  projectName: gitHubRepoName, // Usually your repo name.
   themeConfig: {
     colorMode: {
       respectPrefersColorScheme: true,
@@ -24,6 +57,7 @@ const config = {
         src: "img/logo.png",
       },
       items: [
+        // left items
         { to: "/", label: "Home", position: "left" },
         { to: "/blog", label: "Announcements", position: "left" },
         {
@@ -47,13 +81,14 @@ const config = {
           position: "left",
           href: "/join",
         },
+        // right items
         {
-          href: appConfig.discordServerLink,
+          href: discordServerInviteLink,
           label: "Discord",
           position: "right",
         },
         {
-          href: "https://github.com/acm-uic/acm-uic.github.io",
+          href: gitHubRepoUrl,
           label: "GitHub",
           position: "right",
         },
@@ -78,31 +113,28 @@ const config = {
         {
           title: "Community",
           items: [
+            // Discord
             {
-              // label: "Discord",
-              html: `
-                <a class="footer__link-item" href="${appConfig.discordServerLink}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
-                  <img alt="Discord" src="https://img.shields.io/discord/652006495675875359?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2">
-                </a>
-              `,
+              link: discordServerInviteLink,
+              innerHtml: getImageHtml(
+                `https://img.shields.io/discord/${discordServerId}?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2`,
+                "Discord"
+              ),
             },
+            // Slack
             {
-              // label: 'Slack',
-              html: `
-                <a class="footer__link-item" href="${appConfig.slackWorkspaceSignUpLink}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Slack Workspace">
-                  <img alt="Slack" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white">
-                </a>
-              `,
+              link: slackWorkspaceSignUpLink,
+              innerHtml: getImageHtml("https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white", "Slack"),
             },
+            // GitHub
             {
-              // label: 'GitHub',
-              html: `
-                <a class="footer__link-item" href="https://github.com/acm-uic" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC GitHub Organization">
-                  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white">
-                </a>
-              `,
+              link: gitHubOrgUrl,
+              innerHtml: getImageHtml(
+                "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
+                "GitHub"
+              ),
             },
-          ],
+          ].map(({ link, innerHtml }) => footerExternalLink(link, innerHtml)),
         },
         {
           title: "More",
@@ -131,12 +163,23 @@ const config = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          id: "default",
+          path: "docs",
+          routeBasePath: "docs",
           sidebarPath: require.resolve("./src/sidebars/docsSidebar.js"),
-          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/",
+          editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/acm-uic/acm-uic.github.io/edit/main/website/blog/",
+          path: "blog",
+          blogTitle: "ACM@UIC Announcements",
+          blogDescription: "ACM@UIC Announcements and Updates",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Posts",
+          routeBasePath: "blog",
+          editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -152,6 +195,9 @@ const config = {
         path: "SIGs",
         routeBasePath: "sigs",
         sidebarPath: require.resolve("./src/sidebars/sigsSidebar.js"),
+        editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
       },
     ],
   ],

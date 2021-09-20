@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+slug: /infrastructure/overview
+description: Overview of ACM@UIC systems and network infrastructure.
 ---
 
 # Infrastructure Overview

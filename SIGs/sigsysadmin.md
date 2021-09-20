@@ -1,3 +1,7 @@
+---
+stub: /sigs/sysadmin
+---
+
 # SIG SysAdmin
 
 | <!-- -->     | <!-- -->                                            |
