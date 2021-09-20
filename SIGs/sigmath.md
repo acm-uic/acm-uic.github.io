@@ -1,5 +1,5 @@
 ---
-stub: /sigs/math
+slug: /math
 ---
 
 # SIG Math

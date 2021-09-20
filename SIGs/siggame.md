@@ -1,5 +1,5 @@
 ---
-stub: /sigs/game
+slug: /game
 ---
 
 # SIG Game
