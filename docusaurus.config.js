@@ -12,6 +12,8 @@ const gitHubRepoUrl = `${gitHubOrgUrl}/${gitHubRepoName}`;
 const gitHubRepoDefaultBranch = "main";
 const gitHubPagesUrl = `https://${gitHubRepoName}`;
 
+const lugLink = "https://lug.cs.uic.edu";
+
 /**
  *
  * @param {string} url
@@ -82,6 +84,11 @@ const config = {
           href: "/join",
         },
         // right items
+        {
+          href: lugLink,
+          label: "LUG@UIC",
+          position: "right"
+        },
         {
           href: discordServerInviteLink,
           label: "Discord",
