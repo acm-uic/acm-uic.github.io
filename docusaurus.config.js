@@ -87,7 +87,7 @@ const config = {
         {
           href: lugLink,
           label: "LUG@UIC",
-          position: "right"
+          position: "right",
         },
         {
           href: discordServerInviteLink,
