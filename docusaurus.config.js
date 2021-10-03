@@ -12,6 +12,9 @@ const gitHubRepoUrl = `${gitHubOrgUrl}/${gitHubRepoName}`;
 const gitHubRepoDefaultBranch = "main";
 const gitHubPagesUrl = `https://${gitHubRepoName}`;
 
+const lugLink = "https://lug.cs.uic.edu";
+const logicaLink = "https://logica.students.uic.edu";
+const wicsLink = "https://wics.students.uic.edu";
 /**
  *
  * @param {string} url
@@ -152,6 +155,23 @@ const config = {
               to: "/join",
             },
             { label: "Contact us", to: "/contact" },
+          ],
+        },
+        {
+          title: "Other UIC Organizations",
+          items: [
+            {
+              label: "LUG",
+              href: lugLink,
+            },
+            {
+              label: "LOGICA",
+              href: wicsLink,
+            },
+            {
+              label: "WiCS",
+              href: wicsLink,
+            },
           ],
         },
       ],
