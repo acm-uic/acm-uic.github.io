@@ -166,7 +166,7 @@ const config = {
             },
             {
               label: "LOGICA",
-              href: wicsLink,
+              href: logicaLink,
             },
             {
               label: "WiCS",
