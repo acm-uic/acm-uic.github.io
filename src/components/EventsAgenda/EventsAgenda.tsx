@@ -87,7 +87,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
         ))}
       </div>
       <div className="row row--no-gutters">
-        <div className="margin-top--lg margin-bottom--lg button button--outline button--danger">
+        <div className="margin-top--lg margin-bottom--lg button button--outline button--secondary">
           <Link to="/calendar">View Full calendar</Link>
         </div>
       </div>
