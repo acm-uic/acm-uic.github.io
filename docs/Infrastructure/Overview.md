@@ -21,20 +21,20 @@ Primary ACM server infrastructure:
 |    38 | ackem      | Server        | Router                    |
 |    37 | littlebell | Server        | Router                    |
 |    36 | bismark    | Server        | LUG's Box                 |
-|    35 | acmapp1    | Server        | acmapp member             |
-|    34 | acmapp2    | Server        | acmapp member             |
-|    33 | acmapp3    | Server        | acmapp member             |
-|    32 | acmapp4    | Server        | acmapp member             |
-|    31 | acmapp5    | Server        | acmapp member             |
-|    30 | acmapp6    | Server        | acmapp member             |
-|    29 | acmapp7    | Server        | acmapp member             |
-|    28 | acmapp8    | Server        | acmapp member             |
-|    27 | acmapp9    | Server        | acmapp member             |
-|    26 | acmapp10   | Server        | acmapp member             |
-|    25 | acmapp11   | Server        | acmapp member             |
-|    24 | acmapp12   | Server        | acmapp member             |
-|    23 | acmapp13   | Server        | acmapp member             |
-|    22 | acmapp14   | Server        | acmapp member             |
+|    35 | acmapp14   | Server        | acmapp member (Janeway)   |
+|    34 | acmapp13   | Server        | acmapp member (Picard)    |
+|    33 | acmapp12   | Server        | acmapp member (WiCS)      |
+|    32 | acmapp11   | Server        | acmapp member (unlabeled) |
+|    31 | acmapp10   | Server        | acmapp member (unlabeled) |
+|    30 | acmapp9    | Server        | acmapp member             |
+|    29 | acmapp8    | Server        | acmapp member             |
+|    28 | acmapp7    | Server        | acmapp member             |
+|    27 | acmapp6    | Server        | acmapp member             |
+|    26 | acmapp5    | Server        | acmapp member             |
+|    25 | acmapp4    | Server        | acmapp member             |
+|    24 | acmapp3    | Server        | acmapp member             |
+|    23 | acmapp2    | Server        | acmapp member             |
+|    22 | acmapp1    | Server        | acmapp member             |
 | 21-18 | bharat     | Server        | ESXi, TrueNAS             |
 | 17-16 | lee        | Server        | ESXi                      |
 | 15-14 | chase      | Server        | ESXi                      |
