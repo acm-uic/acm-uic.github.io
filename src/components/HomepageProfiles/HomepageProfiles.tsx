@@ -50,8 +50,8 @@ const sysadmins = [
   },
   {
     name: "Christian Bingman",
-    image: "https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=100",
-    url: "https://git.christianbingman.com/ChristianBingman",
+    image: "https://avatars.githubusercontent.com/u/42191425?s=100&v=4",
+    url: "https://github.com/ChristianBingman",
     description: <>The new guy</>,
   },
 ];
