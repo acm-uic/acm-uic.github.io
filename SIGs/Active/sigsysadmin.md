@@ -6,8 +6,8 @@ slug: /sysadmin
 
 | <!-- -->     | <!-- -->                                            |
 | ------------ | --------------------------------------------------- |
-| **Weekday**  | TBA, attend the ACM GBM to find out!                |
-| **Time**     | TBA, attend the ACM GBM to find out!                |
+| **Weekday**  | Tuesdays                                            |
+| **Time**     | 5:30 PM                                             |
 | **Location** | ACM Office, SELE 2264, CS Lab SELE 2254, or Discord |
 | **Leaders**  | Chase Lee & Christian Bingman                       |
 
