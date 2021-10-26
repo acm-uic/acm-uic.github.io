@@ -39,7 +39,7 @@ const footerExternalLink = (link, innerHtml) => ({
     `,
 });
 
-/** @type {Partial<import('@docusaurus/types').DocusaurusConfig>} */
+/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "ACM@UIC",
   tagline: "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
