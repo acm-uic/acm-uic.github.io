@@ -4,7 +4,7 @@ slug: /game
 
 # SIG Game
 
-## Meeting dates are still being decided
+## About
 
 Like to play video games? Ever think about making them? If you answered yes to either of these questions, then SIG Game is the group for you! SIG Game is dedicated to exploring all facets of game development, and to that end provides an environment that parallels that of real-world video game industries. Projects range from group level development to each individual member planning a game from design to implementation, collaborating with each other and critiquing each other's code in a source-controlled environment. Because of this, we offer projects for people of all skill levels! We will mostly cover the game engine Unity, since that is one of the most popular engines out there, and is being used by many prominent developers. Feel free to message one of us with the emails below if you have any questions, and we hope to see you in one of our future meetings!
 
@@ -16,7 +16,9 @@ Zachary Robbins, zlr2@uic.edu
 
 ## Weekly Meetings
 
-When a time is decided during the beginning of the semester, the information will be updated here!
+We meet on Fridays from 5:45 PM to 6:45 PM in the ACM Office and on Discord.
+
+Meeting recordings are available [here](https://www.youtube.com/channel/UCZ0uPmRjJrl6XEMU2CtYH5w).
 
 ## Starting Software
 
