@@ -9,5 +9,6 @@ exports.config = {
   discordServerId: "652006495675875359",
   slackWorkspaceLink: "https://uicacm.slack.com",
   slackWorkspaceSignUpLink: "https://uicacm.slack.com/signup",
+  youTubeChannelLink: "https://www.youtube.com/channel/UCZ0uPmRjJrl6XEMU2CtYH5w",
 };
 exports.default = exports.config;
