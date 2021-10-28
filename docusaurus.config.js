@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 const {
-  config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink },
+  config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink, youTubeChannelLink },
 } = require("./appConfig");
 
 const gitHubOrg = "acm-uic";
@@ -135,6 +135,14 @@ const config = {
               innerHtml: getImageHtml(
                 "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
                 "GitHub"
+              ),
+            },
+            // YouTube
+            {
+              link: youTubeChannelLink,
+              innerHtml: getImageHtml(
+                "https://img.shields.io/badge/YouTube-c4302b?logo=youtube&logoColor=white",
+                "YouTube"
               ),
             },
           ].map(({ link, innerHtml }) => footerExternalLink(link, innerHtml)),
