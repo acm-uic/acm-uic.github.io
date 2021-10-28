@@ -8,6 +8,6 @@ export type YouTubeRedirectProps = {
 
 export const YouTubeRedirect: React.FC<YouTubeRedirectProps> = ({ delay }) => (
   <Head>
-    <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${config.discordServerInviteLink}`} />
+    <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${config.youTubeChannelLink}`} />
   </Head>
 );
