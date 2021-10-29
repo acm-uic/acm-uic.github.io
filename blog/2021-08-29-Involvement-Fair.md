@@ -1,7 +1,7 @@
 ---
 slug: involvement-fair-2021
 title: UIC In-Person Involvement Fair!
-authors: cbingm2 
+authors: cbingm2
 tags: ["involvement", "officer"]
 ---
 
