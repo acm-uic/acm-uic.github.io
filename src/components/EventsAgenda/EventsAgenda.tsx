@@ -54,7 +54,12 @@ const locationFormatter = (discordData: DiscordWidgetApiResponse, location: stri
     const parsedLocation = location.replace(/^Discord ((Voice)|(Stage)):/i, "").trim();
     const channel = discordData.channels.find((c) => c.name.includes(parsedLocation));
     if (channel) {
-      return <Link to={config.discordServerInviteLink}>{channel.name}</Link>;
+      return (
+        <Link to={config.discordServerInviteLink}>
+          <img src="/media/Discord-Logo-Color.svg" alt="Discord" height="20px" style={{ verticalAlign: "text-top" }} />{" "}
+          {channel.name}
+        </Link>
+      );
     }
   }
 
