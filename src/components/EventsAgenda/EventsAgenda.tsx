@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import useSWR from "swr";
+import useSWRImmutable from "swr/immutable";
 import Linkify from "react-linkify";
 import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
+import { DiscordWidgetApiResponse, getDiscordWidgetApi } from "../../util/getDiscordWidgetApi";
 import { config } from "../../../appConfig";
 
 const ALL_DAY_EVENT = "All Day";
@@ -48,14 +49,32 @@ const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDat
   return ``;
 };
 
-export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
-  const { data, error } = useSWR("/", () => getEvents(config.googleCalendarApiKey, config.googleCalendarId));
+const locationFormatter = (discordData: DiscordWidgetApiResponse, location: string): JSX.Element => {
+  if (location.match(/^Discord ((Voice)|(Stage)):/i)) {
+    const parsedLocation = location.replace(/^Discord ((Voice)|(Stage)):/i, "").trim();
+    const channel = discordData.channels.find((c) => c.name.includes(parsedLocation));
+    if (channel) {
+      return <Link to={config.discordServerInviteLink}>{channel.name}</Link>;
+    }
+  }
 
-  if (error) {
-    console.error("error while getting calendar data", error);
+  return <Linkify>📍 {location}</Linkify>;
+};
+
+export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
+  const { data: eventsData, error: eventsError } = useSWRImmutable("/events", () =>
+    getEvents(config.googleCalendarApiKey, config.googleCalendarId)
+  );
+
+  const { data: discordData, error: discordError } = useSWRImmutable("/discord", () =>
+    getDiscordWidgetApi(config.discordServerId)
+  );
+
+  if (eventsError) {
+    console.error("error while getting calendar data", eventsError);
     return <></>;
   }
-  if (!data || !data.items) {
+  if (!eventsData || !eventsData.items) {
     console.error("no calendar data returned");
     return <></>;
   }
@@ -68,7 +87,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
         </div>
       </div>
       <div className="row">
-        {data.items.map((event, eventIndex) => (
+        {eventsData.items.map((event, eventIndex) => (
           <div className="col col--4" key={`${eventIndex}-${event.id}`}>
             <div className="card margin--xs">
               <div className="card__header">
@@ -77,9 +96,13 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
               <div className="card__body">
                 <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
                 {event.location && (
-                  <Linkify>
-                    <div>📍 {event.location}</div>
-                  </Linkify>
+                  <div>
+                    {discordError || !discordData ? (
+                      <Linkify>📍 {event.location}</Linkify>
+                    ) : (
+                      locationFormatter(discordData, event.location)
+                    )}
+                  </div>
                 )}
               </div>
             </div>

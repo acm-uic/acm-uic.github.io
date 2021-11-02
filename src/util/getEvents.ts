@@ -23,7 +23,7 @@ export const getEvents = async (apiKey: string, calendarId: string): Promise<Cal
     key: apiKey,
     timeMin: new Date().toISOString(),
     timeMax: new Date(+Date.now() + A_YEAR).toISOString(),
-    maxResults: "10",
+    maxResults: "9",
     orderBy: "startTime",
   };
   const calendarResponse = await fetch(
