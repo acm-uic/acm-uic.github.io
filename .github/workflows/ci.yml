@@ -22,9 +22,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "14.x"
-
-      - name: Install dependencies (with cache) 📦
-        uses: bahmutov/npm-install@v1
+          cache: "yarn"
+          
+      - name: Install Dependencies 📦
+        run: |
+          yarn install
 
       - name: Run linters and formatter checks 🚨
         run: |
@@ -71,14 +73,16 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "14.x"
+          cache: "yarn"
+          
+      - name: Install Dependencies 📦
+        run: |
+          yarn install
 
       - name: Setup SSH Keys 🔑
         uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
-
-      - name: Install dependencies (with cache) 📦
-        uses: bahmutov/npm-install@v1
 
       - name: Run linter and formatter checks 🚨
         run: |
