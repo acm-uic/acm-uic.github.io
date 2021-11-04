@@ -55,6 +55,12 @@ const sysadmins = [
     url: "https://github.com/ChristianBingman",
     description: <>The new guy</>,
   },
+  {
+    name: "Soham Gumaste",
+    image: "https://avatars.githubusercontent.com/u/7116239?s=100&v=4",
+    url: "https://github.com/SohamG",
+    description: <>SysAdmin initiate</>,
+  },
 ];
 
 const sections = [
