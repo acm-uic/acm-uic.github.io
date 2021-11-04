@@ -19,6 +19,7 @@ const config = {
   },
   globals: {
     testStylelintRule: true,
+    JSX: true,
   },
   extends: [
     "eslint:recommended",
