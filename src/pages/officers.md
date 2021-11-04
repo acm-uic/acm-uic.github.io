@@ -1,5 +1,7 @@
 # Officers
 
+All emails are suffixed with "uic.edu", unless otherwise noted.
+
 ## 2021-2022
 
 | OFFICE                            | NAME                     | EMAIL                                     |
