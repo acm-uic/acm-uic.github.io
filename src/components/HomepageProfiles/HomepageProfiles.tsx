@@ -1,3 +1,4 @@
+import Link from "@docusaurus/Link";
 import React from "react";
 
 export type HomepageOfficerProps = Record<string, never>;
@@ -60,6 +61,7 @@ const sections = [
   {
     name: "Officers",
     profiles: officers,
+    link: "/officers",
   },
   {
     name: "SysAdmins",
@@ -81,7 +83,7 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => (
         <div className="container">
           <div className="row">
             <div className="col text--center margin-bottom--xs">
-              <h3>{section.name}</h3>
+              <h3>{section.link ? <Link to={section.link}>{section.name}</Link> : section.name}</h3>
             </div>
           </div>
           <div className="row">
