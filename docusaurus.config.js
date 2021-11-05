@@ -12,9 +12,6 @@ const gitHubRepoUrl = `${gitHubOrgUrl}/${gitHubRepoName}`;
 const gitHubRepoDefaultBranch = "main";
 const gitHubPagesUrl = `https://${gitHubRepoName}`;
 
-const lugLink = "https://lug.cs.uic.edu";
-const logicaLink = "https://logica.students.uic.edu";
-const wicsLink = "https://wics.students.uic.edu";
 /**
  *
  * @param {string} url
@@ -50,146 +47,171 @@ const config = {
   favicon: "img/favicon.png",
   organizationName: gitHubOrg,
   projectName: gitHubRepoName, // Usually your repo name.
-  themeConfig: {
-    colorMode: {
-      respectPrefersColorScheme: true,
-    },
-    navbar: {
-      logo: {
-        alt: "ACM@UIC",
-        src: "img/logo.png",
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      colorMode: {
+        respectPrefersColorScheme: true,
       },
-      items: [
-        // left items
-        { to: "/", label: "Home", position: "left" },
-        { to: "/blog", label: "Announcements", position: "left" },
-        {
-          to: "/sigs/overview",
-          position: "left",
-          label: "SIGs",
+      navbar: {
+        logo: {
+          alt: "ACM@UIC",
+          src: "img/logo.png",
         },
-        {
-          type: "doc",
-          position: "left",
-          docId: "introduction",
-          label: "Docs",
-        },
-        {
-          label: "About",
-          position: "left",
-          href: "/about",
-        },
-        {
-          label: "Join ACM",
-          position: "left",
-          href: "/join",
-        },
-        // right items
-        {
-          href: discordServerInviteLink,
-          label: "Discord",
-          position: "right",
-        },
-        {
-          href: gitHubRepoUrl,
-          label: "GitHub",
-          position: "right",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Docs",
-              to: "/docs/introduction",
-            },
-            {
-              label: "SIGs",
-              to: "/sigs/overview",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            // Discord
-            {
-              link: discordServerInviteLink,
-              innerHtml: getImageHtml(
-                `https://img.shields.io/discord/${discordServerId}?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2`,
-                "Discord"
-              ),
-            },
-            // Slack
-            {
-              link: slackWorkspaceSignUpLink,
-              innerHtml: getImageHtml("https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white", "Slack"),
-            },
-            // GitHub
-            {
-              link: gitHubOrgUrl,
-              innerHtml: getImageHtml(
-                "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
-                "GitHub"
-              ),
-            },
-            // YouTube
-            {
-              link: youTubeChannelLink,
-              innerHtml: getImageHtml(
-                "https://img.shields.io/badge/YouTube-c4302b?logo=youtube&logoColor=white",
-                "YouTube"
-              ),
-            },
-          ].map(({ link, innerHtml }) => footerExternalLink(link, innerHtml)),
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "About",
-              to: "/about",
-            },
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "Join ACM",
-              to: "/join",
-            },
-            { label: "Contact us", to: "/contact" },
-          ],
-        },
-        {
-          title: "Other UIC Organizations",
-          items: [
-            {
-              label: "LUG",
-              href: lugLink,
-            },
-            {
-              label: "LOGICA",
-              href: logicaLink,
-            },
-            {
-              label: "WiCS",
-              href: wicsLink,
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} ACM@UIC. Built with Docusaurus.`,
-    },
-  },
+        items: [
+          // left items
+          { to: "/", label: "Home", position: "left", exact: true },
+          { to: "/blog", label: "Announcements", position: "left" },
+          {
+            to: "/sigs/overview",
+            position: "left",
+            label: "SIGs",
+          },
+          {
+            type: "doc",
+            position: "left",
+            docId: "introduction",
+            label: "Docs",
+          },
+          {
+            label: "About",
+            position: "left",
+            type: "dropdown",
+            items: [
+              {
+                label: "About ACM",
+                href: "/about",
+              },
+              {
+                label: "Officers",
+                href: "/officers",
+              },
+              { label: "Contact", href: "/contact" },
+            ],
+          },
+          // right items
+          {
+            href: discordServerInviteLink,
+            label: "Discord",
+            position: "right",
+          },
+          {
+            href: gitHubRepoUrl,
+            label: "GitHub",
+            position: "right",
+          },
+        ],
+      },
+      footer: {
+        style: "dark",
+        links: [
+          {
+            title: "Internal",
+            items: [
+              {
+                label: "Docs",
+                to: "/docs/introduction",
+              },
+              {
+                label: "SIGs",
+                to: "/sigs/overview",
+              },
+              {
+                label: "About",
+                to: "/about",
+              },
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+              {
+                label: "Join ACM",
+                to: "/join",
+              },
+              { label: "Contact us", to: "/contact" },
+            ],
+          },
+          {
+            title: "Community",
+            items: [
+              // Discord
+              {
+                link: discordServerInviteLink,
+                innerHtml: getImageHtml(
+                  `https://img.shields.io/discord/${discordServerId}?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2`,
+                  "Discord"
+                ),
+              },
+              // Slack
+              {
+                link: slackWorkspaceSignUpLink,
+                innerHtml: getImageHtml(
+                  "https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white",
+                  "Slack"
+                ),
+              },
+              // GitHub
+              {
+                link: gitHubOrgUrl,
+                innerHtml: getImageHtml(
+                  "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
+                  "GitHub"
+                ),
+              },
+              // YouTube
+              {
+                link: youTubeChannelLink,
+                innerHtml: getImageHtml(
+                  "https://img.shields.io/badge/YouTube-c4302b?logo=youtube&logoColor=white",
+                  "YouTube"
+                ),
+              },
+            ].map(({ link, innerHtml }) => footerExternalLink(link, innerHtml)),
+          },
+          {
+            title: "Services",
+            items: [
+              {
+                label: "Mail",
+                to: "https://acm.cs.uic.edu/acmmail",
+              },
+              {
+                label: "Wiki",
+                to: "https://acm.cs.uic.edu/wiki",
+              },
+            ],
+          },
+          {
+            title: "External",
+            items: [
+              { label: "Flourish", to: "https://flourishconf.com" },
+              {
+                label: "LUG",
+                to: "https://lug.cs.uic.edu",
+              },
+              {
+                label: "LOGICA",
+                to: "https://logica.students.uic.edu",
+              },
+              {
+                label: "WiCS",
+                to: "https://wics.students.uic.edu",
+              },
+              { label: "ACM", to: "https://www.acm.org" },
+              { label: "UIC Computer Science", to: "https://cs.uic.edu" },
+              { label: "UIC College of Engineering", to: "https://engineering.uic.edu" },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} ACM@UIC. Built with Docusaurus.`,
+      },
+    }),
+
   presets: [
     [
       "@docusaurus/preset-classic",
-      {
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           id: "default",
           path: "docs",
@@ -212,13 +234,14 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      },
+      }),
     ],
   ],
   plugins: [
     [
       "@docusaurus/plugin-content-docs",
-      {
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
         id: "sigs",
         path: "SIGs",
         routeBasePath: "sigs",
@@ -226,7 +249,7 @@ const config = {
         editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
-      },
+      }),
     ],
   ],
 };
