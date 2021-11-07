@@ -4,7 +4,7 @@
 
 ## About
 
-The Flourish Committee is responsible for coordinating and planning the annual Flourish! conference held at the University of Illinois at Chicago.  This year will be the seventh year for Flourish!
+The Flourish Committee is responsible for coordinating and planning the annual Flourish! conference held at the University of Illinois at Chicago. This year will be the seventh year for Flourish!
 
 The goal of the Flourish Conference is to promote the use and adoption of Free Libre Open Source Software (FLOSS) by demonstrating the practical applications of FLOSS in the business and academic world. While everyone is familiar with businesses that focus on creating non-free proprietary software, the same cannot be said for those who specialize in developing and supporting FLOSS software and Open Culture. Attendees of Flourish have an opportunity to see how using, creating and supporting FLOSS software can enhance their careers, businesses and academic aspirations.
 
