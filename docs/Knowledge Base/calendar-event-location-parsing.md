@@ -1,4 +1,10 @@
-# Calendar Event Location
+---
+slug: /kb/calendar-event-location-parsing
+description: How we parse calendar events location to display events on the website, and sync events to Discord.
+tags: [discord, calendar]
+---
+
+# Calendar Event Location Parsing
 
 We do some special parsing of the location field from a calendar event.
 
