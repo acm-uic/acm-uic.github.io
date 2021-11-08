@@ -1,5 +1,6 @@
 ---
 slug: /lug-web
+sidebar_position: 1
 ---
 
 # LUG Web
@@ -36,9 +37,9 @@ A announcement board/slideshow
 
 ## Resources
 
-Click here to view 2013-2014's (Fall 2013 - Spring 2014) topics.
+[2013-2014's (Fall 2013 - Spring 2014) topics](/sigs/lug-web/2013-2014-topic-archives)
 
-Click here to view Fall 2014 topics.
+[Fall 2014 topics](/sigs/lug-web/fall-2014-archive)
 
 [HTML5 CSS3 Slides - Jan 31 2014](/media/Sig_Web_Meeting_2.pptx)
 
