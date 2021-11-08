@@ -79,6 +79,6 @@ Continuing to work on open source projects.
 
 For all of the new students that come, I am going to have contribute to an open source project that is already on GitHub. I want to focus on students getting out there and helping projects that are already open source.
 
-[SIG_Open_1:26.pptx](/media/SIG_Open_1:26.pptx)
+[SIG_Open_1:26.pptx](/media/SIG_Open_1_26.pptx)
 
 [SIG_Open_GitHub.pptx](/media/SIG_Open_GitHub.pptx)
