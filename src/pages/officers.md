@@ -9,8 +9,9 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | President                         | Christian Bingman        | cbingm2@...                               |
 | Vice President                    | Anastasiia Evdokimova    | aevdok3@...                               |
 | Treasurer                         | Kalpkumar Shah           | kshah223@...                              |
-| Systems Administrator / Webmaster | Soham Gumaste            | sigsysadmin AT acm DOT cs DOT uic DOT edu |
+| SIG Leader                        | Zachary Robbins<br />Aden Prince<br />Ben Deschand<br />Jovad Uribe<br />Chase Lee<br />Christian Bingman | zlr2@...<br />aprinc5@...<br />bdesch2@...<br />juribe5@...<br />clee231@...<br />cbingm2@... | 
 | Secretary                         | Aaqel Shaik<br />Himaniben Patel<br />Sam Effendy<br />Aqsa Arif<br />Ishi Agarwal | mshai4@...<br />hpate248@...<br />seffe2@...<br />aarif20@...<br />iagarw5@... |
+| Systems Administrator / Webmaster | Soham Gumaste            | sigsysadmin AT acm DOT cs DOT uic DOT edu |
 | Faculty Advisor                   | Professor Mitchell Theys | mtheys@...                                |
 
 ## 2020-2021
