@@ -83,6 +83,10 @@ const config = {
                 href: "/about",
               },
               {
+                label: "Join",
+                href: "/join",
+              },
+              {
                 label: "Officers",
                 href: "/officers",
               },
