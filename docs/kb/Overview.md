@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: /kb/overview
 ---
 
 # Knowledge Base Overview
