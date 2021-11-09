@@ -1,5 +1,4 @@
 ---
-slug: /kb/logos
 description: Logos used by ACM@UIC.
 tags: [style, logo]
 ---
