@@ -12,10 +12,10 @@ This SIG page is currently under construction! Check back later for more informa
 
 | <!-- -->     | <!-- -->                                                                                   |
 | ------------ | ------------------------------------------------------------------------------------------ |
-| **Weekday**  | TBA, attend the ACM GBM to find out!                                                       |
-| **Time**     | TBA, attend the ACM GBM to find out!                                                       |
-| **Location** | GroupMe + Hangouts                                                                         |
-| **Leaders**  | Jason Bohne                                                                                |
+| **Weekday**  | Friday                                                                                     |
+| **Time**     | 5pm CST                                                                                    |
+| **Location** | SE 2263                                                                                    |
+| **Leaders**  | Jovad Uribe                                                                                |
 | **Website**  | [Notion](https://www.notion.so/Quantitative-Trading-Club-71a6625b95a144799f04729db7e4e79c) |
 
 ## Who are we?
@@ -24,11 +24,11 @@ Quantitative Trading Club is a student-based organization at the University of I
 
 ## Leaders
 
-- Jason Bohne
+- Jovad Uribe
 
 ## Contact
 
-**Email Me:** jbohne3@uic.edu or qtcuic@gmail.com
+**Email Me:** juribe5@uic.edu
 
 ## Additional Resources
 
