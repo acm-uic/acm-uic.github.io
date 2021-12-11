@@ -29,16 +29,16 @@ Interactive labs and demos, informative lectures and guest speakers! Visit the g
 
 Tuesdays at 5:00-6:00p.m. Join our mailing list for the location for the week (we tend to bounce between the ACM Office, WiCS Lounge and CS Lounge).
 
-## Contact:
+## Contact
 
 Email Us: mbacci3@uic.edu
 
-### Join our mailing list!
+### Join our mailing list
 
 Send an email to: sigsec-subscribe AT acm.cs.uic.edu
 
 <https://acm.cs.uic.edu/mailman/listinfo/sigsec>
 
-## Additional Resources:
+## Additional Resources
 
 <https://github.com/mbaccia514/SIG-Security>
