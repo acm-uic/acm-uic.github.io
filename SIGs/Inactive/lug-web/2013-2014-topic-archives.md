@@ -36,23 +36,23 @@ Below you will find some resources that may be useful to you as discussed in our
 
 ### Discussed Topics on January 31, 2014
 
-See Powerpoint: [HTML5 CSS3 Slides - Jan 31 2014](/media/Sig_Web_Meeting_2.pptx)
+See Powerpoint: [HTML5 CSS3 Slides - Jan 31 2014](/media/lugweb/Sig_Web_Meeting_2.pptx)
 
 ### Discussion Topics on February 7, 2014
 
-Server-side Development Exercise: [Server-side-Exercise-Week3.zip](/media/Server-side-Exercise-Week3.zip)
+Server-side Development Exercise: [Server-side-Exercise-Week3.zip](/media/lugweb/Server-side-Exercise-Week3.zip)
 
 ### Discussion Topics on February 14, 2014 (Happy Valentine's Day)
 
-Server-side Development Exercise: [meeting_4_Progress_Feb_14_2014.zip](/media/meeting_4_Progress_Feb_14_2014.zip)
+Server-side Development Exercise: [meeting_4_Progress_Feb_14_2014.zip](/media/lugweb/meeting_4_Progress_Feb_14_2014.zip)
 
 ### Discussion Topics on February 21, 2014
 
-Server-side Development Exercise: [meeting_5_Finished_Feb_21_2014.zip](/media/meeting_5_Finished_Feb_21_2014.zip)
+Server-side Development Exercise: [meeting_5_Finished_Feb_21_2014.zip](/media/lugweb/meeting_5_Finished_Feb_21_2014.zip)
 
 ### Discussion Topics on February 28, 2014
 
-WebGL Exercise with THREE.js: [meeting_6_Finished_Feb_28_2014.zip](/media/meeting_6_Finished_Feb_28_2014.zip)
+WebGL Exercise with THREE.js: [meeting_6_Finished_Feb_28_2014.zip](/media/lugweb/meeting_6_Finished_Feb_28_2014.zip)
 
 ### Discussion Topics on March 14, 2014
 
