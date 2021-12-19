@@ -19,7 +19,7 @@ This SIG is inactive.
 
 ## Contact
 
-Email the leader: Divay Pandey <dpande6 [at] uic [dot] edu>
+Email the leader: Divay Pandey (dpande6 [at] uic [dot] edu)
 
 Slack: <https://sigwindows.slack.com>
 
