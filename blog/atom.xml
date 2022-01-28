@@ -13,12 +13,15 @@
         <link href="https://acm-uic.github.io/blog/gbm-fall-2021"/>
         <updated>2021-09-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hi ACM members,]]></summary>
-        <content type="html"><![CDATA[<p>Hi ACM members,</p><p>It is my pleasure to announce our ACM General Body Meeting, which will be held on <strong>Friday, Sep 10th at 5PM.</strong> You&#x27;ll get to learn about all the exciting events we planned for this semester, as well as meet SIG leaders and learn what they are about.</p><p>The meeting will be in hybrid format, held in the CS Lounge (Science and Engineering Labs East, 2nd floor) and <div>Discord</div> simultaneously.</p><p>This Wednesday is the engineering org fair in the Maker Space parking lot from 12-4PM. Please make time to come by and say hi. Some orgs will also be doing demonstrations, so it will be a fun experience.</p><p>As we are coming up with times for our events and SIG meeting times, we would like your input to better understand what everyone&#x27;s availability is! When you find some time please fill out this form!
-(<a href="https://forms.gle/5D7Pdv6EpicF5UUV7">https://forms.gle/5D7Pdv6EpicF5UUV7</a>)</p>]]></content>
+        <content type="html"><![CDATA[<p>Hi ACM members,</p><p>It is my pleasure to announce our ACM General Body Meeting, which will be held on <strong>Friday, Sep 10th at 5PM.</strong> You'll get to learn about all the exciting events we planned for this semester, as well as meet SIG leaders and learn what they are about.</p><p>The meeting will be in hybrid format, held in the CS Lounge (Science and Engineering Labs East, 2nd floor) and <a href="https://discord.gg/Afy6gf4" target="_blank" rel="noopener noreferrer">Discord</a> simultaneously.</p><p>This Wednesday is the engineering org fair in the Maker Space parking lot from 12-4PM. Please make time to come by and say hi. Some orgs will also be doing demonstrations, so it will be a fun experience.</p><p>As we are coming up with times for our events and SIG meeting times, we would like your input to better understand what everyone's availability is! When you find some time please fill out this form!
+(<a href="https://forms.gle/5D7Pdv6EpicF5UUV7" target="_blank" rel="noopener noreferrer">https://forms.gle/5D7Pdv6EpicF5UUV7</a>)</p>]]></content>
         <author>
             <name>Sam Effendy</name>
             <uri>https://github.com/dejazzhands</uri>
         </author>
+        <category label="general-body-meeting" term="general-body-meeting"/>
+        <category label="events" term="events"/>
+        <category label="SIGs" term="SIGs"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[UIC In-Person Involvement Fair!]]></title>
@@ -26,11 +29,13 @@
         <link href="https://acm-uic.github.io/blog/involvement-fair-2021"/>
         <updated>2021-08-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hopefully everyone is excited to be back in person this Fall, and everyone is enjoying it so far!]]></summary>
-        <content type="html"><![CDATA[<p>Hopefully everyone is excited to be back in person this Fall, and everyone is enjoying it so far!</p><p>This year&#x27;s involvement fair will be held both <strong>in-person and virtually</strong> with the in-person fair being on <strong>Aug. 31st</strong> from 11am to 2pm and the virtual fair on <strong>Sep. 3rd</strong> from 11am to 5pm!</p><p>We will be handing out <strong>ACM merchandise</strong> at our in person event this Tuesday, so feel free to stop by!</p>]]></content>
+        <content type="html"><![CDATA[<p>Hopefully everyone is excited to be back in person this Fall, and everyone is enjoying it so far!</p><p>This year's involvement fair will be held both <strong>in-person and virtually</strong> with the in-person fair being on <strong>Aug. 31st</strong> from 11am to 2pm and the virtual fair on <strong>Sep. 3rd</strong> from 11am to 5pm!</p><p>We will be handing out <strong>ACM merchandise</strong> at our in person event this Tuesday, so feel free to stop by!</p>]]></content>
         <author>
             <name>Christian Bingman</name>
             <uri>https://github.com/ChristianBingman</uri>
         </author>
+        <category label="involvement" term="involvement"/>
+        <category label="officer" term="officer"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome Back!]]></title>
@@ -38,11 +43,13 @@
         <link href="https://acm-uic.github.io/blog/welcome-back-2021"/>
         <updated>2021-08-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It is a fresh new year, with many fresh faces which we will see in person! I hope everyone is doing well and continues to do so. A couple of updates to get the semester started!]]></summary>
-        <content type="html"><![CDATA[<p>It is a fresh new year, with many fresh faces which we will see in person! I hope everyone is doing well and continues to do so. A couple of updates to get the semester started!</p><p>Our website has been updated! (Though it is still a work in progress...) <a href="https://acm.cs.uic.edu/">acm.cs.uic.edu</a> It will contain event details and information about our organization. <strong>PLEASE DOWNLOAD/FOLLOW THIS CALENDAR.</strong></p><p>Event reminders and details will also be posted on <div>Discord</div>!</p><p>There will be no membership fees this year (yay), but there will be a couple fundraising events throughout the semester.</p><p>The office will be opened every morning on the weekdays as per usual. If there is something you need from the office please contact an officer.</p><p>Membership sign up forms will be available at our GBM</p><p>Our GBM is currently set for <strong>September 10th</strong>, so mark your calendars!</p><p>If anyone is interested in leading SIG WebDev this semester please reach out to an officer!</p>]]></content>
+        <content type="html"><![CDATA[<p>It is a fresh new year, with many fresh faces which we will see in person! I hope everyone is doing well and continues to do so. A couple of updates to get the semester started!</p><p>Our website has been updated! (Though it is still a work in progress...) <a href="https://acm.cs.uic.edu/" target="_blank" rel="noopener noreferrer">acm.cs.uic.edu</a> It will contain event details and information about our organization. <strong>PLEASE DOWNLOAD/FOLLOW THIS CALENDAR.</strong></p><p>Event reminders and details will also be posted on <a href="https://discord.gg/Afy6gf4" target="_blank" rel="noopener noreferrer">Discord</a>!</p><p>There will be no membership fees this year (yay), but there will be a couple fundraising events throughout the semester.</p><p>The office will be opened every morning on the weekdays as per usual. If there is something you need from the office please contact an officer.</p><p>Membership sign up forms will be available at our GBM</p><p>Our GBM is currently set for <strong>September 10th</strong>, so mark your calendars!</p><p>If anyone is interested in leading SIG WebDev this semester please reach out to an officer!</p>]]></content>
         <author>
             <name>Christian Bingman</name>
             <uri>https://github.com/ChristianBingman</uri>
         </author>
+        <category label="welcome" term="welcome"/>
+        <category label="officer" term="officer"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[New blog 👋]]></title>
@@ -50,7 +57,7 @@
         <link href="https://acm-uic.github.io/blog/new-blog"/>
         <updated>2021-05-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Let's see if we can all the old blog posts migrated here. 😏]]></summary>
-        <content type="html"><![CDATA[<p>Let&#x27;s see if we can all the old blog posts migrated here. 😏</p>]]></content>
+        <content type="html"><![CDATA[<p>Let's see if we can all the old blog posts migrated here. 😏</p>]]></content>
         <author>
             <name>Bharat Middha</name>
             <uri>https://github.com/bmiddha</uri>
