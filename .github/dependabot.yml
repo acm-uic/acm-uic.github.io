@@ -18,10 +18,6 @@ updates:
       interval: "daily"
       time: "07:00"
       timezone: "America/Chicago"
-    allow:
-      - dependency-type: "production"
-    ignore:
-      - update-types: ["version-update:semver-major"]
     labels:
       - ":package: dependencies"
       - ":robot: bot"
