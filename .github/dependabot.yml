@@ -9,6 +9,9 @@ updates:
     labels:
       - ":package: dependencies"
       - ":robot: bot"
+    commit-message:
+      prefix: ":arrow_up:"
+      
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -17,6 +20,11 @@ updates:
       timezone: "America/Chicago"
     allow:
       - dependency-type: "production"
+    ignore:
+      - update-types: ["version-update:semver-major"]
     labels:
       - ":package: dependencies"
       - ":robot: bot"
+    commit-message:
+      prefix: ":arrow_up:"
+    versioning-strategy: increase
