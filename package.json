@@ -56,7 +56,7 @@
     "eslint-plugin-react": "~7.28.0",
     "eslint-plugin-react-hooks": "~4.3.0",
     "markdownlint": "~0.25.1",
-    "markdownlint-cli": "~0.30.0",
+    "markdownlint-cli": "~0.31.0",
     "prettier": "~2.5.1",
     "stylelint": "~14.3.0",
     "stylelint-config-recommended": "~6.0.0",
