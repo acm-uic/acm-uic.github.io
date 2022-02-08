@@ -2,6 +2,8 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import useSWRImmutable from "swr/immutable";
 import Linkify from "react-linkify";
+import clsx from "clsx";
+import styles from "./EventsAgenda.module.css";
 import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
 import { DiscordWidgetApiResponse, getDiscordWidgetApi } from "../../util/getDiscordWidgetApi";
 import { config } from "../../../appConfig";
@@ -56,8 +58,7 @@ const locationFormatter = (discordData: DiscordWidgetApiResponse, location: stri
     if (channel) {
       return (
         <Link to={config.discordServerInviteLink}>
-          <img src="/media/Discord-Logo-Color.svg" alt="Discord" height="20px" style={{ verticalAlign: "text-top" }} />{" "}
-          {channel.name}
+          <img src="/media/Discord-Logo-Color.svg" alt="Discord" className={clsx(styles.discordIcon)} /> {channel.name}
         </Link>
       );
     }
