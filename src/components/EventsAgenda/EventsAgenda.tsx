@@ -78,11 +78,11 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
 
   if (eventsError) {
     console.error("error while getting calendar data", eventsError);
-    return <></>;
+    return undefined;
   }
   if (!eventsData || !eventsData.items) {
     console.error("no calendar data returned");
-    return <></>;
+    return undefined;
   }
 
   return (
