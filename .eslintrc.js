@@ -10,7 +10,6 @@ const config = {
   env: {
     browser: true,
     commonjs: true,
-    jest: true,
     node: true,
   },
   parser: "@typescript-eslint/parser",
@@ -18,7 +17,6 @@ const config = {
     allowImportExportEverywhere: true,
   },
   globals: {
-    testStylelintRule: true,
     JSX: true,
   },
   extends: [
@@ -30,15 +28,31 @@ const config = {
     "airbnb",
     "prettier",
   ],
+  overrides: [
+    {
+      files: ["*.mdx", "*.md"],
+      extends: ["plugin:mdx/recommended"],
+    },
+  ],
   settings: {
     "import/resolver": {
       node: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
+    react: {
+      version: "detect",
+    },
   },
   plugins: ["react-hooks"],
   rules: {
+    "no-restricted-exports": OFF,
+    "react/function-component-definition": [
+      WARNING,
+      {
+        namedComponents: "arrow-function",
+      },
+    ],
     "class-methods-use-this": OFF,
     "jsx-a11y/click-events-have-key-events": WARNING,
     "jsx-a11y/no-noninteractive-element-interactions": WARNING,

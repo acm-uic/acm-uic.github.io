@@ -3,6 +3,7 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["md", "mdx"],
   "cSpell.words": [
     "browserslist",
     "clsx",
