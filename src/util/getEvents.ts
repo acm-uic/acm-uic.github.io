@@ -37,7 +37,7 @@ export const getEvents = async (apiKey: string, calendarId: string): Promise<Cal
     ).toString()}`
   );
   if (!calendarResponse.ok) {
-    const err = new GetEventsError(`HTTP status code: ${  calendarResponse.status}`);
+    const err = new GetEventsError(`HTTP status code: ${calendarResponse.status}`);
     err.response = calendarResponse;
     err.status = calendarResponse.status;
     throw err;
