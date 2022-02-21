@@ -160,7 +160,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
         {!eventsError && !eventsData && new Array(numItems).fill(0).map(() => <EventsAgendaEmptyItem />)}
 
         {/* EMPTY STATE */}
-        {!eventsError && eventsData && eventsData.items.length === 0 && (
+        {!eventsError && eventsData && eventsData.items?.length === 0 && (
           <>
             <EventsAgendaEmpty />
             {new Array(numItems).fill(0).map(() => (
@@ -172,8 +172,8 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
         {/* VALID DATA */}
         {!eventsError &&
           eventsData &&
-          eventsData.items.length !== 0 &&
-          eventsData.items.map((event) => <EventsAgendaItem event={event} discordData={discordData} />)}
+          eventsData.items?.length !== 0 &&
+          eventsData.items?.map((event) => <EventsAgendaItem event={event} discordData={discordData} />)}
       </div>
       <div className="row row--no-gutters">
         <div className="margin-top--lg margin-bottom--lg button button--outline button--secondary">
