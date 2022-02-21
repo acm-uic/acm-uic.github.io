@@ -147,7 +147,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
       </div>
       <div className={clsx(styles.eventsRow, "row")}>
         {/* ERROR STATE */}
-        {eventsError && !eventsData && (
+        {eventsError && (
           <>
             <EventsAgendaError />
             {new Array(numItems).fill(0).map(() => (
