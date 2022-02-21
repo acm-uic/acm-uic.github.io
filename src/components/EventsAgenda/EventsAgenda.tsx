@@ -138,6 +138,8 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
     console.error("error while getting discord data", discordData);
   }
 
+  const renderEmptyItems = () => new Array(numItems).fill(0).map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} />);
+
   return (
     <div className={clsx(styles.eventsContainer, "container")}>
       <div className="row">
@@ -150,22 +152,18 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
         {eventsError && (
           <>
             <EventsAgendaError />
-            {new Array(numItems).fill(0).map(() => (
-              <EventsAgendaEmptyItem />
-            ))}
+            {renderEmptyItems()}
           </>
         )}
 
         {/* LOADING STATE */}
-        {!eventsError && !eventsData && new Array(numItems).fill(0).map(() => <EventsAgendaEmptyItem />)}
+        {!eventsError && !eventsData && renderEmptyItems()}
 
         {/* EMPTY STATE */}
         {!eventsError && eventsData && eventsData.items?.length === 0 && (
           <>
             <EventsAgendaEmpty />
-            {new Array(numItems).fill(0).map(() => (
-              <EventsAgendaEmptyItem />
-            ))}
+            {renderEmptyItems()}
           </>
         )}
 
@@ -173,7 +171,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
         {!eventsError &&
           eventsData &&
           eventsData.items?.length !== 0 &&
-          eventsData.items?.map((event) => <EventsAgendaItem event={event} discordData={discordData} />)}
+          eventsData.items?.map((event, index) => <EventsAgendaItem key={`${index}-${event?.id}`} event={event} discordData={discordData} />)}
       </div>
       <div className="row row--no-gutters">
         <div className="margin-top--lg margin-bottom--lg button button--outline button--secondary">
