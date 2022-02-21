@@ -28,3 +28,15 @@
     background-position: 468px 0;
   }
 }
+
+@media (prefers-reduced-motion) {
+  @keyframes placeholderShimmer {
+    0% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 0 0;
+    }
+  }
+}
