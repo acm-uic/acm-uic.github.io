@@ -10,6 +10,11 @@ export type CalendarEventsResponse = gapi.client.calendar.Events;
  */
 const A_YEAR = 1000 * 3600 * 24 * 365;
 
+class GetEventsError extends Error {
+  response: Response;
+  status: number;
+}
+
 /**
  * Get events list for a specific calendar from google calendar api.
  * Events in the past and a year from "now" are filtered and recurring events are expanded into single events.
@@ -31,6 +36,12 @@ export const getEvents = async (apiKey: string, calendarId: string): Promise<Cal
       calendarRequestParams
     ).toString()}`
   );
+  if (!calendarResponse.ok) {
+    const err = new GetEventsError(`HTTP status code: ${calendarResponse.status}`);
+    err.response = calendarResponse;
+    err.status = calendarResponse.status;
+    throw err;
+  }
   const calendarData = await calendarResponse.json();
   return calendarData;
 };

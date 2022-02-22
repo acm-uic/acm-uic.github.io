@@ -4,14 +4,21 @@ import useSWRImmutable from "swr/immutable";
 import Linkify from "react-linkify";
 import clsx from "clsx";
 import styles from "./EventsAgenda.module.css";
-import { getEvents, CalendarEventDateTime } from "../../util/getEvents";
+import { getEvents, CalendarEventDateTime, CalendarEvent } from "../../util/getEvents";
 import { DiscordWidgetApiResponse, getDiscordWidgetApi } from "../../util/getDiscordWidgetApi";
 import { config } from "../../../appConfig";
+import { ShimmerLine } from "../Shimmer";
 
 const ALL_DAY_EVENT = "All Day";
 const A_DAY = 1000 * 3600 * 24;
 
-export type EventsAgendaProps = Record<string, never>;
+export type EventsAgendaProps = {
+  /**
+   * Number of events to show
+   * @default 9
+   */
+  numItems?: number;
+};
 
 const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDateTime): string => {
   const datesAreOnSameDay = (first: Date, second: Date): boolean =>
@@ -67,7 +74,54 @@ const locationFormatter = (discordData: DiscordWidgetApiResponse, location: stri
   return <Linkify>📍 {location}</Linkify>;
 };
 
-export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
+interface EventsAgendaItemProps {
+  event: CalendarEvent;
+  discordData?: DiscordWidgetApiResponse;
+}
+
+const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData }) => (
+  <div className="col col--4">
+    <div className={clsx(styles.eventCard, "card margin--xs")}>
+      <div className="card__header">
+        <h3>{event.summary}</h3>
+      </div>
+      <div className="card__body">
+        <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
+        {event.location && (
+          <div>
+            {!discordData ? <Linkify>📍 {event.location}</Linkify> : locationFormatter(discordData, event.location)}
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+);
+
+const EventsAgendaEmptyItem: React.FC = () => (
+  <div className="col col--4">
+    <div className={clsx(styles.eventCard, "card margin--xs")}>
+      <div className="card__header">
+        <h3>
+          <ShimmerLine />
+        </h3>
+      </div>
+      <div className="card__body">
+        <div>
+          ⌚ <ShimmerLine />
+        </div>
+        <div>
+          📍 <ShimmerLine />
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+const EventsAgendaError: React.FC = () => <div className={clsx(styles.eventsOverlay)}>💀 Could not load events</div>;
+
+const EventsAgendaEmpty: React.FC = () => <div className={clsx(styles.eventsOverlay)}>🍹 No upcoming events</div>;
+
+export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
   const { data: eventsData, error: eventsError } = useSWRImmutable("/events", () =>
     getEvents(config.googleCalendarApiKey, config.googleCalendarId)
   );
@@ -78,42 +132,49 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = () => {
 
   if (eventsError) {
     console.error("error while getting calendar data", eventsError);
-    return null;
-  }
-  if (!eventsData || !eventsData.items) {
-    console.error("no calendar data returned");
-    return null;
   }
 
+  if (discordError) {
+    console.error("error while getting discord data", discordData);
+  }
+
+  const renderEmptyItems = () =>
+    new Array(numItems).fill(0).map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} />);
+
   return (
-    <div className="container">
+    <div className={clsx(styles.eventsContainer, "container")}>
       <div className="row">
         <div className="col text--center">
           <h2>📅 Upcoming Events</h2>
         </div>
       </div>
-      <div className="row">
-        {eventsData.items.map((event, eventIndex) => (
-          <div className="col col--4" key={`${eventIndex}-${event.id}`}>
-            <div className="card margin--xs">
-              <div className="card__header">
-                <h3>{event.summary}</h3>
-              </div>
-              <div className="card__body">
-                <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
-                {event.location && (
-                  <div>
-                    {discordError || !discordData ? (
-                      <Linkify>📍 {event.location}</Linkify>
-                    ) : (
-                      locationFormatter(discordData, event.location)
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        ))}
+      <div className={clsx(styles.eventsRow, "row")}>
+        {/* ERROR STATE */}
+        {eventsError && (
+          <>
+            <EventsAgendaError />
+            {renderEmptyItems()}
+          </>
+        )}
+
+        {/* LOADING STATE */}
+        {!eventsError && !eventsData && renderEmptyItems()}
+
+        {/* EMPTY STATE */}
+        {!eventsError && eventsData && eventsData.items?.length === 0 && (
+          <>
+            <EventsAgendaEmpty />
+            {renderEmptyItems()}
+          </>
+        )}
+
+        {/* VALID DATA */}
+        {!eventsError &&
+          eventsData &&
+          eventsData.items?.length !== 0 &&
+          eventsData.items?.map((event, index) => (
+            <EventsAgendaItem key={`${index}-${event?.id}`} event={event} discordData={discordData} />
+          ))}
       </div>
       <div className="row row--no-gutters">
         <div className="margin-top--lg margin-bottom--lg button button--outline button--secondary">
