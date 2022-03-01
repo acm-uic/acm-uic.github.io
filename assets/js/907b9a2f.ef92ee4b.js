@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacm_uic_github_io=self.webpackChunkacm_uic_github_io||[]).push([[3059],{2735:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/events","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"ACM@UIC Announcements and Updates","blogTitle":"ACM@UIC Announcements"}')}}]);
