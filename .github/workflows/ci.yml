@@ -14,7 +14,7 @@ jobs:
     name: Build PR and Deploy
     steps:
       - name: Checkout repo 🛎
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
@@ -65,7 +65,7 @@ jobs:
     name: Build and Push GitHub Pages Site
     steps:
       - name: Checkout repo 🛎
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
