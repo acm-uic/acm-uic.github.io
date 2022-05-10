@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacm_uic_github_io=self.webpackChunkacm_uic_github_io||[]).push([[6386],{4096:function(s){s.exports=JSON.parse('{"label":"SIGs","permalink":"/blog/tags/si-gs","allTagsPath":"/blog/tags","count":1}')}}]);

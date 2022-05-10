@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkacm_uic_github_io=self.webpackChunkacm_uic_github_io||[]).push([[2612],{1060:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/events","name":"events","count":1,"permalink":"/blog/tags/events"}')}}]);

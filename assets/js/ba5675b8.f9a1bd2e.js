@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacm_uic_github_io=self.webpackChunkacm_uic_github_io||[]).push([[5262],{6481:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/officer","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"ACM@UIC Announcements and Updates","blogTitle":"ACM@UIC Announcements"}')}}]);

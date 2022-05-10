@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacm_uic_github_io=self.webpackChunkacm_uic_github_io||[]).push([[8755],{4226:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/si-gs","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"ACM@UIC Announcements and Updates","blogTitle":"ACM@UIC Announcements"}')}}]);
