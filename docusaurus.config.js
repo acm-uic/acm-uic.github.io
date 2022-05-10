@@ -222,8 +222,6 @@ const config = {
           routeBasePath: "docs",
           sidebarPath: require.resolve("./src/sidebars/docsSidebar.js"),
           editUrl: `${gitHubRepoUrl}/edit/${gitHubRepoDefaultBranch}/`,
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
