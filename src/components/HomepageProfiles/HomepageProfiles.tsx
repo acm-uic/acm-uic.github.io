@@ -5,21 +5,21 @@ export type HomepageOfficerProps = Record<string, never>;
 
 const officers = [
   {
-    name: "Christian Bingman",
-    image: "https://avatars.githubusercontent.com/u/42191425?s=100&v=4",
-    url: "https://github.com/ChristianBingman",
+    name: "Zachary Robbins",
+    image: "https://avatars.githubusercontent.com/u/55512911?s=100&v=4",
+    url: "https://github.com/Zlrobbins9",
     description: <>President</>,
   },
   {
-    name: "Anastasiia Evdokimova",
-    image: "https://avatars.githubusercontent.com/u/36254266?s=100&v=4",
-    url: "https://github.com/SkylinSky",
+    name: "Adrian Knight",
+    image: "https://avatars.githubusercontent.com/u/97642775?s=100&v=4",
+    url: "https://github.com/Ajknight121",
     description: <>Vice President</>,
   },
   {
-    name: "Kalpkumar Shah",
-    image: "https://avatars.githubusercontent.com/u/76023884?s=100&v=4",
-    url: "https://github.com/kalps358",
+    name: "Sam Effendy",
+    image: "https://avatars.githubusercontent.com/u/49312226?s=100&v=4",
+    url: "https://github.com/dejazzhands",
     description: <>Treasurer</>,
   },
 ];

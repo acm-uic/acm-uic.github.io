@@ -2,6 +2,14 @@
 
 All emails are suffixed with "uic.edu", unless otherwise noted.
 
+## 2022-2023
+
+| OFFICE         | NAME            | EMAIL      |
+| :------------- | :-------------- | :--------- |
+| President      | Zachary Robbins | zlr2@...   |
+| Vice President | Adrian Knight   | aknig2@... |
+| Treasurer      | Sam Effendy     | seffe2@... |
+
 ## 2021-2022
 
 | OFFICE                            | NAME                     | EMAIL                                     |
