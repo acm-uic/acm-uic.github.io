@@ -7,5 +7,7 @@ export type DiscordLinkProps = {
 };
 
 export const DiscordLink: React.FC<DiscordLinkProps> = ({ showLink, children }) => (
-  <Link to={config.discordServerInviteLink}>{showLink ? config.discordServerInviteLink : children}</Link>
+  <Link to={config.discordServerInviteLink}>
+    <span>{showLink ? config.discordServerInviteLink : children}</span>
+  </Link>
 );

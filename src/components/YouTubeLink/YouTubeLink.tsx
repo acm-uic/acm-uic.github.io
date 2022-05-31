@@ -7,5 +7,7 @@ export type YouTubeLinkProps = {
 };
 
 export const YouTubeLink: React.FC<YouTubeLinkProps> = ({ showLink, children }) => (
-  <Link to={config.youTubeChannelLink}>{showLink ? config.youTubeChannelLink : children}</Link>
+  <Link to={config.youTubeChannelLink}>
+    <div>{showLink ? config.youTubeChannelLink : children}</div>
+  </Link>
 );
