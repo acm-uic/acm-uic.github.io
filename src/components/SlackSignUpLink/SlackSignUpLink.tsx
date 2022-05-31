@@ -7,5 +7,7 @@ export type SlackSignUpLinkProps = {
 };
 
 export const SlackSignUpLink: React.FC<SlackSignUpLinkProps> = ({ showLink, children }) => (
-  <Link to={config.slackWorkspaceSignUpLink}>{showLink ? config.slackWorkspaceSignUpLink : children}</Link>
+  <Link to={config.slackWorkspaceSignUpLink}>
+    <span>{showLink ? config.slackWorkspaceSignUpLink : children}</span>
+  </Link>
 );
