@@ -22,13 +22,7 @@ Example:
 
 ## Discord Events Sync
 
-:::info
-
-This project is under active development.
-
-:::
-
-Repository: [acm-uic/discord-events-sync](https://github.com/acm-uic/discord-events-sync)
+Repository: [acm-uic/calsync](https://github.com/acm-uic/calsync)
 
 The project syncs events from Google calendar to Discord.
 
