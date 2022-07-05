@@ -31,7 +31,7 @@ Machine Model: Dell PowerEdge R510
 
 - Model: Dell 0DPRKF A04
 - Memory
-  - Type: DDR3 @ 1333MHz 2Rx4 ECC 
+  - Type: DDR3 @ 1333MHz 2Rx4 ECC
   - Total Capacity: 64 GB
   - Part Number: 36KSF1G72PZ-1G4D1
 
@@ -45,7 +45,6 @@ Machine Model: Dell PowerEdge R510
 This hypervisor utilizes Proxmox as a Type-1 Hypervisor. (Installed July 5th, 2022)
 
 The main hypervisor installation resides on `/dev/md0`, which is a RAID-1 setup across the two Samsung 500GB SSDs. Setup of this RAID-1 setup is documented in the [Proxmox RAID Setup](/docs/kb/Linux/proxmox-raid-setup) wiki page.
-
 
 :::caution
 
