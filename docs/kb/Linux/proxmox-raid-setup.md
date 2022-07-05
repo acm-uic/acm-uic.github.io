@@ -139,10 +139,9 @@ sdb                    8:112  0 465.8G  0 disk
 
 ```bash
 # watch cat /proc/mdstat
-Every 2.0s: cat /proc/mdstat              lee: Tue Jul  5 15:37:47 2022
+Every 2.0s: cat /proc/mdstat
 
-Personalities : [raid1] [linear] [multipath] [raid0] [raid6] [raid5] [r
-aid4] [raid10]
+Personalities : [raid1] [linear] [multipath] [raid0] [raid6] [raid5] [raid4] [raid10]
 md0 : active raid1 sda3[2] sdb3[0]
       487729152 blocks super 1.2 [2/2] [UU]
       bitmap: 1/4 pages [4KB], 65536KB chunk
