@@ -36,7 +36,7 @@ Primary ACM server infrastructure:
 |    23 | acmapp2    | Server        | acmapp member             |
 |    22 | acmapp1    | Server        | acmapp member             |
 | 21-18 | bharat     | Server        | ESXi, TrueNAS             |
-| 17-16 | lee        | Server        | ESXi                      |
+| 17-16 | lee        | Server        | Proxmox                   |
 | 15-14 | chase      | Server        | ESXi                      |
 | 13-12 | avocado    | Server        | ESXi                      |
 | 11-10 | chopin     | Server        | ESXi                      |
