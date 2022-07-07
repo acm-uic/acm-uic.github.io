@@ -44,15 +44,4 @@ Machine Model: Dell PowerEdge R510
 
 This hypervisor utilizes Proxmox as a Type-1 Hypervisor. (Installed July 5th, 2022)
 
-The main hypervisor installation resides on `/dev/md0`, which is a RAID-1 setup across the two Samsung 500GB SSDs. Setup of this RAID-1 setup is documented in the [Proxmox RAID Setup](/docs/kb/Linux/proxmox-raid-setup) wiki page.
-
-:::caution
-
-While the main data is redundant via RAID-1, the boot partitions set in the UEFI boot entry only points to a single drive. (`UUID="0273-70A4"`) If the main drive needs replacement, updates to both the UEFI and `/etc/fstab` need to be made in order for the boot and mount processes to complete successfully.
-
-:::
-
-### Additional References
-
-- https://forum.proxmox.com/threads/howto-proxmox-ve-7-with-software-raid-1.93745/
-- https://wiki.archlinux.org/title/LVM_on_software_RAID#Boot_loader
+This machine is provisioned on a ZFS mirror pool (RAID1).
