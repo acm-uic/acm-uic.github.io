@@ -60,9 +60,12 @@ jobs:
           skip_deploy_on_missing_secrets: true
 
   build_release_gh_pages:
-    if: github.event_name != 'pull_request'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     name: Build and Push GitHub Pages Site
+    concurrency:
+      group: build_release_gh_pages
+      cancel-in-progress: true
     steps:
       - name: Checkout repo 🛎
         uses: actions/checkout@v3
