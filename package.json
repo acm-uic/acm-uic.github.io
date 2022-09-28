@@ -47,7 +47,7 @@
     "@types/react-linkify": "~1.0.1",
     "@types/react-router-dom": "~5.3.3",
     "@typescript-eslint/eslint-plugin": "~5.38.1",
-    "@typescript-eslint/parser": "~5.38.0",
+    "@typescript-eslint/parser": "~5.38.1",
     "eslint": "~8.24.0",
     "eslint-config-airbnb": "~19.0.4",
     "eslint-config-prettier": "~8.5.0",
@@ -59,7 +59,7 @@
     "prettier": "~2.7.1",
     "stylelint": "~14.12.1",
     "stylelint-config-recommended": "~9.0.0",
-    "typescript": "~4.8.3"
+    "typescript": "~4.8.4"
   },
   "browserslist": {
     "production": [
