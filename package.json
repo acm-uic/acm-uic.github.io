@@ -39,7 +39,7 @@
     "@docusaurus/module-type-aliases": "2.1.0",
     "@tsconfig/docusaurus": "~1.0.6",
     "@types/eslint": "~8.4.6",
-    "@types/gapi": "~0.0.42",
+    "@types/gapi": "~0.0.43",
     "@types/gapi.client.calendar": "~3.0.11",
     "@types/node": "~18.8.4",
     "@types/react": "~17.0.45",
