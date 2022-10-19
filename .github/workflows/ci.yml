@@ -83,7 +83,7 @@ jobs:
           yarn install
 
       - name: Setup SSH Keys 🔑
-        uses: webfactory/ssh-agent@v0.5.4
+        uses: webfactory/ssh-agent@v0.6.0
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
 
