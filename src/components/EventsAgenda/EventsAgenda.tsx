@@ -15,9 +15,8 @@ const A_DAY = 1000 * 3600 * 24;
 export type EventsAgendaProps = {
   /**
    * Number of events to show
-   * @default 9
    */
-  numItems?: number;
+  count: number;
 };
 
 const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDateTime): string => {
@@ -121,12 +120,13 @@ const EventsAgendaError: React.FC = () => <div className={clsx(styles.eventsOver
 
 const EventsAgendaEmpty: React.FC = () => <div className={clsx(styles.eventsOverlay)}>🍹 No upcoming events</div>;
 
-export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
-  const { data: eventsData, error: eventsError } = useSWRImmutable("/events", () =>
-    getEvents(config.googleCalendarApiKey, config.googleCalendarId)
+export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
+  const { data: eventsData, error: eventsError } = useSWRImmutable(
+    `gcal-events-${config.googleCalendarId}-${count}`,
+    () => getEvents(config.googleCalendarApiKey, config.googleCalendarId, count)
   );
 
-  const { data: discordData, error: discordError } = useSWRImmutable("/discord", () =>
+  const { data: discordData, error: discordError } = useSWRImmutable(`discord-widget-${config.discordServerId}`, () =>
     getDiscordWidgetApi(config.discordServerId)
   );
 
@@ -139,7 +139,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ numItems = 9 }) => {
   }
 
   const renderEmptyItems = () =>
-    new Array(numItems).fill(0).map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} />);
+    new Array(count).fill(0).map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} />);
 
   return (
     <div className={clsx(styles.eventsContainer, "container")}>
