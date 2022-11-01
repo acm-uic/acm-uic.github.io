@@ -3,7 +3,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
       time: "07:00"
       timezone: "America/Chicago"
     labels:
@@ -15,7 +16,8 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
       time: "07:00"
       timezone: "America/Chicago"
     labels:
