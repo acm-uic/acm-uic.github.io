@@ -7,7 +7,7 @@ import styles from "./EventsAgenda.module.css";
 import { getEvents, CalendarEventDateTime, CalendarEvent } from "../../util/getEvents";
 import { DiscordWidgetApiResponse, getDiscordWidgetApi } from "../../util/getDiscordWidgetApi";
 import { config } from "../../../appConfig";
-import { ShimmerLine } from "../Shimmer";
+import { ShimmerLine, ShimmerLineProps } from "../Shimmer";
 
 const ALL_DAY_EVENT = "All Day";
 const A_DAY = 1000 * 3600 * 24;
@@ -96,20 +96,22 @@ const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData 
   </div>
 );
 
-const EventsAgendaEmptyItem: React.FC = () => (
+type EventsAgendaEmptyItemProps = ShimmerLineProps;
+
+const EventsAgendaEmptyItem: React.FC<EventsAgendaEmptyItemProps> = ({ animate }) => (
   <div className="col col--4">
     <div className={clsx(styles.eventCard, "card margin--xs")}>
       <div className="card__header">
         <h3>
-          <ShimmerLine />
+          <ShimmerLine animate={animate} />
         </h3>
       </div>
       <div className="card__body">
         <div>
-          ⌚ <ShimmerLine />
+          ⌚ <ShimmerLine animate={animate} />
         </div>
         <div>
-          📍 <ShimmerLine />
+          📍 <ShimmerLine animate={animate} />
         </div>
       </div>
     </div>
@@ -138,8 +140,10 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
     console.error("error while getting discord data", discordData);
   }
 
-  const renderEmptyItems = () =>
-    new Array(count).fill(0).map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} />);
+  const renderEmptyItems = (animate?: ShimmerLineProps["animate"]) =>
+    new Array(count)
+      .fill(0)
+      .map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} animate={animate} />);
 
   return (
     <div className={clsx(styles.eventsContainer, "container")}>
@@ -153,7 +157,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
         {eventsError && (
           <>
             <EventsAgendaError />
-            {renderEmptyItems()}
+            {renderEmptyItems(false)}
           </>
         )}
 
