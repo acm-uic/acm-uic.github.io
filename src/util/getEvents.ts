@@ -22,13 +22,13 @@ class GetEventsError extends Error {
  * @param calendarId Google Calendar ID
  * @returns Google Calendar Events
  */
-export const getEvents = async (apiKey: string, calendarId: string): Promise<CalendarEventsResponse> => {
+export const getEvents = async (apiKey: string, calendarId: string, count: number): Promise<CalendarEventsResponse> => {
   const calendarRequestParams: Record<string, string> = {
     singleEvents: "true",
     key: apiKey,
     timeMin: new Date().toISOString(),
     timeMax: new Date(+Date.now() + A_YEAR).toISOString(),
-    maxResults: "9",
+    maxResults: count.toString(),
     orderBy: "startTime",
   };
   const calendarResponse = await fetch(
