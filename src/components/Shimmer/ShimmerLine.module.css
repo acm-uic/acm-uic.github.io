@@ -5,11 +5,6 @@
   background-size: 800px 104px;
   display: inline-block;
   position: relative;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: placeholderShimmer;
-  animation-timing-function: linear;
 }
 
 .lines {
@@ -17,6 +12,14 @@
   margin-top: 10px;
   width: calc(100% - 50px);
   display: inline-block;
+}
+
+.shineAnimation {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
 }
 
 @keyframes placeholderShimmer {
