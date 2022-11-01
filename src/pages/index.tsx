@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
     <Layout title={`Hello from ${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
-        <EventsAgenda count={20} />
+        <EventsAgenda count={9} />
         <HomepageProfiles />
       </main>
     </Layout>
