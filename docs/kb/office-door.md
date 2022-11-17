@@ -20,6 +20,7 @@ the input to also go there).
 - Key press and unpress events are processed with [libxkbcommon](https://xkbcommon.org/)
 to make sure special characters are handled. Example: SHIFT + 3 = #
 - The utf8 result from above is printed to STDOUT (flushed at after each character).
+- Source code: https://github.com/SohamG/door-driver
 
 ### Shell script
 
