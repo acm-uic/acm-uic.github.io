@@ -3,8 +3,8 @@
 ## Components
 
 1. MagStripe Reader for reading UIC ID Cards.
-   - [EVDEV](https://en.wikipedia.org/wiki/Evdev) driver written in Rust 
-   to capture events directly from card reader.
+   - [EVDEV](https://en.wikipedia.org/wiki/Evdev) driver written in Rust
+     to capture events directly from card reader.
    - Shell script that parses the input and finds and compares the UIN
    - Python script that actually uses GPIO to physically open the door.
 2. Discord bot to open the door from discord
@@ -13,12 +13,12 @@
 
 ## EVDEV driver
 
-- The card reader is basically the keyboard, presented in /dev/input/eventX. 
+- The card reader is basically the keyboard, presented in /dev/input/eventX.
 - The Rust program hijacks the input device to prevent spurious inputs to the OS.
-(Technically, the raspberry pi would just be sitting at the TTY login prompt. Don't want
-the input to also go there).
+  (Technically, the raspberry pi would just be sitting at the TTY login prompt. Don't want
+  the input to also go there).
 - Key press and unpress events are processed with [libxkbcommon](https://xkbcommon.org/)
-to make sure special characters are handled. Example: SHIFT + 3 = #
+  to make sure special characters are handled. Example: SHIFT + 3 = #
 - The utf8 result from above is printed to STDOUT (flushed at after each character).
 - Source code: https://github.com/SohamG/door-driver
 
@@ -30,7 +30,6 @@ to make sure special characters are handled. Example: SHIFT + 3 = #
 - This script contains a list of UINs allowed to open the door.
 - TODO: Make it read allowed UINs from a file (BASH `mapfile` builtin).
 - If the card is of an allowed UIN, the python scirpt to open the door is called.
-
 
 ### Deployment Information
 
