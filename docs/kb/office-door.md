@@ -7,7 +7,7 @@
      to capture events directly from card reader.
    - Shell script that parses the input and finds and compares the UIN
    - Python script that actually uses GPIO to physically open the door.
-   - Repo: https://github.com/lugatuic/doorkeeper-driver
+   - Repository: [lugatuic/doorkeeper-driver](https://github.com/lugatuic/doorkeeper-driver)
    
 2. Discord bot to open the door from discord
    - Work in Progress
