@@ -41,7 +41,7 @@
     "@types/eslint": "~8.4.10",
     "@types/gapi": "~0.0.43",
     "@types/gapi.client.calendar": "~3.0.11",
-    "@types/node": "~18.11.9",
+    "@types/node": "~18.11.10",
     "@types/react": "~17.0.45",
     "@types/react-helmet": "~6.1.5",
     "@types/react-linkify": "~1.0.1",
