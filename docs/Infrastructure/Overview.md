@@ -39,7 +39,7 @@ Primary ACM server infrastructure:
 | 17-16 | lee        | Server        | Proxmox                   |
 | 15-14 | chase      | Server        | ESXi                      |
 | 13-12 | avocado    | Server        | ESXi                      |
-| 11-10 | chopin     | Server        | ESXi                      |
+| 11-10 | chopin     | Server        | ArchLinux                 |
 |     9 |            | _Blank_       |                           |
 |     8 | ups3       | UPS           | 1000VA                    |
 |     6 | ups2       | UPS           | 2000VA                    |
