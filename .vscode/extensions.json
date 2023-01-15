@@ -4,6 +4,6 @@
     "esbenp.prettier-vscode",
     "DavidAnson.vscode-markdownlint",
     "stylelint.vscode-stylelint",
-    "silvenon.mdx"
+    "unifiedjs.vscode-mdx"
   ]
 }
