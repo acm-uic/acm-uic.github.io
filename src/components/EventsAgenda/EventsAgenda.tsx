@@ -125,7 +125,7 @@ const EventsAgendaEmpty: React.FC = () => <div className={clsx(styles.eventsOver
 export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
   const { data: eventsData, error: eventsError } = useSWRImmutable(
     `gcal-events-${config.googleCalendarId}-${count}`,
-    () => getEvents(config.googleCalendarApiKey, config.googleCalendarId, count)
+    () => getEvents(config.googleCalendarApiKey, config.googleCalendarId, count * 2)
   );
 
   const { data: discordData, error: discordError } = useSWRImmutable(`discord-widget-${config.discordServerId}`, () =>
@@ -176,9 +176,12 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
         {!eventsError &&
           eventsData &&
           eventsData.items?.length !== 0 &&
-          eventsData.items?.map((event, index) => (
-            <EventsAgendaItem key={`${index}-${event?.id}`} event={event} discordData={discordData} />
-          ))}
+          eventsData.items
+            ?.filter((e) => e.visibility !== "private")
+            .slice(0, count)
+            .map((event, index) => (
+              <EventsAgendaItem key={`${index}-${event?.id}`} event={event} discordData={discordData} />
+            ))}
       </div>
       <div className="row row--no-gutters">
         <div className="margin-top--lg margin-bottom--lg button button--outline button--secondary">
