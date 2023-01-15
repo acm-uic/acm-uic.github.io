@@ -2,13 +2,36 @@
 
 All emails are suffixed with "uic.edu", unless otherwise noted.
 
-## 2022-2023
+## 2022-2023 (Spring)
 
-| OFFICE         | NAME            | EMAIL      |
-| :------------- | :-------------- | :--------- |
-| President      | Zachary Robbins | zlr2@...   |
-| Vice President | Adrian Knight   | aknig2@... |
-| Treasurer      | Sam Effendy     | seffe2@... |
+| OFFICE                            | NAME                     | EMAIL                                     |
+| :-------------------------------- | :----------------------- | :---------------------------------------- |
+| President                         | Adrian Knight            | aknig2@...                                |
+| Treasurer                         | Sam Effendy              | seffe2@...                                |
+| SIG Game Leader                   | Zachary Robbins          | zlr2@...                                  |
+| SIG Math Leader                   | Ben Deschand             | bdesch2@...                               |
+| SIG SysAdmin Leader               | Chase Lee                | clee231@...                               |
+| SIG SysAdmin Leader               | Christian Bingman        | cbingm2@...                               |
+| SIG WebDev Leader                 | Christian Bingman        | cbingm2@...                               |
+| Systems Administrator / Webmaster | Soham Gumaste            | sigsysadmin AT acm DOT cs DOT uic DOT edu |
+| Secretary                         | Yashi Shandilya          | yshand2@...                               |
+| Faculty Advisor                   | Professor Mitchell Theys | mtheys@...                                |
+
+## 2022-2023 (Fall)
+
+| OFFICE                            | NAME                     | EMAIL                                     |
+| :-------------------------------- | :----------------------- | :---------------------------------------- |
+| President                         | Zachary Robbins          | zlr2@...                                  |
+| Vice President                    | Adrian Knight            | aknig2@...                                |
+| Treasurer                         | Sam Effendy              | seffe2@...                                |
+| SIG Game Leader                   | Zachary Robbins          | zlr2@...                                  |
+| SIG Math Leader                   | Ben Deschand             | bdesch2@...                               |
+| SIG SysAdmin Leader               | Chase Lee                | clee231@...                               |
+| SIG SysAdmin Leader               | Christian Bingman        | cbingm2@...                               |
+| SIG WebDev Leader                 | Christian Bingman        | cbingm2@...                               |
+| Systems Administrator / Webmaster | Soham Gumaste            | sigsysadmin AT acm DOT cs DOT uic DOT edu |
+| Secretary                         | Yashi Shandilya          | yshand2@...                               |
+| Faculty Advisor                   | Professor Mitchell Theys | mtheys@...                                |
 
 ## 2021-2022
 
