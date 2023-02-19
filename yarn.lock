@@ -2429,10 +2429,10 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/gapi.client.calendar@~3.0.11":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@types/gapi.client.calendar/-/gapi.client.calendar-3.0.11.tgz#97455bb3952966ec9c2895a59711d92ef27dc015"
-  integrity sha512-2eHOAOKw0lk96EfKGjcf0RQ/ZOCTxCDSkRyfKwzj6237SR59RQ1f0uPE+SqvMqyKB26hXY7dojvqnc2NUoRtcw==
+"@types/gapi.client.calendar@~3.0.12":
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/@types/gapi.client.calendar/-/gapi.client.calendar-3.0.12.tgz#42ccf73fa248219c8f992e0cef7fdac51d2ac800"
+  integrity sha512-3H4hubmAuOkYHGSoVkxYAz6zg2g5LhQ1Y0/GLDIt1AkebKZgGiK+5JNFq4Nn2qDkjFh8pMY3TLIC/J5ueMd6YA==
   dependencies:
     "@maxim_mazurok/gapi.client.calendar-v3" latest
 
