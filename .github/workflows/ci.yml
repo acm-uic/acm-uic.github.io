@@ -7,6 +7,11 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   check_build_and_deploy_job:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
@@ -77,15 +82,14 @@ jobs:
         with:
           node-version: "18.x"
           cache: "yarn"
-          
+
+      - name: Setup Pages 📃
+        id: pages
+        uses: actions/configure-pages@v3 
+
       - name: Install Dependencies 📦
         run: |
           yarn install
-
-      - name: Setup SSH Keys 🔑
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
 
       - name: Run linter and formatter checks 🚨
         run: |
@@ -93,13 +97,15 @@ jobs:
           yarn lint:ci
           yarn prettier:ci
 
-      - name: Release to GitHub Pages 🚀
-        env:
-          USE_SSH: true
-          GIT_USER: git
-          DEPLOYMENT_BRANCH: gh-pages
-
+      - name: Build ⚙️
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "gh-actions"
-          yarn deploy
+          yarn build
+
+      - name: Upload artifact ⬆️
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: build/
+          
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v1
