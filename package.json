@@ -38,7 +38,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.3.0",
     "@tsconfig/docusaurus": "~1.0.6",
-    "@types/eslint": "~8.4.10",
+    "@types/eslint": "~8.21.1",
     "@types/gapi": "~0.0.44",
     "@types/gapi.client.calendar": "~3.0.11",
     "@types/node": "~18.13.0",
@@ -48,7 +48,7 @@
     "@types/react-router-dom": "~5.3.3",
     "@typescript-eslint/eslint-plugin": "~5.51.0",
     "@typescript-eslint/parser": "~5.51.0",
-    "eslint": "~8.32.0",
+    "eslint": "~8.34.0",
     "eslint-config-airbnb": "~19.0.4",
     "eslint-config-prettier": "~8.6.0",
     "eslint-plugin-import": "~2.27.5",
