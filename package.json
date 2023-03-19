@@ -38,7 +38,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.3.1",
     "@tsconfig/docusaurus": "~1.0.6",
-    "@types/eslint": "~8.21.1",
+    "@types/eslint": "~8.21.2",
     "@types/gapi": "~0.0.44",
     "@types/gapi.client.calendar": "~3.0.12",
     "@types/node": "~18.15.0",
