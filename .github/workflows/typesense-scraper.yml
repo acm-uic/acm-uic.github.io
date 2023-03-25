@@ -18,7 +18,7 @@ jobs:
         uses: celsiusnarhwal/typesense-scraper@v2
         with:
           api-key: ${{ secrets.TYPESENSE_API_KEY }}
-          host: https://typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io
+          host: typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io
           port: 443
           protocol: https
           config: ./.github/workflows/typesense-scraper-config.json
