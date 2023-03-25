@@ -114,3 +114,5 @@ jobs:
     name: Call Typesense Scraper 🔍
     uses: ./.github/workflows/typesense-scraper.yml
     needs: build_release_gh_pages
+    secrets:
+      TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
