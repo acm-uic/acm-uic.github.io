@@ -16,9 +16,11 @@ jobs:
 
       - name: Update Search DB 🔍
         shell: bash
+        env:
+          TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
         run: |
           docker run \
-          --env TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} \
+          --env TYPESENSE_API_KEY=$TYPESENSE_API_KEY \
           --env TYPESENSE_HOST=typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io \
           --env TYPESENSE_PORT=443 \
           --env TYPESENSE_PROTOCOL=https \
