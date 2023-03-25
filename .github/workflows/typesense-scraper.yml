@@ -3,6 +3,9 @@ name: typesense-scraper
 on:
   workflow_dispatch:
   workflow_call:
+    secrets:
+    TYPESENSE_API_KEY:
+      required: true
 
 jobs:
   update_search_db:
