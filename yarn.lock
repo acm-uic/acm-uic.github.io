@@ -2203,10 +2203,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/node@*", "@types/node@~18.15.0":
-  version "18.15.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.0.tgz#286a65e3fdffd691e170541e6ecb0410b16a38be"
-  integrity sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==
+"@types/node@*", "@types/node@~18.15.9":
+  version "18.15.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.9.tgz#a9b529d2a16ae73122b3875969e7db18c9f3e790"
+  integrity sha512-dUxhiNzBLr6IqlZXz6e/rN2YQXlFgOei/Dxy+e3cyXTJ4txSUbGT2/fmnD6zd/75jDMeW5bDee+YXxlFKHoV0A==
 
 "@types/node@^17.0.5":
   version "17.0.45"
@@ -3943,7 +3943,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docusaurus-theme-search-typesense@^0.9.0:
+docusaurus-theme-search-typesense@~0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/docusaurus-theme-search-typesense/-/docusaurus-theme-search-typesense-0.9.0.tgz#61b62b576f37d71118a09f6e1e6d29bea690a538"
   integrity sha512-c9aOShE1sbgREyyWtGjGvjeu78iEJ8LYHsP0tOIeS9xAdId4YxkX+A7AWGH3JjxDBD29EAs32bSVQLB4XqFf8Q==
