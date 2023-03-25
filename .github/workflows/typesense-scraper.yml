@@ -15,7 +15,7 @@ jobs:
           submodules: recursive
 
       - name: Update Search DB 🔍
-        run: docker run -it --rm \
+        run: docker run \
           --env TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} \
           --env TYPESENSE_HOST=typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io \
           --env TYPESENSE_PORT=443 \
