@@ -1,0 +1,24 @@
+name: typesense-scraper
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  update_search_db:
+    runs-on: ubuntu-latest
+    name: Update search db
+    steps:
+      - name: Checkout repo 🛎
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Update Search DB 🔍
+        run: docker run -it --rm \
+          --env TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} \
+          --env TYPESENSE_HOST=typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io \
+          --env TYPESENSE_PORT=443 \
+          --env TYPESENSE_PROTOCOL=https \
+          --env "CONFIG=$(cat ./github/workflows/typesense-scraper-config.json | jq -r tostring)" \
+          typesense/docsearch-scraper:0.4.0
