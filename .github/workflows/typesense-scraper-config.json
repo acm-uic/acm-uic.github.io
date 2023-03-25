@@ -1,7 +1,7 @@
 {
   "index_name": "docusaurus-2",
   "start_urls": ["https://acm-uic.github.io/"],
-  "sitemap_urls": ["https://acm-uic.gi.io/sitemap.xml"],
+  "sitemap_urls": ["https://acm-uic.github.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": ["/tests"],
   "selectors": {
