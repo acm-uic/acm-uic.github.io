@@ -16,7 +16,7 @@ jobs:
   check_build_and_deploy_job:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
-    name: Build PR and Deploy
+    name: Build PR and Deploy 🚀
     steps:
       - name: Checkout repo 🛎
         uses: actions/checkout@v3
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: "18.x"
           cache: "yarn"
-          
+
       - name: Install Dependencies 📦
         run: |
           yarn install
@@ -55,9 +55,9 @@ jobs:
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
-    name: Cleanup Staging Environment
+    name: Cleanup Staging Environment 🧹
     steps:
-      - name: Cleanup Staging Environment
+      - name: Cleanup Staging Environment 🧹
         uses: Azure/static-web-apps-deploy@latest
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
@@ -67,7 +67,7 @@ jobs:
   build_release_gh_pages:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    name: Build and Push GitHub Pages Site
+    name: Build and Push GitHub Pages Site 🚀
     concurrency:
       group: build_release_gh_pages
       cancel-in-progress: true
@@ -85,7 +85,7 @@ jobs:
 
       - name: Setup Pages 📃
         id: pages
-        uses: actions/configure-pages@v3 
+        uses: actions/configure-pages@v3
 
       - name: Install Dependencies 📦
         run: |
@@ -105,7 +105,12 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: build/
-          
+
       - name: Deploy to GitHub Pages 🚀
         id: deployment
         uses: actions/deploy-pages@v1
+
+  call_typesense_scraper:
+    name: Call Typesense Scraper 🔍
+    uses: ./.github/workflows/typesense-scraper.yml
+    needs: build_release_gh_pages

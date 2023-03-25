@@ -47,9 +47,36 @@ const config = {
   favicon: "img/favicon.png",
   organizationName: gitHubOrg,
   projectName: gitHubRepoName, // Usually your repo name.
+  themes: ["docusaurus-theme-search-typesense"],
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('docusaurus-theme-search-typesense').ThemeConfig} */
     ({
+      typesense: {
+        // Replace this with the name of your index/collection.
+        // It should match the "index_name" entry in the scraper's "config.json" file.
+        typesenseCollectionName: "docusaurus-2",
+
+        typesenseServerConfig: {
+          nodes: [
+            {
+              // keep in sync with .github/workflows/typesense-scraper.yml
+              host: "typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io",
+              port: 443,
+              protocol: "https",
+            },
+          ],
+          // --search-only-api-key
+          apiKey: "xzKkO1gyj6VSITeO989K0MDnMobULu06v4TUU8TB",
+        },
+
+        // Optional: Typesense search parameters: https://typesense.org/docs/0.24.0/api/search.html#search-parameters
+        typesenseSearchParameters: {},
+
+        searchPagePath: "/search",
+
+        // Optional
+        contextualSearch: true,
+      },
       colorMode: {
         respectPrefersColorScheme: true,
       },
