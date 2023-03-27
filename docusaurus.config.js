@@ -14,24 +14,15 @@ const gitHubPagesUrl = `https://${gitHubRepoName}`;
 
 /**
  *
- * @param {string} url
- * @param {string} alt
- * @returns {string}
- */
-const getImageHtml = (url, alt) => `
-<img alt="${alt}" src="${url}"></img>
-`;
-
-/**
- *
  * @param {string} link
- * @param {string} innerHtml
+ * @param {string} imageUrl
+ * @param {string} ariaLabel
  * @returns {{html: string}}
  */
-const footerExternalLink = (link, innerHtml) => ({
+const footerExternalLink = (link, imageUrl, ariaLabel) => ({
   html: `
-<a class="footer__link-item" href="${link}" target="_blank" rel="noreferrer noopener" aria-label="ACM@UIC Discord Server">
- ${innerHtml} 
+<a class="footer__link-item" href="${link}" target="_blank" rel="noreferrer noopener" aria-label="${ariaLabel}">
+  <img alt="" role="presentation" src="${imageUrl}"></img>
 </a>
     `,
 });
@@ -167,36 +158,28 @@ const config = {
               // Discord
               {
                 link: discordServerInviteLink,
-                innerHtml: getImageHtml(
-                  `https://img.shields.io/discord/${discordServerId}?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2`,
-                  "Discord"
-                ),
+                imageUrl: `https://img.shields.io/discord/${discordServerId}?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2`,
+                ariaLabel: "ACM@UIC Discord server",
               },
               // Slack
               {
                 link: slackWorkspaceSignUpLink,
-                innerHtml: getImageHtml(
-                  "https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white",
-                  "Slack"
-                ),
+                imageUrl: "https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white",
+                ariaLabel: "ACM@UIC Slack workspace",
               },
               // GitHub
               {
                 link: gitHubOrgUrl,
-                innerHtml: getImageHtml(
-                  "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
-                  "GitHub"
-                ),
+                imageUrl: "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
+                ariaLabel: "ACM@UIC GitHub organization",
               },
               // YouTube
               {
                 link: youTubeChannelLink,
-                innerHtml: getImageHtml(
-                  "https://img.shields.io/badge/YouTube-c4302b?logo=youtube&logoColor=white",
-                  "YouTube"
-                ),
+                imageUrl: "https://img.shields.io/badge/YouTube-c4302b?logo=youtube&logoColor=white",
+                ariaLabel: "ACM@UIC YouTube channel",
               },
-            ].map(({ link, innerHtml }) => footerExternalLink(link, innerHtml)),
+            ].map(({ link, imageUrl, ariaLabel }) => footerExternalLink(link, imageUrl, ariaLabel)),
           },
           {
             title: "Services",
