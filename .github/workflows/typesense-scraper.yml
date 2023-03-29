@@ -17,11 +17,12 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Run DocSearch Scraper
-        uses: celsiusnarhwal/typesense-scraper@v2
-        with:
-          api-key: ${{ secrets.TYPESENSE_API_KEY }}
-          host: typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io
-          port: 443
-          protocol: https
-          config: ./.github/workflows/typesense-scraper-config.json
+      - name: Run DocSearch Scraper 🔍
+        run: |
+          docker run \
+            -env TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} \
+            -env TYPESENSE_HOST=${{ secrets.TYPESENSE_HOST }} \
+            -env TYPESENSE_PORT=443 \
+            -env TYPESENSE_PROTOCOL=https \
+            --env "CONFIG=$(cat ./.github/workflows/typesense-scraper-config.json | jq -r tostring)" \
+            typesense/docsearch-scraper:0.4.0

@@ -1,0 +1,139 @@
+name: ci-terraform
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+    paths:
+      - tf/**
+  push:
+    branches: [main]
+    paths:
+      - tf/**
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  terraform-plan:
+    runs-on: ubuntu-latest
+    name: Terraform Plan 🤖📖
+    env:
+      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      ARM_USE_OIDC: true
+    outputs:
+      tfplanExitCode: ${{ steps.tf-plan.outputs.exitcode }}
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Checkout repo 🛎️
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Setup Terraform 🔧
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform Format 💄
+        id: fmt
+        run: terraform -chdir=tf fmt -check
+        continue-on-error: true
+
+      - name: Terraform Init ⚙️
+        id: init
+        run: terraform -chdir=tf init
+
+      - name: Terraform Validate 👀
+        id: validate
+        run: terraform -chdir=tf validate -no-color
+        continue-on-error: true
+
+      - name: Terraform Plan 📖
+        id: plan
+        run: |
+          terraform -chdir=tf plan -no-color -input=false -out tfplan \
+            -var "github_token=${{ secrets.GITHUB_TOKEN }}" \
+            -var "typesense_api_key=${{ secrets.TYPESENSE_API_KEY }}" \
+            -var "typesense_rg=${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}" \
+            -var "typesense_collection_name=$(jq -r '.index_name' ./.github/workflows/typesense-scraper-config.json)"
+        continue-on-error: true
+
+      - name: Update Pull Request 💬
+        uses: actions/github-script@v6
+        env:
+          PLAN: "${{ steps.plan.outputs.stdout }}"
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const output = `Terraform Format and Style 💄\`${{ steps.fmt.outcome }}\`
+            Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
+            Terraform Plan 📖\`${{ steps.plan.outcome }}\`
+            Terraform Validation 👀\`${{ steps.validate.outcome }}\`
+
+            <details><summary>Show Plan</summary>
+
+            \`\`\`terraform\n
+            ${process.env.PLAN}
+            \`\`\`
+
+            </details>
+
+            *Pushed by: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: output
+            })
+
+      - name: Terraform Status ✅
+        if: steps.plan.outcome == 'failure' || steps.fmt.outcome == 'failure' || steps.validate.outcome == 'failure'
+        run: exit 1
+
+      - name: Encrypt Terraform Plan 🔒
+        working-directory: tf
+        run: |
+          gpg --batch --output tfplan.gpg --passphrase ${{ secrets.TFPLAN_GPG_PASSPHRASE }} --symmetric tfplan
+          rm tfplan
+
+      - name: Publish Terraform Plan 💾
+        uses: actions/upload-artifact@v3
+        with:
+          name: tfplan.gpg
+          path: tf/tfplan.gpg
+
+  terraform-apply:
+    runs-on: ubuntu-latest
+    name: Terraform Apply 🤖🚀
+    environment: azure-container-app
+    env:
+      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      ARM_USE_OIDC: true
+    needs: terraform-plan
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && needs.terraform-plan.outputs.tfplanExitCode == 2
+    steps:
+      - name: Setup Terraform 🔧
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Download Terraform Plan 💾
+        uses: actions/download-artifact@v3
+        with:
+          name: tfplan.gpg
+
+      - name: Decrypt Terraform Plan 🔓
+        run: |
+          gpg --batch --output tfplan --passphrase ${{ secrets.TFPLAN_GPG_PASSPHRASE }} --decrypt tfplan.gpg
+          rm tfplan.gpg
+
+      - name: Terraform Init ⚙️
+        id: init
+        run: terraform -chdir=tf init
+
+      - name: Terraform Apply 🚀
+        run: terraform -chdir=tf apply -auto-approve tfplan
