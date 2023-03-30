@@ -1,9 +1,13 @@
 // @ts-check
 /* eslint-disable @typescript-eslint/no-var-requires */
+require("dotenv").config();
 
+/* eslint-disable @typescript-eslint/no-var-requires */
 const {
   config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink, youTubeChannelLink },
 } = require("./appConfig");
+
+const { index_name: typesenseCollectionName } = require("./.github/workflows/typesense-scraper-config.json");
 
 const gitHubOrg = "acm-uic";
 const gitHubRepoName = "acm-uic.github.io";
@@ -11,6 +15,8 @@ const gitHubOrgUrl = `https://github.com/${gitHubOrg}`;
 const gitHubRepoUrl = `${gitHubOrgUrl}/${gitHubRepoName}`;
 const gitHubRepoDefaultBranch = "main";
 const gitHubPagesUrl = `https://${gitHubRepoName}`;
+const typesenseHost = process.env.TYPESENSE_HOST ?? "localhost";
+const typesenseKey = process.env.TYPESENSE_SEARCH_ONLY_API_KEY ?? "test_key";
 
 /**
  *
@@ -43,28 +49,19 @@ const config = {
     /** @type {import('docusaurus-theme-search-typesense').ThemeConfig} */
     ({
       typesense: {
-        // Replace this with the name of your index/collection.
-        // It should match the "index_name" entry in the scraper's "config.json" file.
-        typesenseCollectionName: "docusaurus-2",
-
+        typesenseCollectionName,
         typesenseServerConfig: {
           nodes: [
             {
-              // keep in sync with .github/workflows/typesense-scraper.yml
-              host: "typesense-acm-website.livelyriver-a58037c6.northcentralus.azurecontainerapps.io",
+              host: typesenseHost,
               port: 443,
               protocol: "https",
             },
           ],
-          apiKey: "DsoP7MrL11p53BId5TAaQARrDiLnxDEd",
+          apiKey: typesenseKey,
         },
-
-        // Optional: Typesense search parameters: https://typesense.org/docs/0.24.0/api/search.html#search-parameters
         typesenseSearchParameters: {},
-
         searchPagePath: "/search",
-
-        // Optional
         contextualSearch: true,
       },
       colorMode: {

@@ -8,6 +8,10 @@ This is the source for [acm-uic.github.io](https://acm-uic.github.io) website; f
 
 Check out the [contributing guide](.github/CONTRIBUTING.md).
 
+## Typesense Deployment
+
+Check out the [typesense deployment guide](typesense-deployemnt.md).
+
 ## License
 
 [MIT](LICENSE)

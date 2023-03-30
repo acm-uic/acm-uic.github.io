@@ -1,16 +1,21 @@
-name: ci
+name: ci-website
 
 on:
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches: [main]
+    paths-ignore:
+      - tf/**
   push:
     branches: [main]
+    paths-ignore:
+      - tf/**
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  pull-requests: write
 
 jobs:
   check_build_and_deploy_job:
@@ -18,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build PR and Deploy 🚀
     steps:
-      - name: Checkout repo 🛎
+      - name: Checkout repo 🛎️
         uses: actions/checkout@v3
         with:
           submodules: recursive
@@ -33,13 +38,10 @@ jobs:
         run: |
           yarn install
 
-      - name: Run linters and formatter checks 🚨
-        run: |
-          yarn typecheck
-          yarn lint:ci
-          yarn prettier:ci
-
       - name: Test Build 🚧
+        env:
+          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
+          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ secrets.TYPESENSE_SEARCH_ONLY_API_KEY }}
         run: yarn build
 
       - name: Deploy Staging Environment 🚀
@@ -51,6 +53,12 @@ jobs:
           app_location: "/build"
           skip_app_build: true
           skip_deploy_on_missing_secrets: true
+
+      - name: Run linters and formatter checks 💄
+        run: |
+          yarn typecheck
+          yarn lint:ci
+          yarn prettier:ci
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -72,7 +80,7 @@ jobs:
       group: build_release_gh_pages
       cancel-in-progress: true
     steps:
-      - name: Checkout repo 🛎
+      - name: Checkout repo 🛎️
         uses: actions/checkout@v3
         with:
           submodules: recursive
@@ -98,6 +106,9 @@ jobs:
           yarn prettier:ci
 
       - name: Build ⚙️
+        env:
+          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
+          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ secrets.TYPESENSE_SEARCH_ONLY_API_KEY }}
         run: |
           yarn build
 

@@ -5,13 +5,18 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.validate": ["md", "mdx"],
   "cSpell.words": [
+    "azurerm",
     "browserslist",
+    "chdir",
     "clsx",
     "gapi",
     "Halsted",
     "horiz",
     "linkify",
     "markdownlint",
+    "noopener",
+    "noreferrer",
+    "northcentralus",
     "prettierrc",
     "SELE",
     "sigs",
@@ -20,5 +25,8 @@
     "svgr",
     "typecheck",
     "typesense"
-  ]
+  ],
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  }
 }
