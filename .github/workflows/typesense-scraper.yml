@@ -5,6 +5,7 @@ on:
   workflow_call:
     secrets:
       TYPESENSE_API_KEY:
+        description: "Typesense API Key"
         required: true
 
 jobs:

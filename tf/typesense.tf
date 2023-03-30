@@ -1,5 +1,5 @@
 locals {
-  gh_repo = "acm-uic.github.io"
+  gh_repo = "acm-uic/acm-uic.github.io"
 }
 
 data "azurerm_resource_group" "typesense_resource_group" {
@@ -128,10 +128,10 @@ resource "shell_sensitive_script" "github_secret_typesense_search_only_api_key" 
   }
   lifecycle_commands {
     create = <<-EOF
-      gh secret set TYPESENSE_SEARCH_ONLY_API_KEY -b $TYPESENSE_SEARCH_ONLY_API_KEY -R acm-uic/acm-uic.github.io
+      gh secret set TYPESENSE_SEARCH_ONLY_API_KEY -b $TYPESENSE_SEARCH_ONLY_API_KEY -R $REPO
       EOF
     delete = <<-EOF
-      gh secret remove TYPESENSE_SEARCH_ONLY_API_KEY -R acm-uic/acm-uic.github.io
+      gh secret remove TYPESENSE_SEARCH_ONLY_API_KEY -R $REPO
       EOF
   }
 }
@@ -156,12 +156,12 @@ resource "shell_sensitive_script" "github_secret_typesense_host" {
   lifecycle_commands {
     create = <<-EOF
       gh secret set TYPESENSE_HOST \
-        -R acm-uic/acm-uic.github.io \
+        -R $REPO \
         -b $TYPESENSE_HOST
       EOF
     delete = <<-EOF
       gh secret remove TYPESENSE_HOST \
-        -R acm-uic/acm-uic.github.io
+        -R $REPO
       EOF
   }
 }
@@ -207,15 +207,3 @@ resource "shell_sensitive_script" "typesense_search_only_api_key" {
       EOF
   }
 }
-
-#resource "github_actions_secret" "typesense_search_only_api_key" {
-#  repository      = local.gh_repo
-#  secret_name     = "TYPESENSE_SEARCH_ONLY_API_KEY"
-#  encrypted_value = shell_sensitive_script.typesense_search_only_api_key.output["value"]
-#}
-#
-#resource "github_actions_secret" "typesense_host" {
-#  repository      = local.gh_repo
-#  secret_name     = "TYPESENSE_HOST"
-#  encrypted_value = azurerm_container_app.typesense_container_app.ingress[0].fqdn
-#}

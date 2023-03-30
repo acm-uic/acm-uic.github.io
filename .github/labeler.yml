@@ -10,3 +10,5 @@
   - ./*.json
 ":construction: actions":
   - .github/workflows/**/*
+":building_construction: terraform":
+  - tf/**/*
