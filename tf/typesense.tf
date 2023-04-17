@@ -113,10 +113,6 @@ data "github_repository" "website_repo" {
   name = "acm-uic.github.io"
 }
 
-#data "github_actions_public_key" "acm_website_public_key" {
-#  repository = data.github_repository.website_repo.full_name
-#}
-
 resource "github_actions_secret" "typesense_search_only_api_key" {
   repository      = split("/", local.gh_repo)[1]
   secret_name     = "TYPESENSE_SEARCH_ONLY_API_KEY"
