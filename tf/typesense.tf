@@ -109,61 +109,24 @@ resource "azurerm_log_analytics_workspace" "typesense_log_workspace" {
   resource_group_name = data.azurerm_resource_group.typesense_resource_group.name
 }
 
-resource "shell_sensitive_script" "github_secret_typesense_search_only_api_key" {
-  triggers = {
-    when_value_changed = azurerm_container_app.typesense_container_app.latest_revision_fqdn
-    when_value_changed = azurerm_container_app.typesense_container_app.id
-  }
-  environment = {
-    REPO = local.gh_repo
-  }
-  sensitive_environment = {
-    GITHUB_TOKEN                  = var.github_token
-    TYPESENSE_SEARCH_ONLY_API_KEY = shell_sensitive_script.typesense_search_only_api_key.output["value"]
-  }
-  lifecycle {
-    replace_triggered_by = [
-      shell_sensitive_script.typesense_search_only_api_key
-    ]
-  }
-  lifecycle_commands {
-    create = <<-EOF
-      gh secret set TYPESENSE_SEARCH_ONLY_API_KEY -b $TYPESENSE_SEARCH_ONLY_API_KEY -R $REPO
-      EOF
-    delete = <<-EOF
-      gh secret remove TYPESENSE_SEARCH_ONLY_API_KEY -R $REPO
-      EOF
-  }
+data "github_repository" "website_repo" {
+  name = "acm-uic.github.io"
 }
 
-resource "shell_sensitive_script" "github_secret_typesense_host" {
-  triggers = {
-    when_value_changed = azurerm_container_app.typesense_container_app.latest_revision_fqdn
-    when_value_changed = azurerm_container_app.typesense_container_app.id
-  }
-  environment = {
-    REPO           = local.gh_repo
-    TYPESENSE_HOST = azurerm_container_app.typesense_container_app.latest_revision_fqdn
-  }
-  sensitive_environment = {
-    GITHUB_TOKEN = var.github_token
-  }
-  lifecycle {
-    replace_triggered_by = [
-      azurerm_container_app.typesense_container_app
-    ]
-  }
-  lifecycle_commands {
-    create = <<-EOF
-      gh secret set TYPESENSE_HOST \
-        -R $REPO \
-        -b $TYPESENSE_HOST
-      EOF
-    delete = <<-EOF
-      gh secret remove TYPESENSE_HOST \
-        -R $REPO
-      EOF
-  }
+#data "github_actions_public_key" "acm_website_public_key" {
+#  repository = data.github_repository.website_repo.full_name
+#}
+
+resource "github_actions_secret" "typesense_search_only_api_key" {
+  repository      = split("/", local.gh_repo)[1]
+  secret_name     = "TYPESENSE_SEARCH_ONLY_API_KEY"
+  plaintext_value = shell_sensitive_script.typesense_search_only_api_key.output["value"]
+}
+
+resource "github_actions_secret" "typesense_host" {
+  repository      = split("/", local.gh_repo)[1]
+  secret_name     = "TYPESENSE_HOST"
+  plaintext_value = azurerm_container_app.typesense_container_app.ingress[0].fqdn
 }
 
 resource "shell_sensitive_script" "typesense_search_only_api_key" {
