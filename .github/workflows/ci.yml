@@ -134,6 +134,9 @@ jobs:
       ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       ARM_USE_OIDC: true
+      TF_WORKSPACE: prod
+      TF_IN_AUTOMATION: true
+      TF_INPUT: 0
     outputs:
       tfplanExitCode: ${{ steps.tf-plan.outputs.exitcode }}
 
@@ -179,6 +182,9 @@ jobs:
       ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
       ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
       ARM_USE_OIDC: true
+      TF_WORKSPACE: prod
+      TF_IN_AUTOMATION: true
+      TF_INPUT: 0
     needs: terraform_plan
     if: github.ref == 'refs/heads/main' && github.event_name == 'push' && needs.terraform_plan.outputs.tfplanExitCode == 2
 
