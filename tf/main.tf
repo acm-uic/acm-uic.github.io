@@ -13,11 +13,11 @@ terraform {
     }
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "3.52.0"
+      version = "3.53.0"
     }
     github = {
       source  = "integrations/github"
-      version = "5.22.0"
+      version = "5.23.0"
     }
   }
 }
