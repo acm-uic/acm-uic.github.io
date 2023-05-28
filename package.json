@@ -41,7 +41,7 @@
     "@docusaurus/module-type-aliases": "2.4.0",
     "@tsconfig/docusaurus": "~1.0.7",
     "@types/dotenv": "~8.2.0",
-    "@types/eslint": "~8.37.0",
+    "@types/eslint": "~8.40.0",
     "@types/gapi": "~0.0.44",
     "@types/gapi.client.calendar": "~3.0.12",
     "@types/node": "~20.2.5",
