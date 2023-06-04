@@ -10,7 +10,7 @@ Check out the [contributing guide](.github/CONTRIBUTING.md).
 
 ## Typesense Deployment
 
-Check out the [typesense deployment guide](typesense-deployemnt.md).
+Check out the [typesense deployment guide](typesense-deployment.md).
 
 ## License
 
