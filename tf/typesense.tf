@@ -109,10 +109,6 @@ resource "azurerm_log_analytics_workspace" "typesense_log_workspace" {
   resource_group_name = data.azurerm_resource_group.typesense_resource_group.name
 }
 
-data "github_repository" "website_repo" {
-  name = "acm-uic.github.io"
-}
-
 resource "github_actions_secret" "typesense_search_only_api_key" {
   repository      = split("/", local.gh_repo)[1]
   secret_name     = "TYPESENSE_SEARCH_ONLY_API_KEY"
