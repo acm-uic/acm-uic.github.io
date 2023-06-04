@@ -139,8 +139,6 @@ jobs:
       TF_WORKSPACE: prod
       TF_IN_AUTOMATION: true
       TF_INPUT: 0
-    outputs:
-      tfplanExitCode: ${{ steps.tf-plan.outputs.exitcode }}
 
     steps:
       - name: Checkout repo 🛎️
@@ -194,7 +192,7 @@ jobs:
       TF_IN_AUTOMATION: true
       TF_INPUT: 0
     needs: terraform_plan
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && needs.terraform_plan.outputs.tfplanExitCode == 2
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
     steps:
       - name: Checkout repo 🛎️
