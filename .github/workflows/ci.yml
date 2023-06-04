@@ -160,7 +160,7 @@ jobs:
           path: tf
           workspace: ${{ env.TF_WORKSPACE }}
 
-      - name: Get Typesense collection name
+      - name: Get Typesense collection name ⚙️
         id: get_typesense_collection_name
         run: |
           typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
@@ -214,7 +214,7 @@ jobs:
           path: tf
           workspace: ${{ env.TF_WORKSPACE }}
 
-      - name: Get Typesense collection name
+      - name: Get Typesense collection name ⚙️
         id: get_typesense_collection_name
         run: |
           typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
