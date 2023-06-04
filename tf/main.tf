@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.4.4"
+  required_version = "1.4.6"
   backend "azurerm" {
     resource_group_name  = "acm-hybridcloud"
     storage_account_name = "acmhybridstore"
