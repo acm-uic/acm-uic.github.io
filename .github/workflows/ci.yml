@@ -160,6 +160,12 @@ jobs:
           path: tf
           workspace: ${{ env.TF_WORKSPACE }}
 
+      - name: Get Typesense collection name
+        id: get_typesense_collection_name
+        run: |
+          typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
+          echo "typesense_collection_name=$typesense_collection_name" >> "$GITHUB_OUTPUT"
+
       - name: Terraform Plan 📖
         id: plan
         uses: dflook/terraform-plan@v1
@@ -171,7 +177,7 @@ jobs:
           variables: |
             typesense_api_key=${{ secrets.TYPESENSE_API_KEY }}
             typesense_rg=${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}
-            typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
+            typesense_collection_name=${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}
 
   terraform_apply:
     runs-on: ubuntu-latest
@@ -208,6 +214,12 @@ jobs:
           path: tf
           workspace: ${{ env.TF_WORKSPACE }}
 
+      - name: Get Typesense collection name
+        id: get_typesense_collection_name
+        run: |
+          typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
+          echo "typesense_collection_name=$typesense_collection_name" >> "$GITHUB_OUTPUT"
+
       - name: Terraform Apply 🚀
         id: apply
         uses: dflook/terraform-apply@v1
@@ -219,4 +231,4 @@ jobs:
           variables: |
             typesense_api_key=${{ secrets.TYPESENSE_API_KEY }}
             typesense_rg=${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}
-            typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
+            typesense_collection_name=${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}
