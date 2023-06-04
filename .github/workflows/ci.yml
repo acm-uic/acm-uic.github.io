@@ -1,0 +1,234 @@
+name: ci
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  pull-requests: write
+
+jobs:
+  check_build_and_deploy_job:
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    name: Build PR and Deploy 🚀
+    steps:
+      - name: Checkout repo 🛎️
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Use Node 18.x 🔧
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "yarn"
+
+      - name: Install Dependencies 📦
+        run: |
+          yarn install
+
+      - name: Test Build 🚧
+        env:
+          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
+          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ secrets.TYPESENSE_SEARCH_ONLY_API_KEY }}
+        run: yarn build
+
+      - name: Deploy Staging Environment 🚀
+        uses: Azure/static-web-apps-deploy@latest
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "/build"
+          skip_app_build: true
+          skip_deploy_on_missing_secrets: true
+
+      - name: Run linters and formatter checks 💄
+        run: |
+          yarn typecheck
+          yarn lint:ci
+          yarn prettier:ci
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Cleanup Staging Environment 🧹
+    steps:
+      - name: Cleanup Staging Environment 🧹
+        uses: Azure/static-web-apps-deploy@latest
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: "close"
+          skip_deploy_on_missing_secrets: true
+
+  build_release_gh_pages:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    name: Build and Push GitHub Pages Site 🚀
+    needs: terraform_apply
+    concurrency:
+      group: build_release_gh_pages
+      cancel-in-progress: true
+    steps:
+      - name: Checkout repo 🛎️
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Use Node 18.x 🔧
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "yarn"
+
+      - name: Setup Pages 📃
+        id: pages
+        uses: actions/configure-pages@v3
+
+      - name: Install Dependencies 📦
+        run: |
+          yarn install
+
+      - name: Run linter and formatter checks 🚨
+        run: |
+          yarn typecheck
+          yarn lint:ci
+          yarn prettier:ci
+
+      - name: Build ⚙️
+        env:
+          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
+          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ secrets.TYPESENSE_SEARCH_ONLY_API_KEY }}
+        run: |
+          yarn build
+
+      - name: Upload artifact ⬆️
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: build/
+
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v2
+
+  update_search_db:
+    name: Update search DB 🔍
+    uses: ./.github/workflows/typesense-scraper.yml
+    needs: terraform_apply
+    secrets:
+      TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+
+  terraform_plan:
+    runs-on: ubuntu-latest
+    name: Terraform Plan 🤖📖
+    env:
+      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ARM_USE_OIDC: true
+      TF_WORKSPACE: prod
+      TF_IN_AUTOMATION: true
+      TF_INPUT: 0
+    outputs:
+      tfplanExitCode: ${{ steps.tf-plan.outputs.exitcode }}
+
+    steps:
+      - name: Checkout repo 🛎️
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Terraform Format 💄
+        id: fmt
+        uses: dflook/terraform-fmt-check@v1
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
+
+      - name: Terraform Validate 👀
+        id: validate
+        uses: dflook/terraform-validate@v1
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
+
+      - name: Get Typesense collection name ⚙️
+        id: get_typesense_collection_name
+        run: |
+          typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
+          echo "typesense_collection_name=$typesense_collection_name" >> "$GITHUB_OUTPUT"
+
+      - name: Terraform Plan 📖
+        id: plan
+        uses: dflook/terraform-plan@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
+          variables: |
+            typesense_api_key="${{ secrets.TYPESENSE_API_KEY }}"
+            typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
+            typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
+
+  terraform_apply:
+    runs-on: ubuntu-latest
+    name: Terraform Apply 🤖🚀
+    environment: azure-container-app
+    env:
+      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      ARM_USE_OIDC: true
+      TF_WORKSPACE: prod
+      TF_IN_AUTOMATION: true
+      TF_INPUT: 0
+    needs: terraform_plan
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && needs.terraform_plan.outputs.tfplanExitCode == 2
+
+    steps:
+      - name: Checkout repo 🛎️
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Terraform Format 💄
+        id: fmt
+        uses: dflook/terraform-fmt-check@v1
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
+
+      - name: Terraform Validate 👀
+        id: validate
+        uses: dflook/terraform-validate@v1
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
+
+      - name: Get Typesense collection name ⚙️
+        id: get_typesense_collection_name
+        run: |
+          typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
+          echo "typesense_collection_name=$typesense_collection_name" >> "$GITHUB_OUTPUT"
+
+      - name: Terraform Apply 🚀
+        id: apply
+        uses: dflook/terraform-apply@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
+          variables: |
+            typesense_api_key="${{ secrets.TYPESENSE_API_KEY }}"
+            typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
+            typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
