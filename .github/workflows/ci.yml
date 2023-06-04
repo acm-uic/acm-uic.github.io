@@ -191,7 +191,6 @@ jobs:
       TF_WORKSPACE: prod
       TF_IN_AUTOMATION: true
       TF_INPUT: 0
-    needs: terraform_plan
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
     steps:
