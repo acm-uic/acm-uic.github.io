@@ -124,7 +124,7 @@ jobs:
   update_search_db:
     runs-on: ubuntu-latest
     name: Update search DB 🔍
-    needs: terraform_apply
+    needs: [terraform_apply, build_release_gh_pages]
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v3
@@ -134,12 +134,12 @@ jobs:
       - name: Run DocSearch Scraper 🔍
         run: |
           docker run \
-            -env TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} \
-            -env TYPESENSE_HOST=${{ needs.terraform_apply.outputs.typesense_container_app_fqdn }} \
-            -env TYPESENSE_PORT=443 \
-            -env TYPESENSE_PROTOCOL=https \
-            --env "CONFIG=$(cat ./.github/workflows/typesense-scraper-config.json | jq -r tostring)" \
-            typesense/docsearch-scraper:0.4.0
+            --env TYPESENSE_API_KEY="${{ secrets.TYPESENSE_API_KEY }}" \
+            --env TYPESENSE_HOST="${{ needs.terraform_apply.outputs.typesense_container_app_fqdn }}" \
+            --env TYPESENSE_PORT="443" \
+            --env TYPESENSE_PROTOCOL="https" \
+            --env CONFIG="$(cat ./.github/workflows/typesense-scraper-config.json | jq -r tostring)" \
+            typesense/docsearch-scraper:0.6.0
 
   terraform_plan:
     runs-on: ubuntu-latest
