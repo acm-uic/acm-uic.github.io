@@ -182,14 +182,15 @@ jobs:
             typesense_api_key="${{ secrets.TYPESENSE_API_KEY }}"
             typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
             typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
-      - name: Get search API key
+
+      - name: Get search API key ⚙️
         id: terraform_output_typesense_search_only_api_key
         working-directory: tf
         run: |
           typesense_search_only_api_key=$(terraform output -raw typesense_search_only_api_key)
           echo "typesense_search_only_api_key=$typesense_search_only_api_key" >> "$GITHUB_OUTPUT"
 
-      - name: Get search API key
+      - name: Get search API key ⚙️
         id: terraform_output_typesense_host
         working-directory: tf
         run: |
@@ -252,14 +253,14 @@ jobs:
             typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
             typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
 
-      - name: Get search API key
+      - name: Get search API key ⚙️
         id: terraform_output_typesense_search_only_api_key
         working-directory: tf
         run: |
           typesense_search_only_api_key=$(terraform output -raw typesense_search_only_api_key)
           echo "typesense_search_only_api_key=$typesense_search_only_api_key" >> "$GITHUB_OUTPUT"
 
-      - name: Get search API key
+      - name: Get search API key ⚙️
         id: terraform_output_typesense_host
         working-directory: tf
         run: |
