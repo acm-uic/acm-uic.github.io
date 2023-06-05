@@ -16,15 +16,7 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "3.59.0"
     }
-    github = {
-      source  = "integrations/github"
-      version = "5.26.0"
-    }
   }
-}
-
-provider "github" {
-  owner = "acm-uic"
 }
 
 provider "azurerm" {

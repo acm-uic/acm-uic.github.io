@@ -35,9 +35,6 @@ jobs:
           yarn install
 
       - name: Test Build 🚧
-        env:
-          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
-          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ secrets.TYPESENSE_SEARCH_ONLY_API_KEY }}
         run: yarn build
 
       - name: Deploy Staging Environment 🚀
@@ -104,8 +101,8 @@ jobs:
 
       - name: Build ⚙️
         env:
-          TYPESENSE_HOST: ${{ secrets.TYPESENSE_HOST }}
-          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ secrets.TYPESENSE_SEARCH_ONLY_API_KEY }}
+          TYPESENSE_HOST: ${{ needs.terraform_apply.outputs.typesense_host }}
+          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ needs.terraform_apply.outputs.typesense_search_only_api_key }}
         run: |
           yarn build
 
@@ -192,6 +189,9 @@ jobs:
       TF_IN_AUTOMATION: true
       TF_INPUT: 0
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    outputs:
+      typesense_search_only_api_key: ${{ steps.terraform_output_typesense_search_only_api_key.outputs.typesense_search_only_api_key }}
+      typesense_host: ${{ steps.terraform_output_typesense_host.outputs.typesense_host }}
 
     steps:
       - name: Checkout repo 🛎️
@@ -231,3 +231,17 @@ jobs:
             typesense_api_key="${{ secrets.TYPESENSE_API_KEY }}"
             typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
             typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
+
+      - name: Get search API key ⚙️
+        id: terraform_output_typesense_search_only_api_key
+        working-directory: tf
+        run: |
+          typesense_search_only_api_key=$(terraform output -raw typesense_search_only_api_key)
+          echo "typesense_search_only_api_key=$typesense_search_only_api_key" >> "$GITHUB_OUTPUT"
+
+      - name: Get search API key ⚙️
+        id: terraform_output_typesense_host
+        working-directory: tf
+        run: |
+          typesense_host=$(terraform output -raw typesense_container_app_fqdn)
+          echo "typesense_host=$typesense_host" >> "$GITHUB_OUTPUT"

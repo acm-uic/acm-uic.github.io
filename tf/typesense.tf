@@ -109,18 +109,6 @@ resource "azurerm_log_analytics_workspace" "typesense_log_workspace" {
   resource_group_name = data.azurerm_resource_group.typesense_resource_group.name
 }
 
-resource "github_actions_secret" "typesense_search_only_api_key" {
-  repository      = split("/", local.gh_repo)[1]
-  secret_name     = "TYPESENSE_SEARCH_ONLY_API_KEY"
-  plaintext_value = shell_sensitive_script.typesense_search_only_api_key.output["value"]
-}
-
-resource "github_actions_secret" "typesense_host" {
-  repository      = split("/", local.gh_repo)[1]
-  secret_name     = "TYPESENSE_HOST"
-  plaintext_value = azurerm_container_app.typesense_container_app.ingress[0].fqdn
-}
-
 resource "shell_sensitive_script" "typesense_search_only_api_key" {
   triggers = {
     when_value_changed = azurerm_container_app.typesense_container_app.latest_revision_fqdn
