@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build PR and Deploy 🚀
     needs: terraform_plan
-    
+
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v3
@@ -38,7 +38,7 @@ jobs:
 
       - name: Build ⚙️
         env:
-          TYPESENSE_HOST: ${{ needs.terraform_plan.outputs.typesense_host }}
+          TYPESENSE_HOST: ${{ needs.terraform_plan.outputs.typesense_container_app_fqdn }}
           TYPESENSE_SEARCH_ONLY_API_KEY: ${{ needs.terraform_plan.outputs.typesense_search_only_api_key }}
         run: |
           yarn build
@@ -107,7 +107,7 @@ jobs:
 
       - name: Build ⚙️
         env:
-          TYPESENSE_HOST: ${{ needs.terraform_apply.outputs.typesense_host }}
+          TYPESENSE_HOST: ${{ needs.terraform_apply.outputs.typesense_container_app_fqdn }}
           TYPESENSE_SEARCH_ONLY_API_KEY: ${{ needs.terraform_apply.outputs.typesense_search_only_api_key }}
         run: |
           yarn build
