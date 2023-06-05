@@ -126,7 +126,8 @@ jobs:
     uses: ./.github/workflows/typesense-scraper.yml
     needs: terraform_apply
     secrets:
-      TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+      TYPESENSE_HOST: ${{ needs.terraform_apply.outputs.typesense_host }}
+      TYPESENSE_SEARCH_ONLY_API_KEY: ${{ needs.terraform_apply.outputs.typesense_search_only_api_key }}
 
   terraform_plan:
     runs-on: ubuntu-latest
