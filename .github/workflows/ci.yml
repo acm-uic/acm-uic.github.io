@@ -133,8 +133,8 @@ jobs:
     name: Terraform Plan 🤖📖
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     outputs:
-      typesense_search_only_api_key: ${{ fromJson(steps.tf-outputs.outputs.typesense_search_only_api_key).id }}
-      typesense_host: ${{ fromJson(steps.tf-outputs.outputs.typesense_host).id }}
+      typesense_search_only_api_key: ${{ steps.tf-outputs.outputs.typesense_search_only_api_key }}
+      typesense_host: ${{ steps.tf-outputs.outputs.typesense_host }}
 
     env:
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
@@ -210,8 +210,8 @@ jobs:
       TF_INPUT: 0
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     outputs:
-      typesense_search_only_api_key: ${{ fromJson(steps.tf-outputs.outputs.typesense_search_only_api_key).id }}
-      typesense_host: ${{ fromJson(steps.tf-outputs.outputs.typesense_host).id }}
+      typesense_search_only_api_key: ${{ steps.tf-outputs.outputs.typesense_search_only_api_key }}
+      typesense_host: ${{ steps.tf-outputs.outputs.typesense_host }}
 
     steps:
       - name: Checkout repo 🛎️
