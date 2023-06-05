@@ -109,7 +109,7 @@ resource "azurerm_log_analytics_workspace" "typesense_log_workspace" {
   resource_group_name = data.azurerm_resource_group.typesense_resource_group.name
 }
 
-resource "shell_sensitive_script" "typesense_search_only_api_key" {
+resource "shell_script" "typesense_search_only_api_key" {
   triggers = {
     when_value_changed = azurerm_container_app.typesense_container_app.latest_revision_fqdn
     when_value_changed = azurerm_container_app.typesense_container_app.id

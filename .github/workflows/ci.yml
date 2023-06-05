@@ -122,11 +122,24 @@ jobs:
         uses: actions/deploy-pages@v2
 
   update_search_db:
+    runs-on: ubuntu-latest
     name: Update search DB 🔍
-    uses: ./.github/workflows/typesense-scraper.yml
     needs: terraform_apply
-    secrets:
-      TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+    steps:
+      - name: Checkout repo 🛎️
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Run DocSearch Scraper 🔍
+        run: |
+          docker run \
+            -env TYPESENSE_API_KEY=${{ secrets.TYPESENSE_API_KEY }} \
+            -env TYPESENSE_HOST=${{ needs.terraform_apply.outputs.typesense_host }} \
+            -env TYPESENSE_PORT=443 \
+            -env TYPESENSE_PROTOCOL=https \
+            --env "CONFIG=$(cat ./.github/workflows/typesense-scraper-config.json | jq -r tostring)" \
+            typesense/docsearch-scraper:0.4.0
 
   terraform_plan:
     runs-on: ubuntu-latest
@@ -135,7 +148,6 @@ jobs:
     outputs:
       typesense_search_only_api_key: ${{ steps.tf-outputs.outputs.typesense_search_only_api_key }}
       typesense_host: ${{ steps.tf-outputs.outputs.typesense_host }}
-
     env:
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}

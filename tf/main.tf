@@ -9,8 +9,8 @@ terraform {
   }
   required_providers {
     shell = {
-      source  = "linyinfeng/shell"
-      version = "1.7.12"
+      source  = "scottwinkler/shell"
+      version = "1.7.10"
     }
     azurerm = {
       source  = "hashicorp/azurerm"
