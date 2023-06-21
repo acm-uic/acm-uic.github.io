@@ -18,7 +18,7 @@ const officers = [
   },
   {
     name: "Yamaan Nandolia",
-    image: "https://cdn.discordapp.com/avatars/713811537201987594/239e413fd4a1659a96d4b9fc1c158d2e.webp?size=128",
+    image: "https://avatars.githubusercontent.com/u/88333832?s=100&v=4",
     url: "https://www.linkedin.com/in/yamaan-nandolia-09abb1215/",
     description: <>Treasurer</>,
   },
