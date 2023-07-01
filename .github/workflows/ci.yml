@@ -139,7 +139,7 @@ jobs:
             --env TYPESENSE_PORT="443" \
             --env TYPESENSE_PROTOCOL="https" \
             --env CONFIG="$(cat ./.github/workflows/typesense-scraper-config.json | jq -r tostring)" \
-            typesense/docsearch-scraper:0.6.0
+            typesense/docsearch-scraper:0.7.0
 
   terraform_plan:
     runs-on: ubuntu-latest
