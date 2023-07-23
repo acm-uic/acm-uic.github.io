@@ -1,0 +1,29 @@
+name: terraform drift
+
+on:
+  schedule:
+    - cron:  "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  terraform_drift:
+    runs-on: ubuntu-latest
+    name: Terraform Drift 🤖🔁
+    env:
+      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ARM_USE_OIDC: true
+      TF_WORKSPACE: prod
+      TF_IN_AUTOMATION: true
+      TF_INPUT: 0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Check for drift
+        uses: dflook/terraform-check@v1
+        with:
+          path: tf
+          workspace: ${{ env.TF_WORKSPACE }}
