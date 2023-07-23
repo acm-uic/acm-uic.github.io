@@ -3,6 +3,7 @@ name: terraform drift
 on:
   schedule:
     - cron:  "0 8 * * *"
+  workflow_dispatch:
 
 jobs:
   terraform_drift:
