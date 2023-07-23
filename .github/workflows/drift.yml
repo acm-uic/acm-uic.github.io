@@ -5,6 +5,10 @@ on:
     - cron:  "0 8 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   terraform_drift:
     runs-on: ubuntu-latest
