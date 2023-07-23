@@ -145,6 +145,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Terraform Plan 🤖📖
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    concurrency:
+      group: terraform
+      cancel-in-progress: false
     outputs:
       typesense_search_only_api_key: ${{ steps.tf-outputs.outputs.typesense_search_only_api_key }}
       typesense_container_app_fqdn: ${{ steps.tf-outputs.outputs.typesense_container_app_fqdn }}
@@ -208,6 +211,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Terraform Apply 🤖🚀
     environment: azure-container-app
+    concurrency:
+      group: terraform
+      cancel-in-progress: false
     env:
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}

@@ -30,7 +30,7 @@ const HomepageHeader: React.FC = () => {
 export const Home: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description={`${siteConfig.tagline}`}>
+    <Layout title={`Hello from ${siteConfig.title}`} description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
         <EventsAgenda count={9} />
