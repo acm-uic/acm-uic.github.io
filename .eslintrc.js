@@ -1,13 +1,15 @@
+// @ts-check
+
 const OFF = 0;
 const WARNING = 1;
 const ERROR = 2;
 
-module.exports = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   root: true,
   env: {
     browser: true,
     commonjs: true,
-    jest: true,
     node: true,
   },
   parser: "@typescript-eslint/parser",
@@ -15,7 +17,7 @@ module.exports = {
     allowImportExportEverywhere: true,
   },
   globals: {
-    testStylelintRule: true,
+    JSX: true,
   },
   extends: [
     "eslint:recommended",
@@ -26,15 +28,31 @@ module.exports = {
     "airbnb",
     "prettier",
   ],
+  overrides: [
+    {
+      files: ["*.mdx", "*.md"],
+      extends: ["plugin:mdx/recommended"],
+    },
+  ],
   settings: {
     "import/resolver": {
       node: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
+    react: {
+      version: "detect",
+    },
   },
   plugins: ["react-hooks"],
   rules: {
+    "no-restricted-exports": OFF,
+    "react/function-component-definition": [
+      WARNING,
+      {
+        namedComponents: "arrow-function",
+      },
+    ],
     "class-methods-use-this": OFF,
     "jsx-a11y/click-events-have-key-events": WARNING,
     "jsx-a11y/no-noninteractive-element-interactions": WARNING,
@@ -66,3 +84,5 @@ module.exports = {
     "@typescript-eslint/no-use-before-define": [ERROR, { functions: false, classes: false, variables: true }],
   },
 };
+
+module.exports = config;

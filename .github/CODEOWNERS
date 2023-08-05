@@ -1,18 +1,26 @@
+# catch all
 * @bmiddha @clee231
 
+# sysadmins
 /docs/ @acm-uic/sysadmins
+/.github/ @acm-uic/sysadmins
+.gitmodules @acm-uic/sysadmins
+
+# editors
 /blog/ @acm-uic/editors
 /SIGs/ @acm-uic/editors
 /src/pages/ @acm-uic/editors
-/src/ @acm-uic/web-developers
-/.github/ @acm-uic/sysadmins
-
-.gitmodules @acm-uic/sysadmins
-
 *.md @acm-uic/editors
+*.mdx @acm-uic/editors
+
+# web devs
+/src/ @acm-uic/web-developers
 *.js @acm-uic/web-developers
 *.jsx @acm-uic/web-developers
 *.ts @acm-uic/web-developers
 *.tsx @acm-uic/web-developers
 *.json @acm-uic/web-developers
+/yarn.lock @acm-uic/web-developers
+
+# editors and wev devs
 *.mdx @acm-uic/editors @acm-uic/web-developers

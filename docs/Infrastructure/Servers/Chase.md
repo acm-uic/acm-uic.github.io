@@ -1,3 +1,8 @@
+---
+slug: /infrastructure/servers/chase
+tags: [server, compute, vmware]
+---
+
 # Chase
 
 Current Location: SELE 2266

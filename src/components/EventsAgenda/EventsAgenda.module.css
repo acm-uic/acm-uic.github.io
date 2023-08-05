@@ -1,0 +1,28 @@
+.discordIcon {
+  height: 20px;
+  vertical-align: text-top;
+}
+
+.eventCard {
+  height: calc(100% - 16px);
+  padding-bottom: 16px;
+}
+
+.eventsOverlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  backdrop-filter: blur(4px) saturate(30%);
+  font-weight: 500;
+  font-size: 1.3em;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventsRow {
+  position: relative;
+}

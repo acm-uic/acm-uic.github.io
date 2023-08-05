@@ -2,46 +2,16 @@
 
 [![CI](https://github.com/acm-uic/acm-uic.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/acm-uic/acm-uic.github.io/actions/workflows/ci.yml)
 
-## Getting Started
+This is the source for [acm-uic.github.io](https://acm-uic.github.io) website; feel free to suggest changes!
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Contributing
 
-### Cloning
+Check out the [contributing guide](.github/CONTRIBUTING.md).
 
-This repository uses git submodules to link to the [media repo](https://github.com/acm-uic/web-media.git).
+## Typesense Deployment
 
-To clone with the submodules use `--recurse-submodules` flag:
+Check out the [typesense deployment guide](typesense-deployment.md).
 
-```console
-git clone --recurse-submodules https://github.com/acm-uic/acm-uic.github.io.git
-```
+## License
 
-To initialize the submodule on a already cloned repo use the following command:
-
-```console
-git submodule update --init
-```
-
-Reference: [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-
-### Installation
-
-```console
-yarn install
-```
-
-### Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+[MIT](LICENSE)

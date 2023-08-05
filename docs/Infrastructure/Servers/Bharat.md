@@ -1,3 +1,8 @@
+---
+slug: /infrastructure/servers/bharat
+tags: [server, storage, compute, vmware]
+---
+
 # Bharat
 
 Current Location: SELE 2266
@@ -25,7 +30,7 @@ Chassis Details:
 
 ### Mainboard
 
-- Model: SuperMicro X9DRi-F
+- Model: Supermicro X9DRi-F
 - Memory: Micron MT72K8Z84G72LZ-1G4E2A7BF 4Rx4 PC3-10600L ECC REG
 - Type: DDR3 ECC Registered 4Rx4 PC3-10600L (1333MHz)
 - Capacity: 256 GB

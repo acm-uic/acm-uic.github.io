@@ -19,14 +19,8 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .buttons a {
-  margin: 0 10px;
+  margin: 10px;
 }
 
 main {

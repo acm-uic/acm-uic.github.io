@@ -1,24 +1,25 @@
+import Link from "@docusaurus/Link";
 import React from "react";
 
 export type HomepageOfficerProps = Record<string, never>;
 
 const officers = [
   {
-    name: "Christian Bingman",
-    image: "https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=100",
-    url: "https://git.christianbingman.com/ChristianBingman",
+    name: "Yashi Shandilya",
+    image: "https://avatars.githubusercontent.com/u/89973416?s=100&v=4",
+    url: "https://github.com/yashishandilya",
     description: <>President</>,
   },
   {
-    name: "Anastasiia Evdokimova",
-    image: "https://avatars.githubusercontent.com/u/36254266?s=100&v=4",
-    url: "https://github.com/SkylinSky",
+    name: "Sam Effendy",
+    image: "https://avatars.githubusercontent.com/u/49312226?s=100&v=4",
+    url: "https://github.com/dejazzhands",
     description: <>Vice President</>,
   },
   {
-    name: "Kalpkumar Shah",
-    image: "https://avatars.githubusercontent.com/u/76023884?s=100&v=4",
-    url: "https://github.com/kalps358",
+    name: "Yamaan Nandolia",
+    image: "https://avatars.githubusercontent.com/u/88333832?s=100&v=4",
+    url: "https://www.linkedin.com/in/yamaan-nandolia-09abb1215/",
     description: <>Treasurer</>,
   },
 ];
@@ -50,9 +51,15 @@ const sysadmins = [
   },
   {
     name: "Christian Bingman",
-    image: "https://git.christianbingman.com/avatar/19c1437930a1e9db7482a581fc45f60a?size=100",
-    url: "https://git.christianbingman.com/ChristianBingman",
-    description: <>The new guy</>,
+    image: "https://avatars.githubusercontent.com/u/42191425?s=100&v=4",
+    url: "https://github.com/ChristianBingman",
+    description: <>President 2021-2022</>,
+  },
+  {
+    name: "Soham Gumaste",
+    image: "https://avatars.githubusercontent.com/u/7116239?s=100&v=4",
+    url: "https://github.com/SohamG",
+    description: <>SysAdmin initiate</>,
   },
 ];
 
@@ -60,6 +67,7 @@ const sections = [
   {
     name: "Officers",
     profiles: officers,
+    link: "/officers",
   },
   {
     name: "SysAdmins",
@@ -81,7 +89,7 @@ export const HomepageProfiles: React.FC<HomepageOfficerProps> = () => (
         <div className="container">
           <div className="row">
             <div className="col text--center margin-bottom--xs">
-              <h3>{section.name}</h3>
+              <h3>{section.link ? <Link to={section.link}>{section.name}</Link> : section.name}</h3>
             </div>
           </div>
           <div className="row">

@@ -5,7 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import { HomepageProfiles } from "../components/HomepageProfiles";
-import { GoogleCalendarEmbed } from "../components/GoogleCalendarEmbed";
+import { EventsAgenda } from "../components/EventsAgenda";
 
 const HomepageHeader: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
@@ -15,11 +15,11 @@ const HomepageHeader: React.FC = () => {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/join">
+            Join ACM 💖
+          </Link>
           <Link className="button button--secondary button--lg" to="/blog">
             Announcements 📰
-          </Link>
-          <Link className="button button--secondary button--lg" to="/about">
-            About ACM❓
           </Link>
         </div>
       </div>
@@ -30,10 +30,10 @@ const HomepageHeader: React.FC = () => {
 export const Home: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description={`${siteConfig.tagline}`}>
+    <Layout title={`Hello from ${siteConfig.title}`} description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
-        <GoogleCalendarEmbed />
+        <EventsAgenda count={9} />
         <HomepageProfiles />
       </main>
     </Layout>
