@@ -13,6 +13,7 @@ updates:
       - ":building_construction: terraform"
     commit-message:
       prefix: ":arrow_up:"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -25,7 +26,7 @@ updates:
       - ":robot: bot"
     commit-message:
       prefix: ":arrow_up:"
-      
+
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -39,3 +40,23 @@ updates:
     commit-message:
       prefix: ":arrow_up:"
     versioning-strategy: increase
+    groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/*"
+      eslint:
+        patterns:
+          - "@typescript-eslint/*"
+          - "eslint"
+          - "eslint-config-*"
+          - "eslint-plugin-*"
+      prettier:
+        patterns:
+          - "prettier"
+          - "eslint-plugin-prettier"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+
+
