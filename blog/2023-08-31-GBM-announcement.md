@@ -1,6 +1,6 @@
 ---
 slug: gbm-fall-2023
-title: Fall ACM General Body Meeting
+title: Fall 2023 ACM General Body Meeting
 authors: yashishandilya
 tags: ["general-body-meeting", "events", "SIGs"]
 ---
