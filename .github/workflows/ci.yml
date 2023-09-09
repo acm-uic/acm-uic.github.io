@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -81,7 +81,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -127,7 +127,7 @@ jobs:
     needs: [terraform_apply, build_release_gh_pages]
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -163,7 +163,7 @@ jobs:
 
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -236,7 +236,7 @@ jobs:
 
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
