@@ -47,7 +47,7 @@
     "@types/node": "~20.8.6",
     "@types/react": "~17.0.45",
     "@types/react-helmet": "~6.1.7",
-    "@types/react-linkify": "~1.0.2",
+    "@types/react-linkify": "~1.0.3",
     "@types/react-router-dom": "~5.3.3",
     "@typescript-eslint/eslint-plugin": "~6.7.5",
     "@typescript-eslint/parser": "~6.7.5",
