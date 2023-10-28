@@ -25,7 +25,7 @@
   "dependencies": {
     "@docusaurus/core": "2.4.3",
     "@docusaurus/preset-classic": "2.4.3",
-    "@mdx-js/react": "~1.6.22",
+    "@mdx-js/react": "~3.0.0",
     "@svgr/webpack": "~8.1.0",
     "clsx": "~2.0.0",
     "docusaurus-theme-search-typesense": "~0.13.0",
