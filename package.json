@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.3",
-    "@tsconfig/docusaurus": "~2.0.1",
+    "@tsconfig/docusaurus": "~2.0.2",
     "@types/dotenv": "~8.2.0",
     "@types/eslint": "~8.44.6",
     "@types/gapi": "~0.0.46",
