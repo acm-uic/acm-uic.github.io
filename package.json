@@ -28,7 +28,7 @@
     "@mdx-js/react": "~3.0.0",
     "@svgr/webpack": "~8.1.0",
     "clsx": "~2.0.0",
-    "docusaurus-theme-search-typesense": "~0.13.0",
+    "docusaurus-theme-search-typesense": "~0.13.1",
     "dotenv": "~16.3.1",
     "file-loader": "~6.2.0",
     "react": "~17.0.2",
