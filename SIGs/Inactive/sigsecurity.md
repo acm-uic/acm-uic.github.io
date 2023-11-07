@@ -37,8 +37,8 @@ Email Us: mbacci3@uic.edu
 
 Send an email to: sigsec-subscribe AT acm.cs.uic.edu
 
-<https://acm.cs.uic.edu/mailman/listinfo/sigsec>
+[https://acm.cs.uic.edu/mailman/listinfo/sigsec](https://acm.cs.uic.edu/mailman/listinfo/sigsec)
 
 ## Additional Resources
 
-<https://github.com/mbaccia514/SIG-Security>
+[https://github.com/mbaccia514/SIG-Security](https://github.com/mbaccia514/SIG-Security)

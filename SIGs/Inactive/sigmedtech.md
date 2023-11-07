@@ -45,4 +45,4 @@ Email the Leader: Ben Maciorowski (bmacio2 [at] uic [dot] edu)
 
 ## Additional Resources
 
-<https://github.com/Benbigmac/Artificial-Pancreas-System>
+[https://github.com/Benbigmac/Artificial-Pancreas-System](https://github.com/Benbigmac/Artificial-Pancreas-System)

@@ -27,4 +27,4 @@ SIG Blockchain started in Fall 2017 with the intent to explore distributed ledge
 
 Members can expect to learn about blockchain on a technical and philosophical level. SIG Blockchain has its own cryptocurrency project called Allium that members can contribute to. There are usually opportunities to go to local events within the blockchain space throughout the semester as well.
 
-Check out our Github! <https://github.com/SIGBlockchain>
+Check out our Github! [https://github.com/SIGBlockchain](https://github.com/SIGBlockchain)

@@ -17,7 +17,7 @@ This SIG is inactive.
 | Location | ACM Office, SELE 2264 |
 | Leader   | Tim Palermo           |
 
-**Contact:** <tpaler3@uic.edu> or join the ACM mailing list to get upcoming announcements and details. <https://acm.cs.uic.edu/mailsignup>.
+**Contact:** [tpaler3@uic.edu](mailto:tpaler3@uic.edu) or join the ACM mailing list to get upcoming announcements and details. [https://acm.cs.uic.edu/mailsignup](https://acm.cs.uic.edu/mailsignup).
 
 ## About
 

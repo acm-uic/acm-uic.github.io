@@ -19,6 +19,6 @@ We are currently looking for committee members to bring ideas, speakers, sponsor
 If any of this sounds interesting, please come to our next Flourish! 2019 planning meeting during Linux Users Group meetings in **SELE 2264(950 S. Halsted Street)**. Please reference the [ACM calendar](/calendar) to see when the next meeting is.
 
 Contact
-Please direct any questions, comments, and/or concerns to at <volunteer@flourishconf.com>.
+Please direct any questions, comments, and/or concerns to at [volunteer@flourishconf.com](mailto:volunteer@flourishconf.com).
 
-You may also take a look at the Flourish! conference website for more information: <https://flourishconf.com>
+You may also take a look at the Flourish! conference website for more information: [https://flourishconf.com](https://flourishconf.com)

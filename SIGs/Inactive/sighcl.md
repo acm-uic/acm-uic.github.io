@@ -71,13 +71,13 @@ resources that it might be useful if people start looking at
 
 for "dance mat" project
 
-<http://www.stepmania.com/>
+[http://www.stepmania.com/](http://www.stepmania.com/)
 
 also consider attending SIG sysadmin so that maybe you can help to get the monitor wall up and running!
 
 for color schemes (including a means to start investigating how to accommodate colorblind users)
 
-<http://www.paletton.com>
+[http://www.paletton.com](http://www.paletton.com)
 
 ## Attachments
 

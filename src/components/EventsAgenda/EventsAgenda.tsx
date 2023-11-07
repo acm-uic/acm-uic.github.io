@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "@docusaurus/Link";
 import useSWRImmutable from "swr/immutable";
-import Linkify from "react-linkify";
+import Linkify from "linkify-react";
 import clsx from "clsx";
 import styles from "./EventsAgenda.module.css";
 import { getEvents, CalendarEventDateTime, CalendarEvent } from "../../util/getEvents";
@@ -18,6 +18,10 @@ export type EventsAgendaProps = {
    */
   count: number;
 };
+
+const LinkifyWithOpts = ({ children }) => (
+  <Linkify options={{ target: "_blank", rel: "noopener noreferer" }}>{children}</Linkify>
+);
 
 const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDateTime): string => {
   const datesAreOnSameDay = (first: Date, second: Date): boolean =>
@@ -70,7 +74,7 @@ const locationFormatter = (discordData: DiscordWidgetApiResponse, location: stri
     }
   }
 
-  return <Linkify>📍 {location}</Linkify>;
+  return <LinkifyWithOpts>📍 {location}</LinkifyWithOpts>;
 };
 
 interface EventsAgendaItemProps {
@@ -88,7 +92,11 @@ const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData 
         <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
         {event.location && (
           <div>
-            {!discordData ? <Linkify>📍 {event.location}</Linkify> : locationFormatter(discordData, event.location)}
+            {!discordData ? (
+              <LinkifyWithOpts>📍 {event.location}</LinkifyWithOpts>
+            ) : (
+              locationFormatter(discordData, event.location)
+            )}
           </div>
         )}
       </div>
