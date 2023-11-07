@@ -21,7 +21,7 @@ This SIG is inactive.
 
 Email the leader: Divay Pandey (dpande6 [at] uic [dot] edu)
 
-Slack: <https://sigwindows.slack.com>
+Slack: [https://sigwindows.slack.com](https://sigwindows.slack.com)
 
 ## Additional Resources
 

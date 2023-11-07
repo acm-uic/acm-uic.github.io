@@ -19,7 +19,7 @@ This SIG is inactive.
 
 ## Contact
 
-Join our Piazza: <https://piazza.com/class/iskimcla9f1p7>
+Join our Piazza: [https://piazza.com/class/iskimcla9f1p7](https://piazza.com/class/iskimcla9f1p7)
 
 ## Additional Resources
 

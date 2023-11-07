@@ -17,7 +17,7 @@ This SIG is inactive.
 | Location | ACM Main Office (SEL 2262) |
 | Leader   | Michael Berg               |
 
-Contact Email: <mberg4@uic.edu>
+Contact Email: [mberg4@uic.edu](mailto:mberg4@uic.edu)
 
 Google Drive: [Here](https://drive.google.com/folderview?id=0B9cbMzre6ZSZbVVzaUlBLWNhX2c&usp=sharing)
 

@@ -19,7 +19,7 @@ This SIG is inactive.
 
 **What is it? SIG Open** is a SIG that is focused on Open Source programming.
 
-**Contact**: \[<tchoh2@uic.edu> with subject title of SIG Open\] or join the ACM mailing list to get upcoming announcements and details. <https://acm.cs.uic.edu/mailsignup>
+**Contact**: \[[tchoh2@uic.edu](mailto:tchoh2@uic.edu) with subject title of SIG Open\] or join the ACM mailing list to get upcoming announcements and details. [https://acm.cs.uic.edu/mailsignup](https://acm.cs.uic.edu/mailsignup)
 
 **Engr 100**: If you plan to come for the engr 100 form, please come before half way through the meeting or I'm not going to sign it.
 
@@ -27,8 +27,8 @@ If you cannot make it, I will put up the slides or notes for that day on a GitHu
 
 Get Involved:
 
-- join our slack team at <https://sigopen.slack.com>
-- check out the org's repo: <https://github.com/SIG-Open>
+- join our slack team at [https://sigopen.slack.com](https://sigopen.slack.com)
+- check out the org's repo: [https://github.com/SIG-Open](https://github.com/SIG-Open)
 
   _send an email to tchoh2@uic.edu with your github account so I can add you as a contributor_
 
@@ -48,7 +48,7 @@ We went over some basic about Open Source. Searched through GitHub to find some 
 
 ### 1/28
 
-Went through an intermediate-level overview of GitHub and common commands that should be known and used. Also talked about joining the <https://sigopen.slack.com> for any communications that will be needed for help or just general communication.
+Went through an intermediate-level overview of GitHub and common commands that should be known and used. Also talked about joining the [https://sigopen.slack.com](https://sigopen.slack.com) for any communications that will be needed for help or just general communication.
 
 ### 2/2
 

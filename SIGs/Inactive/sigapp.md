@@ -43,13 +43,13 @@ March
 April
 4/13: (TBD) Angular 2.0 + digest cycle
 
-Questions? Email Jeff at <jgensl2@uic.edu> for more information!
+Questions? Email Jeff at [jgensl2@uic.edu](mailto:jgensl2@uic.edu) for more information!
 
 ---
 
-Previous Semester Github Link (w/ Tutorials): <https://github.com/jgensler8/SIG-App>
+Previous Semester Github Link (w/ Tutorials): [https://github.com/jgensler8/SIG-App](https://github.com/jgensler8/SIG-App)
 
 Links:
 
-- Solr vs ElasticSearch (<http://solr-vs-elasticsearch.com/>)
-- Solr Dynamic Fields (<http://www.tnrglobal.com/blog/2010/07/dynamic-fields-in-apache-solr/>)
+- Solr vs ElasticSearch ([http://solr-vs-elasticsearch.com/](http://solr-vs-elasticsearch.com/))
+- Solr Dynamic Fields ([http://www.tnrglobal.com/blog/2010/07/dynamic-fields-in-apache-solr/](http://www.tnrglobal.com/blog/2010/07/dynamic-fields-in-apache-solr/))
