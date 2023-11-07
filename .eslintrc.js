@@ -33,8 +33,8 @@ const config = {
       files: ["*.mdx", "*.md"],
       extends: ["plugin:mdx/recommended"],
       rules: {
-        'react/self-closing-comp': OFF
-      }
+        "react/self-closing-comp": OFF,
+      },
     },
   ],
   settings: {

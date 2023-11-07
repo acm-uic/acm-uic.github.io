@@ -92,7 +92,11 @@ const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData 
         <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
         {event.location && (
           <div>
-            {!discordData ? <LinkifyWithOpts>📍 {event.location}</LinkifyWithOpts> : locationFormatter(discordData, event.location)}
+            {!discordData ? (
+              <LinkifyWithOpts>📍 {event.location}</LinkifyWithOpts>
+            ) : (
+              locationFormatter(discordData, event.location)
+            )}
           </div>
         )}
       </div>
