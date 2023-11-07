@@ -6,7 +6,7 @@ export type DiscordLinkProps = {
   showLink?: boolean;
 };
 
-export const DiscordLink: React.FC<DiscordLinkProps> = ({ showLink, children }) => (
+export const DiscordLink = ({ showLink, children }: React.PropsWithChildren<DiscordLinkProps>) => (
   <Link to={config.discordServerInviteLink}>
     <span>{showLink ? config.discordServerInviteLink : children}</span>
   </Link>
