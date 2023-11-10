@@ -1,13 +1,11 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import useSWRImmutable from "swr/immutable";
-import Linkify from "linkify-react";
 import clsx from "clsx";
 import styles from "./EventsAgenda.module.css";
-import { getEvents, CalendarEventDateTime, CalendarEvent } from "../../util/getEvents";
-import { DiscordWidgetApiResponse, getDiscordWidgetApi } from "../../util/getDiscordWidgetApi";
+import { Linkify } from "../Linkify";
+import { CalendarEventDateTime, CalendarEvent, CalendarEventsResponse } from "../../util/getEvents";
+import { DiscordChannel } from "../../util/getDiscordWidgetApi";
 import { config } from "../../../appConfig";
-import { ShimmerLine, ShimmerLineProps } from "../Shimmer";
 
 const ALL_DAY_EVENT = "All Day";
 const A_DAY = 1000 * 3600 * 24;
@@ -16,12 +14,10 @@ export type EventsAgendaProps = {
   /**
    * Number of events to show
    */
-  count: number;
+  viewCount: number;
+  events: CalendarEventsResponse;
+  channels: DiscordChannel[];
 };
-
-const LinkifyWithOpts = ({ children }) => (
-  <Linkify options={{ target: "_blank", rel: "noopener noreferer" }}>{children}</Linkify>
-);
 
 const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDateTime): string => {
   const datesAreOnSameDay = (first: Date, second: Date): boolean =>
@@ -61,10 +57,10 @@ const timePeriodFormatter = (start: CalendarEventDateTime, end: CalendarEventDat
   return ``;
 };
 
-const locationFormatter = (discordData: DiscordWidgetApiResponse, location: string): JSX.Element => {
+const locationFormatter = (channels: DiscordChannel[], location: string): JSX.Element => {
   if (location.match(/^Discord ((Voice)|(Stage)):/i)) {
     const parsedLocation = location.replace(/^Discord ((Voice)|(Stage)):/i, "").trim();
-    const channel = discordData.channels.find((c) => c.name.includes(parsedLocation));
+    const channel = channels.find((c) => c.name.includes(parsedLocation));
     if (channel) {
       return (
         <Link to={config.discordServerInviteLink}>
@@ -74,15 +70,15 @@ const locationFormatter = (discordData: DiscordWidgetApiResponse, location: stri
     }
   }
 
-  return <LinkifyWithOpts>📍 {location}</LinkifyWithOpts>;
+  return <Linkify>📍 {location}</Linkify>;
 };
 
 interface EventsAgendaItemProps {
   event: CalendarEvent;
-  discordData?: DiscordWidgetApiResponse;
+  channels?: DiscordChannel[];
 }
 
-const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData }) => (
+const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, channels }) => (
   <div className="col col--4">
     <div className={clsx(styles.eventCard, "card margin--xs")}>
       <div className="card__header">
@@ -92,10 +88,10 @@ const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData 
         <div>⌚ {timePeriodFormatter(event.start, event.end)}</div>
         {event.location && (
           <div>
-            {!discordData ? (
-              <LinkifyWithOpts>📍 {event.location}</LinkifyWithOpts>
+            {!channels ? (
+              <Linkify>📍 {event.location}</Linkify>
             ) : (
-              locationFormatter(discordData, event.location)
+              locationFormatter(channels, event.location)
             )}
           </div>
         )}
@@ -104,56 +100,8 @@ const EventsAgendaItem: React.FC<EventsAgendaItemProps> = ({ event, discordData 
   </div>
 );
 
-type EventsAgendaEmptyItemProps = ShimmerLineProps;
 
-const EventsAgendaEmptyItem: React.FC<EventsAgendaEmptyItemProps> = ({ animate }) => (
-  <div className="col col--4">
-    <div className={clsx(styles.eventCard, "card margin--xs")}>
-      <div className="card__header">
-        <h3>
-          <ShimmerLine animate={animate} />
-        </h3>
-      </div>
-      <div className="card__body">
-        <div>
-          ⌚ <ShimmerLine animate={animate} />
-        </div>
-        <div>
-          📍 <ShimmerLine animate={animate} />
-        </div>
-      </div>
-    </div>
-  </div>
-);
-
-const EventsAgendaError: React.FC = () => <div className={clsx(styles.eventsOverlay)}>💀 Could not load events</div>;
-
-const EventsAgendaEmpty: React.FC = () => <div className={clsx(styles.eventsOverlay)}>🍹 No upcoming events</div>;
-
-export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
-  const { data: eventsData, error: eventsError } = useSWRImmutable(
-    `gcal-events-${config.googleCalendarId}-${count}`,
-    () => getEvents(config.googleCalendarApiKey, config.googleCalendarId, count * 2)
-  );
-
-  const { data: discordData, error: discordError } = useSWRImmutable(`discord-widget-${config.discordServerId}`, () =>
-    getDiscordWidgetApi(config.discordServerId)
-  );
-
-  if (eventsError) {
-    console.error("error while getting calendar data", eventsError);
-  }
-
-  if (discordError) {
-    console.error("error while getting discord data", discordData);
-  }
-
-  const renderEmptyItems = (animate?: ShimmerLineProps["animate"]) =>
-    new Array(count)
-      .fill(0)
-      .map((_, index) => <EventsAgendaEmptyItem key={`empty-event-${index}`} animate={animate} />);
-
-  return (
+export const EventsAgenda: React.FC<EventsAgendaProps> = ({ viewCount, channels, events }) => (
     <div className={clsx(styles.eventsContainer, "container")}>
       <div className="row">
         <div className="col text--center">
@@ -161,34 +109,13 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
         </div>
       </div>
       <div className={clsx(styles.eventsRow, "row")}>
-        {/* ERROR STATE */}
-        {eventsError && (
-          <>
-            <EventsAgendaError />
-            {renderEmptyItems(false)}
-          </>
-        )}
-
-        {/* LOADING STATE */}
-        {!eventsError && !eventsData && renderEmptyItems()}
-
-        {/* EMPTY STATE */}
-        {!eventsError && eventsData && eventsData.items?.length === 0 && (
-          <>
-            <EventsAgendaEmpty />
-            {renderEmptyItems()}
-          </>
-        )}
-
-        {/* VALID DATA */}
-        {!eventsError &&
-          eventsData &&
-          eventsData.items?.length !== 0 &&
-          eventsData.items
+        { events &&
+          events.items?.length !== 0 &&
+          events.items
             ?.filter((e) => e.visibility !== "private")
-            .slice(0, count)
+            .slice(0, viewCount)
             .map((event, index) => (
-              <EventsAgendaItem key={`${index}-${event?.id}`} event={event} discordData={discordData} />
+              <EventsAgendaItem key={`${index}-${event?.id}`} event={event} channels={channels} />
             ))}
       </div>
       <div className="row row--no-gutters">
@@ -198,6 +125,5 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
       </div>
     </div>
   );
-};
 
 export default EventsAgenda;

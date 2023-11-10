@@ -4,6 +4,8 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
+import announcements from "../../data/announcements.json"; 
+import events from "../../data/events.json"; 
 import { DiscordAnnouncements } from "../components/DiscordAnnouncements";
 import { HomepageProfiles } from "../components/HomepageProfiles";
 import { EventsAgenda } from "../components/EventsAgenda";
@@ -34,7 +36,8 @@ export const Home: React.FC = () => {
     <Layout title={`Hello from ${siteConfig.title}`} description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
-        <EventsAgenda count={9} />
+        <DiscordAnnouncements announcements={announcements} />
+        <EventsAgenda viewCount={9} events={events} />
         <HomepageProfiles />
       </main>
     </Layout>

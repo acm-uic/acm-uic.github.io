@@ -1,3 +1,9 @@
 {
-  "postCreateCommand": "git submodule update --init && yarn install"
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "hashicorp.terraform"]
+    }
+  },
+  "postCreateCommand": "bash ./.devcontainer/postCreate.sh"
 }

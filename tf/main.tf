@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.4.6"
+  required_version = "1.6.3"
   backend "azurerm" {
     resource_group_name  = "acm-hybridcloud"
     storage_account_name = "acmhybridstore"
@@ -14,16 +14,25 @@ terraform {
     }
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "3.64.0"
+      version = "3.79.0"
+    }
+    azapi = {
+      source = "Azure/azapi"
+      version = "1.10.0"
     }
   }
 }
 
 provider "azurerm" {
   features {}
+  skip_provider_registration = "true"
 }
 
 provider "shell" {
   interpreter        = ["/bin/bash", "-c"]
   enable_parallelism = false
+}
+
+provider "azapi" {
+  # Configuration options
 }

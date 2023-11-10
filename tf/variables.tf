@@ -9,8 +9,3 @@ variable "typesense_collection_name" {
   type        = string
   sensitive   = true
 }
-
-variable "typesense_rg" {
-  description = "Azure resource group"
-  type        = string
-}

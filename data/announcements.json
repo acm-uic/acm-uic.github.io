@@ -1,0 +1,3580 @@
+[
+  {
+      "id": "1171500775294386197",
+      "type": 0,
+      "content": "@everyone \nStump The Profs RSVP form closes midnight today.\n\nThis is the final reminder to RSVP if you want to attend the event. We will, unfortunately, not be able to offer food to non-RSVP'ed attendees.\nHere: https://forms.gle/rfSoaksyuv4adNJ17\n\nIt's a light hearted CS Trivia event for people that want to socialise with friends and  CS Professors. \n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1171500775931924591",
+              "filename": "StumpTheProfs.png",
+              "size": 414458,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1171500775931924591/StumpTheProfs.png?ex=655ce81e&is=654a731e&hm=d0a55c14a4e44a4b2d079aecc1d84e13518b0273bb7f7a68af9974e7e3cfde7f&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1171500775931924591/StumpTheProfs.png?ex=655ce81e&is=654a731e&hm=d0a55c14a4e44a4b2d079aecc1d84e13518b0273bb7f7a68af9974e7e3cfde7f&",
+              "width": 1545,
+              "height": 2000,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "9AcKDQCXnIyXBmq4abZ2aIRgOQbG",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/rfSoaksyuv4adNJ17",
+              "title": "Stump the Profs RSVP form",
+              "description": "Stump The Profs is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the third time in a row! Students will be in groups of 4-6. Professors compete together! All of this: Wednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260) \n\nPIZZA IS ON THE MENU \ud83d\udc40 So, please RSVP for the food....",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/TX31EZEfNQg9fuq-XMgPX_n6sloTh5uNBwZBcUKTHdA/https/lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-11-07T17:25:50.262000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udc4d"
+              },
+              "count": 6,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 6
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1170841494261866516",
+      "type": 0,
+      "content": "@everyone \n<a:Pepe_Ride_Dog:854902183714619412> ****ACM Week of 6th November LOOKAHEAD: ****<a:Nowoted:1154234198274617446> \nThe week of 6th November, ACM has 3 events planned to end your week on a refreshed, well-informed and inspired note.\nAs promised in the previous announcement, RSVP for all those events is open starting today. Pizza will be provided at all events, which is why we can only offer limited seating. The RSVP forms will close this Tuesday. \n\n__Details about each event:__\n**Wednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260)**\nStump The Profs is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the third time in a row!\nStudents will be in groups of 4-6. Professors compete together!\n\nRSVP for the event today AND (please) drop in a question to ask professors so we can increase the chances of students winning: https://forms.gle/rfSoaksyuv4adNJ17\n\u2014-\n**Thursday, 9th November, 5:30-6:30 PM at the CS lounge (SELE 2260)**\nUnleash the power of containerization at our Docker Workshop! Learn to build, deploy, and manage applications effectively. No prior Docker experience required.\n\nRSVP: https://forms.gle/rthqF9KSdA85rcws9\n\u2014-\n**Friday, 10th November, 5-6 PM at the CS lounge (SELE 2260)**\nIf you have ever wondered what\u2019s under the hood of Git? Come hang-out with a Microsoft SWE and get the lowdown on Git Internals. We\u2019re talking commits, trees, blobs - the whole thing. We want to git push you to learn THE most important industry tool, i.e., version control, but if that doesn't work, we can always git push --force ;)))\n\nRSVP: https://forms.gle/Xz9jGZXxFQCaSgvx5\n\u2014-\n**PIZZA IS ON THE MENU FOR ALL EVENTS** \ud83d\udc40 Once again, please RSVP for the food. Limited seating available.\n\nFor any questions, please hesitate to email me. Ping me in off-topic/lobby channels.\n- Yashi, President<a:bee_rizz:1154184709337780366>",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1170841494471585963",
+              "filename": "StumpTheProfs.png",
+              "size": 414458,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1170841494471585963/StumpTheProfs.png?ex=655a821d&is=65480d1d&hm=8c69ad5fa026e649773e61805a181dfb5cb5f7de4df8a34ec0b9df314e284c19&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1170841494471585963/StumpTheProfs.png?ex=655a821d&is=65480d1d&hm=8c69ad5fa026e649773e61805a181dfb5cb5f7de4df8a34ec0b9df314e284c19&",
+              "width": 1545,
+              "height": 2000,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "9AcKDQCXnIyXBmq4abZ2aIRgOQbG",
+              "placeholder_version": 1
+          },
+          {
+              "id": "1170841494781956180",
+              "filename": "Docker_Workshop.png",
+              "size": 130176,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1170841494781956180/Docker_Workshop.png?ex=655a821d&is=65480d1d&hm=04f2e3fccda80ba8e9c053fe48398ca75893ec9f016a0fc4d7bcd3f05bb767c9&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1170841494781956180/Docker_Workshop.png?ex=655a821d&is=65480d1d&hm=04f2e3fccda80ba8e9c053fe48398ca75893ec9f016a0fc4d7bcd3f05bb767c9&",
+              "width": 1080,
+              "height": 1080,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "tfcJDwI/TW0ra2mZhpdpt3eF5hCJDJQK",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/rfSoaksyuv4adNJ17",
+              "title": "Stump the Profs RSVP form",
+              "description": "Stump The Profs is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the third time in a row! Students will be in groups of 4-6. Professors compete together! All of this: Wednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260) \n\nPIZZA IS ON THE MENU \ud83d\udc40 So, please RSVP for the food....",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/TX31EZEfNQg9fuq-XMgPX_n6sloTh5uNBwZBcUKTHdA/https/lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/rthqF9KSdA85rcws9",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use).",
+              "content_scan_version": 1
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/Xz9jGZXxFQCaSgvx5",
+              "title": "Git Workshop RSVP form",
+              "description": "Hey there! Ever wondered what\u2019s under the hood of Git? Come hang-out with a Microsoft SWE and get the lowdown on Git Internals. We\u2019re talking commits, trees, blobs - the whole thing. Don\u2019t miss this chance to level up your version control skills!\n\nPIZZA IS ON THE MENU \ud83d\udc40 So, please RSVP for the food. Limited seating available!\n\nInstagram: https:/...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh5.googleusercontent.com/ATUZp40NRCkaKK4kyRpRv2kNuU_wYipntI80hHNgGP8HcJpcv9FeSDA6t_QuJkh1pNdtqA_maqQ=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/7EZyvGQH12OwJlSyvxV2znO8u7StCOlruqwdeyAQ4fc/https/lh5.googleusercontent.com/ATUZp40NRCkaKK4kyRpRv2kNuU_wYipntI80hHNgGP8HcJpcv9FeSDA6t_QuJkh1pNdtqA_maqQ%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-11-05T21:46:05.415000+00:00",
+      "edited_timestamp": "2023-11-05T21:47:55.028000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 3,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 3
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1169684344651133040",
+      "type": 0,
+      "content": "@everyone \nStump The Profs is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the *third* time in a row. Students will be in groups of 4-6. Professors compete together!\n**Wednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260)** [<t:1699484400:R>]\nRSVP for the event today AND (please) drop in a question to ask professors so we can increase the chances of students winning: https://forms.gle/rfSoaksyuv4adNJ17\n\nIf you're worried about the rational-pragmatic-original-thinker-level questions that we will ask you, check out the questions from previous iteration of Stump the Profs, in Spring 2023: https://discord.com/channels/652006495675875359/652006847334842378/1091195056498671708",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1169684345041199255",
+              "filename": "StumpTheProfs.png",
+              "size": 414458,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1169684345041199255/StumpTheProfs.png?ex=65564c6f&is=6543d76f&hm=4b1fd83ed8eb4b7dc080ce807a1796a6d351587c8703e81d6e3f66447156a692&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1169684345041199255/StumpTheProfs.png?ex=65564c6f&is=6543d76f&hm=4b1fd83ed8eb4b7dc080ce807a1796a6d351587c8703e81d6e3f66447156a692&",
+              "width": 1545,
+              "height": 2000,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "9AcKDQCXnIyXBmq4abZ2aIRgOQbG",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/rfSoaksyuv4adNJ17",
+              "title": "Stump the Profs RSVP form",
+              "description": "Stump The Profs is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the third time in a row! Students will be in groups of 4-6. Professors compete together! All of this: Wednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260) \n\nPIZZA IS ON THE MENU \ud83d\udc40 So, please RSVP for the food....",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/TX31EZEfNQg9fuq-XMgPX_n6sloTh5uNBwZBcUKTHdA/https/lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-11-02T17:07:59.449000+00:00",
+      "edited_timestamp": "2023-11-02T17:13:28.125000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 7,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 7
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1168985834020687873",
+      "type": 0,
+      "content": "@everyone Happy Halloween <:pumpkincat:1025541865371615263>  Have a great time with your friends and family <:pumpkincat:1025541865371615263> Shoutout to Pillsbury boi for stepping in  ACM <:pumpkincat:1025541865371615263>",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1168985828828123276",
+              "filename": "IMG_1035.png",
+              "size": 13486753,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1168985828828123276/IMG_1035.png?ex=655cfc64&is=654a8764&hm=854b9842398bd16f1a1869b373d842f2174240c90bcce80b8143e4c9b7403874&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1168985828828123276/IMG_1035.png?ex=655cfc64&is=654a8764&hm=854b9842398bd16f1a1869b373d842f2174240c90bcce80b8143e4c9b7403874&",
+              "width": 4032,
+              "height": 3024,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "WxgODYCuh4iPZ4h4mIhXipMGRoBx",
+              "placeholder_version": 1
+          },
+          {
+              "id": "1168985831357288618",
+              "filename": "IMG_1031.png",
+              "size": 15074615,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1168985831357288618/IMG_1031.png?ex=655cfc64&is=654a8764&hm=83146567188b0474f845ac2fe56d9982a7b762e23c0cc1495611e1a6dac8019c&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1168985831357288618/IMG_1031.png?ex=655cfc64&is=654a8764&hm=83146567188b0474f845ac2fe56d9982a7b762e23c0cc1495611e1a6dac8019c&",
+              "width": 4032,
+              "height": 3024,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "IwgKDYCNNapPc3mImamXhs4f/b3D",
+              "placeholder_version": 1
+          },
+          {
+              "id": "1168985833454448640",
+              "filename": "IMG_1023.png",
+              "size": 8236642,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1168985833454448640/IMG_1023.png?ex=655cfc65&is=654a8765&hm=9b7ebe356bcb8cfaf6c32f8c9a895d4e118d1fa7268ddf9d677d98e6baaec7e5&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1168985833454448640/IMG_1023.png?ex=655cfc65&is=654a8765&hm=9b7ebe356bcb8cfaf6c32f8c9a895d4e118d1fa7268ddf9d677d98e6baaec7e5&",
+              "width": 3024,
+              "height": 4032,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "WwgGFQI/hi2nubjWiHp5ZFlfe/am",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-31T18:52:21.537000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udc7b"
+              },
+              "count": 11,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 11
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83c\udf83"
+              },
+              "count": 7,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 7
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": true,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1167919369658060921",
+      "type": 0,
+      "content": "@everyone \n\nThe week of 6th November, ACM has 3 events planned to end your week on a refreshed, well-informed and inspired note.\nAs promised in the previous announcement, RSVP for all those events is open starting today. **Pizza will be provided at all events, which is why we can only offer limited seating. The RSVP forms will close in a week**. We will be reminding you of all events, one more time, but we would appreciate you giving us a head start in our preparation.\n\n**__*Details about each event:*__**\nWednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260)\n**Stump The Profs** is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the third time in a row!\nStudents will be in groups of 4-6. Professors compete together!\n\nRSVP for the event today AND (please) drop in a question to ask professors so we can increase the chances of students winning: https://forms.gle/rfSoaksyuv4adNJ17\n\u2014-\nThursday, 9th November, 5:30-6:30 PM at the CS lounge (SELE 2260)\nUnleash the power of containerization at our **Docker Workshop**! Learn to build, deploy, and manage applications effectively. No prior Docker experience required.\n\nRSVP: https://forms.gle/rthqF9KSdA85rcws9\n\u2014-\nFriday, 10th November, 5-6 PM at the CS lounge (SELE 2260)\nIf you have ever wondered what\u2019s under the hood of Git? Come hang-out with a Microsoft SWE and get the lowdown on **Git Internals**. We\u2019re talking commits, trees, blobs - the whole thing. We want to git push you to learn THE most important industry tool, i.e., version control, but if that doesn't work, we can always git push --force ;)))\n\nRSVP: https://forms.gle/Xz9jGZXxFQCaSgvx5\n\u2014-\n**PIZZA IS ON THE MENU FOR ALL EVENTS** \ud83d\udc40 Once again, please RSVP for the food. Limited seating available.\n\nFor any questions, please hesitate to email me. Ping me in off-topic/lobby channels.\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/rfSoaksyuv4adNJ17",
+              "title": "Stump the Profs RSVP form",
+              "description": "Stump The Profs is around the corner. Come with your friends, compete with your professors on CS trivia and help students win for the third time in a row! Students will be in groups of 4-6. Professors compete together! All of this: Wednesday, 8th November, 5-6 PM at the CS lounge (SELE 2260) \n\nPIZZA IS ON THE MENU \ud83d\udc40 So, please RSVP for the food....",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/TX31EZEfNQg9fuq-XMgPX_n6sloTh5uNBwZBcUKTHdA/https/lh3.googleusercontent.com/4Icyu7p25gNk1oCo9Eu6si6EoPqsT8dnR5ZUmIwQvNqqSzR74g0NHqwf6SWwtdUNzTCW7cs8iQs%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/rthqF9KSdA85rcws9",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use).",
+              "content_scan_version": 1
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/Xz9jGZXxFQCaSgvx5",
+              "title": "Git Workshop RSVP form",
+              "description": "Hey there! Ever wondered what\u2019s under the hood of Git? Come hang-out with a Microsoft SWE and get the lowdown on Git Internals. We\u2019re talking commits, trees, blobs - the whole thing. Don\u2019t miss this chance to level up your version control skills!\n\nPIZZA IS ON THE MENU \ud83d\udc40 So, please RSVP for the food. Limited seating available!\n\nInstagram: https:/...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh5.googleusercontent.com/ATUZp40NRCkaKK4kyRpRv2kNuU_wYipntI80hHNgGP8HcJpcv9FeSDA6t_QuJkh1pNdtqA_maqQ=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/7EZyvGQH12OwJlSyvxV2znO8u7StCOlruqwdeyAQ4fc/https/lh5.googleusercontent.com/ATUZp40NRCkaKK4kyRpRv2kNuU_wYipntI80hHNgGP8HcJpcv9FeSDA6t_QuJkh1pNdtqA_maqQ%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-28T20:14:36.619000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udcaf"
+              },
+              "count": 3,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 3
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83c\udf55"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1167309406824841216",
+      "type": 0,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1167309406610915421",
+              "filename": "image.png",
+              "size": 47653,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1167309406610915421/image.png?ex=6556e31a&is=65446e1a&hm=bb74090f676b0b1994e06e4221256a378fd0cfe3983e49f8c1a50de9773b2715&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1167309406610915421/image.png?ex=6556e31a&is=65446e1a&hm=bb74090f676b0b1994e06e4221256a378fd0cfe3983e49f8c1a50de9773b2715&",
+              "width": 751,
+              "height": 344,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "BRgGC4R7iniKiAiXu4+/+/g=",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-10-27T03:50:50.147000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udcaf"
+              },
+              "count": 5,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 5
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\ude02"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1167307854835892264",
+      "type": 0,
+      "content": "@everyone \nACM does not have any scheduled events for the coming week. Google is coming to campus and I highly recommend you take advantage of the opportunities. Do not let these opportunities add to the academic stress, but rather use them to help calibrate your goals. Find all info sessions and RSVP links inside the flyer. There is also an additional session that just got added today which can be RSVP'ed here: https://www.eventbrite.com/e/744613788887?aff=oddtdtcreator\n\nIn the coming weeks, Mid-terms return for Round 2. Take care of your mental and physical well-being. ACM has a packed line-up for the week of 6th November with Stump the Profs (Nov 8), and 2 alums from Intelsat (Nov 8) and Microsoft (Nov 9) coming to campus for technical workshops. Charge yourselves this week! All RSVP forms will be available on a rolling basis, starting next week. Seats are limited because all events will have pizza and all RSVP'ed attendees will be prioritised. \n\nOn an informal note, here's a picture <a:ASpeepoPats:582388555167432713>  Take care and I will see you on the 8th!\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1167307854865235998",
+              "filename": "Google_at_UIC_Oct_30_Nov_1.pdf",
+              "size": 145635,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1167307854865235998/Google_at_UIC_Oct_30_Nov_1.pdf?ex=6556e1a8&is=65446ca8&hm=afb865fe59fe78957d2bcb019800a3ccb93832ea4353f860a89f2827a71dbd7a&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1167307854865235998/Google_at_UIC_Oct_30_Nov_1.pdf?ex=6556e1a8&is=65446ca8&hm=afb865fe59fe78957d2bcb019800a3ccb93832ea4353f860a89f2827a71dbd7a&",
+              "content_type": "application/pdf",
+              "content_scan_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "article",
+              "url": "https://www.eventbrite.com/e/744613788887?aff=oddtdtcreator",
+              "title": "Lucas Bergman - Google Executive Lecture at UIC",
+              "description": "Lucas Bergman, a Hiring Manager and a Software Engineer will be giving a talk at UIC",
+              "color": 16148527,
+              "provider": {
+                  "name": "Eventbrite"
+              },
+              "thumbnail": {
+                  "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F627721379%2F1424841155193%2F1%2Foriginal.20231024-201344?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C14%2C1200%2C600&s=07e0f373538f902712755e1866abcace",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/TQHWsMN2GialLpKZGlf3ZU8SPHoYAan2Av9IlXbWXNU/%3Fw%3D1000%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C14%252C1200%252C600%26s%3D07e0f373538f902712755e1866abcace/https/img.evbuc.com/https%253A%252F%252Fcdn.evbuc.com%252Fimages%252F627721379%252F1424841155193%252F1%252Foriginal.20231024-201344",
+                  "width": 1000,
+                  "height": 500
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-27T03:44:40.124000+00:00",
+      "edited_timestamp": "2023-10-27T03:49:58.254000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 8,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 8
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1166743892205518868",
+      "type": 0,
+      "content": "@everyone \n__***Events to attend this week:***__\n\n*From yours truly, ACM (TODAY, 25th October):*\nFrom building and testing your code, to managing dependencies; a wise man once said, \"The process is more important than actually writing code.\" This is the third iteration of the Missing Semester Series, on Metaprogramming.\n\nEvent Name- Missing Semester: Metaprogramming\nTime/Venue- **October 25th, Wednesday, 4-5 pm, SELE 2260 (CS Lounge)**\nInsignificant detail- Snacks provided!\nRSVP- https://forms.gle/XhUoPfgyiKm5Ei5G9\n\n---\n*From Women in Computer Science (WiCS)  (26th October):*\nWith registration for Spring 2024 creeping up on us real soon, WiCS would like to make sure you are well equipped to take the right combination of classes! For this, we will be having our Inside Scoop where you get to talk to upperclassmen about classes you are planning to take, fun and easy gen eds, math classes and tech electives. It's the perfect opportunity for you to prepare yourself so you get all the classes you want when you register! Also this happens all while eating free ice cream!!\n\nHere are all the details for Inside Scoop:\nWhen : Thursday, October 26th, 5-6pm\nWhere : CS Lounge - SELE 2268\nAs always, we are open to all students regardless of how you identify!\n\nRSVP Here :  https://forms.gle/XnQGwKuf4EdPghzM8\n\nWe will also be having a small presentation from Goodfellows - a skincare company who will also distribute limited skincare goody bags for attendees!\nAttached below is the flier with more details. Hoping to see you there!\n---\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1166743892301979788",
+              "filename": "Inside_scoop_flyer.png",
+              "size": 144245,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1166743892301979788/Inside_scoop_flyer.png?ex=655e0eec&is=654b99ec&hm=2ba8c6db14798938925eda532e24d88e6ea461daf4fba7d243a530818881beea&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1166743892301979788/Inside_scoop_flyer.png?ex=655e0eec&is=654b99ec&hm=2ba8c6db14798938925eda532e24d88e6ea461daf4fba7d243a530818881beea&",
+              "width": 444,
+              "height": 555,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "cFgODgaIh/iHeUd4h3yIh3iIh4xwCnc=",
+              "placeholder_version": 1
+          },
+          {
+              "id": "1166743892637536296",
+              "filename": "ACM_META_PROGRAMMING_1.png",
+              "size": 177582,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1166743892637536296/ACM_META_PROGRAMMING_1.png?ex=655e0eed&is=654b99ed&hm=f4a7ff8fde39aba2e248eae62476d53946bb308a45462aa7f015e9e33c3a0e06&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1166743892637536296/ACM_META_PROGRAMMING_1.png?ex=655e0eed&is=654b99ed&hm=f4a7ff8fde39aba2e248eae62476d53946bb308a45462aa7f015e9e33c3a0e06&",
+              "width": 1080,
+              "height": 1080,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "1gcKBwJJJ2aHd4iQe2l3eGd2+OVMbM8H",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/XhUoPfgyiKm5Ei5G9",
+              "title": "Missing Semester: Metaprogramming RSVP form",
+              "description": "From building and testing your code, to managing dependencies; wise men once said, \"The process is more important than actually writing code.\" This is the third iteration of the Missing Semester Series, on Metaprogramming. \nFind us on social media at the avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.com/c...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh4.googleusercontent.com/GSpuAoX0gqxEqZwbJmClXCuHvbkEcvNB14uFWJREjbK_FSVZbnuW1Pi2AkRIuTuDNVlr-tg3vqc=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/KTVYnMB5h6jQpA4ffbmlLl_AeLYBve4onA9oKVDBsp8/https/lh4.googleusercontent.com/GSpuAoX0gqxEqZwbJmClXCuHvbkEcvNB14uFWJREjbK_FSVZbnuW1Pi2AkRIuTuDNVlr-tg3vqc%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/XnQGwKuf4EdPghzM8",
+              "title": "RSVP to WiCS Inside Scoop!",
+              "description": "RSVP so we have an idea how many people to expect. \nEvent details:\nDate: Thursday, October 26, 2023\nTime: 5:00 - 6:00 pm \nLocation: CS Lounge (SELE 2268)",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh4.googleusercontent.com/On5SAyGvmbyg0xWL9bpfK91552y0GaQftxGE-64PDfDpKdt79td882eXnOsOzLBuPw0XIpo6jxE=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/9zLWHpnQ02xARvvUwjMFZOLLTR06uX2qlUaKaL4PNsk/https/lh4.googleusercontent.com/On5SAyGvmbyg0xWL9bpfK91552y0GaQftxGE-64PDfDpKdt79td882eXnOsOzLBuPw0XIpo6jxE%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-25T14:23:40.955000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udcaf"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1165826042607439952",
+      "type": 0,
+      "content": "@everyone From building and testing your code, to managing dependencies; a wise man once said, \"The process is more important than actually writing code.\" This is the third iteration of the Missing Semester Series, on Metaprogramming.  \n\nEvent Name- Missing Semester: Metaprogramming\nTime/Venue- October 25th, Wednesday, 4-5 pm, SELE 2260 (CS Lounge)\nInsignificant detail- Snacks provided!\nRSVP- https://forms.gle/XhUoPfgyiKm5Ei5G9\n\nWe have uploaded almost all but 1 event of Fall 2023 semester onto the ACM @ UIC calendar, so feel free to peak into that and make time for us, in advance. Use this: https://calendar.google.com/calendar/u/0?cid=a2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ to add it to your Google Calendars for better tracking.\nSee you on 25th!\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/XhUoPfgyiKm5Ei5G9",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use)."
+          },
+          {
+              "type": "link",
+              "url": "https://calendar.google.com/calendar/u/0?cid=a2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+              "title": "Google Calendar - Sign in to Access & Edit Your Schedule",
+              "description": "Access Google Calendar with a Google account (for personal use) or Google Workspace account (for business use)."
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-23T01:36:28.558000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83e\udd70"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1165310695668195418",
+      "type": 0,
+      "content": "Shoutout to these two girls whose name I couldn't ask, before they left. I hope more of my audience is made up of people like them, in my future workshops!\n\n[ACM X WiCS: Wrong Answers Only: LeetCode]\n[19th October, 2023]",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1165310695408140378",
+              "filename": "IMG_2375.jpg",
+              "size": 967980,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1165310695408140378/IMG_2375.jpg?ex=6558d828&is=65466328&hm=dc3cfc7804ce66898c0810602a2a6d8159b00065f411e308824062e49053477e&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1165310695408140378/IMG_2375.jpg?ex=6558d828&is=65466328&hm=dc3cfc7804ce66898c0810602a2a6d8159b00065f411e308824062e49053477e&",
+              "width": 3024,
+              "height": 4032,
+              "content_type": "image/jpeg",
+              "content_scan_version": 1,
+              "placeholder": "nxgODQB2d3+HiHlHh4iniK9h/vms",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-10-21T15:28:40.273000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2705"
+              },
+              "count": 6,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 6
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1164695193346396331",
+      "type": 0,
+      "content": "@everyone Here are the slides and links for today's presentation. Most things are google-able so you should be able to find them. For any further questions, ping me in  any channel!\nBiggest thankyou to *THE* Women in Computer Science for helping me set-up and run the event so smoothly! Hop into their Discord to learn about everything they are doing: https://discord.gg/cywaS7YTVj\nhttps://www.techinterviewhandbook.org/grind75?hours=7&weeks=18\nhttps://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1164695193807765565",
+              "filename": "ACM_x_WiCS_Wrong_Answers_Only_LeetCode.pdf",
+              "size": 17211867,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1164695193807765565/ACM_x_WiCS_Wrong_Answers_Only_LeetCode.pdf?ex=65569aed&is=654425ed&hm=5aeb9ae51ec5d38453d030330660945e6d0554a2cb4428a12aead20b81839a26&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1164695193807765565/ACM_x_WiCS_Wrong_Answers_Only_LeetCode.pdf?ex=65569aed&is=654425ed&hm=5aeb9ae51ec5d38453d030330660945e6d0554a2cb4428a12aead20b81839a26&",
+              "content_type": "application/pdf",
+              "content_scan_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://www.techinterviewhandbook.org/grind75?hours=7&weeks=18",
+              "title": "Grind 75 - A better Blind 75 you can customize, by the author of Bl...",
+              "description": "Grind 75 is a better version of Blind 75 which goes beyond 75 questions. You can customize the available time you have, difficulty, topics, etc. The possibilities are endless.",
+              "content_scan_version": 1
+          },
+          {
+              "type": "article",
+              "url": "https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed",
+              "title": "14 Patterns to Ace Any Coding Interview Question | HackerNoon",
+              "description": "The process of preparing for coding interviews is anxiety-inducing for many developers. There\u2019s\u00a0so much\u00a0material\u00a0to cover, and often much of it feels\u00a0irrelevant\u00a0to what devs are doing in their day jobs, which only adds to the stress.",
+              "thumbnail": {
+                  "url": "https://hackernoon.imgix.net/images/interview-with-a-computer-developer-clgnf08id000001s698o4eedu.png?mark-pad=0&mark=http://hackernoon.imgix.net/HackerNoon%20Rounded%20Horizontal.png?w=400",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/qC17--gdNoFooC3OhY9bzcOTbUDtiYtiXZ_rNFSQ8LY/%3Fmark-pad%3D0%26mark%3Dhttp%3A%2F%2Fhackernoon.imgix.net%2FHackerNoon%2520Rounded%2520Horizontal.png%3Fw%3D400/https/hackernoon.imgix.net/images/interview-with-a-computer-developer-clgnf08id000001s698o4eedu.png",
+                  "width": 1536,
+                  "height": 1024
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-19T22:42:53.084000+00:00",
+      "edited_timestamp": "2023-10-19T22:44:12.615000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": "889936101547057233",
+                  "name": "CatNani"
+              },
+              "count": 7,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 7
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 3,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 3
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1164237561888243782",
+      "type": 19,
+      "content": "@everyone If you haven't RSVP'ed to ***__'Wrong Answers Only: LeetCode'__***, NOW is a good time. WiCS and ACM are collaborating in an hour-long deep dive into what it takes to prepare for and conquer a technical interview in 2023. Happening tomorrow, 4:30-5:30pm, SELE 2260 (CS Lounge) Naturally, there will be snacks!\nRSVP: https://forms.gle/CtMsRd8JxK5Dhhef7",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/CtMsRd8JxK5Dhhef7",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use).",
+              "reference_id": "1164237561888243782"
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-18T16:24:25.242000+00:00",
+      "edited_timestamp": "2023-10-18T16:25:21.289000+00:00",
+      "flags": 0,
+      "components": [],
+      "message_reference": {
+          "channel_id": "652006847334842378",
+          "message_id": "1162207472514252810",
+          "guild_id": "652006495675875359"
+      },
+      "referenced_message": {
+          "id": "1162207472514252810",
+          "type": 0,
+          "content": "@everyone\nWe all need to (more than) occasionally be 'Saved by LeetCode', especially now that we're in the middle of the Fall Application Cycle 2023. WiCS and ACM are collaborating in an hour-long deep dive into what it takes to prepare for and conquer a technical interview in 2023. It's challenging but there's no way around it. We would rather prefer you start ahead by making fewer mistakes, by learning from ours. \n\nThe event is a safe-space. You do not need to prepare anything. We want wrong answers only! \nEvent Name- Wrong Answers Only: LeetCode\nTime/Venue- October 19th, Thursday, 4:30-5:30pm, SELE 2260 (CS Lounge)\nInsignificant detail- Snacks provided!\nRSVP- https://forms.gle/CtMsRd8JxK5Dhhef7\n\n<@&1151427630680248371> Good time to catch me explaining this, outside of just the technical aspects. Otherwise, see you tomorrow at 5:30pm in ACM lounge (SELE 2264). We will discuss 2 questions from 'Trees'.\n\n- Yashi, President",
+          "channel_id": "652006847334842378",
+          "author": {
+              "id": "822032711509737492",
+              "username": "mentossuperfresh",
+              "avatar": "64c56bc09708be600d925379d43b1d52",
+              "discriminator": "0",
+              "public_flags": 0,
+              "premium_type": 3,
+              "flags": 0,
+              "banner": null,
+              "accent_color": null,
+              "global_name": "mentos",
+              "avatar_decoration_data": null,
+              "banner_color": null
+          },
+          "attachments": [
+              {
+                  "id": "1162207472623300618",
+                  "filename": "WiCS_x_ACM.png",
+                  "size": 199063,
+                  "url": "https://cdn.discordapp.com/attachments/652006847334842378/1162207472623300618/WiCS_x_ACM.png?ex=6556c88e&is=6544538e&hm=13857418e1c32c2c3eb5d8aba7f9b0f4cdd2bb7ddc01e31cfee2f0c4909fce2e&",
+                  "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1162207472623300618/WiCS_x_ACM.png?ex=6556c88e&is=6544538e&hm=13857418e1c32c2c3eb5d8aba7f9b0f4cdd2bb7ddc01e31cfee2f0c4909fce2e&",
+                  "width": 705,
+                  "height": 705,
+                  "content_type": "image/png",
+                  "placeholder": "dPcFDwLIR7nflGp5cwfJ2VdcBPe7I/kD",
+                  "placeholder_version": 1
+              }
+          ],
+          "embeds": [
+              {
+                  "type": "link",
+                  "url": "https://forms.gle/CtMsRd8JxK5Dhhef7",
+                  "title": "Google Forms: Sign-in",
+                  "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use)."
+              }
+          ],
+          "mentions": [],
+          "mention_roles": [
+              "1151427630680248371"
+          ],
+          "pinned": false,
+          "mention_everyone": true,
+          "tts": false,
+          "timestamp": "2023-10-13T01:57:34.218000+00:00",
+          "edited_timestamp": "2023-10-13T02:00:14.487000+00:00",
+          "flags": 0,
+          "components": []
+      }
+  },
+  {
+      "id": "1163631867988279466",
+      "type": 0,
+      "content": "Hello @everyone. Northern Trust is coming to WiCS!! Connect with them on **Tuesday, October 17th from 4:30-5:30 pm in the EIEP Lounge (SELE 2065)** to learn more about career opportunities! Feel free to also get your resume reviewed by Northern Trust to discover what possible weak points are. Excited to see you there!!\ud83d\udc9a\ud83d\udc9a",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "713811537201987594",
+          "username": "0ricebowl0",
+          "avatar": "bae2350a05d05c87f000a3901d766fc3",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 0,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "RiceBowl",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1163631867753402368",
+              "filename": "Northern_Trust.jpg",
+              "size": 27905,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1163631867753402368/Northern_Trust.jpg?ex=655bf720&is=65498220&hm=2672e5b76162a0f7f42794e75ee3c1cab7ce591e26f7a7fda539eafc0574d40b&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1163631867753402368/Northern_Trust.jpg?ex=655bf720&is=65498220&hm=2672e5b76162a0f7f42794e75ee3c1cab7ce591e26f7a7fda539eafc0574d40b&",
+              "width": 549,
+              "height": 549,
+              "content_type": "image/jpeg",
+              "content_scan_version": 1,
+              "placeholder": "nJgNHwRnZ2hzeIiAeMh3h4eHd1cGWHQA",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-17T00:17:36.563000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83e\udd1d"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1163324137029247056",
+      "type": 0,
+      "content": "Hello @everyone ! Are you a genshin fan looking to meet up with other fans? Do you like to cosplay and show off to others? Do you want a chance at some free swag? If any if this describes you, you should go to the masquerade ball being hosted by UIC's own Anime Club alongside MiHoYo **this Friday!** See details below. I hope to see you all there!\n\nIn addition, please check out this form to sign up (it's the same as the bottom right QR code) https://docs.google.com/forms/d/e/1FAIpQLSf-kuUelgNvWFhOY0bwMC0I3vVdbV5QBMnYkdBjQdJ6tGkOWg/viewform\n\nHead over to their Discord for any questions: https://discord.com/invite/cADZRq9X4E\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1163324137264123924",
+              "filename": "genshitposter.png",
+              "size": 893642,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1163324137264123924/genshitposter.png?ex=655ad887&is=65486387&hm=eccb20ca29d9d08a6cf3d47f3318ed7400844763ad6a6cf47745358b72a15e18&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1163324137264123924/genshitposter.png?ex=655ad887&is=65486387&hm=eccb20ca29d9d08a6cf3d47f3318ed7400844763ad6a6cf47745358b72a15e18&",
+              "width": 1050,
+              "height": 1485,
+              "content_type": "image/png",
+              "content_scan_version": 1,
+              "placeholder": "VBgGDQRoBamE2nF7m2aWSE+H8UZF",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://docs.google.com/forms/d/e/1FAIpQLSf-kuUelgNvWFhOY0bwMC0I3vVdbV5QBMnYkdBjQdJ6tGkOWg/viewform",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use).",
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-16T03:54:47.785000+00:00",
+      "edited_timestamp": "2023-10-16T04:08:32.526000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udca2"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1162529308519186524",
+      "type": 0,
+      "content": "__**GDSC at UIC: General Body Meeting Fall 2023**__ @everyone\nhi!! We're a little late to the party but we're finally holding our GBM for the semester!\n\nWhether you're a new member or you've been with us before, you're all invited to join us as we talk about what we have planned for the rest of this semester! We'll be going over events we'll be doing as long as announcing an open source community project we'll be starting from scratch where everyone can contribute to.\nWe'll also talk little bit about our flagship Spring event: the Solution Challenge, a 3 month long project competition you can join with a team or go solo in.\n\nJoin us on **Monday, October 16th** from **6pm to 6:45pm** in **Lecture Center D4** to learn about what\u2019s in store for the semester in GDSC\u2019s first meeting of the semester!\n:gdsc: RSVP here to let us know you're joining us: https://gdsc.community.dev/e/mv3wy7/",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "624614224617799699",
+          "username": "movingforward",
+          "avatar": "640fd190d6cc2ee9e9c799276bbdf747",
+          "discriminator": "0",
+          "public_flags": 128,
+          "premium_type": 0,
+          "flags": 128,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "movingforward",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "article",
+              "url": "https://gdsc.community.dev/e/mv3wy7/",
+              "title": "General Body Meeting / Info Session Fall 2023",
+              "description": "In-person Event - Come meet this year's team and learn about what we have in store for the semester in our first meeting of the semester!",
+              "color": 4359668,
+              "provider": {
+                  "name": "Google Developer Student Clubs"
+              },
+              "thumbnail": {
+                  "url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/bevy-icon.png",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/pA4hZ7UtjrDZiAZi1rheZqBgDDi7zIJMg-hS0B7TNk0/https/res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Ch_1080%2Cq_100%2Cw_1080/v1/gcs/platform-data-dsc/events/bevy-icon.png",
+                  "width": 2160,
+                  "height": 2160
+              },
+              "content_scan_version": 1
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-13T23:16:25.901000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 4,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 4
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1162207472514252810",
+      "type": 0,
+      "content": "@everyone\nWe all need to (more than) occasionally be 'Saved by LeetCode', especially now that we're in the middle of the Fall Application Cycle 2023. WiCS and ACM are collaborating in an hour-long deep dive into what it takes to prepare for and conquer a technical interview in 2023. It's challenging but there's no way around it. We would rather prefer you start ahead by making fewer mistakes, by learning from ours. \n\nThe event is a safe-space. You do not need to prepare anything. We want wrong answers only! \nEvent Name- Wrong Answers Only: LeetCode\nTime/Venue- October 19th, Thursday, 4:30-5:30pm, SELE 2260 (CS Lounge)\nInsignificant detail- Snacks provided!\nRSVP- https://forms.gle/CtMsRd8JxK5Dhhef7\n\n<@&1151427630680248371> Good time to catch me explaining this, outside of just the technical aspects. Otherwise, see you tomorrow at 5:30pm in ACM lounge (SELE 2264). We will discuss 2 questions from 'Trees'.\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1162207472623300618",
+              "filename": "WiCS_x_ACM.png",
+              "size": 199063,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1162207472623300618/WiCS_x_ACM.png?ex=6556c88e&is=6544538e&hm=13857418e1c32c2c3eb5d8aba7f9b0f4cdd2bb7ddc01e31cfee2f0c4909fce2e&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1162207472623300618/WiCS_x_ACM.png?ex=6556c88e&is=6544538e&hm=13857418e1c32c2c3eb5d8aba7f9b0f4cdd2bb7ddc01e31cfee2f0c4909fce2e&",
+              "width": 705,
+              "height": 705,
+              "content_type": "image/png",
+              "placeholder": "dPcFDwLIR7nflGp5cwfJ2VdcBPe7I/kD",
+              "placeholder_version": 1
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/CtMsRd8JxK5Dhhef7",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use)."
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [
+          "1151427630680248371"
+      ],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-13T01:57:34.218000+00:00",
+      "edited_timestamp": "2023-10-13T02:00:14.487000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1161352441036537986",
+      "type": 0,
+      "content": "@everyone **Missing Semester Workshop #2 on 'Debugging' coming to you this Wednesday (tomorrow/Oct 11th) at 4pm, in SELE 2260 (CS Lounge). **You all are smack in the middle of the Fall 2023 semester and all the seg faults must be getting to you, naturally. Join us as we help you through the most common errors people make while debugging and get you in shape for your next CS project! See you tomorrow at 4!\nRSVP here (+ snacks included!): https://forms.gle/eRgcw78X848bM18Q7\\\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1161352441133023313",
+              "filename": "Intro_to_Debugging_1.png",
+              "size": 300901,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1161352441133023313/Intro_to_Debugging_1.png?ex=655ce6be&is=654a71be&hm=5c0792a64f4ed49a02ad692a6300b4ebeacbde1ef5354a161bced68de2d5ce69&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1161352441133023313/Intro_to_Debugging_1.png?ex=655ce6be&is=654a71be&hm=5c0792a64f4ed49a02ad692a6300b4ebeacbde1ef5354a161bced68de2d5ce69&",
+              "width": 1080,
+              "height": 1080,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/eRgcw78X848bM18Q7/",
+              "title": "Intro to Debugging",
+              "description": "ACM is having a fantastic technical workshop called \"Intro to Debugging\". If you are ready to debug, join us on October 11th, 4.00 PM at CS Lounge, located at SELE 2260. We hope to offer you best and productive workshop for your precious time. \n\nFind us on social media at the avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: http...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh3.googleusercontent.com/vl6WAyAoph00r-1Z8K2y2muVNfTWfQdSRfeBO3Sahfrcq8QVkQfsUQKALEFPKS-XnmhRzlRjw-0=w1200-h630-p",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/pa9GKWV6jkf742w4LyHO9TkfGVp7uV30AqIqLu0wh7M/https/lh3.googleusercontent.com/vl6WAyAoph00r-1Z8K2y2muVNfTWfQdSRfeBO3Sahfrcq8QVkQfsUQKALEFPKS-XnmhRzlRjw-0%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-10T17:19:58.828000+00:00",
+      "edited_timestamp": "2023-10-10T17:20:28.187000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1160793650071085197",
+      "type": 0,
+      "content": "@everyone Anyone interested in being a part of the ACM Council this semester, or next, please feel free to drop in during tomorrow's Council Meeting at ***5pm, in ACM lounge, SELE 2264***. Tomorrow we are finalizing all our remaining events, AND *going over the UIC CS Code of Conduct*. The code of conduct will be discussed in the first 15 minutes so you can feel free to leave right after. There are a few rules of participation I want to discuss/advise/iron out for the next couple of months, and I highly recommend taking the initiative to starting on the same page with us: https://www.cs.uic.edu/~grad/CS_Code_of_Conduct.pdf\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-09T04:19:32.680000+00:00",
+      "edited_timestamp": "2023-10-09T04:26:08.494000+00:00",
+      "flags": 0,
+      "components": []
+  },
+  {
+      "id": "1159910987835650100",
+      "type": 19,
+      "content": "If you are voting through the notification inside this server, please allow ACM to highlight our efforts towards equity by mentioning/selecting us in the form below. This allows ACM to create a demonstrable record of supporting equity in tech.\n\nThank you for your time!\n\nForm: https://docs.google.com/forms/d/e/1FAIpQLSedkg2SHCXpSvB5dKAIJ9j31DHy57RV6xe-TIxCpYXMtJ6Qxw/viewform\n\n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://docs.google.com/forms/d/e/1FAIpQLSedkg2SHCXpSvB5dKAIJ9j31DHy57RV6xe-TIxCpYXMtJ6Qxw/viewform",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use).",
+              "reference_id": "1159910987835650100"
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-10-06T17:52:09.604000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "message_reference": {
+          "channel_id": "652006847334842378",
+          "message_id": "1159708208840061058",
+          "guild_id": "652006495675875359"
+      },
+      "referenced_message": {
+          "id": "1159708208840061058",
+          "type": 0,
+          "content": "@everyone As someone that has benefited directly and greatly from the sponsorships and programs run by ***Break Through Tech Chicago***, and their services that are UIC-first, I wanted to request you all to help us get them a bigger spotlight (which eventually helps in getting better funded, and better equipped with resources, etc).  \n \nHere's a message directly from them:  \n> I am asking your support to vote for Break Through Tech Chicago at UIC by October 17 to win the People\u2019s Choice Award at the annual Chicago Innovation Awards! In a few easy steps, you can celebrate our progress of doubling the enrollment of UIC women and nonbinary students in tech disciplines since 2019.\n> Visit https://bit.ly/3llmP1X and click the SEE THE TOP 100 FINALISTS AND CAST YOUR VOTE button.\n> Fill in your name and email address, and press the button at the bottom of the page to move on to the voting process. *Yes you have to go through every page before you can submit. \n> \n> We are listed on the first page of finalists. Select our name and scroll through all remaining names till you get to \u201cSubmit\u201d.\n> Thank you for using your vote to voice the importance of gender equity in Chicago\u2019s tech scene.\n \nYour time commitment: <2min. Commitment to equity in tech? Long-lasting!\nThank you for giving us your time! \n- Yashi, President",
+          "channel_id": "652006847334842378",
+          "author": {
+              "id": "822032711509737492",
+              "username": "mentossuperfresh",
+              "avatar": "64c56bc09708be600d925379d43b1d52",
+              "discriminator": "0",
+              "public_flags": 0,
+              "premium_type": 3,
+              "flags": 0,
+              "banner": null,
+              "accent_color": null,
+              "global_name": "mentos",
+              "avatar_decoration_data": null,
+              "banner_color": null
+          },
+          "attachments": [],
+          "embeds": [
+              {
+                  "type": "article",
+                  "url": "https://bit.ly/3llmP1X",
+                  "title": "People's Choice Award Voting - Chicago Innovation",
+                  "author": {
+                      "name": "Paul Kitti",
+                      "url": "https://chicagoinnovation.com/author/paulk1tt1/"
+                  },
+                  "provider": {
+                      "name": "Chicago Innovation",
+                      "url": "https://chicagoinnovation.com/"
+                  },
+                  "thumbnail": {
+                      "url": "https://chicagoinnovation.com/wp-content/uploads/2023/09/button.jpg",
+                      "proxy_url": "https://images-ext-2.discordapp.net/external/ncvXo1bYhhRfuiVdjg4JWKkXqANtGWzMgTQaMmAWEl4/https/chicagoinnovation.com/wp-content/uploads/2023/09/button.jpg",
+                      "width": 1006,
+                      "height": 200
+                  }
+              }
+          ],
+          "mentions": [],
+          "mention_roles": [],
+          "pinned": false,
+          "mention_everyone": true,
+          "tts": false,
+          "timestamp": "2023-10-06T04:26:23.324000+00:00",
+          "edited_timestamp": "2023-10-06T04:28:44.807000+00:00",
+          "flags": 0,
+          "components": []
+      }
+  },
+  {
+      "id": "1159708208840061058",
+      "type": 0,
+      "content": "@everyone As someone that has benefited directly and greatly from the sponsorships and programs run by ***Break Through Tech Chicago***, and their services that are UIC-first, I wanted to request you all to help us get them a bigger spotlight (which eventually helps in getting better funded, and better equipped with resources, etc).  \n \nHere's a message directly from them:  \n> I am asking your support to vote for Break Through Tech Chicago at UIC by October 17 to win the People\u2019s Choice Award at the annual Chicago Innovation Awards! In a few easy steps, you can celebrate our progress of doubling the enrollment of UIC women and nonbinary students in tech disciplines since 2019.\n> Visit https://bit.ly/3llmP1X and click the SEE THE TOP 100 FINALISTS AND CAST YOUR VOTE button.\n> Fill in your name and email address, and press the button at the bottom of the page to move on to the voting process. *Yes you have to go through every page before you can submit. \n> \n> We are listed on the first page of finalists. Select our name and scroll through all remaining names till you get to \u201cSubmit\u201d.\n> Thank you for using your vote to voice the importance of gender equity in Chicago\u2019s tech scene.\n \nYour time commitment: <2min. Commitment to equity in tech? Long-lasting!\nThank you for giving us your time! \n- Yashi, President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "article",
+              "url": "https://bit.ly/3llmP1X",
+              "title": "People's Choice Award Voting - Chicago Innovation",
+              "author": {
+                  "name": "Paul Kitti",
+                  "url": "https://chicagoinnovation.com/author/paulk1tt1/"
+              },
+              "provider": {
+                  "name": "Chicago Innovation",
+                  "url": "https://chicagoinnovation.com/"
+              },
+              "thumbnail": {
+                  "url": "https://chicagoinnovation.com/wp-content/uploads/2023/09/button.jpg",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/ncvXo1bYhhRfuiVdjg4JWKkXqANtGWzMgTQaMmAWEl4/https/chicagoinnovation.com/wp-content/uploads/2023/09/button.jpg",
+                  "width": 1006,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-06T04:26:23.324000+00:00",
+      "edited_timestamp": "2023-10-06T04:28:44.807000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 6,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 6
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udcaf"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1159555079674802236",
+      "type": 19,
+      "content": "Find the route to our event:",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1159555079347654754",
+              "filename": "Snapinsta.app_video_DB4B8DB50C9B6B4FDBDADEC281141FA4_video_dashinit.mp4",
+              "size": 4303961,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1159555079347654754/Snapinsta.app_video_DB4B8DB50C9B6B4FDBDADEC281141FA4_video_dashinit.mp4?ex=65565cd2&is=6543e7d2&hm=507bec1af463830b97246edddd16d941a75bccd22da9ac1674c0ef3120c88f28&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1159555079347654754/Snapinsta.app_video_DB4B8DB50C9B6B4FDBDADEC281141FA4_video_dashinit.mp4?ex=65565cd2&is=6543e7d2&hm=507bec1af463830b97246edddd16d941a75bccd22da9ac1674c0ef3120c88f28&",
+              "width": 720,
+              "height": 1280,
+              "content_type": "video/mp4"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-10-05T18:17:54.486000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "message_reference": {
+          "channel_id": "652006847334842378",
+          "message_id": "1159295745451642922",
+          "guild_id": "652006495675875359"
+      },
+      "referenced_message": {
+          "id": "1159295745451642922",
+          "type": 0,
+          "content": "@everyone Apologies for the late announcement. We have a UIC alum coming in tomorrow (5th Oct). He has dabbled in everything, from getting his PhD at UIC to being an Engineering Lead for PayPal and Braintree. AND he is currently exploring entrepreneurship! Bring questions regarding what's it like to work in industry, or pursue a PhD! This event will be in a Q&A format. \u203c\ufe0f 4:00 PM at Richard Daley Library Conference Room Number:  1-470\u203c\ufe0f \n\nRSVP: https://forms.gle/LGvpYzqM8Qek9qrx8",
+          "channel_id": "652006847334842378",
+          "author": {
+              "id": "822032711509737492",
+              "username": "mentossuperfresh",
+              "avatar": "64c56bc09708be600d925379d43b1d52",
+              "discriminator": "0",
+              "public_flags": 0,
+              "premium_type": 3,
+              "flags": 0,
+              "banner": null,
+              "accent_color": null,
+              "global_name": "mentos",
+              "avatar_decoration_data": null,
+              "banner_color": null
+          },
+          "attachments": [
+              {
+                  "id": "1159295745644576878",
+                  "filename": "ACM_PROF_DEV_3.png",
+                  "size": 140567,
+                  "url": "https://cdn.discordapp.com/attachments/652006847334842378/1159295745644576878/ACM_PROF_DEV_3.png?ex=65556b4c&is=6542f64c&hm=09a31f90140f5b4dc88555762d217d19ece86af1c1ccf81ae8f07a02da20ea64&",
+                  "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1159295745644576878/ACM_PROF_DEV_3.png?ex=65556b4c&is=6542f64c&hm=09a31f90140f5b4dc88555762d217d19ece86af1c1ccf81ae8f07a02da20ea64&",
+                  "width": 1080,
+                  "height": 1080,
+                  "content_type": "image/png"
+              }
+          ],
+          "embeds": [
+              {
+                  "type": "link",
+                  "url": "https://forms.gle/LGvpYzqM8Qek9qrx8",
+                  "title": "Professional Development Q&A",
+                  "description": "We have a UIC alum coming in on October 5th, 4:00 pm. He has dabbled in everything, from getting his PhD at UIC to being an Engineering Lead for PayPal and Braintree. AND he is currently exploring entrepreneurship! This event will be in a Q&A format. Bring questions regarding what's it like to work in industry, or pursue a PhD!\n\nFind us on socia...",
+                  "provider": {
+                      "name": "Google Docs"
+                  },
+                  "thumbnail": {
+                      "url": "https://lh4.googleusercontent.com/_XMY05yCZbFxClgQf9adA7P1kbfruP67HdTlGNTY8B8fGYYLUAJ9RkG10Bqn6quJI6JssqWdZ8E=w1200-h630-p",
+                      "proxy_url": "https://images-ext-1.discordapp.net/external/h4BYM7vFxPetJ6v5dFYuYtE5fFdGdyyRFW2wYvlgx4U/https/lh4.googleusercontent.com/_XMY05yCZbFxClgQf9adA7P1kbfruP67HdTlGNTY8B8fGYYLUAJ9RkG10Bqn6quJI6JssqWdZ8E%3Dw1200-h630-p",
+                      "width": 200,
+                      "height": 200
+                  }
+              }
+          ],
+          "mentions": [],
+          "mention_roles": [],
+          "pinned": false,
+          "mention_everyone": true,
+          "tts": false,
+          "timestamp": "2023-10-05T01:07:24.389000+00:00",
+          "edited_timestamp": "2023-10-05T01:13:01.191000+00:00",
+          "flags": 0,
+          "components": []
+      }
+  },
+  {
+      "id": "1159295745451642922",
+      "type": 0,
+      "content": "@everyone Apologies for the late announcement. We have a UIC alum coming in tomorrow (5th Oct). He has dabbled in everything, from getting his PhD at UIC to being an Engineering Lead for PayPal and Braintree. AND he is currently exploring entrepreneurship! Bring questions regarding what's it like to work in industry, or pursue a PhD! This event will be in a Q&A format. \u203c\ufe0f 4:00 PM at Richard Daley Library Conference Room Number:  1-470\u203c\ufe0f \n\nRSVP: https://forms.gle/LGvpYzqM8Qek9qrx8",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1159295745644576878",
+              "filename": "ACM_PROF_DEV_3.png",
+              "size": 140567,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1159295745644576878/ACM_PROF_DEV_3.png?ex=65556b4c&is=6542f64c&hm=09a31f90140f5b4dc88555762d217d19ece86af1c1ccf81ae8f07a02da20ea64&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1159295745644576878/ACM_PROF_DEV_3.png?ex=65556b4c&is=6542f64c&hm=09a31f90140f5b4dc88555762d217d19ece86af1c1ccf81ae8f07a02da20ea64&",
+              "width": 1080,
+              "height": 1080,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/LGvpYzqM8Qek9qrx8",
+              "title": "Professional Development Q&A",
+              "description": "We have a UIC alum coming in on October 5th, 4:00 pm. He has dabbled in everything, from getting his PhD at UIC to being an Engineering Lead for PayPal and Braintree. AND he is currently exploring entrepreneurship! This event will be in a Q&A format. Bring questions regarding what's it like to work in industry, or pursue a PhD!\n\nFind us on socia...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh4.googleusercontent.com/_XMY05yCZbFxClgQf9adA7P1kbfruP67HdTlGNTY8B8fGYYLUAJ9RkG10Bqn6quJI6JssqWdZ8E=w1200-h630-p",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/h4BYM7vFxPetJ6v5dFYuYtE5fFdGdyyRFW2wYvlgx4U/https/lh4.googleusercontent.com/_XMY05yCZbFxClgQf9adA7P1kbfruP67HdTlGNTY8B8fGYYLUAJ9RkG10Bqn6quJI6JssqWdZ8E%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-05T01:07:24.389000+00:00",
+      "edited_timestamp": "2023-10-05T01:13:01.191000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udd25"
+              },
+              "count": 6,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 6
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1159200851966042273",
+      "type": 0,
+      "content": "@everyone \ud83d\udd0d Get ready for an exciting Scavenger Hunt hosted by Major League hacking! \ud83c\udf93 Join WiCS as they dive into the world of CS challenge problems, working alongside professors to unlock your problem-solving potential. \ud83e\udde0 Solve, learn, and WIN amazing prizes along the way! \ud83c\udfc6 Are you up for the challenge? Let the hunt begin! \ud83d\ude80 RSVP at: https://events.mlh.io/events/10415-wics-scavenger-hunt\n\nHop into WiCS Discord if you have any questions regarding this: https://discord.gg/tKSgeqyFpv",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1159200852054126612",
+              "filename": "WiTW_Template_4.png",
+              "size": 426574,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1159200852054126612/WiTW_Template_4.png?ex=655512ec&is=65429dec&hm=82bcc2a10a27b9dcafe0952aedefbffc1109a90d6ad4398ecefb63064c3cc094&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1159200852054126612/WiTW_Template_4.png?ex=655512ec&is=65429dec&hm=82bcc2a10a27b9dcafe0952aedefbffc1109a90d6ad4398ecefb63064c3cc094&",
+              "width": 1080,
+              "height": 1080,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [
+          {
+              "type": "article",
+              "url": "https://events.mlh.io/events/10415-wics-scavenger-hunt",
+              "title": "WiCS Scavenger Hunt | Major League Hacking",
+              "description": "Join us for the WiCS Annual Scavenger Hunt, a fun event that brings professors & students together in teams of varying class levels (including freshmen, sophomores, and seniors) for a thrilling...",
+              "provider": {
+                  "name": "Major League Hacking (MLH)"
+              },
+              "thumbnail": {
+                  "url": "https://s3.amazonaws.com/organizer.mlh.io/u4tr79cx8khnlgq09jz0w30icwpo?response-content-disposition=inline%3B%20filename%3D%22Welcome%20to%20the.png%22%3B%20filename%2A%3DUTF-8%27%27Welcome%2520to%2520the.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJFCF2ZS25I2RWYBQ%2F20231004%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231004T182507Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=557d05929865d00874cfe63d795eec4945aa9d4373a85d15359109c40fb14f53",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/-Az1NnxbMjwL16_CGulfzTeLDgrp4qCikcPfl_qiEDA/%3Fresponse-content-disposition%3Dinline%253B%2520filename%253D%2522Welcome%2520to%2520the.png%2522%253B%2520filename%252A%253DUTF-8%2527%2527Welcome%252520to%252520the.png%26response-content-type%3Dimage%252Fpng%26X-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAJFCF2ZS25I2RWYBQ%252F20231004%252Fus-east-1%252Fs3%252Faws4_request%26X-Amz-Date%3D20231004T182507Z%26X-Amz-Expires%3D300%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3D557d05929865d00874cfe63d795eec4945aa9d4373a85d15359109c40fb14f53/https/s3.amazonaws.com/organizer.mlh.io/u4tr79cx8khnlgq09jz0w30icwpo",
+                  "width": 1200,
+                  "height": 600
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-10-04T18:50:20.019000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 5,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 5
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1156729075512127559",
+      "type": 0,
+      "content": "Good evening everyone, thank you everyone who showed up to the Missing Semester Workshop for Cryptography today! Here are the slides for the people who missed! If you have any follow up questions, feel free to tag me to a message or DM me on discord. I will also upload the recording later today. Once again, thank you for your support and your time! \ud83d\ude42",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "713811537201987594",
+          "username": "0ricebowl0",
+          "avatar": "bae2350a05d05c87f000a3901d766fc3",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 0,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "RiceBowl",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1156729075122053200",
+              "filename": "ACM_-_Cryptography.pptx",
+              "size": 27092569,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1156729075122053200/ACM_-_Cryptography.pptx?ex=65554f66&is=6542da66&hm=5c12f7de3c5dfca551e581a8e48171016f34e92daa47b9215f8c5b264d157b97&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1156729075122053200/ACM_-_Cryptography.pptx?ex=65554f66&is=6542da66&hm=5c12f7de3c5dfca551e581a8e48171016f34e92daa47b9215f8c5b264d157b97&",
+              "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-27T23:08:22.589000+00:00",
+      "edited_timestamp": null,
+      "flags": 1,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udc4d"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1156671127536545913",
+      "type": 19,
+      "content": "\u2b06\ufe0f in 2hours 9 minutes!",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-27T19:18:06.715000+00:00",
+      "edited_timestamp": "2023-09-27T19:21:26.113000+00:00",
+      "flags": 0,
+      "components": [],
+      "message_reference": {
+          "channel_id": "652006847334842378",
+          "message_id": "1155901270377381919",
+          "guild_id": "652006495675875359"
+      },
+      "referenced_message": {
+          "id": "1155901270377381919",
+          "type": 0,
+          "content": "@everyone \n<:musician:921631180015689728> <:musician:921631180015689728> <:musician:921631180015689728><:musician:921631180015689728>***IT'S HAPPENING*** <:musician:921631180015689728> <:musician:921631180015689728><:musician:921631180015689728><:musician:921631180015689728>\nI know you've been waiting for this. Our 'Missing Semester: Cryptography' workshop on September 27th, 4:30pm, SELE 2260 (CS Lounge) \nThere will be snacks!\nRSVP here: https://forms.gle/mpMHmGsacTgHvW5n6\n\nAlso, head over to our Instagram/LinkedIn (@ acmatuic) to get exclusive insights into the ***Grace Hopper Celebration 2023***, for women & non-binary technologists. It's open to everyone this year. \n\nIf you have shown interest for SIG-Jobs, I expect regular attendance during Friday 5:30 pm meetings. Please understand the amount of preparation it takes to make one meeting happen, and if people do not show up regularly, I will have to scratch it.\n- President",
+          "channel_id": "652006847334842378",
+          "author": {
+              "id": "822032711509737492",
+              "username": "mentossuperfresh",
+              "avatar": "64c56bc09708be600d925379d43b1d52",
+              "discriminator": "0",
+              "public_flags": 0,
+              "premium_type": 3,
+              "flags": 0,
+              "banner": null,
+              "accent_color": null,
+              "global_name": "mentos",
+              "avatar_decoration_data": null,
+              "banner_color": null
+          },
+          "attachments": [
+              {
+                  "id": "1155901270473838622",
+                  "filename": "image.png",
+                  "size": 164361,
+                  "url": "https://cdn.discordapp.com/attachments/652006847334842378/1155901270473838622/image.png?ex=655b86f2&is=654911f2&hm=bcde44228e3bee80bb9f1e4223aef09fb437c610b220f32c95bbfae84c934b53&",
+                  "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1155901270473838622/image.png?ex=655b86f2&is=654911f2&hm=bcde44228e3bee80bb9f1e4223aef09fb437c610b220f32c95bbfae84c934b53&",
+                  "width": 370,
+                  "height": 570,
+                  "content_type": "image/png"
+              }
+          ],
+          "embeds": [
+              {
+                  "type": "link",
+                  "url": "https://forms.gle/mpMHmGsacTgHvW5n6",
+                  "title": "Cryptography Workshop RSVP",
+                  "description": "Thank you for dropping by!\n\nFind us on social media at the following avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.com/company/acm-cs-uic/\nDiscord (our base!) : https://discord.com/invite/Afy6gf4",
+                  "provider": {
+                      "name": "Google Docs"
+                  },
+                  "thumbnail": {
+                      "url": "https://lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM=w1200-h630-p",
+                      "proxy_url": "https://images-ext-1.discordapp.net/external/8HbWeQtfqo2-4H5Dbq3f6PVJFF9qHEXVP8iZgf_heoM/https/lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM%3Dw1200-h630-p",
+                      "width": 200,
+                      "height": 200
+                  }
+              }
+          ],
+          "mentions": [],
+          "mention_roles": [],
+          "pinned": false,
+          "mention_everyone": true,
+          "tts": false,
+          "timestamp": "2023-09-25T16:18:58.465000+00:00",
+          "edited_timestamp": "2023-09-25T16:20:48.264000+00:00",
+          "flags": 1024,
+          "components": []
+      }
+  },
+  {
+      "id": "1155901270377381919",
+      "type": 0,
+      "content": "@everyone \n<:musician:921631180015689728> <:musician:921631180015689728> <:musician:921631180015689728><:musician:921631180015689728>***IT'S HAPPENING*** <:musician:921631180015689728> <:musician:921631180015689728><:musician:921631180015689728><:musician:921631180015689728>\nI know you've been waiting for this. Our 'Missing Semester: Cryptography' workshop on September 27th, 4:30pm, SELE 2260 (CS Lounge) \nThere will be snacks!\nRSVP here: https://forms.gle/mpMHmGsacTgHvW5n6\n\nAlso, head over to our Instagram/LinkedIn (@ acmatuic) to get exclusive insights into the ***Grace Hopper Celebration 2023***, for women & non-binary technologists. It's open to everyone this year. \n\nIf you have shown interest for SIG-Jobs, I expect regular attendance during Friday 5:30 pm meetings. Please understand the amount of preparation it takes to make one meeting happen, and if people do not show up regularly, I will have to scratch it.\n- President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1155901270473838622",
+              "filename": "image.png",
+              "size": 164361,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1155901270473838622/image.png?ex=655b86f2&is=654911f2&hm=bcde44228e3bee80bb9f1e4223aef09fb437c610b220f32c95bbfae84c934b53&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1155901270473838622/image.png?ex=655b86f2&is=654911f2&hm=bcde44228e3bee80bb9f1e4223aef09fb437c610b220f32c95bbfae84c934b53&",
+              "width": 370,
+              "height": 570,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/mpMHmGsacTgHvW5n6",
+              "title": "Cryptography Workshop RSVP",
+              "description": "Thank you for dropping by!\n\nFind us on social media at the following avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.com/company/acm-cs-uic/\nDiscord (our base!) : https://discord.com/invite/Afy6gf4",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM=w1200-h630-p",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/8HbWeQtfqo2-4H5Dbq3f6PVJFF9qHEXVP8iZgf_heoM/https/lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-25T16:18:58.465000+00:00",
+      "edited_timestamp": "2023-09-25T16:20:48.264000+00:00",
+      "flags": 1024,
+      "components": []
+  },
+  {
+      "id": "1155881491398672455",
+      "type": 19,
+      "content": "@everyone CyberForce 2023 is a national competition. The team will get a small network of virtual machines mimicking a company that is wide open with no security controls. The team will have around 3-4 weeks to harden it with security controls. On Nov. 3-4 the network will be attacked by a red team and scored based on how it does. It is an intense and fun event.",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "1154792903483338824",
+          "username": "rigelgjomemo_88239",
+          "avatar": null,
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 0,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "T086M - Rigel",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [
+          {
+              "id": "624614224617799699",
+              "username": "movingforward",
+              "avatar": "640fd190d6cc2ee9e9c799276bbdf747",
+              "discriminator": "0",
+              "public_flags": 128,
+              "premium_type": 0,
+              "flags": 128,
+              "banner": null,
+              "accent_color": null,
+              "global_name": "movingforward",
+              "avatar_decoration_data": null,
+              "banner_color": null
+          }
+      ],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-25T15:00:22.789000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "message_reference": {
+          "channel_id": "652006847334842378",
+          "message_id": "1155175488269058130",
+          "guild_id": "652006495675875359"
+      },
+      "referenced_message": {
+          "id": "1155175488269058130",
+          "type": 0,
+          "content": "@everyone Hi everyone, we're looking for people that are interested to be part of ACM's team for CyberForce 2023!  Sign up through the interest form!\nhttps://forms.gle/WKedckLHnqphfZEu7",
+          "channel_id": "652006847334842378",
+          "author": {
+              "id": "624614224617799699",
+              "username": "movingforward",
+              "avatar": "640fd190d6cc2ee9e9c799276bbdf747",
+              "discriminator": "0",
+              "public_flags": 128,
+              "premium_type": 0,
+              "flags": 128,
+              "banner": null,
+              "accent_color": null,
+              "global_name": "movingforward",
+              "avatar_decoration_data": null,
+              "banner_color": null
+          },
+          "attachments": [],
+          "embeds": [
+              {
+                  "type": "link",
+                  "url": "https://forms.gle/WKedckLHnqphfZEu7",
+                  "title": "Google Forms: Sign-in",
+                  "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use)."
+              }
+          ],
+          "mentions": [],
+          "mention_roles": [],
+          "pinned": false,
+          "mention_everyone": true,
+          "tts": false,
+          "timestamp": "2023-09-23T16:14:58.526000+00:00",
+          "edited_timestamp": null,
+          "flags": 0,
+          "components": []
+      }
+  },
+  {
+      "id": "1155175488269058130",
+      "type": 0,
+      "content": "@everyone Hi everyone, we're looking for people that are interested to be part of ACM's team for CyberForce 2023!  Sign up through the interest form!\nhttps://forms.gle/WKedckLHnqphfZEu7",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "624614224617799699",
+          "username": "movingforward",
+          "avatar": "640fd190d6cc2ee9e9c799276bbdf747",
+          "discriminator": "0",
+          "public_flags": 128,
+          "premium_type": 0,
+          "flags": 128,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "movingforward",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/WKedckLHnqphfZEu7",
+              "title": "Google Forms: Sign-in",
+              "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use)."
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-23T16:14:58.526000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1154495782423101603",
+      "type": 0,
+      "content": "Evidence of fun-having:",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1154495781743628422",
+              "filename": "20230921_141258.jpg",
+              "size": 1807674,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1154495781743628422/20230921_141258.jpg?ex=655669fb&is=6543f4fb&hm=7eb33cd47ad8557b633d98a0e6dbe4338341697356933b8275407a541abaf498&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1154495781743628422/20230921_141258.jpg?ex=655669fb&is=6543f4fb&hm=7eb33cd47ad8557b633d98a0e6dbe4338341697356933b8275407a541abaf498&",
+              "width": 6528,
+              "height": 4896,
+              "content_type": "image/jpeg"
+          },
+          {
+              "id": "1154495782108545147",
+              "filename": "20230921_135501.jpg",
+              "size": 816992,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1154495782108545147/20230921_135501.jpg?ex=655669fb&is=6543f4fb&hm=90e74ce54750a498b32fa9d92eea26558846625c4ad674d71b8972211f79ce9d&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1154495782108545147/20230921_135501.jpg?ex=655669fb&is=6543f4fb&hm=90e74ce54750a498b32fa9d92eea26558846625c4ad674d71b8972211f79ce9d&",
+              "width": 3096,
+              "height": 4128,
+              "content_type": "image/jpeg"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-21T19:14:04.024000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": "759249328370876496",
+                  "name": "PepeHappy"
+              },
+              "count": 11,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 11
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1154482671389511852",
+      "type": 0,
+      "content": "@everyone We're at the Engineering Involvement Fair! (There may or may not be cotton candy)\n\n@ UIC Makerspace, Room 295, enter through the parking lot!\n\nWe will be here till 2:30pm\n\nSee you",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1154482670697447545",
+              "filename": "20230921_131545.jpg",
+              "size": 747252,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1154482670697447545/20230921_131545.jpg?ex=65565dc5&is=6543e8c5&hm=958266348c85a8ffde2b4a314c514e57ea1b1d0760f6b16fcc8916f1fd6a7617&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1154482670697447545/20230921_131545.jpg?ex=65565dc5&is=6543e8c5&hm=958266348c85a8ffde2b4a314c514e57ea1b1d0760f6b16fcc8916f1fd6a7617&",
+              "width": 4000,
+              "height": 3000,
+              "content_type": "image/jpeg"
+          },
+          {
+              "id": "1154482671192387765",
+              "filename": "20230921_131613.mp4",
+              "size": 5221295,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1154482671192387765/20230921_131613.mp4?ex=65565dc6&is=6543e8c6&hm=abd3ceebfd89bdf6d0e2e83e752a34cda1b029223dac782cd05b3a09e996c5fb&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1154482671192387765/20230921_131613.mp4?ex=65565dc6&is=6543e8c6&hm=abd3ceebfd89bdf6d0e2e83e752a34cda1b029223dac782cd05b3a09e996c5fb&",
+              "width": 720,
+              "height": 1280,
+              "content_type": "video/mp4"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-21T18:21:58.110000+00:00",
+      "edited_timestamp": "2023-09-21T18:22:29.731000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udd25"
+              },
+              "count": 6,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 6
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1153106400118050948",
+      "type": 0,
+      "content": "@everyone New self-assign roles for current/incoming students AND alumni have been created in https://discord.com/channels/652006495675875359/891708819799937024 Please help us reach you better by selecting accordingly. I know these are a lot of quick changes but we're trying to stay on top of everything, bit by bit.\n*There are no events from the ACM Council this week. We're recharging. * \u203c\ufe0f All SIGs will still have SIG meetings\u203c\ufe0f \nNext week, I will be heading to the Grace Hopper Celebration, meaning that you get to see all of the highlights through ACM Instagram (https://www.instagram.com/acmatuic/). Feel free to send me questions about anything ranging from scholarships to preparing for the event itself. \nFirst week of October is when ACM Council will return to regular in-person events. See you in October and good luck for all your mid-terms!",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-17T23:13:09.469000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udcaf"
+              },
+              "count": 3,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 3
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1153029244587360307",
+      "type": 0,
+      "content": "@everyone Please accept Tech Lead roles, if you have accepted the position. If you haven't met me in person, tomorrow, i.e., 18th September, is one of the opportunities, at 5pm in ACM Lounge, SELE 2264.\nLikewise for SIG Jobs, we're starting our weekly/bi-weekly meetings and I would like to be able to ping you guys without pinging all of our Discord. \nSame goes for all the SIGs, and practically anything you want to be in the loop of. Use https://discord.com/channels/652006495675875359/891708819799937024 channel to give yourself roles as per your interests. We're trying to have weekly events (barring the incoming week) and the best way to stay informed is to be on our Discord, and secondly, our Instagram.\nWe have over 200 new people since the new Council took control, and active engagement inside ACM is the surest way to see events you like, want to work on, or both!",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-17T18:06:34.157000+00:00",
+      "edited_timestamp": "2023-09-17T18:06:53.048000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1151341996309479425",
+      "type": 0,
+      "content": "@everyone Board Game Night, with Social Gaming Club!\n\nTomorrow, 5pm, CS Lounge, soda and snacks on us \u2705\ufe0f",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1151341995973951489",
+              "filename": "Game_night_1.png",
+              "size": 614811,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1151341995973951489/Game_night_1.png?ex=655d65ca&is=654af0ca&hm=27871adcff4339d2c323a59ed633bc48ae20de9a868b7f505050f33996fe0203&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1151341995973951489/Game_night_1.png?ex=655d65ca&is=654af0ca&hm=27871adcff4339d2c323a59ed633bc48ae20de9a868b7f505050f33996fe0203&",
+              "width": 1080,
+              "height": 1080,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-13T02:22:02.820000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 12,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 12
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udc4d"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1151204033973985392",
+      "type": 6,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-12T17:13:50.036000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "message_reference": {
+          "channel_id": "652006847334842378",
+          "message_id": "1151203845918179389"
+      }
+  },
+  {
+      "id": "1151203845918179389",
+      "type": 0,
+      "content": "@everyone Find ACM's events in the top left corner of our Discord server, and additionally, you can add ACM @ UIC Calendar to be reminded of all our events right in the palms of your hand! Use this: https://calendar.google.com/calendar/u/0?cid=a2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ to add it to your Google Calendars for better tracking.",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://calendar.google.com/calendar/u/0?cid=a2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+              "title": "Google Calendar - Sign in to Access & Edit Your Schedule",
+              "description": "Access Google Calendar with a Google account (for personal use) or Google Workspace account (for business use)."
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": true,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-12T17:13:05.200000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udc9c"
+              },
+              "count": 5,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 5
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1150839178549006407",
+      "type": 0,
+      "content": "@everyone Emails to _potential_ Tech Leads/ SIG Leaders have been sent a second ago. If you have registered interest via a Google Form, __please reply by the end of this week for consideration__. \nThank you so much for your interest in our club, and if you're accepting, welcome to the ACM Council 2023-24! We're excited to work with you, and we hope you will read the CS Code of Conduct attached to the email. \nThere is a _Council Meeting at 5pm today in SELE 2264 (ACM Lounge)_, which I highly recommend you to drop in, for first interactions!\n- President",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-11T17:04:01.724000+00:00",
+      "edited_timestamp": "2023-09-11T17:07:36.760000+00:00",
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 3,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 3
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1149502719434956830",
+      "type": 0,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1149502719200067716",
+              "filename": "image.png",
+              "size": 164425,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1149502719200067716/image.png?ex=6556b4d4&is=65443fd4&hm=797d9fd358429183f8d1dea23f68c7e4568de27f0c317170202ee0eb38df58c3&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1149502719200067716/image.png?ex=6556b4d4&is=65443fd4&hm=797d9fd358429183f8d1dea23f68c7e4568de27f0c317170202ee0eb38df58c3&",
+              "width": 367,
+              "height": 569,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-08T00:33:25.041000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1149424277356019802",
+      "type": 0,
+      "content": "@everyone \nWe are starting a new position at ACM, of a **__Tech Lead__**, where you can help create a singular Technical Workshop (and more!) with us, ease into ACM in a technical capacity, and hopefully, within a year be on your way to being one of our hard-working SIG leaders! You will be given outreach support, administrative support, AND a SIG 101 guide by our very own SIG-Leader Zacc to help iron out any initial jitters. \n\nLearning by teaching is proven to work! Look --> Feynman Technique: https://fs.blog/feynman-technique/ \nPlease register interest on being a Tech Lead, with a topic of your choice, here: https://forms.gle/oGUmWdZ3p5RpJN7p6\nWe will get in touch with you to help onboard you to the ACM Council.\n\nThe above position is highly recommended for people that want to get technically involved in ACM but find being a SIG Leader straight away, intimidating. \nACM at UIC is committed to meeting you where you are. We will work parallelly with you as you prepare for your professional career.\n\n__***NEXT WEEK IN ACM***__: Come to our 'Missing Semester: Cryptography' workshop on September 13th, 5pm, SELE 2260 (CS Lounge)\nRSVP here: https://forms.gle/ZgAR8Spp52koy9c97\n\n- Yashi",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "article",
+              "url": "https://fs.blog/feynman-technique/",
+              "title": "The Feynman Technique: Master the Art of Learning",
+              "description": "Master any subject with the Feynman Technique, a proven four-step method for effective learning. Dive into the art of choosing a concept, teaching it to a child, refining your understanding, and organizing your knowledge for continual growth. Discover how simplicity reveals true comprehension and enriches your learning experience.",
+              "author": {
+                  "name": "Farnam Street",
+                  "url": "https://fs.blog/author/shane-parrish/"
+              },
+              "provider": {
+                  "name": "Farnam Street",
+                  "url": "https://fs.blog/"
+              },
+              "thumbnail": {
+                  "url": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2012/04/FeynmanTechnique.jpg",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/vrmzH00A5XEVd3gNlzUEyYlDdqip77fPL-yMmVD2SGg/https/149664534.v2.pressablecdn.com/wp-content/uploads/2012/04/FeynmanTechnique.jpg",
+                  "width": 1920,
+                  "height": 1080
+              }
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/oGUmWdZ3p5RpJN7p6",
+              "title": "Tech Lead Interest Form",
+              "description": "Tech Lead Expectations:\n\n1. Choose a topic of interest (mandatory) !\n2. Get in touch with ACM using the following avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.com/company/acm-cs-uic/\nDiscord (our base!) : https://discord.com/invite/Afy6gf4\n3. Work with us to research and plan a technical workshop. I assu...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh4.googleusercontent.com/1BsP2agaVo6cFxdeIHtY6u9J0ScAnKvzSlimOZIxhSdgknzSd-rVYv8tbbUCvA2MCzolyqHie3M=w1200-h630-p",
+                  "proxy_url": "https://images-ext-2.discordapp.net/external/zXGS8T69hPUlLYfxLFM9wqSabEwiBzhhElQawaeoMPQ/https/lh4.googleusercontent.com/1BsP2agaVo6cFxdeIHtY6u9J0ScAnKvzSlimOZIxhSdgknzSd-rVYv8tbbUCvA2MCzolyqHie3M%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          },
+          {
+              "type": "link",
+              "url": "https://forms.gle/ZgAR8Spp52koy9c97",
+              "title": "ACM General Body Meeting Follow-Up",
+              "description": "Thank you for dropping by!\n\nFind us on social media at the following avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.com/company/acm-cs-uic/\nDiscord (our base!) : https://discord.com/invite/Afy6gf4",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM=w1200-h630-p",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/8HbWeQtfqo2-4H5Dbq3f6PVJFF9qHEXVP8iZgf_heoM/https/lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-07T19:21:42.992000+00:00",
+      "edited_timestamp": null,
+      "flags": 1024,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udcaf"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1149158449746288660",
+      "type": 0,
+      "content": "@everyone Thank you for showing up to our GBM! Head over to our Instagram in a couple of days to see pictures. If you're new here, welcome! Hopefully the presentation could hook you in enough to give us a fair shot. Please find the slides here. Follow-up with the events we have planned next at: https://forms.gle/briro2rSdj1xmMhK9",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1149158449389764719",
+              "filename": "Associaion_for_computing_machinery.pdf",
+              "size": 23678141,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1149158449389764719/Associaion_for_computing_machinery.pdf?ex=65557434&is=6542ff34&hm=b57e7c9aaad0dff276c12439568b89f3e1885f9cf49c76073bd6169e2e1721d8&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1149158449389764719/Associaion_for_computing_machinery.pdf?ex=65557434&is=6542ff34&hm=b57e7c9aaad0dff276c12439568b89f3e1885f9cf49c76073bd6169e2e1721d8&",
+              "content_type": "application/pdf"
+          }
+      ],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/briro2rSdj1xmMhK9",
+              "title": "ACM General Body Meeting Follow-Up",
+              "description": "Thank you for dropping by!\n\nFind us on social media at the following avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.com/company/acm-cs-uic/\nDiscord (our base!) : https://discord.com/invite/Afy6gf4",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM=w1200-h630-p",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/8HbWeQtfqo2-4H5Dbq3f6PVJFF9qHEXVP8iZgf_heoM/https/lh6.googleusercontent.com/o3R0Ip7ffFXN9fP-Ah0prFbvTaPtoCY_1GVOsQqtHMsSrs2db_ZI_RXQTQp_nznqBJ7ttWjPMEM%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-07T01:45:24.751000+00:00",
+      "edited_timestamp": "2023-09-07T01:59:03.725000+00:00",
+      "flags": 1024,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 1,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 1
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1148951646253101096",
+      "type": 0,
+      "content": "@everyone \nACM General Body Meeting + Engineering Career Center Info Session today at 5pm in CS Lounge (SELE 2260)\n\nSee you at 5 \ud83c\udf89",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1148951645863039027",
+              "filename": "IMG_20230901_175215_177.webp",
+              "size": 115088,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1148951645863039027/IMG_20230901_175215_177.webp?ex=655dee1a&is=654b791a&hm=9661fc0e6f2975a7cecb5bc5a9252b2416635043347ace6569a0ed76d530917d&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1148951645863039027/IMG_20230901_175215_177.webp?ex=655dee1a&is=654b791a&hm=9661fc0e6f2975a7cecb5bc5a9252b2416635043347ace6569a0ed76d530917d&",
+              "width": 1080,
+              "height": 1920,
+              "content_type": "image/webp"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-06T12:03:38.956000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83c\udf89"
+              },
+              "count": 8,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 8
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1147223605583810630",
+      "type": 0,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1147223605286011051",
+              "filename": "image.png",
+              "size": 74917,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1147223605286011051/image.png?ex=6557a4bd&is=65452fbd&hm=1ff9192bd795f0ee56b066d9b516250d3f9ee23d740ed8db3bb59948f8855c9c&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1147223605286011051/image.png?ex=6557a4bd&is=65452fbd&hm=1ff9192bd795f0ee56b066d9b516250d3f9ee23d740ed8db3bb59948f8855c9c&",
+              "width": 402,
+              "height": 571,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-09-01T17:37:01.955000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": "1102427064625266769",
+                  "name": "lightskinstare"
+              },
+              "count": 5,
+              "count_details": {
+                  "burst": 5,
+                  "normal": 0
+              },
+              "burst_colors": [
+                  "#f0af95",
+                  "#f0a695",
+                  "#f0b9a4",
+                  "#e09b8b",
+                  "#e0997d",
+                  "#f0b2a4",
+                  "#c0a083",
+                  "#e0a38b",
+                  "#d0ad8e",
+                  "#d08574"
+              ],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 5
+          }
+      ]
+  },
+  {
+      "id": "1147011097572941949",
+      "type": 0,
+      "content": "@everyone We just wrapped our 2023-24 In-Person Involvement Fair. You can check out the pictures on our Instagram and LinkedIn. Thank you for showing up and most importantly, welcome to ACM! \nWe're kicking off the Fall 2023 semester with our 1st GBM of this academic year on **__6th September, 5pm, at SELE 2260 (CS Lounge) [in 6 days] __**\nThe GBM will provide a more detailed introduction to ACM and our plans for 2023-24 school year, an info session with Engineering Career Centre and lots of resume making tips & tricks (the Fall Application Cycle is literally HERE). Come for the conversations, food, or both! Check out our GBM Flyer (attached) and __RSVP__ here: https://forms.gle/R4JDYL4d4wCw7DiUA",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [
+          {
+              "type": "link",
+              "url": "https://forms.gle/R4JDYL4d4wCw7DiUA",
+              "title": "ACM General Body Meeting RSVP",
+              "description": "Get to know about ACM, and the Engineering Career Center and get a quick resume tips & tricks' run-down. RSVP for our upcoming GBM on 6th September, 5pm, at SELE 2260 (CS Lounge). Come for the conversations, or food, or both! \n\nFind us on social media at the avenues:\nInstagram: https://www.instagram.com/acmatuic/\nLinkedIn: https://www.linkedin.c...",
+              "provider": {
+                  "name": "Google Docs"
+              },
+              "thumbnail": {
+                  "url": "https://lh6.googleusercontent.com/qIoHT_71Ilhr7-RZyus77DjJPZpBpgGK_sU_3e1AEXM_B6e7BDVO4_YHCPsRkI60Z6aFT9jI1Mk=w1200-h630-p",
+                  "proxy_url": "https://images-ext-1.discordapp.net/external/QEYsaG1ByY7IaeWTvD8iX6wQjz2IwyHqFqfkI84QxTM/https/lh6.googleusercontent.com/qIoHT_71Ilhr7-RZyus77DjJPZpBpgGK_sU_3e1AEXM_B6e7BDVO4_YHCPsRkI60Z6aFT9jI1Mk%3Dw1200-h630-p",
+                  "width": 200,
+                  "height": 200
+              }
+          }
+      ],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-09-01T03:32:36.097000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udc4d"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1146556453717557289",
+      "type": 0,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1146556450928328714",
+              "filename": "IMG_20230830_125126.png",
+              "size": 14227500,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1146556450928328714/IMG_20230830_125126.png?ex=65553767&is=6542c267&hm=7760087e1af34a8647a8a7cb1ea8717a7c4c91ba56faeaa85d9c82809ae0bd5e&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1146556450928328714/IMG_20230830_125126.png?ex=65553767&is=6542c267&hm=7760087e1af34a8647a8a7cb1ea8717a7c4c91ba56faeaa85d9c82809ae0bd5e&",
+              "width": 4000,
+              "height": 3000,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-08-30T21:26:00.555000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83d\udd25"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1146499650044563659",
+      "type": 0,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1146499649826467840",
+              "filename": "IMG_20230830_123938_136.webp",
+              "size": 546196,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1146499649826467840/IMG_20230830_123938_136.webp?ex=65550281&is=65428d81&hm=c0abd4e439eb3a4e5a4ec391638022faa9be10ab34719fec9b7c185e8ea2c456&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1146499649826467840/IMG_20230830_123938_136.webp?ex=65550281&is=65428d81&hm=c0abd4e439eb3a4e5a4ec391638022faa9be10ab34719fec9b7c185e8ea2c456&",
+              "width": 1080,
+              "height": 1920,
+              "content_type": "image/webp"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-08-30T17:40:17.504000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": []
+  },
+  {
+      "id": "1146498967031513188",
+      "type": 0,
+      "content": "@everyone We are right infront of University Hall today! You cannot not see us. \n\nA random person will get a Google goodie bag. Come meet us, and also, get your steps in!",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1146498966670815252",
+              "filename": "InvolvementFairFlyer.png",
+              "size": 988867,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1146498966670815252/InvolvementFairFlyer.png?ex=655501de&is=65428cde&hm=57376717eab240f92fb374be9add87be04a1622ba1b590a12d3ce5f598079520&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1146498966670815252/InvolvementFairFlyer.png?ex=655501de&is=65428cde&hm=57376717eab240f92fb374be9add87be04a1622ba1b590a12d3ce5f598079520&",
+              "width": 1414,
+              "height": 2000,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-08-30T17:37:34.661000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": []
+  },
+  {
+      "id": "1146229637588992101",
+      "type": 0,
+      "content": "The person that received the goody bag today:",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1146229637282803864",
+              "filename": "IMG_1273.jpg",
+              "size": 1508216,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1146229637282803864/IMG_1273.jpg?ex=655d4189&is=654acc89&hm=8f58b81c60ff2c374e0898e0f232fddf8128778a15e17835729252bdb229295e&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1146229637282803864/IMG_1273.jpg?ex=655d4189&is=654acc89&hm=8f58b81c60ff2c374e0898e0f232fddf8128778a15e17835729252bdb229295e&",
+              "width": 3024,
+              "height": 4032,
+              "content_type": "image/jpeg"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-08-29T23:47:21.518000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": []
+  },
+  {
+      "id": "1146229430897868841",
+      "type": 0,
+      "content": "",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1146229430272938075",
+              "filename": "IMG_5437.jpg",
+              "size": 1153680,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1146229430272938075/IMG_5437.jpg?ex=655d4158&is=654acc58&hm=c4ef504c793be503f759a76383d4d95863676dd4d72e1686524e0776756c0f6c&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1146229430272938075/IMG_5437.jpg?ex=655d4158&is=654acc58&hm=c4ef504c793be503f759a76383d4d95863676dd4d72e1686524e0776756c0f6c&",
+              "width": 4032,
+              "height": 3024,
+              "content_type": "image/jpeg"
+          },
+          {
+              "id": "1146229430868525169",
+              "filename": "20230829_175010.mp4",
+              "size": 4009117,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1146229430868525169/20230829_175010.mp4?ex=655d4158&is=654acc58&hm=2eed51139d66cb4d0fb87574980b795c91d65aff6fc2f84fd6f66be01688b849&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1146229430868525169/20230829_175010.mp4?ex=655d4158&is=654acc58&hm=2eed51139d66cb4d0fb87574980b795c91d65aff6fc2f84fd6f66be01688b849&",
+              "width": 720,
+              "height": 1280,
+              "content_type": "video/mp4"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-08-29T23:46:32.239000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": []
+  },
+  {
+      "id": "1146229137372090458",
+      "type": 0,
+      "content": "Thank you for graciously turning up to the ACM Booth. \n\nTo all the new people that just dropped in: welcome, welcome, welcome!\n\nHopefully more will join us over the course of the remaining days, and (ambitiously wishing) year. \nThank you for clicking into this Discord. We can't wait to work with you, and for you.\n\n- ACM Council",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": false,
+      "tts": false,
+      "timestamp": "2023-08-29T23:45:22.257000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": []
+  },
+  {
+      "id": "1145934539898757190",
+      "type": 0,
+      "content": "@everyone \nApologies for the late, late ping.\nThe 2023-24 In-Person Involvement Fair is right around the corner (literally starts tomorrow!). Come meet **ACM** in flesh, at our booth, from **12-3pm**, all of **Tuesday/Wednesday/Thursday (29th August - 31st August)**.\n\nThe first person to arrive at our booth will get a **Google Merchandise object**. We also have tote-bags, stickers, and stationery waiting to be picked up! \n\nPS: Don\u2019t forget to wear sunscreen, carry a water bottle and drag your friends with you.\nSee you when we see you!\n\n-ACM Council",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [
+          {
+              "id": "1145934539626119238",
+              "filename": "InvolvementFairFlyer.png",
+              "size": 988867,
+              "url": "https://cdn.discordapp.com/attachments/652006847334842378/1145934539626119238/InvolvementFairFlyer.png?ex=655c2eb4&is=6549b9b4&hm=93b358f41f43d6fb5538c889cb7e66b0a63a466998329dcd976f6f09a85942ad&",
+              "proxy_url": "https://media.discordapp.net/attachments/652006847334842378/1145934539626119238/InvolvementFairFlyer.png?ex=655c2eb4&is=6549b9b4&hm=93b358f41f43d6fb5538c889cb7e66b0a63a466998329dcd976f6f09a85942ad&",
+              "width": 1414,
+              "height": 2000,
+              "content_type": "image/png"
+          }
+      ],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-08-29T04:14:44.746000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 12,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 12
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\ud83e\udd23"
+              },
+              "count": 8,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 8
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  },
+  {
+      "id": "1143006472180080810",
+      "type": 0,
+      "content": "@everyone \nWe start the Fall 2023 semester tomorrow \ud83c\udf89\nI hope you have the classes/schedule you want, and if not, hopefully by the add/drop deadline of 1st September, you can make that happen \u2728\ufe0f\n\nGoodluck with the new school year and most importantly, take care of your mental and physical health. See you in the lounge, here or elsewhere!\n\n- ACM Council 2023-24",
+      "channel_id": "652006847334842378",
+      "author": {
+          "id": "822032711509737492",
+          "username": "mentossuperfresh",
+          "avatar": "64c56bc09708be600d925379d43b1d52",
+          "discriminator": "0",
+          "public_flags": 0,
+          "premium_type": 3,
+          "flags": 0,
+          "banner": null,
+          "accent_color": null,
+          "global_name": "mentos",
+          "avatar_decoration_data": null,
+          "banner_color": null
+      },
+      "attachments": [],
+      "embeds": [],
+      "mentions": [],
+      "mention_roles": [],
+      "pinned": false,
+      "mention_everyone": true,
+      "tts": false,
+      "timestamp": "2023-08-21T02:19:39.001000+00:00",
+      "edited_timestamp": null,
+      "flags": 0,
+      "components": [],
+      "reactions": [
+          {
+              "emoji": {
+                  "id": "759250676713914404",
+                  "name": "RainbowBlobGoingCrazy",
+                  "animated": true
+              },
+              "count": 16,
+              "count_details": {
+                  "burst": 16,
+                  "normal": 0
+              },
+              "burst_colors": [
+                  "#000000",
+                  "#f08686",
+                  "#202020",
+                  "#e0867d",
+                  "#b06262",
+                  "#f09086",
+                  "#b07057",
+                  "#202020",
+                  "#c0715f",
+                  "#a0664f"
+              ],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 16
+          },
+          {
+              "emoji": {
+                  "id": "759249328006496257",
+                  "name": "PepeHands"
+              },
+              "count": 8,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 8
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          },
+          {
+              "emoji": {
+                  "id": null,
+                  "name": "\u2764\ufe0f"
+              },
+              "count": 2,
+              "count_details": {
+                  "burst": 0,
+                  "normal": 2
+              },
+              "burst_colors": [],
+              "me_burst": false,
+              "burst_me": false,
+              "me": false,
+              "burst_count": 0
+          }
+      ]
+  }
+]

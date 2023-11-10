@@ -1,0 +1,634 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"p32ccrulpl6po40o\"",
+  "summary": "ACM@UIC",
+  "description": "Association of Computing Machinery Events Calendar\n\nThis calendar is shared with ACM@UIC Council. Outside of the ACM Council, contacts from the Engineering Career Center & CS Dept Student Affairs.",
+  "updated": "2023-11-08T02:10:27.343Z",
+  "timeZone": "America/Chicago",
+  "accessRole": "reader",
+  "defaultReminders": [],
+  "nextPageToken": "EjYKKzI3aXU2Y3ZvNTk4ZnBnM21xbXRvaGszcTVnXzIwMjMxMTI0VDIzMzAwMFoYgKyC6pTdggMiBwgFEI3xgDo=",
+  "items": [
+   {
+    "kind": "calendar#event",
+    "etag": "\"3398818854686000\"",
+    "id": "7el91ugucthc45482uab1i0g5l",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=N2VsOTF1Z3VjdGhjNDU0ODJ1YWIxaTBnNWwga2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZw",
+    "created": "2023-10-10T16:00:23.000Z",
+    "updated": "2023-11-08T02:10:27.343Z",
+    "summary": "Stump The Profs ",
+    "location": "CS Lounge SELE 2260",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-08T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-08T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "visibility": "public",
+    "iCalUID": "7el91ugucthc45482uab1i0g5l@google.com",
+    "sequence": 0,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3392231855404000\"",
+    "id": "f9jfe6nnjok4f8fsua3v5k9m2g_20231109T000000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ZjlqZmU2bm5qb2s0Zjhmc3VhM3Y1azltMmdfMjAyMzExMDlUMDAwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-11T15:25:26.000Z",
+    "updated": "2023-09-30T23:18:47.702Z",
+    "summary": "SIG-Game Regular meeting",
+    "creator": {
+     "email": "zlr2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-08T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-08T19:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "f9jfe6nnjok4f8fsua3v5k9m2g",
+    "originalStartTime": {
+     "dateTime": "2023-11-08T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "f9jfe6nnjok4f8fsua3v5k9m2g@google.com",
+    "sequence": 1,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396745839768000\"",
+    "id": "5njv2g0th31goojrsn3s22oc25",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NW5qdjJnMHRoMzFnb29qcnNuM3MyMm9jMjUga2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZw",
+    "created": "2023-10-21T03:49:24.000Z",
+    "updated": "2023-10-27T02:15:19.884Z",
+    "summary": "Docker Workshop with Ben Maciorowski",
+    "description": "Senior SWE at Intelsat\nEx-President [Linux Users Group]\nUIC'2019",
+    "location": "CS Lounge: SELE 2260",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-09T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-09T18:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "visibility": "public",
+    "iCalUID": "5njv2g0th31goojrsn3s22oc25@google.com",
+    "sequence": 1,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396346438794000\"",
+    "id": "3cu239frildd164vn4b2bgkhic",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=M2N1MjM5ZnJpbGRkMTY0dm40YjJiZ2toaWMga2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZw",
+    "created": "2023-10-18T16:26:45.000Z",
+    "updated": "2023-10-24T18:46:59.397Z",
+    "summary": "Git Internals Technical Workshop",
+    "description": "SWE II at Microsoft\nEx-ACM President\nUIC'2021",
+    "location": "SELE 2260 (CS Lounge)",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-10T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-10T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "visibility": "public",
+    "iCalUID": "3cu239frildd164vn4b2bgkhic@google.com",
+    "sequence": 0,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396234541142000\"",
+    "id": "27iu6cvo598fpg3mqmtohk3q5g_20231110T233000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MjdpdTZjdm81OThmcGczbXFtdG9oazNxNWdfMjAyMzExMTBUMjMzMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-22T02:19:16.000Z",
+    "updated": "2023-10-24T03:14:30.571Z",
+    "summary": "SIG-Jobs Weekly LeetCode Workshop",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-10T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-10T18:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "27iu6cvo598fpg3mqmtohk3q5g",
+    "originalStartTime": {
+     "dateTime": "2023-11-10T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "27iu6cvo598fpg3mqmtohk3q5g@google.com",
+    "sequence": 3,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3393646896030000\"",
+    "id": "51900roaq3qe7m9ijg1ieaat40_20231113T230000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NTE5MDByb2FxM3FlN205aWpnMWllYWF0NDBfMjAyMzExMTNUMjMwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-08-21T22:51:56.000Z",
+    "updated": "2023-10-09T03:50:48.015Z",
+    "summary": "ACM Council Meeting",
+    "location": "ACM/LUG lounge",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-13T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-13T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "51900roaq3qe7m9ijg1ieaat40_R20231016T220000",
+    "originalStartTime": {
+     "dateTime": "2023-11-13T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "visibility": "public",
+    "iCalUID": "51900roaq3qe7m9ijg1ieaat40_R20231016T220000@google.com",
+    "sequence": 0,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396348124794000\"",
+    "id": "6e25dp4h5v6v6tht0jb3aattce_20231114T230000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NmUyNWRwNGg1djZ2NnRodDBqYjNhYXR0Y2VfMjAyMzExMTRUMjMwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-12T23:32:07.000Z",
+    "updated": "2023-10-24T19:01:02.397Z",
+    "summary": "SIG Math",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "skali4@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-14T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-14T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "6e25dp4h5v6v6tht0jb3aattce",
+    "originalStartTime": {
+     "dateTime": "2023-11-14T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "6e25dp4h5v6v6tht0jb3aattce@google.com",
+    "sequence": 0,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396348141072000\"",
+    "id": "0tgj89n218qs3qtkqfnn86j7ut_20231115T213000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MHRnajg5bjIxOHFzM3F0a3Fmbm44Nmo3dXRfMjAyMzExMTVUMjEzMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-06T18:18:38.000Z",
+    "updated": "2023-10-24T19:01:10.536Z",
+    "summary": "SIG Webdev",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "aknig2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-15T15:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-15T16:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "0tgj89n218qs3qtkqfnn86j7ut",
+    "originalStartTime": {
+     "dateTime": "2023-11-15T15:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "0tgj89n218qs3qtkqfnn86j7ut@google.com",
+    "sequence": 3,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396234628138000\"",
+    "id": "5j1m2le3rp31c68b8210pm81bl",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NWoxbTJsZTNycDMxYzY4YjgyMTBwbTgxYmwga2M3MmcxY3RmZzhiODhkZjM0cXFiNjJkMXNAZw",
+    "created": "2023-10-18T16:28:08.000Z",
+    "updated": "2023-10-24T03:15:14.069Z",
+    "summary": "React Firebase Workshop",
+    "location": "CS Lounge: SELE 2260",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-15T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-15T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "visibility": "public",
+    "iCalUID": "5j1m2le3rp31c68b8210pm81bl@google.com",
+    "sequence": 2,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3390621304816000\"",
+    "id": "60q36pj46pijibb36opj2b9kc9i68b9o71gj4b9l65h3icj3cpgjadpm6o_20231116T000000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NjBxMzZwajQ2cGlqaWJiMzZvcGoyYjlrYzlpNjhiOW83MWdqNGI5bDY1aDNpY2ozY3BnamFkcG02b18yMDIzMTExNlQwMDAwMDBaIGtjNzJnMWN0Zmc4Yjg4ZGYzNHFxYjYyZDFzQGc",
+    "created": "2023-09-21T15:37:32.000Z",
+    "updated": "2023-09-21T15:37:32.408Z",
+    "summary": "SIG SysAdmin Sync Meeting",
+    "description": "SIG SysAdmin meetings come in two forms. This week is a sync meeting where we all come together to discuss what we're working on and other cool stuff. Formal presentations will be on the following Wednesday.",
+    "location": "Discord Voice: SIG SysAdmin",
+    "creator": {
+     "email": "chase@acm.cs.uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-15T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-15T19:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "60q36pj46pijibb36opj2b9kc9i68b9o71gj4b9l65h3icj3cpgjadpm6o",
+    "originalStartTime": {
+     "dateTime": "2023-11-15T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "60q36pj46pijibb36opj2b9kc9i68b9o71gj4b9l65h3icj3cpgjadpm6o@google.com",
+    "sequence": 0,
+    "guestsCanInviteOthers": false,
+    "guestsCanSeeOtherGuests": false,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3392231855404000\"",
+    "id": "f9jfe6nnjok4f8fsua3v5k9m2g_20231116T000000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ZjlqZmU2bm5qb2s0Zjhmc3VhM3Y1azltMmdfMjAyMzExMTZUMDAwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-11T15:25:26.000Z",
+    "updated": "2023-09-30T23:18:47.702Z",
+    "summary": "SIG-Game Regular meeting",
+    "creator": {
+     "email": "zlr2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-15T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-15T19:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "f9jfe6nnjok4f8fsua3v5k9m2g",
+    "originalStartTime": {
+     "dateTime": "2023-11-15T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "f9jfe6nnjok4f8fsua3v5k9m2g@google.com",
+    "sequence": 1,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396234541142000\"",
+    "id": "27iu6cvo598fpg3mqmtohk3q5g_20231117T233000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MjdpdTZjdm81OThmcGczbXFtdG9oazNxNWdfMjAyMzExMTdUMjMzMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-22T02:19:16.000Z",
+    "updated": "2023-10-24T03:14:30.571Z",
+    "summary": "SIG-Jobs Weekly LeetCode Workshop",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-17T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-17T18:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "27iu6cvo598fpg3mqmtohk3q5g",
+    "originalStartTime": {
+     "dateTime": "2023-11-17T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "27iu6cvo598fpg3mqmtohk3q5g@google.com",
+    "sequence": 3,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3393646896030000\"",
+    "id": "51900roaq3qe7m9ijg1ieaat40_20231120T230000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NTE5MDByb2FxM3FlN205aWpnMWllYWF0NDBfMjAyMzExMjBUMjMwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-08-21T22:51:56.000Z",
+    "updated": "2023-10-09T03:50:48.015Z",
+    "summary": "ACM Council Meeting",
+    "location": "ACM/LUG lounge",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-20T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-20T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "51900roaq3qe7m9ijg1ieaat40_R20231016T220000",
+    "originalStartTime": {
+     "dateTime": "2023-11-20T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "visibility": "public",
+    "iCalUID": "51900roaq3qe7m9ijg1ieaat40_R20231016T220000@google.com",
+    "sequence": 0,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396348124794000\"",
+    "id": "6e25dp4h5v6v6tht0jb3aattce_20231121T230000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NmUyNWRwNGg1djZ2NnRodDBqYjNhYXR0Y2VfMjAyMzExMjFUMjMwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-12T23:32:07.000Z",
+    "updated": "2023-10-24T19:01:02.397Z",
+    "summary": "SIG Math",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "skali4@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-21T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-21T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "6e25dp4h5v6v6tht0jb3aattce",
+    "originalStartTime": {
+     "dateTime": "2023-11-21T17:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "6e25dp4h5v6v6tht0jb3aattce@google.com",
+    "sequence": 0,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396348141072000\"",
+    "id": "0tgj89n218qs3qtkqfnn86j7ut_20231122T213000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MHRnajg5bjIxOHFzM3F0a3Fmbm44Nmo3dXRfMjAyMzExMjJUMjEzMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-06T18:18:38.000Z",
+    "updated": "2023-10-24T19:01:10.536Z",
+    "summary": "SIG Webdev",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "aknig2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-22T15:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-22T16:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "0tgj89n218qs3qtkqfnn86j7ut",
+    "originalStartTime": {
+     "dateTime": "2023-11-22T15:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "0tgj89n218qs3qtkqfnn86j7ut@google.com",
+    "sequence": 3,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3391655980044000\"",
+    "id": "65gjcchic4s68b9l6cs3ab9k6goj4bb160sj4b9j6hgm2oj16cq36dpgck_20231123T000000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NjVnamNjaGljNHM2OGI5bDZjczNhYjlrNmdvajRiYjE2MHNqNGI5ajZoZ20yb2oxNmNxMzZkcGdja18yMDIzMTEyM1QwMDAwMDBaIGtjNzJnMWN0Zmc4Yjg4ZGYzNHFxYjYyZDFzQGc",
+    "created": "2023-09-21T15:37:31.000Z",
+    "updated": "2023-09-27T15:19:50.022Z",
+    "summary": "SIG SysAdmin",
+    "location": "ACM/LUG Office (SELE 2264)",
+    "creator": {
+     "email": "chase@acm.cs.uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-22T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-22T19:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "65gjcchic4s68b9l6cs3ab9k6goj4bb160sj4b9j6hgm2oj16cq36dpgck_R20231025T230000",
+    "originalStartTime": {
+     "dateTime": "2023-11-22T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "65gjcchic4s68b9l6cs3ab9k6goj4bb160sj4b9j6hgm2oj16cq36dpgck_R20231025T230000@google.com",
+    "sequence": 0,
+    "guestsCanInviteOthers": false,
+    "guestsCanSeeOtherGuests": false,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3392231855404000\"",
+    "id": "f9jfe6nnjok4f8fsua3v5k9m2g_20231123T000000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ZjlqZmU2bm5qb2s0Zjhmc3VhM3Y1azltMmdfMjAyMzExMjNUMDAwMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-11T15:25:26.000Z",
+    "updated": "2023-09-30T23:18:47.702Z",
+    "summary": "SIG-Game Regular meeting",
+    "creator": {
+     "email": "zlr2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-22T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-22T19:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "f9jfe6nnjok4f8fsua3v5k9m2g",
+    "originalStartTime": {
+     "dateTime": "2023-11-22T18:00:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "f9jfe6nnjok4f8fsua3v5k9m2g@google.com",
+    "sequence": 1,
+    "eventType": "default"
+   },
+   {
+    "kind": "calendar#event",
+    "etag": "\"3396234541142000\"",
+    "id": "27iu6cvo598fpg3mqmtohk3q5g_20231124T233000Z",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MjdpdTZjdm81OThmcGczbXFtdG9oazNxNWdfMjAyMzExMjRUMjMzMDAwWiBrYzcyZzFjdGZnOGI4OGRmMzRxcWI2MmQxc0Bn",
+    "created": "2023-09-22T02:19:16.000Z",
+    "updated": "2023-10-24T03:14:30.571Z",
+    "summary": "SIG-Jobs Weekly LeetCode Workshop",
+    "location": "ACM Lounge: SELE 2264",
+    "creator": {
+     "email": "yshand2@uic.edu"
+    },
+    "organizer": {
+     "email": "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
+     "displayName": "ACM@UIC",
+     "self": true
+    },
+    "start": {
+     "dateTime": "2023-11-24T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "end": {
+     "dateTime": "2023-11-24T18:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "recurringEventId": "27iu6cvo598fpg3mqmtohk3q5g",
+    "originalStartTime": {
+     "dateTime": "2023-11-24T17:30:00-06:00",
+     "timeZone": "America/Chicago"
+    },
+    "iCalUID": "27iu6cvo598fpg3mqmtohk3q5g@google.com",
+    "sequence": 3,
+    "eventType": "default"
+   }
+  ]
+ }
+ 
