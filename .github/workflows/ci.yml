@@ -10,7 +10,6 @@ on:
 permissions:
   contents: write
   pages: write
-  id-token: write
   pull-requests: write
 
 jobs:
@@ -18,7 +17,6 @@ jobs:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
     name: Build PR and Deploy 🚀
-    needs: terraform_plan
 
     steps:
       - name: Checkout repo 🛎️
@@ -37,9 +35,6 @@ jobs:
           yarn install
 
       - name: Build ⚙️
-        env:
-          TYPESENSE_HOST: ${{ needs.terraform_plan.outputs.typesense_container_app_fqdn }}
-          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ needs.terraform_plan.outputs.typesense_search_only_api_key }}
         run: |
           yarn build
 
@@ -75,7 +70,6 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     name: Build and Push GitHub Pages Site 🚀
-    needs: terraform_apply
     concurrency:
       group: build_release_gh_pages
       cancel-in-progress: true
@@ -106,9 +100,6 @@ jobs:
           yarn prettier:ci
 
       - name: Build ⚙️
-        env:
-          TYPESENSE_HOST: ${{ needs.terraform_apply.outputs.typesense_container_app_fqdn }}
-          TYPESENSE_SEARCH_ONLY_API_KEY: ${{ needs.terraform_apply.outputs.typesense_search_only_api_key }}
         run: |
           yarn build
 
@@ -124,7 +115,7 @@ jobs:
   update_search_db:
     runs-on: ubuntu-latest
     name: Update search DB 🔍
-    needs: [terraform_apply, build_release_gh_pages]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v4
@@ -132,158 +123,10 @@ jobs:
           submodules: recursive
 
       - name: Run DocSearch Scraper 🔍
-        run: |
-          docker run \
-            --env TYPESENSE_API_KEY="${{ secrets.TYPESENSE_API_KEY }}" \
-            --env TYPESENSE_HOST="${{ needs.terraform_apply.outputs.typesense_container_app_fqdn }}" \
-            --env TYPESENSE_PORT="443" \
-            --env TYPESENSE_PROTOCOL="https" \
-            --env CONFIG="$(cat ./.github/workflows/typesense-scraper-config.json | jq -r tostring)" \
-            typesense/docsearch-scraper:0.7.0
-
-  terraform_plan:
-    runs-on: ubuntu-latest
-    name: Terraform Plan 🤖📖
-    if: github.event_name == 'pull_request' && github.event.action != 'closed'
-    concurrency:
-      group: terraform
-      cancel-in-progress: false
-    outputs:
-      typesense_search_only_api_key: ${{ steps.tf-outputs.outputs.typesense_search_only_api_key }}
-      typesense_container_app_fqdn: ${{ steps.tf-outputs.outputs.typesense_container_app_fqdn }}
-    env:
-      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
-      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      ARM_USE_OIDC: true
-      TF_WORKSPACE: prod
-      TF_IN_AUTOMATION: true
-      TF_INPUT: 0
-
-    steps:
-      - name: Checkout repo 🛎️
-        uses: actions/checkout@v4
+        uses: celsiusnarhwal/typesense-scraper@v2
         with:
-          submodules: recursive
-
-      - name: Azure CLI setup ⚙️
-        uses: azure/login@v1
-        with:
-          client-id: ${{ env.ARM_CLIENT_ID }}
-          tenant-id: ${{ env.ARM_TENANT_ID }}
-          subscription-id: ${{ env.ARM_SUBSCRIPTION_ID }}
-
-      - name: Terraform Format 💄
-        id: fmt
-        uses: dflook/terraform-fmt-check@v1
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-
-      - name: Terraform Validate 👀
-        id: validate
-        uses: dflook/terraform-validate@v1
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-
-      - name: Get Typesense collection name ⚙️
-        id: get_typesense_collection_name
-        run: |
-          typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
-          echo "typesense_collection_name=$typesense_collection_name" >> "$GITHUB_OUTPUT"
-
-      - name: Terraform Plan 📖
-        id: plan
-        uses: dflook/terraform-plan@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-          variables: |
-            typesense_api_key="${{ secrets.TYPESENSE_API_KEY }}"
-            typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
-            typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
-
-      - name: Get outputs ⚙️
-        uses: dflook/terraform-output@v1
-        id: tf-outputs
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-
-  terraform_apply:
-    runs-on: ubuntu-latest
-    name: Terraform Apply 🤖🚀
-    environment: azure-container-app
-    concurrency:
-      group: terraform
-      cancel-in-progress: false
-    env:
-      ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-      ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
-      ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-      ARM_USE_OIDC: true
-      TF_WORKSPACE: prod
-      TF_IN_AUTOMATION: true
-      TF_INPUT: 0
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    outputs:
-      typesense_search_only_api_key: ${{ steps.tf-outputs.outputs.typesense_search_only_api_key }}
-      typesense_container_app_fqdn: ${{ steps.tf-outputs.outputs.typesense_container_app_fqdn }}
-
-    steps:
-      - name: Checkout repo 🛎️
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-
-      - name: Azure CLI setup ⚙️
-        uses: azure/login@v1
-        with:
-          client-id: ${{ env.ARM_CLIENT_ID }}
-          tenant-id: ${{ env.ARM_TENANT_ID }}
-          subscription-id: ${{ env.ARM_SUBSCRIPTION_ID }}
-
-      - name: Terraform Format 💄
-        id: fmt
-        uses: dflook/terraform-fmt-check@v1
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-
-      - name: Terraform Validate 👀
-        id: validate
-        uses: dflook/terraform-validate@v1
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-
-      - name: Get Typesense collection name ⚙️
-        id: get_typesense_collection_name
-        run: |
-          typesense_collection_name=$(jq -r '.index_name' .github/workflows/typesense-scraper-config.json)
-          echo "typesense_collection_name=$typesense_collection_name" >> "$GITHUB_OUTPUT"
-
-      - name: Terraform Apply 🚀
-        id: apply
-        uses: dflook/terraform-apply@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-          variables: |
-            typesense_api_key="${{ secrets.TYPESENSE_API_KEY }}"
-            typesense_rg="${{ secrets.TYPESENSE_RESOURCE_GROUP_NAME }}"
-            typesense_collection_name="${{ steps.get_typesense_collection_name.outputs.typesense_collection_name }}"
-
-      - name: Get outputs ⚙️
-        uses: dflook/terraform-output@v1
-        id: tf-outputs
-        with:
-          path: tf
-          workspace: ${{ env.TF_WORKSPACE }}
-
+          api-key: ${{ secrets.TYPESENSE_API_KEY }}
+          host: typesense.acmuic.org
+          port: 443
+          protocol: https
+          config: docsearch.config.json

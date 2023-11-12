@@ -1,7 +1,3 @@
-- # terraform
-  name: ":building_construction: terraform"
-  color: "7b42bc"
-  description: ""
 - # actions
   name: ":construction: actions"
   color: "8f4fbc"

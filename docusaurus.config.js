@@ -1,13 +1,8 @@
 // @ts-check
 /* eslint-disable @typescript-eslint/no-var-requires */
-require("dotenv").config();
-
-/* eslint-disable @typescript-eslint/no-var-requires */
 const {
   config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink, youTubeChannelLink },
 } = require("./appConfig");
-
-const { index_name: typesenseCollectionName } = require("./.github/workflows/typesense-scraper-config.json");
 
 const gitHubOrg = "acm-uic";
 const gitHubRepoName = "acm-uic.github.io";
@@ -15,8 +10,9 @@ const gitHubOrgUrl = `https://github.com/${gitHubOrg}`;
 const gitHubRepoUrl = `${gitHubOrgUrl}/${gitHubRepoName}`;
 const gitHubRepoDefaultBranch = "main";
 const gitHubPagesUrl = `https://${gitHubRepoName}`;
-const typesenseHost = process.env.TYPESENSE_HOST ?? "localhost";
-const typesenseKey = process.env.TYPESENSE_SEARCH_ONLY_API_KEY ?? "test_key";
+const typesenseHost = "typesense.acmuic.org";
+const typesenseKey = "QRerr6QNQ96HpqBaof6yPinG7fnq11bs"; // key with search-only permissions
+const typesenseCollectionName = "docusaurus-2";
 
 /**
  *

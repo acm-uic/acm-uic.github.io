@@ -1,19 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "terraform"
-    directory: "/tf"
-    schedule:
-      interval: "weekly"
-      day: "saturday"
-      time: "07:00"
-      timezone: "America/Chicago"
-    labels:
-      - ":package: dependencies"
-      - ":robot: bot"
-      - ":building_construction: terraform"
-    commit-message:
-      prefix: ":arrow_up:"
-
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
