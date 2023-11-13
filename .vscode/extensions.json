@@ -4,7 +4,6 @@
     "esbenp.prettier-vscode",
     "DavidAnson.vscode-markdownlint",
     "stylelint.vscode-stylelint",
-    "unifiedjs.vscode-mdx",
-    "hashicorp.terraform"
+    "unifiedjs.vscode-mdx"
   ]
 }
