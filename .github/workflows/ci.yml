@@ -116,7 +116,7 @@ jobs:
   update_search_db:
     runs-on: ubuntu-latest
     name: Update search DB 🔍
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: build_release_gh_pages
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v4
