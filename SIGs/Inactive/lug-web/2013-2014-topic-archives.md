@@ -15,6 +15,7 @@ Below you will find some resources that may be useful to you as discussed in our
 - [Caret (Requires Chrome/Chromium, Free)](https://chrome.google.com/webstore/detail/caret/fljalecfjciodhpcledpamjachpmelml?utm_source=website)
 - [TextMate (Mac-Only, Free/Paid)](http://macromates.com/)
 - [Vim (Unix-based, Free/Paid)](http://www.vim.org/)
+- [CodeLobster (Windows, Mac, Linux, Free/Paid)](https://codelobster.com/)
 
 ### Good Browsers to test your websites
 
