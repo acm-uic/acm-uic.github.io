@@ -43,11 +43,11 @@ const config = {
   themes: ["docusaurus-theme-search-typesense"],
   scripts: [
     {
-      src: 'https://plausible.acmuic.org/js/script.js',
+      src: "https://plausible.acmuic.org/js/script.js",
       async: true,
       defer: true,
-      'data-domain': 'acm.cs.uic.edu'
-    }
+      "data-domain": "acm.cs.uic.edu",
+    },
   ],
   themeConfig:
     /** @type {import('docusaurus-theme-search-typesense').ThemeConfig} */
