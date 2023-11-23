@@ -41,6 +41,14 @@ const config = {
   organizationName: gitHubOrg,
   projectName: gitHubRepoName, // Usually your repo name.
   themes: ["docusaurus-theme-search-typesense"],
+  scripts: [
+    {
+      src: "https://plausible.acmuic.org/js/script.js",
+      async: true,
+      defer: true,
+      "data-domain": "acm.cs.uic.edu",
+    },
+  ],
   themeConfig:
     /** @type {import('docusaurus-theme-search-typesense').ThemeConfig} */
     ({
