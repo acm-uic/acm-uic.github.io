@@ -8,9 +8,10 @@ This is the source for [acm-uic.github.io](https://acm-uic.github.io) website; f
 
 Check out the [contributing guide](.github/CONTRIBUTING.md).
 
-## Typesense Deployment
+## Service dependencies
 
-Check out the [typesense deployment guide](typesense-deployment.md).
+- Typesense (typesense.acmuic.org) - https://github.com/acm-uic/IaC/tree/main/kubernetes/argocd/stacks/typesense
+- Plausible (plausible.acmuic.org) - https://github.com/acm-uic/IaC/tree/main/kubernetes/argocd/stacks/plausible
 
 ## License
 
