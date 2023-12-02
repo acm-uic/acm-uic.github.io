@@ -23,8 +23,8 @@
     "lint:style": "stylelint \"**/*.css\""
   },
   "dependencies": {
-    "@docusaurus/core": "3.0.0",
-    "@docusaurus/preset-classic": "3.0.0",
+    "@docusaurus/core": "3.0.1",
+    "@docusaurus/preset-classic": "3.0.1",
     "@mdx-js/react": "3.0.0",
     "@svgr/webpack": "8.1.0",
     "clsx": "2.0.0",
@@ -39,8 +39,8 @@
     "url-loader": "4.1.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.0.0",
-    "@docusaurus/tsconfig": "3.0.0",
+    "@docusaurus/module-type-aliases": "3.0.1",
+    "@docusaurus/tsconfig": "3.0.1",
     "@types/dotenv": "8.2.0",
     "@types/eslint": "8.44.7",
     "@types/gapi": "0.0.47",
