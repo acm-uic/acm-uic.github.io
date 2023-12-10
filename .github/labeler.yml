@@ -1,20 +1,20 @@
 ":memo: documentation":
-  - changed-files:
-    - any-glob-to-any-file:
-      - docs/**/*
-      - SIGs/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - docs/**/*
+    - SIGs/**/*
 ":pencil2: blog":
-  - changed-files:
-    - any-glob-to-any-file:
-      - blog/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - blog/**/*
 ":taco: app":
-  - changed-files:
-    - any-glob-to-any-file:
-      - src/**/*
-      - static/**/*
-      - ./*.js
-      - ./*.json
+- changed-files:
+  - any-glob-to-any-file:
+    - src/**/*
+    - static/**/*
+    - ./*.js
+    - ./*.json
 ":construction: actions":
-  - changed-files:
-    - any-glob-to-any-file:
-      - .github/workflows/**/*
+- changed-files:
+  - any-glob-to-any-file:
+    - .github/workflows/**/*
