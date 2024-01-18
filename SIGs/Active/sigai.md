@@ -5,12 +5,12 @@ description: Everything from Gen AI to Transformers!
 
 # SIG AI
 
-|              |                                             |
-| ------------ | ------------------------------------------- |
-| **Weekday**  | TBD                                         |
-| **Time**     | TBD                                         |
-| **Location** | TBD on #sig-ai channel in the ACM Discord   |
-| **Leaders**  | Yashi Shandilya                             |
+|              |                                           |
+| ------------ | ----------------------------------------- |
+| **Weekday**  | TBD                                       |
+| **Time**     | TBD                                       |
+| **Location** | TBD on #sig-ai channel in the ACM Discord |
+| **Leaders**  | Yashi Shandilya                           |
 
 ## About
 

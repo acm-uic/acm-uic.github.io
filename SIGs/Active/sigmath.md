@@ -1,6 +1,6 @@
 ---
 slug: /math
-description: We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems. 
+description: We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems.
 ---
 
 # SIG Math
@@ -14,14 +14,16 @@ description: We are a Special Interest Group dedicated to analytical solutions t
 
 ## About
 
-We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems. 
+We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems.
 
 ### Previous projects include:
- - Integral and derivative calculators
- - Reduced Row Echelon Form Calculator
+
+- Integral and derivative calculators
+- Reduced Row Echelon Form Calculator
 
 ### Possible Projects
- - Probability Calculator
- - Prime Factorization Calculator
- - Argument Solver
- - Your Input Matters: Highly open to other project ideas from members
+
+- Probability Calculator
+- Prime Factorization Calculator
+- Argument Solver
+- Your Input Matters: Highly open to other project ideas from members
