@@ -1,5 +1,6 @@
 ---
 slug: /ai
+description: Everything from Gen AI to Transformers!
 ---
 
 # SIG AI

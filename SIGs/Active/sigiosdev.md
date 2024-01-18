@@ -1,5 +1,6 @@
 ---
 slug: /ios-dev
+description: If you're interested in mobile app development and want a personal project to add to your resume, then consider joining SIG-iOSDev!
 ---
 
 # SIG iOS Dev
