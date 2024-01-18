@@ -16,7 +16,7 @@ description: We are a Special Interest Group dedicated to analytical solutions t
 
 We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems.
 
-### Previous projects include:
+### Previous Projects
 
 - Integral and derivative calculators
 - Reduced Row Echelon Form Calculator
