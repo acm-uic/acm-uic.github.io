@@ -5,7 +5,7 @@ description: If you're interested in mobile app development and want a personal 
 
 # SIG iOS Dev
 
-| <!-- -->     | <!-- -->                                       |
+|              |                                                |
 | ------------ | ---------------------------------------------- |
 | **Weekday**  | TBD                                            |
 | **Time**     | TBD                                            |

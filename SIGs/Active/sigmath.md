@@ -5,7 +5,7 @@ description: We are a Special Interest Group dedicated to analytical solutions t
 
 # SIG Math
 
-| <!-- -->     | <!-- -->                                    |
+|              |                                             |
 | ------------ | ------------------------------------------- |
 | **Weekday**  | TBD                                         |
 | **Time**     | TBD                                         |

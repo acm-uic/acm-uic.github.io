@@ -5,7 +5,7 @@ description: Come prep for the job hunt! Cracking the coding intervievw can be d
 
 # SIG Jobs
 
-| <!-- -->     | <!-- -->                                    |
+|              |                                             |
 | ------------ | ------------------------------------------- |
 | **Weekday**  | TBD                                         |
 | **Time**     | TBD                                         |

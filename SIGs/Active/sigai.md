@@ -5,7 +5,7 @@ description: Everything from Gen AI to Transformers!
 
 # SIG AI
 
-| <!-- -->     | <!-- -->                                    |
+|              |                                             |
 | ------------ | ------------------------------------------- |
 | **Weekday**  | TBD                                         |
 | **Time**     | TBD                                         |
