@@ -1,5 +1,5 @@
 ---
-slug: /ai
+slug: /ai-2019
 ---
 
 # SIG AI
