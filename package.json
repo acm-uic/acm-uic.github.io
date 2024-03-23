@@ -45,7 +45,7 @@
     "@types/eslint": "8.56.5",
     "@types/gapi": "0.0.47",
     "@types/gapi.client.calendar": "3.0.12",
-    "@types/node": "20.11.28",
+    "@types/node": "20.11.30",
     "@types/react": "18.2.36",
     "@types/react-helmet": "6.1.11",
     "@types/react-router-dom": "5.3.3",
