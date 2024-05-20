@@ -30,6 +30,7 @@ updates:
       docusaurus:
         patterns:
           - "@docusaurus/*"
+          - "docusaurus-theme-search-typesense"
       eslint:
         patterns:
           - "@typescript-eslint/*"
@@ -44,5 +45,3 @@ updates:
         patterns:
           - "react"
           - "react-dom"
-
-
