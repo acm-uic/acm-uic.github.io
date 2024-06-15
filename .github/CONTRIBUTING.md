@@ -4,16 +4,15 @@
 
 ### Folder structure
 
-| name           | explanation                                                                                                      |
-| -------------- | ---------------------------------------------------------------------------------------------------------------- |
-| blog           | contains blog posts & announcements that show up under `/blog` route .                                           |
-| docs           | contains docs & wiki pages that show up under `/docs` route .                                                    |
-| SIGs           | contains pages with details about Special Interest Groups (SIGs) that show up under `/sigs` route .              |
-| src            | contains source code for the web site, reusable components, stylesheets, etc.                                    |
-| src/components | contains reusable components for site pages, blog posts, docs, and other pages.                                  |
-| src/pages      | contains site pages such as `/join` `/about/`.                                                                   |
-| static         | contains static content such as images.                                                                          |
-| static/media   | link to git submodule that resolves to the [acm-uic/web-media](https://github.com/acm-uic/web-media) repository. |
+| name           | explanation                                                                                         |
+| -------------- | --------------------------------------------------------------------------------------------------- |
+| blog           | contains blog posts & announcements that show up under `/blog` route .                              |
+| docs           | contains docs & wiki pages that show up under `/docs` route .                                       |
+| SIGs           | contains pages with details about Special Interest Groups (SIGs) that show up under `/sigs` route . |
+| src            | contains source code for the web site, reusable components, stylesheets, etc.                       |
+| src/components | contains reusable components for site pages, blog posts, docs, and other pages.                     |
+| src/pages      | contains site pages such as `/join` `/about/`.                                                      |
+| static         | contains static content such as images.                                                             |
 
 ### Markdown and `mdx`
 
@@ -24,24 +23,6 @@ MDX allows the use of JSX inside Markdown files, which allows us to import and u
 ### Docusaurus
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-### Cloning
-
-This repository uses git submodules to link to the [acm-uic/web-media](https://github.com/acm-uic/web-media.git) repository.
-
-To clone with the submodules use `--recurse-submodules` flag:
-
-```console
-git clone --recurse-submodules https://github.com/acm-uic/acm-uic.github.io.git
-```
-
-To initialize the submodule on a already cloned repo use the following command:
-
-```console
-git submodule update --init
-```
-
-Reference: [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 ### Installation
 
