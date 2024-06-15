@@ -22,8 +22,6 @@ jobs:
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Use Node 18.x 🔧
         uses: actions/setup-node@v4
@@ -77,8 +75,6 @@ jobs:
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Use Node 18.x 🔧
         uses: actions/setup-node@v4
@@ -120,8 +116,6 @@ jobs:
     steps:
       - name: Checkout repo 🛎️
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Run DocSearch Scraper 🔍
         uses: celsiusnarhwal/typesense-scraper@v2
