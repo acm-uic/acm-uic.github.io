@@ -11,16 +11,40 @@ const officers = [
     description: <>President</>,
   },
   {
-    name: "Sam Effendy",
-    image: "https://avatars.githubusercontent.com/u/49312226?s=100&v=4",
-    url: "https://github.com/dejazzhands",
+    name: "Eva Pisabaj",
+    image: "/media/council_profiles/eva_pisabaj_400.jpg",
+    url: "https://www.linkedin.com/in/evapisabaj/",
     description: <>Vice President</>,
   },
   {
-    name: "Yamaan Nandolia",
-    image: "https://avatars.githubusercontent.com/u/88333832?s=100&v=4",
-    url: "https://www.linkedin.com/in/yamaan-nandolia-09abb1215/",
+    name: "Florianne Che",
+    image: "/media/council_profiles/florianne_che_400.jpg",
+    url: "https://www.linkedin.com/in/florianne-che-3b3148211",
     description: <>Treasurer</>,
+  },
+  {
+    name: "Adrian Knight",
+    image: "/media/council_profiles/adrian_knight_400.jpg",
+    url: "https://github.com/Ajknight121",
+    description: <>Presidential Advisor</>,
+  },
+  {
+    name: "Khin Yuupar Myat",
+    image: "/media/council_profiles/khin_yuupar_myat_400.jpg",
+    url: "https://www.linkedin.com/in/khinyuuparmyat/",
+    description: <>Secretary</>,
+  },
+  {
+    name: "Ethan Ky",
+    image: "/media/council_profiles/ethan_ky_400.jpg",
+    url: "https://www.linkedin.com/in/ethan-ky2429",
+    description: <>SIG Game Leader</>,
+  },
+  {
+    name: "Connor Hunter",
+    image: "/media/council_profiles/connor_hunter_400.jpg",
+    url: "https://github.com/Mohpann",
+    description: <>Tech Lead</>,
   },
 ];
 
