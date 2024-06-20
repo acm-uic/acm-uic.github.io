@@ -2,13 +2,27 @@
 
 All emails are suffixed with "uic.edu", unless otherwise noted.
 
+## 2024-2025
+
+| OFFICE          | NAME                     | EMAIL       |
+| :-------------- | :----------------------- | :---------- |
+| President       | Yashi Shandilya          | yshand2@... |
+| Vice President  | Eva Pisabaj              | episa3@...  |
+| Treasurer       | Florianne Che            | fche2@...   |
+| Secretary       | Khin Yuupar Myat         | kmyat2@...  |
+| SIG Game Leader | Ethan Ky                 | eky2@...    |
+| SIG Math Leader | Soham Kaje               | skaje2@...  |
+| Tech Lead       | Connor Hunter            | chunt22@... |
+| Faculty Advisor | Professor Mitchell Theys | mtheys@...  |
+
 ## 2023-2024
 
-| OFFICE         | NAME            | EMAIL       |
-| :------------- | :-------------- | :---------- |
-| President      | Yashi Shandilya | yshand2@... |
-| Vice President | Sam Effendy     | seffe2@...  |
-| Treasurer      | Yamaan Nandolia | ynand3@...  |
+| OFFICE          | NAME                     | EMAIL       |
+| :-------------- | :----------------------- | :---------- |
+| President       | Yashi Shandilya          | yshand2@... |
+| Vice President  | Sam Effendy              | seffe2@...  |
+| Treasurer       | Yamaan Nandolia          | ynand3@...  |
+| Faculty Advisor | Professor Mitchell Theys | mtheys@...  |
 
 ## 2022-2023 (Spring)
 
