@@ -46,6 +46,12 @@ const officers = [
     url: "https://github.com/Mohpann",
     description: <>Tech Lead</>,
   },
+  {
+    name: "Soham Kaje",
+    image: "/media/council_profiles/soham_kaje_400.jpg",
+    url: "https://www.linkedin.com/in/soham-kaje-617b48175/",
+    description: <>SIG Math Leader</>,
+  },
 ];
 
 const sysadmins = [
