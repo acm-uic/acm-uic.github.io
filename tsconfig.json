@@ -3,6 +3,7 @@
   "include": ["src/"],
   "compilerOptions": {
     "allowJs": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsx": "react"
   }
 }
