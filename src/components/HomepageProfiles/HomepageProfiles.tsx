@@ -106,7 +106,7 @@ const officers = [
     name: "Niketan Doddamani",
     image: "https://avatars.githubusercontent.com/u/61023399?s=100&v=4",
     url: "https://github.com/nikeetan/",
-    description: "SIG - Tech Leader: Backend and Algorithms",
+    description: "Tech Lead",
   },
   {
     name: "Chase Lee",
