@@ -4,16 +4,35 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 
 ## 2024-2025
 
-| OFFICE          | NAME                     | EMAIL       |
-| :-------------- | :----------------------- | :---------- |
-| President       | Yashi Shandilya          | yshand2@... |
-| Vice President  | Eva Pisabaj              | episa3@...  |
-| Treasurer       | Florianne Che            | fche2@...   |
-| Secretary       | Khin Yuupar Myat         | kmyat2@...  |
-| SIG Game Leader | Ethan Ky                 | eky2@...    |
-| SIG Math Leader | Soham Kaje               | skaje2@...  |
-| Tech Lead       | Connor Hunter            | chunt22@... |
-| Faculty Advisor | Professor Mitchell Theys | mtheys@...  |
+| OFFICE                         | NAME                     | EMAIL        |
+| :----------------------------- | :----------------------- | :----------- |
+| President                      | Yashi Shandilya          | yshand2@...  |
+| Vice President                 | Eva Pisabaj              | episa3@...   |
+| Co-Treasurer                   | Florianne Che            | fche2@...    |
+| Co-Treasurer                   | Amy Kodama               | akodam3@...  |
+| Secretary                      | Sam Stuckey              | sstuc2@...   |
+| Secretary                      | Connor Hunter            | chunt22@...  |
+| Secretary                      | Khin Yuupar Myat         | kmyat2@...   |
+| SIG Game Leader                | Ethan Ky                 | eky2@...     |
+| SIG Math Leader                | Soham Kaje               | skaje2@...   |
+| SIG Systems Leader             | Jacob Cohen              | jcohen30@... |
+| SIG Mobile Dev Leader          | Anirudh Kuppili          | vkupp@...    |
+| SIG WebDev Leader              | Arslan Kamchybekov       | akamc@...    |
+| SIG WebDev Leader              | Adrian Knight            | aknig2@...   |
+| SIG SysAdmin Leader            | Chase Lee                | clee231@...  |
+| SIG Algorithmic Trading Leader | Connor Hunter            | chunt22@...  |
+| SIG Jobs Leader                | Isaac Alazar             | ialaz@...    |
+| SIG-Hacks Leader               | Michael Khan             | mkhan398@... |
+| SIG-Hacks Leader               | Samuel Effendy           | seffe2@...   |
+| Social Media Chair             | Khin Yuupar Myat         | kmyat2@...   |
+| Creative Design Lead           | Khin Yuupar Myat         | kmyat2@...   |
+| Tech Lead                      | Yashi Shandilya          | yshand2@...  |
+| Tech Lead                      | Florianne Che            | fche2@...    |
+| Tech Lead                      | Sam Stuckey              | sstuc2@...   |
+| Tech Lead                      | Khin Yuupar Myat         | kmyat2@...   |
+| Tech Lead                      | Connor Hunter            | chunt22@...  |
+| Tech Lead                      | Niketan Doddamani        | ndodd@...    |
+| Faculty Advisor                | Professor Mitchell Theys | mtheys@...   |
 
 ## 2023-2024
 
