@@ -4361,10 +4361,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docusaurus-theme-search-typesense@0.22.0-1:
-  version "0.22.0-1"
-  resolved "https://registry.yarnpkg.com/docusaurus-theme-search-typesense/-/docusaurus-theme-search-typesense-0.22.0-1.tgz#a28b5badad6d5605eb1ce4b28e256487eec84423"
-  integrity sha512-yEXOgQz4ny2eNAgWTdJqKRF5Vv1vmbdgSLXEFMjcg7/5Db4afbWJ/N8FilOS6xcWIXnlmZVkpkTR3u3E5MGoUg==
+docusaurus-theme-search-typesense@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-theme-search-typesense/-/docusaurus-theme-search-typesense-0.22.0.tgz#424651b4feef0b0a16614f211d1508cf75c8f461"
+  integrity sha512-6ZX3EP0jRRpeVPbCjroY0C+mmO5fbpUn7O5JKaemWmrIesCFnfbC2zaqvdSQKVxzhYyUTZTz8uEuFS8ZpVi5iw==
   dependencies:
     "@docusaurus/logger" "^3.5.2"
     "@docusaurus/plugin-content-docs" "^3.5.2"
