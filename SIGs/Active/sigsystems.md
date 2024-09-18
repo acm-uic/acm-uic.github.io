@@ -1,6 +1,6 @@
 ---
 slug: /systems
-description: Wheather you're new to coding or have some experience, this group is for you!
+description: Whether you're new to coding or have some experience, this group is for you!
 ---
 
 # SIG Systems
