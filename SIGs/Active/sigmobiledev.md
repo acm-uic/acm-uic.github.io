@@ -18,4 +18,4 @@ If you're interested in mobile app development and want a personal project to ad
 
 ## Resources
 
-- [SIG Mobile Development Potential App Ideas (SEM 1)](/media/sigmobiledev/SIG Mobile Development Potential App Ideas %28SEM 1%29.pdf)
+- [SIG Mobile Development Potential App Ideas (SEM 1)](/media/sigmobiledev/SIG%20Mobile%20Development%20Potential%20App%20Ideas%20%28SEM%201%29.pdf)
