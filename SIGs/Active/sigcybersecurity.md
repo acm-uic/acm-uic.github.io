@@ -16,4 +16,4 @@ description: Come learn about cybersecurity!
 
 Come learn about cybersecurity! We are holding our first meeting on **September 19th, 2024 at 5:30PM**!
 
-![SIG Cybersecurity Intro Meeting](/media/sigcybersecurity/Intro%20Meeting.png)
+![SIG Cybersecurity Intro Meeting](/media/sigcybersecurity/Intro_Meeting.png)
