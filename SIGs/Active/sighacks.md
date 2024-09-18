@@ -17,7 +17,7 @@ description: If you're interested in mobile app development and want a personal 
 
 ![SIG Hacks Banner](/media/sighacks/sighacks-banner.png)
 
-** NO EXPERIENCE REQUIRED! **
+**NO EXPERIENCE REQUIRED!**
 
 A SIG focused on gaining real-world experience creating projects and working with others by attending and participating in hackathons!
 
