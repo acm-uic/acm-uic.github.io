@@ -3,17 +3,16 @@ slug: /hacks
 description: If you're interested in mobile app development and want a personal project to add to your resume, then consider joining SIG-Mobile-Dev!
 ---
 
-# SIG Hacks 
+# SIG Hacks
 
-|              |                                                |
-| ------------ | ---------------------------------------------- |
-| **Weekday**  | Varies; Please see the ACM Calendar            |
-| **Time**     | Varies; Please see the ACM Calendar            |
-| **Location** | ACM Office (SELE 2264)                         |
-| **Leaders**  | Michael Khan, Samuel Effendy                   |
+|              |                                     |
+| ------------ | ----------------------------------- |
+| **Weekday**  | Varies; Please see the ACM Calendar |
+| **Time**     | Varies; Please see the ACM Calendar |
+| **Location** | ACM Office (SELE 2264)              |
+| **Leaders**  | Michael Khan, Samuel Effendy        |
 
 ## About
-
 
 ![SIG Hacks Banner](/media/sighacks/sighacks-banner.png)
 

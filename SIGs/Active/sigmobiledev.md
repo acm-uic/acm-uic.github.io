@@ -5,12 +5,12 @@ description: If you're interested in mobile app development and want a personal 
 
 # SIG Mobile Development
 
-|              |                                                |
-| ------------ | ---------------------------------------------- |
-| **Weekday**  | Varies; Please see the ACM Calendar            |
-| **Time**     | Varies; Please see the ACM Calendar            |
-| **Location** | ACM Office (SELE 2264)                         |
-| **Leaders**  | Anirudh Kuppili                                |
+|              |                                     |
+| ------------ | ----------------------------------- |
+| **Weekday**  | Varies; Please see the ACM Calendar |
+| **Time**     | Varies; Please see the ACM Calendar |
+| **Location** | ACM Office (SELE 2264)              |
+| **Leaders**  | Anirudh Kuppili                     |
 
 ## About
 

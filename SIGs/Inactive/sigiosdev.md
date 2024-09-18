@@ -5,12 +5,12 @@ description: If you're interested in mobile app development and want a personal 
 
 # SIG iOS Dev
 
-|              |                                                |
-| ------------ | ---------------------------------------------- |
-| **Weekday**  | Varies; Please see the ACM Calendar            |
-| **Time**     | Varies; Please see the ACM Calendar            |
-| **Location** | ACM Office (SELE 2264)                         |
-| **Leaders**  | Flori Che                                      |
+|              |                                     |
+| ------------ | ----------------------------------- |
+| **Weekday**  | Varies; Please see the ACM Calendar |
+| **Time**     | Varies; Please see the ACM Calendar |
+| **Location** | ACM Office (SELE 2264)              |
+| **Leaders**  | Flori Che                           |
 
 ## About
 
