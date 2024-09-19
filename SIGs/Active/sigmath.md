@@ -5,12 +5,12 @@ description: We are a Special Interest Group dedicated to analytical solutions t
 
 # SIG Math
 
-|              |                                             |
-| ------------ | ------------------------------------------- |
-| **Weekday**  | TBD                                         |
-| **Time**     | TBD                                         |
-| **Location** | TBD on #sig-math channel in the ACM Discord |
-| **Leaders**  | David Savenok & Soham Kaje                  |
+|              |                                                                 |
+| ------------ | --------------------------------------------------------------- |
+| **Weekday**  | TBD                                                             |
+| **Time**     | Please see the ACM Calendar for the most up-to-date information |
+| **Location** | TBD on #sig-math channel in the ACM Discord                     |
+| **Leaders**  | Soham Kaje                                                      |
 
 ## About
 
