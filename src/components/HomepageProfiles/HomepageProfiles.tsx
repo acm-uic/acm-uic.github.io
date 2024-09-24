@@ -141,6 +141,12 @@ const sysadmins = [
     url: "https://github.com/SohamG",
     description: "SysAdmin initiate",
   },
+  {
+    name: "Ethan Wong",
+    image: "https://avatars.githubusercontent.com/u/87404863?s=100?v=4",
+    url: "https://github.com/lowpolyneko",
+    description: "Rack Server Enthusiast | LUG President",
+  },
 ];
 
 const sections = [
