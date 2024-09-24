@@ -145,7 +145,7 @@ const sysadmins = [
     name: "Ethan Wong",
     image: "https://avatars.githubusercontent.com/u/87404863?s=100?v=4",
     url: "https://github.com/lowpolyneko",
-    description: "Rack Server Enthusiast | LUG President"
+    description: "Rack Server Enthusiast | LUG President",
   },
 ];
 
