@@ -3,7 +3,9 @@ slug: /hacks
 description: If you're interested in mobile app development and want a personal project to add to your resume, then consider joining SIG-Mobile-Dev!
 ---
 
-# SIG Hacks
+# SIG Hacks 
+
+[Our website](https://dejazzhands.github.io/sighacks/#/)
 
 |              |                                     |
 | ------------ | ----------------------------------- |
