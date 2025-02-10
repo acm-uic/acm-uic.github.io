@@ -12,3 +12,5 @@ Tomorrow we will be having our General Body Meeting! This is your chance to get 
 **WHEN:** 1/24, Tuesday at 5:30 - 6:30pm CST
 
 **WHERE:** CS Lounge (SELE 2254)
+
+<!-- truncate -->

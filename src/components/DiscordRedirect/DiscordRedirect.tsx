@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "@docusaurus/Head";
-import { config } from "../../../appConfig";
+import appConfig from "../../../appConfig";
 
 export type DiscordRedirectProps = {
   delay?: number;
@@ -8,6 +8,6 @@ export type DiscordRedirectProps = {
 
 export const DiscordRedirect: React.FC<DiscordRedirectProps> = ({ delay }) => (
   <Head>
-    <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${config.discordServerInviteLink}`} />
+    <meta httpEquiv="refresh" content={`${delay ?? 5}; URL=${appConfig.discordServerInviteLink}`} />
   </Head>
 );
