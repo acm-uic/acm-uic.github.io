@@ -1,6 +1,6 @@
 // @ts-check
 
-exports.config = {
+const config = {
   googleCalendarApiKey: "AIzaSyAux1TUS49w76siE8B-kO0eoYk6KLQDgOI",
   googleCalendarId: "kc72g1ctfg8b88df34qqb62d1s@group.calendar.google.com",
   googleCalendarLink:
@@ -11,4 +11,5 @@ exports.config = {
   slackWorkspaceSignUpLink: "https://uicacm.slack.com/signup",
   youTubeChannelLink: "https://www.youtube.com/channel/UCZ0uPmRjJrl6XEMU2CtYH5w",
 };
-exports.default = exports.config;
+
+export default config;

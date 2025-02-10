@@ -6,7 +6,7 @@ import clsx from "clsx";
 import styles from "./EventsAgenda.module.css";
 import { getEvents, CalendarEventDateTime, CalendarEvent } from "../../util/getEvents";
 import { DiscordWidgetApiResponse, getDiscordWidgetApi } from "../../util/getDiscordWidgetApi";
-import { config } from "../../../appConfig";
+import appConfig from "../../../appConfig";
 import { ShimmerLine, ShimmerLineProps } from "../Shimmer";
 
 const ALL_DAY_EVENT = "All Day";
@@ -67,7 +67,7 @@ const locationFormatter = (discordData: DiscordWidgetApiResponse, location: stri
     const channel = discordData.channels.find((c) => c.name.includes(parsedLocation));
     if (channel) {
       return (
-        <Link to={config.discordServerInviteLink}>
+        <Link to={appConfig.discordServerInviteLink}>
           <img src="/media/Discord-Logo-Color.svg" alt="Discord" className={clsx(styles.discordIcon)} /> {channel.name}
         </Link>
       );
@@ -132,12 +132,13 @@ const EventsAgendaEmpty: React.FC = () => <div className={clsx(styles.eventsOver
 
 export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
   const { data: eventsData, error: eventsError } = useSWRImmutable(
-    `gcal-events-${config.googleCalendarId}-${count}`,
-    () => getEvents(config.googleCalendarApiKey, config.googleCalendarId, count * 2)
+    `gcal-events-${appConfig.googleCalendarId}-${count}`,
+    () => getEvents(appConfig.googleCalendarApiKey, appConfig.googleCalendarId, count * 2)
   );
 
-  const { data: discordData, error: discordError } = useSWRImmutable(`discord-widget-${config.discordServerId}`, () =>
-    getDiscordWidgetApi(config.discordServerId)
+  const { data: discordData, error: discordError } = useSWRImmutable(
+    `discord-widget-${appConfig.discordServerId}`,
+    () => getDiscordWidgetApi(appConfig.discordServerId)
   );
 
   if (eventsError) {
