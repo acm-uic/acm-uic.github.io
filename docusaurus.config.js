@@ -1,8 +1,8 @@
 // @ts-check
-/* eslint-disable @typescript-eslint/no-var-requires */
-const {
-  config: { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink, youTubeChannelLink },
-} = require("./appConfig");
+
+import appConfig from "./appConfig.js";
+
+const { discordServerId, discordServerInviteLink, slackWorkspaceSignUpLink, youTubeChannelLink } = appConfig;
 
 const gitHubOrg = "acm-uic";
 const gitHubRepoName = "acm-uic.github.io";
@@ -266,5 +266,4 @@ const config = {
   ],
 };
 
-exports.default = config;
-module.exports = config;
+export default config;

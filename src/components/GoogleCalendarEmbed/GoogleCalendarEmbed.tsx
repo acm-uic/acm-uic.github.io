@@ -1,7 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./GoogleCalendarEmbed.module.css";
-import { config } from "../../../appConfig";
+import appConfig from "../../../appConfig";
 
 export type GoogleCalendarEmbedProps = Record<string, never>;
 
@@ -16,7 +16,7 @@ export const GoogleCalendarEmbed: React.FC<GoogleCalendarEmbedProps> = () => (
       <iframe
         title="ACM@UIC Google Calendar"
         className={clsx(styles.calendar)}
-        src={config.googleCalendarLink}
+        src={appConfig.googleCalendarLink}
         width="100%"
         height="600"
         scrolling="no"

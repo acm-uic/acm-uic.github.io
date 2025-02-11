@@ -20,7 +20,7 @@
 *.ts @acm-uic/web-developers
 *.tsx @acm-uic/web-developers
 *.json @acm-uic/web-developers
-/yarn.lock @acm-uic/web-developers
+/pnpm-lock.yaml @acm-uic/web-developers
 
 # editors and wev devs
 *.mdx @acm-uic/editors @acm-uic/web-developers
