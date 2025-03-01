@@ -91,8 +91,8 @@ importers:
         specifier: 19.0.4
         version: 19.0.4(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.23.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@5.1.0(eslint@8.57.1))(eslint-plugin-react@7.37.4(eslint@8.57.1))(eslint@8.57.1)
       eslint-config-prettier:
-        specifier: 10.0.1
-        version: 10.0.1(eslint@8.57.1)
+        specifier: 10.0.2
+        version: 10.0.2(eslint@8.57.1)
       eslint-plugin-import:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.23.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)
@@ -1393,8 +1393,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250213':
-    resolution: {integrity: sha512-TWcbWZBXg5sUaYgN/ZYwM9nUx15o0QdHlbID0cl91Nt535FQd/XwpMHDDZOTU1X8DCyR71IQQKcUc4OQ0ImUMQ==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250220':
+    resolution: {integrity: sha512-E1WC7oEsAy07nHzpmRgvnnQjAAqC2Zz/VlubUlGZQRDSB8u7ryYC4SBqfjkX1IdXTtkd/VUN+4EVM0JD6AeuAQ==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.1.20200806':
     resolution: {integrity: sha512-Wl6UfmZVDdWbY3PUu8E2ULk9RPLjnMqp/iOA4tcK8Ne+U/GmlnWP/e34IaZNGArfl7iXJNOG+/3Rj9L9jQyF9Q==}
@@ -2899,8 +2899,8 @@ packages:
       eslint-plugin-react: ^7.28.0
       eslint-plugin-react-hooks: ^4.3.0
 
-  eslint-config-prettier@10.0.1:
-    resolution: {integrity: sha512-lZBts941cyJyeaooiKxAtzoPHTN+GbQTJFAIdQbRhA4/8whaAraEh47Whw/ZFfrjNSnlAxqfm9i0XVAEkULjCw==}
+  eslint-config-prettier@10.0.2:
+    resolution: {integrity: sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -8721,7 +8721,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250213':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250220':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -9050,7 +9050,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250213
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250220
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -10546,7 +10546,7 @@ snapshots:
       object.assign: 4.1.7
       object.entries: 1.1.8
 
-  eslint-config-prettier@10.0.1(eslint@8.57.1):
+  eslint-config-prettier@10.0.2(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
 
@@ -11314,7 +11314,7 @@ snapshots:
 
   history@4.10.1:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.7
       loose-envify: 1.4.0
       resolve-pathname: 3.0.0
       tiny-invariant: 1.3.3
