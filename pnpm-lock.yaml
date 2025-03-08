@@ -109,8 +109,8 @@ importers:
         specifier: 5.1.0
         version: 5.1.0(eslint@8.57.1)
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
       stylelint:
         specifier: 16.15.0
         version: 16.15.0(typescript@5.7.3)
@@ -1393,8 +1393,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250220':
-    resolution: {integrity: sha512-E1WC7oEsAy07nHzpmRgvnnQjAAqC2Zz/VlubUlGZQRDSB8u7ryYC4SBqfjkX1IdXTtkd/VUN+4EVM0JD6AeuAQ==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250302':
+    resolution: {integrity: sha512-i1cm5lQ9UbIfpwkXpn+qIdtN/ZGveZr3C8AHb2KAvom16NAjNHx2qO/Wa6bojnfBuG+Cs2xlMNBua51DCv/FXQ==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.1.20200806':
     resolution: {integrity: sha512-Wl6UfmZVDdWbY3PUu8E2ULk9RPLjnMqp/iOA4tcK8Ne+U/GmlnWP/e34IaZNGArfl7iXJNOG+/3Rj9L9jQyF9Q==}
@@ -5090,8 +5090,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.5.2:
-    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -8724,7 +8724,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250220':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250302':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -9053,7 +9053,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250220
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250302
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -13262,7 +13262,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.5.2: {}
+  prettier@3.5.3: {}
 
   pretty-error@4.0.0:
     dependencies:
