@@ -25,3 +25,9 @@ We'll look at:
 This stuff isn't always easy, but it's super cool and will make you a better programmer.
 
 - Helpful for required courses: CS 261, 361
+
+## Recent happenings
+
+We learned some Rust and used that knowledge to build a parser for our shell.
+
+This semester, we’re getting into the (more fun) systems parts of the project!
