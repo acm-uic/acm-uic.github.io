@@ -25,7 +25,7 @@ importers:
         version: 2.1.1
       docusaurus-theme-search-typesense:
         specifier: 0.24.0
-        version: 0.24.0(@algolia/client-search@5.20.1)(@babel/runtime@7.26.10)(@docusaurus/core@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(@docusaurus/theme-common@3.7.0(@docusaurus/plugin-content-docs@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(acorn@8.14.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(acorn@8.14.1)(algoliasearch@5.20.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
+        version: 0.24.0(@algolia/client-search@5.20.1)(@babel/runtime@7.27.0)(@docusaurus/core@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(@docusaurus/theme-common@3.7.0(@docusaurus/plugin-content-docs@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(acorn@8.14.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(acorn@8.14.1)(algoliasearch@5.20.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
       dotenv:
         specifier: 16.4.7
         version: 16.4.7
@@ -112,11 +112,11 @@ importers:
         specifier: 3.5.3
         version: 3.5.3
       stylelint:
-        specifier: 16.16.0
-        version: 16.16.0(typescript@5.7.3)
+        specifier: 16.17.0
+        version: 16.17.0(typescript@5.7.3)
       stylelint-config-recommended:
         specifier: 15.0.0
-        version: 15.0.0(stylelint@16.16.0(typescript@5.7.3))
+        version: 15.0.0(stylelint@16.17.0(typescript@5.7.3))
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -758,12 +758,12 @@ packages:
     resolution: {integrity: sha512-55gRV8vGrCIYZnaQHQrD92Lo/hYE3Sj5tmbuf0hhHR7sj2CWhEhHU89hbq+UVDXvFG1zUVXJhUkEq1eAfqXtFw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.26.10':
-    resolution: {integrity: sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/runtime@7.26.7':
     resolution: {integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/runtime@7.27.0':
+    resolution: {integrity: sha512-VtPOkrdPHZsKc/clNqyi9WUA8TINkZ4cGk63UUE3u4pmB2k+ZMQRDuIOagv8UVd6j7k0T3+RRIb7beKTebNbcw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.26.8':
@@ -1303,8 +1303,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250307':
-    resolution: {integrity: sha512-w7WidFY6SWFj/pHXw3Z0pIvOdr42fMg59/2WK/J3HrublkT+ixizu6EPMwfm7M7WT8K6+CritwKabdiZcRjccA==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250321':
+    resolution: {integrity: sha512-7BJrYEdfsMFBPofsDHktowsWNZnO0hCgDLj0GTIVauW2DvzZEHHIzNNatB4XQmwwIWrFWXABkNQjNFnAlV2Q+w==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.1.20200806':
     resolution: {integrity: sha512-Wl6UfmZVDdWbY3PUu8E2ULk9RPLjnMqp/iOA4tcK8Ne+U/GmlnWP/e34IaZNGArfl7iXJNOG+/3Rj9L9jQyF9Q==}
@@ -4264,8 +4264,8 @@ packages:
     resolution: {integrity: sha512-2eznPJP8z2BFLX50tf0LuODrpINqP1RVIm/CObbTcBRITQgmC/TjcREF1NeTBzIcR5XO/ukWo+YHOjBbFwIupg==}
     hasBin: true
 
-  nanoid@3.3.10:
-    resolution: {integrity: sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==}
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -5640,8 +5640,8 @@ packages:
     peerDependencies:
       stylelint: ^16.13.0
 
-  stylelint@16.16.0:
-    resolution: {integrity: sha512-40X5UOb/0CEFnZVEHyN260HlSSUxPES+arrUphOumGWgXERHfwCD0kNBVILgQSij8iliYVwlc0V7M5bcLP9vPg==}
+  stylelint@16.17.0:
+    resolution: {integrity: sha512-I9OwVIWRMqVm2Br5iTbrfSqGRPWQUlvm6oXO1xZuYYu0Gpduy67N8wXOZv15p6E/JdlZiAtQaIoLKZEWk5hrjw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -7056,11 +7056,11 @@ snapshots:
       core-js-pure: 3.40.0
       regenerator-runtime: 0.14.1
 
-  '@babel/runtime@7.26.10':
+  '@babel/runtime@7.26.7':
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@babel/runtime@7.26.7':
+  '@babel/runtime@7.27.0':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -8225,7 +8225,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250307':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250321':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -8372,7 +8372,7 @@ snapshots:
 
   '@slorber/react-helmet-async@1.3.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@babel/runtime': 7.26.10
+      '@babel/runtime': 7.27.0
       invariant: 2.2.4
       prop-types: 15.8.1
       react: 19.0.0
@@ -8554,7 +8554,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250307
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250321
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -9758,7 +9758,7 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  docusaurus-theme-search-typesense@0.24.0(@algolia/client-search@5.20.1)(@babel/runtime@7.26.10)(@docusaurus/core@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(@docusaurus/theme-common@3.7.0(@docusaurus/plugin-content-docs@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(acorn@8.14.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(acorn@8.14.1)(algoliasearch@5.20.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3):
+  docusaurus-theme-search-typesense@0.24.0(@algolia/client-search@5.20.1)(@babel/runtime@7.27.0)(@docusaurus/core@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(@docusaurus/theme-common@3.7.0(@docusaurus/plugin-content-docs@3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3))(acorn@8.14.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(acorn@8.14.1)(algoliasearch@5.20.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3):
     dependencies:
       '@docusaurus/core': 3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0))(acorn@8.14.1)(eslint@8.57.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
       '@docusaurus/logger': 3.7.0
@@ -9775,8 +9775,8 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       tslib: 2.8.1
-      typesense-docsearch-react: 3.4.1(@algolia/client-search@5.20.1)(@babel/runtime@7.26.10)(@types/react@19.0.12)(algoliasearch@5.20.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      typesense-instantsearch-adapter: 2.9.0-6(@babel/runtime@7.26.10)
+      typesense-docsearch-react: 3.4.1(@algolia/client-search@5.20.1)(@babel/runtime@7.27.0)(@types/react@19.0.12)(algoliasearch@5.20.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      typesense-instantsearch-adapter: 2.9.0-6(@babel/runtime@7.27.0)
       utility-types: 3.11.0
     transitivePeerDependencies:
       - '@algolia/client-search'
@@ -10816,7 +10816,7 @@ snapshots:
 
   history@4.10.1:
     dependencies:
-      '@babel/runtime': 7.26.10
+      '@babel/runtime': 7.27.0
       loose-envify: 1.4.0
       resolve-pathname: 3.0.0
       tiny-invariant: 1.3.3
@@ -11980,7 +11980,7 @@ snapshots:
       dns-packet: 5.6.1
       thunky: 1.1.0
 
-  nanoid@3.3.10: {}
+  nanoid@3.3.11: {}
 
   natural-compare@1.4.0: {}
 
@@ -12714,7 +12714,7 @@ snapshots:
 
   postcss@8.5.3:
     dependencies:
-      nanoid: 3.3.10
+      nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -12983,7 +12983,7 @@ snapshots:
 
   regenerator-transform@0.15.2:
     dependencies:
-      '@babel/runtime': 7.26.10
+      '@babel/runtime': 7.27.0
 
   regexp.prototype.flags@1.5.4:
     dependencies:
@@ -13581,11 +13581,11 @@ snapshots:
       postcss: 8.5.3
       postcss-selector-parser: 6.1.2
 
-  stylelint-config-recommended@15.0.0(stylelint@16.16.0(typescript@5.7.3)):
+  stylelint-config-recommended@15.0.0(stylelint@16.17.0(typescript@5.7.3)):
     dependencies:
-      stylelint: 16.16.0(typescript@5.7.3)
+      stylelint: 16.17.0(typescript@5.7.3)
 
-  stylelint@16.16.0(typescript@5.7.3):
+  stylelint@16.17.0(typescript@5.7.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
       '@csstools/css-tokenizer': 3.0.3
@@ -13810,13 +13810,13 @@ snapshots:
 
   typesense-docsearch-css@0.4.1: {}
 
-  typesense-docsearch-react@3.4.1(@algolia/client-search@5.20.1)(@babel/runtime@7.26.10)(@types/react@19.0.12)(algoliasearch@5.20.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  typesense-docsearch-react@3.4.1(@algolia/client-search@5.20.1)(@babel/runtime@7.27.0)(@types/react@19.0.12)(algoliasearch@5.20.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@algolia/autocomplete-core': 1.8.2
       '@algolia/autocomplete-preset-algolia': 1.8.2(@algolia/client-search@5.20.1)(algoliasearch@5.20.1)
-      typesense: 1.8.2(@babel/runtime@7.26.10)
+      typesense: 1.8.2(@babel/runtime@7.27.0)
       typesense-docsearch-css: 0.4.1
-      typesense-instantsearch-adapter: 2.8.0(@babel/runtime@7.26.10)
+      typesense-instantsearch-adapter: 2.8.0(@babel/runtime@7.27.0)
     optionalDependencies:
       '@types/react': 19.0.12
       react: 19.0.0
@@ -13827,23 +13827,23 @@ snapshots:
       - algoliasearch
       - debug
 
-  typesense-instantsearch-adapter@2.8.0(@babel/runtime@7.26.10):
+  typesense-instantsearch-adapter@2.8.0(@babel/runtime@7.27.0):
     dependencies:
-      '@babel/runtime': 7.26.10
-      typesense: 1.8.2(@babel/runtime@7.26.10)
+      '@babel/runtime': 7.27.0
+      typesense: 1.8.2(@babel/runtime@7.27.0)
     transitivePeerDependencies:
       - debug
 
-  typesense-instantsearch-adapter@2.9.0-6(@babel/runtime@7.26.10):
+  typesense-instantsearch-adapter@2.9.0-6(@babel/runtime@7.27.0):
     dependencies:
-      '@babel/runtime': 7.26.10
-      typesense: 1.8.2(@babel/runtime@7.26.10)
+      '@babel/runtime': 7.27.0
+      typesense: 1.8.2(@babel/runtime@7.27.0)
     transitivePeerDependencies:
       - debug
 
-  typesense@1.8.2(@babel/runtime@7.26.10):
+  typesense@1.8.2(@babel/runtime@7.27.0):
     dependencies:
-      '@babel/runtime': 7.26.10
+      '@babel/runtime': 7.27.0
       axios: 1.8.3
       loglevel: 1.9.2
     transitivePeerDependencies:
