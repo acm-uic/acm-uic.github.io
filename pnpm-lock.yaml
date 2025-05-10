@@ -34,10 +34,10 @@ importers:
         version: 6.2.0(webpack@5.97.1)
       linkify-react:
         specifier: ^4.2.0
-        version: 4.2.0(linkifyjs@4.2.0)(react@19.1.0)
+        version: 4.2.0(linkifyjs@4.3.1)(react@19.1.0)
       linkifyjs:
-        specifier: ^4.2.0
-        version: 4.2.0
+        specifier: ^4.3.1
+        version: 4.3.1
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -1303,8 +1303,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250424':
-    resolution: {integrity: sha512-fKLgDNiusmlqQNmfVrDdKK3dc1TWphlmgEEOB+//MM9qfNqVsaz2e1gA8gOL1bOSpYp3a4tdcBpsoTbKLOmYvw==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250505':
+    resolution: {integrity: sha512-SBP3OqzShB8rY+NMB/aAOiLpZX4l5unccKiVfkzZ0+uirsPm3vWNLXJbUVAEF/SE0AsPcFSuQFn+vbu7WgzjuQ==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.1.20200806':
     resolution: {integrity: sha512-Wl6UfmZVDdWbY3PUu8E2ULk9RPLjnMqp/iOA4tcK8Ne+U/GmlnWP/e34IaZNGArfl7iXJNOG+/3Rj9L9jQyF9Q==}
@@ -3901,8 +3901,8 @@ packages:
       linkifyjs: ^4.0.0
       react: '>= 15.0.0'
 
-  linkifyjs@4.2.0:
-    resolution: {integrity: sha512-pCj3PrQyATaoTYKHrgWRF3SJwsm61udVh+vuls/Rl6SptiDhgE7ziUIudAedRY9QEfynmM7/RmLEfPUyw1HPCw==}
+  linkifyjs@4.3.1:
+    resolution: {integrity: sha512-DRSlB9DKVW04c4SUdGvKK5FR6be45lTU9M76JnngqPeeGDqPwYc0zdUErtsNVMtxPXgUWV4HbXbnC4sNyBxkYg==}
 
   load-plugin@6.0.3:
     resolution: {integrity: sha512-kc0X2FEUZr145odl68frm+lMJuQ23+rTXYmR6TImqPtbpmXC4vVXbWKDQ9IzndA0HfyQamWfKLhzsqGSTxE63w==}
@@ -8247,7 +8247,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250424':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250505':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -8574,7 +8574,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250424
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250505
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -11375,12 +11375,12 @@ snapshots:
 
   lines-and-columns@2.0.4: {}
 
-  linkify-react@4.2.0(linkifyjs@4.2.0)(react@19.1.0):
+  linkify-react@4.2.0(linkifyjs@4.3.1)(react@19.1.0):
     dependencies:
-      linkifyjs: 4.2.0
+      linkifyjs: 4.3.1
       react: 19.1.0
 
-  linkifyjs@4.2.0: {}
+  linkifyjs@4.3.1: {}
 
   load-plugin@6.0.3:
     dependencies:
