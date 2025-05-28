@@ -15,9 +15,9 @@ This chassis supports VMs that requires mass storage.
 
 ## Hardware Configuration
 
-Machine Model: Supermicro CSE-846 | Penguin Computing Icebreaker 4824
+Machine Model: Supermicro CSE-846 | Penguin Computing Icebreaker 4824 | P1730149
 
-Chassis Details:
+### Chassis Details:
 
 - 24-Bay 3.5" HDD drive bays
 - 4U
@@ -32,8 +32,12 @@ Chassis Details:
 
 - Model: Supermicro X9DRi-F
 - Memory: Micron MT72K8Z84G72LZ-1G4E2A7BF 4Rx4 PC3-10600L ECC REG
-- Type: DDR3 ECC Registered 4Rx4 PC3-10600L (1333MHz)
-- Capacity: 256 GB
+    - Type: DDR3 ECC Registered 4Rx4 PC3-10600L (1333MHz)
+    - Capacity: 256 GB
+
+### PSU
+
+- 2x 1200W
 
 ## Current Configuration
 

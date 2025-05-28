@@ -1,19 +1,17 @@
 ---
-slug: /infrastructure/servers/chase
+slug: /infrastructure/servers/avocado
 tags: [server, compute, proxmox]
 ---
 
-# Chase
+# Avocado
 
 Current Location: SELE 2266
 
 ## Description
 
-This is a server donated by Bharat in honor of our previous admin, [Chase Lee](https://github.com/clee231).
-
 ## Hardware Configuration
 
-Machine Model: Dell R710|11W4TR1
+Machine Model: Dell R710|GLZ4KN1
 
 ### Chassis Details:
 
@@ -22,16 +20,16 @@ Machine Model: Dell R710|11W4TR1
 
 ### CPU
 
-- Model: 2x Intel Xeon X5660
+- Model: 2x Intel Xeon X5650
     - Cores: 12c/24t total
-    - Clock Speed: 2.8 Ghz
+    - Clock Speed: 2.66 Ghz
 
 ### Mainboard
 
 - Model: Dell 00NH4P A12
 - Memory
     - Type: PC3-12800R
-    - Capacity: 288 GB
+    - Total Capacity: 288 GB
 
 ### Addon Cards
 
@@ -40,7 +38,7 @@ Machine Model: Dell R710|11W4TR1
 
 ### Storage
 
-1x 4 TB HDD
+- 1 x 4TB HDD
 
 ### PSU
 
