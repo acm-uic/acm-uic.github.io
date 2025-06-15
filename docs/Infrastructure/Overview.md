@@ -18,28 +18,28 @@ Primary ACM server infrastructure:
 |    41 | acmswitch2 | Switch        | Arista 10G Base-T         |
 |    40 | acmswitch  | Switch        | Arista 10G SFP+           |
 |    39 | acmswitch3 | Switch        | Quanta 1G Base-T          |
-|    38 | ackem      | Server        | Router                    |
-|    37 | littlebell | Server        | Router                    |
-|    36 | bismark    | Server        | LUG's Box                 |
-|    35 | acmapp14   | Server        | acmapp member (Janeway)   |
-|    34 | acmapp13   | Server        | acmapp member (Picard)    |
-|    33 | acmapp12   | Server        | acmapp member (WiCS)      |
-|    32 | acmapp11   | Server        | acmapp member (unlabeled) |
-|    31 | acmapp10   | Server        | acmapp member (unlabeled) |
-|    30 | acmapp9    | Server        | acmapp member             |
-|    29 | acmapp8    | Server        | acmapp member             |
-|    28 | acmapp7    | Server        | acmapp member             |
-|    27 | acmapp6    | Server        | acmapp member             |
-|    26 | acmapp5    | Server        | acmapp member             |
-|    25 | acmapp4    | Server        | acmapp member             |
-|    24 | acmapp3    | Server        | acmapp member             |
-|    23 | acmapp2    | Server        | acmapp member             |
-|    22 | acmapp1    | Server        | acmapp member             |
+|    38 | ackem      | Server        | Router, pfSense           |
+|    37 | littlebell | Server        | Router, pfSense           |
+|    36 | miku       | Server        | LUG's Box, Proxmox        |
+|    35 |            | _Blank_       |                           |
+|    34 |            | _Blank_       |                           |
+|    33 |            | _Blank_       |                           |
+|    32 |            | _Blank_       |                           |
+|    31 |            | _Blank_       |                           |
+|    30 |            | _Blank_       |                           |
+|    29 |            | _Blank_       |                           |
+|    28 |            | _Blank_       |                           |
+|    27 |            | _Blank_       |                           |
+|    26 |            | _Blank_       |                           |
+|    25 |            | _Blank_       |                           |
+|    24 |            | _Blank_       |                           |
+|    23 |            | _Blank_       |                           |
+|    22 |            | _Blank_       |                           |
 | 21-18 | bharat     | Server        | ESXi, TrueNAS             |
 | 17-16 | lee        | Server        | Proxmox                   |
-| 15-14 | chase      | Server        | ESXi                      |
-| 13-12 | avocado    | Server        | ESXi                      |
-| 11-10 | chopin     | Server        | ArchLinux                 |
+| 15-14 | chase      | Server        | Proxmox                   |
+| 13-12 | avocado    | Server        | Proxmox                   |
+| 11-10 |            | _Blank_       |                           |
 |     9 |            | _Blank_       |                           |
 |     8 | ups3       | UPS           | 1000VA                    |
 |     6 | ups2       | UPS           | 2000VA                    |
