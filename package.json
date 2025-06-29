@@ -28,7 +28,7 @@
     "@svgr/webpack": "8.1.0",
     "clsx": "2.1.1",
     "docusaurus-theme-search-typesense": "0.25.0",
-    "dotenv": "16.5.0",
+    "dotenv": "17.0.0",
     "file-loader": "6.2.0",
     "linkify-react": "^4.3.1",
     "linkifyjs": "^4.3.1",
