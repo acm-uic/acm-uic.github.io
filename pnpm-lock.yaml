@@ -45,8 +45,8 @@ importers:
         specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       swr:
-        specifier: 2.3.3
-        version: 2.3.3(react@19.1.0)
+        specifier: 2.3.4
+        version: 2.3.4(react@19.1.0)
       url-loader:
         specifier: 4.1.1
         version: 4.1.1(file-loader@6.2.0(webpack@5.99.9))(webpack@5.99.9)
@@ -1827,8 +1827,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250625':
-    resolution: {integrity: sha512-dcxU9lyJnWzbOyZbbUwujRskZp1YVjhdC7URKv/MfCuWJGavfbBs0/BbNIO9pAH056vxGO++GHllBTI7jygLFA==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250702':
+    resolution: {integrity: sha512-z0FNBea7zwOWUnd106zmrcI79c69fqNPAqKon4xjL1AhFuS/HsYAG1wz1j4KahArbc7R3pv/Pe2lQSdMSHbejw==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.1.20200806':
     resolution: {integrity: sha512-Wl6UfmZVDdWbY3PUu8E2ULk9RPLjnMqp/iOA4tcK8Ne+U/GmlnWP/e34IaZNGArfl7iXJNOG+/3Rj9L9jQyF9Q==}
@@ -6163,8 +6163,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  swr@2.3.3:
-    resolution: {integrity: sha512-dshNvs3ExOqtZ6kJBaAsabhPdHyeY4P2cKwRCniDVifBMoG/SVI7tfLWqPXriVspf2Rg4tPzXJTnwaihIeFw2A==}
+  swr@2.3.4:
+    resolution: {integrity: sha512-bYd2lrhc+VarcpkgWclcUi92wYCpOgMws9Sd1hG1ntAu0NEy+14CbotuFjshBU2kt9rYj9TSmDcybpxpeTU1fg==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -6429,8 +6429,8 @@ packages:
       file-loader:
         optional: true
 
-  use-sync-external-store@1.4.0:
-    resolution: {integrity: sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==}
+  use-sync-external-store@1.5.0:
+    resolution: {integrity: sha512-Rb46I4cGGVBmjamjphe8L/UnvJD+uPPtTkNvX5mZgqdbavhI4EbgIWJiIHXJ8bc/i9EQGPRh4DwEURJ552Do0A==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -9410,7 +9410,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250625':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250702':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -9737,7 +9737,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250625
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250702
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -14828,11 +14828,11 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
 
-  swr@2.3.3(react@19.1.0):
+  swr@2.3.4(react@19.1.0):
     dependencies:
       dequal: 2.0.3
       react: 19.1.0
-      use-sync-external-store: 1.4.0(react@19.1.0)
+      use-sync-external-store: 1.5.0(react@19.1.0)
 
   synckit@0.11.8:
     dependencies:
@@ -15138,7 +15138,7 @@ snapshots:
     optionalDependencies:
       file-loader: 6.2.0(webpack@5.99.9)
 
-  use-sync-external-store@1.4.0(react@19.1.0):
+  use-sync-external-store@1.5.0(react@19.1.0):
     dependencies:
       react: 19.1.0
 
