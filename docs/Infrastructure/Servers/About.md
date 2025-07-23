@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /infrastructure/servers/overview
+slug: /infrastructure/servers/about
 ---
 
 # Servers Overview
