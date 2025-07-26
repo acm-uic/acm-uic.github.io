@@ -34,10 +34,10 @@ importers:
         version: 6.2.0(webpack@5.99.9)
       linkify-react:
         specifier: ^4.3.2
-        version: 4.3.2(linkifyjs@4.3.1)(react@19.1.0)
+        version: 4.3.2(linkifyjs@4.3.2)(react@19.1.0)
       linkifyjs:
-        specifier: ^4.3.1
-        version: 4.3.1
+        specifier: ^4.3.2
+        version: 4.3.2
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -4410,8 +4410,8 @@ packages:
       linkifyjs: ^4.0.0
       react: '>= 15.0.0'
 
-  linkifyjs@4.3.1:
-    resolution: {integrity: sha512-DRSlB9DKVW04c4SUdGvKK5FR6be45lTU9M76JnngqPeeGDqPwYc0zdUErtsNVMtxPXgUWV4HbXbnC4sNyBxkYg==}
+  linkifyjs@4.3.2:
+    resolution: {integrity: sha512-NT1CJtq3hHIreOianA8aSXn6Cw0JzYOuDQbOrSPe7gqFnCpKP++MQe3ODgO3oh2GJFORkAAdqredOa60z63GbA==}
 
   load-plugin@6.0.3:
     resolution: {integrity: sha512-kc0X2FEUZr145odl68frm+lMJuQ23+rTXYmR6TImqPtbpmXC4vVXbWKDQ9IzndA0HfyQamWfKLhzsqGSTxE63w==}
@@ -12563,12 +12563,12 @@ snapshots:
 
   lines-and-columns@2.0.4: {}
 
-  linkify-react@4.3.2(linkifyjs@4.3.1)(react@19.1.0):
+  linkify-react@4.3.2(linkifyjs@4.3.2)(react@19.1.0):
     dependencies:
-      linkifyjs: 4.3.1
+      linkifyjs: 4.3.2
       react: 19.1.0
 
-  linkifyjs@4.3.1: {}
+  linkifyjs@4.3.2: {}
 
   load-plugin@6.0.3:
     dependencies:
