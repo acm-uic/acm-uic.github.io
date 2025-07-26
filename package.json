@@ -30,7 +30,7 @@
     "docusaurus-theme-search-typesense": "0.25.0",
     "dotenv": "17.2.1",
     "file-loader": "6.2.0",
-    "linkify-react": "^4.3.1",
+    "linkify-react": "^4.3.2",
     "linkifyjs": "^4.3.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
