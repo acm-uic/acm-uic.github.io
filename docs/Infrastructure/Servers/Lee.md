@@ -14,7 +14,7 @@ This server is currently a Type-1 Hypervisor hosting Virtual Machines supporting
 
 ## Hardware Configuration
 
-Machine Model: Dell PowerEdge R510
+Machine Model: Dell PowerEdge R510|CQ87C2S
 
 ### Chassis Details:
 
@@ -23,25 +23,34 @@ Machine Model: Dell PowerEdge R510
 
 ### CPU
 
-- Model: Intel Xeon X5650
-- Cores: 24
-- Clock Speed: 2.67 Ghz
+- Model: 2x Intel Xeon X5650
+    - Cores: 12c/24t total
+    - Clock Speed: 2.66 Ghz
 
 ### Mainboard
 
 - Model: Dell 0DPRKF A04
 - Memory
-  - Type: DDR3 @ 1333MHz 2Rx4 ECC
+  - Type: PC3-12800R
   - Total Capacity: 64 GB
-  - Part Number: 36KSF1G72PZ-1G4D1
+
+### Addon Cards
+
+- Intel X520-T2
+- Intel X520-DA2
 
 ### Storage
 
 - 6 x 6TB HDD (WDC WD60EZRZ-00GZ5B1)
 - 2 x 500GB SSD (Samsung SSD 860 EVO 500GB)
 
+### PSU
+
+- 2x 870W
+
 ## Setup Details
 
-This hypervisor utilizes Proxmox as a Type-1 Hypervisor. (Installed July 5th, 2022)
+This hypervisor utilizes Proxmox as a Type-1 Hypervisor. (Installed July 5th,
+2022). The Proxmox install is part of the ACMAPP cluster.
 
 This machine is provisioned on a ZFS mirror pool (RAID1).
