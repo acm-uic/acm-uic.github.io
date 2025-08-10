@@ -112,11 +112,11 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       stylelint:
-        specifier: 16.23.0
-        version: 16.23.0(typescript@5.7.3)
+        specifier: 16.23.1
+        version: 16.23.1(typescript@5.7.3)
       stylelint-config-recommended:
         specifier: 16.0.0
-        version: 16.0.0(stylelint@16.23.0(typescript@5.7.3))
+        version: 16.0.0(stylelint@16.23.1(typescript@5.7.3))
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -1831,8 +1831,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250729':
-    resolution: {integrity: sha512-B5bBUUob5WGBRzmfo9daF0x221OxZbgjOneWMyIkPVYIX6/OeiFM7H+DvesjWwyU8ulUhCKqfPpKXPPywkXPvQ==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250803':
+    resolution: {integrity: sha512-FNQEuniVUKiOH5wuShwEWWq9S31io43o8m63Jwlf8V26x3rBW78C2hBG8qTlnB/uNPblFHmyKXH6kxsAAVt6/w==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.1.20200806':
     resolution: {integrity: sha512-Wl6UfmZVDdWbY3PUu8E2ULk9RPLjnMqp/iOA4tcK8Ne+U/GmlnWP/e34IaZNGArfl7iXJNOG+/3Rj9L9jQyF9Q==}
@@ -4344,8 +4344,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  keyv@5.4.0:
-    resolution: {integrity: sha512-TMckyVjEoacG5IteUpUrOBsFORtheqziVyyY2dLUwg1jwTb8u48LX4TgmtogkNl9Y9unaEJ1luj10fGyjMGFOQ==}
+  keyv@5.5.0:
+    resolution: {integrity: sha512-QG7qR2tijh1ftOvClut4YKKg1iW6cx3GZsKoGyJPxHkGWK9oJhG9P3j5deP0QQOGDowBMVQFaP+Vm4NpGYvmIQ==}
 
   kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
@@ -6122,8 +6122,8 @@ packages:
     peerDependencies:
       stylelint: ^16.16.0
 
-  stylelint@16.23.0:
-    resolution: {integrity: sha512-69T5aS2LUY306ekt1Q1oaSPwz/jaG9HjyMix3UMrai1iEbuOafBe2Dh8xlyczrxFAy89qcKyZWWtc42XLx3Bbw==}
+  stylelint@16.23.1:
+    resolution: {integrity: sha512-dNvDTsKV1U2YtiUDfe9d2gp902veFeo3ecCWdGlmLm2WFrAV0+L5LoOj/qHSBABQwMsZPJwfC4bf39mQm1S5zw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -9405,7 +9405,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250729':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.0.20250803':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -9732,7 +9732,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250729
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.0.20250803
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -10422,7 +10422,7 @@ snapshots:
   cacheable@1.10.3:
     dependencies:
       hookified: 1.11.0
-      keyv: 5.4.0
+      keyv: 5.5.0
 
   call-bind-apply-helpers@1.0.1:
     dependencies:
@@ -12037,7 +12037,7 @@ snapshots:
 
   history@4.10.1:
     dependencies:
-      '@babel/runtime': 7.27.6
+      '@babel/runtime': 7.28.2
       loose-envify: 1.4.0
       resolve-pathname: 3.0.0
       tiny-invariant: 1.3.3
@@ -12503,7 +12503,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  keyv@5.4.0:
+  keyv@5.5.0:
     dependencies:
       '@keyv/serialize': 1.1.0
 
@@ -14735,11 +14735,11 @@ snapshots:
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
 
-  stylelint-config-recommended@16.0.0(stylelint@16.23.0(typescript@5.7.3)):
+  stylelint-config-recommended@16.0.0(stylelint@16.23.1(typescript@5.7.3)):
     dependencies:
-      stylelint: 16.23.0(typescript@5.7.3)
+      stylelint: 16.23.1(typescript@5.7.3)
 
-  stylelint@16.23.0(typescript@5.7.3):
+  stylelint@16.23.1(typescript@5.7.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
