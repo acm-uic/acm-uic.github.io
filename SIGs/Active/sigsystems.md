@@ -7,8 +7,8 @@ description: Whether you're new to coding or have some experience, this group is
 
 |              |                        |
 | ------------ | ---------------------- |
-| **Weekday**  | Fridays                |
-| **Time**     | 1PM                    |
+| **Weekday**  | TBD                    |
+| **Time**     | TBD                    |
 | **Location** | ACM Office (SELE 2264) |
 | **Leaders**  | Jacob Cohen            |
 

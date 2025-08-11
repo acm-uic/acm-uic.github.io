@@ -10,7 +10,7 @@ description: If you're interested in mobile app development and want a personal 
 | **Weekday**  | Varies; Please see the ACM Calendar |
 | **Time**     | Varies; Please see the ACM Calendar |
 | **Location** | ACM Office (SELE 2264)              |
-| **Leaders**  | Anirudh Kuppili                     |
+| **Leaders**  | Joel John                           |
 
 ## About
 
