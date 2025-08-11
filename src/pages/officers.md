@@ -6,6 +6,33 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 
 | OFFICE                         | NAME                     | EMAIL        |
 | :----------------------------- | :----------------------- | :----------- |
+| President                      | Eva Pisabaj              | episa3@...   |
+| Vice President                 | Sam Stuckey              | sstuc2@...   |
+| Treasurer                      | Vansh "V" Mattraa        | vmattr2@...  |
+| SIG AI Project Leader          | Sammy Patel              | spate797@... |
+| SIG AI Theory Co-Lead          | Stanley ???              | ?????@...    |
+| SIG AI Theory Co-Lead          | Dahila ???               | ?????@...    |
+| SIG Algorithmic Trading Leader | Le ???                   | ?????@...    |
+| SIG CyberSecurity Co-Lead      | Ron ???                  | ?????@...    |
+| SIG CyberSecurity Co-Lead      | Teegan ???               | ?????@...    |
+| SIG Game Leader                | Ethan Ky                 | eky2@...     |
+| SIG Indie Leader               | Danlon Hammons           | dhamm4@...   |
+| SIG Jobs Leader                | Jin ???                  | ?????@...    |
+| SIG Math Leader                | Max Nguyen               | lnguy4@...   |
+| SIG Mobile Dev Leader          | Joel John                | jjohn345@... |
+| SIG SysAdmin Leader            | Chase Lee                | clee231@...  |
+| SIG Systems Leader             | Jacob Cohen              | jcohen30@... |
+| SIG VR Leader                  | Vansh "V" Mattraa        | vmattr2@...  |
+| SIG WebDev Intro Leader        | Adrian Knight            | aknig2@...   |
+| Tech Lead                      | Samuel Skean             | sskean2@...  |
+| Tech Lead                      | Dima Medvedkov           | dmedve2@...  |
+| Tech Lead                      | Luis Sanchez             | lsanc4@...   |
+| Faculty Advisor                | Professor Mitchell Theys | mtheys@...   |
+
+## 2024-2025
+
+| OFFICE                         | NAME                     | EMAIL        |
+| :----------------------------- | :----------------------- | :----------- |
 | President                      | Yashi Shandilya          | yshand2@...  |
 | Vice President                 | Eva Pisabaj              | episa3@...   |
 | Co-Treasurer                   | Florianne Che            | fche2@...    |
@@ -13,7 +40,9 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | Secretary                      | Sam Stuckey              | sstuc2@...   |
 | Secretary                      | Connor Hunter            | chunt22@...  |
 | Secretary                      | Khin Yuupar Myat         | kmyat2@...   |
+| SIG AI Leader                  | Yashi Shandilya          | yshand2@...  |
 | SIG Game Leader                | Ethan Ky                 | eky2@...     |
+| SIG Indie Leader               | Danlon Hammons           | dhamm4@...   |
 | SIG Math Leader                | Soham Kaje               | skaje2@...   |
 | SIG Systems Leader             | Jacob Cohen              | jcohen30@... |
 | SIG Mobile Dev Leader          | Anirudh Kuppili          | vkupp@...    |

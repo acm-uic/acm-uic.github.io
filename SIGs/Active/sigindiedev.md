@@ -7,8 +7,8 @@ description: Learn from first hand experience what it means to be an indie dev!
 
 |              |                        |
 | ------------ | ---------------------- |
-| **Weekday**  | Mondays & Fridays      |
-| **Time**     | 4-6PM & 5-7PM          |
+| **Weekday**  | TBD                    |
+| **Time**     | TBD                    |
 | **Location** | ACM Office (SELE 2264) |
 | **Leaders**  | Danlon Hammons         |
 

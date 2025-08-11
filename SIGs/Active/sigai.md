@@ -5,18 +5,19 @@ description: Everything from Gen AI to Transformers!
 
 # SIG AI
 
-|              |                                        |
-| ------------ | -------------------------------------- |
-| **Weekday**  | Tuesday (Theory) / Wednesday (Project) |
-| **Time**     | 5PM                                    |
-| **Location** | ACM Office (SELE 2264)                 |
-| **Leaders**  | Yashi Shandilya                        |
+|                      |                                        |
+| -------------------- | -------------------------------------- |
+| **Weekday**          | TBD (Theory) / TBD (Project)           |
+| **Time**             | TBD                                    |
+| **Location**         | ACM Office (SELE 2264)                 |
+| **Theory Leader**    | Stanley ???, Dahila ???                |
+| **Project Leaders**  | Sammy Patel                            |
 
 ## About
 
 :::tip
 
-This semester (Fall 2024), SIG AI will be running beginner (Lecture-based) and advanced (Project-based) tracks.
+This semester (Fall 2025), SIG AI will be running beginner (Lecture-based) and advanced (Project-based) tracks.
 Make sure you check the calendar to attend the appropriate meeting!
 
 :::

@@ -7,13 +7,12 @@ description: Come learn about cybersecurity!
 
 |              |                                                         |
 | ------------ | ------------------------------------------------------- |
-| **Weekday**  | Thursdays                                               |
-| **Time**     | 5:30PM                                                  |
+| **Weekday**  | TBD                                                     |
+| **Time**     | TBD                                                     |
 | **Location** | ACM Office (SELE 2264)                                  |
-| **Leaders**  | Reagan Caliendo, Jonathan Hernandez, Karina Latasiewicz |
+| **Leaders**  | Ron ???, Teegan ???                                     |
 
 ## About
 
-Come learn about cybersecurity! We are holding our first meeting on **September 19th, 2024 at 5:30PM**!
+Come learn about cybersecurity!
 
-![SIG Cybersecurity Intro Meeting](/media/sigcybersecurity/Intro_Meeting.png)
