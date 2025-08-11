@@ -10,7 +10,7 @@ description: Come prep for the job hunt! Cracking the coding interview can be di
 | **Weekday**  | Please see the ACM Calendar for the most up-to-date information |
 | **Time**     | Please see the ACM Calendar for the most up-to-date information |
 | **Location** | TBA on #sig-jobs channel in the ACM Discord                     |
-| **Leaders**  | Isaac Alazar                                                    |
+| **Leaders**  | Jin ?????                                                       |
 
 ## About
 

@@ -7,10 +7,10 @@ description: Learn about the field of Quantitative Finance!
 
 |              |                        |
 | ------------ | ---------------------- |
-| **Weekday**  | Fridays                |
-| **Time**     | 5PM                    |
+| **Weekday**  | TBD                    |
+| **Time**     | TBD                    |
 | **Location** | ACM Office (SELE 2264) |
-| **Leaders**  | Connor Hunter          |
+| **Leaders**  | Le ?????               |
 
 ## About
 

@@ -7,8 +7,8 @@ description: Your first VR Project
 
 |              |                        |
 | ------------ | ---------------------- |
-| **Weekday**  | Wednesday              |
-| **Time**     | 4PM                    |
+| **Weekday**  | TBD                    |
+| **Time**     | TBD                    |
 | **Location** | ACM Office (SELE 2264) |
 | **Leaders**  | Vansh “V” Mattraa      |
 
