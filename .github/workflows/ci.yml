@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup pnpm 📦
         uses: pnpm/action-setup@v4
@@ -78,7 +78,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup pnpm 📦
         uses: pnpm/action-setup@v4
@@ -123,7 +123,7 @@ jobs:
     needs: build_release_gh_pages
     steps:
       - name: Checkout repo 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Run DocSearch Scraper 🔍
         uses: celsiusnarhwal/typesense-scraper@v2
