@@ -25,7 +25,7 @@ importers:
         version: 2.1.1
       docusaurus-theme-search-typesense:
         specifier: 0.25.0
-        version: 0.25.0(@algolia/client-search@5.27.0)(@babel/runtime@7.28.3)(@docusaurus/core@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(@docusaurus/theme-common@3.8.1(@docusaurus/plugin-content-docs@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(@types/react@19.1.11)(acorn@8.15.0)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3)
+        version: 0.25.0(@algolia/client-search@5.27.0)(@babel/runtime@7.28.4)(@docusaurus/core@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(@docusaurus/theme-common@3.8.1(@docusaurus/plugin-content-docs@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(@types/react@19.1.11)(acorn@8.15.0)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3)
       dotenv:
         specifier: 17.2.1
         version: 17.2.1
@@ -67,8 +67,8 @@ importers:
         specifier: 0.0.4
         version: 0.0.4
       '@types/node':
-        specifier: 24.3.0
-        version: 24.3.0
+        specifier: 24.3.1
+        version: 24.3.1
       '@types/react':
         specifier: 19.1.11
         version: 19.1.11
@@ -1268,8 +1268,8 @@ packages:
     resolution: {integrity: sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.28.3':
-    resolution: {integrity: sha512-9uIQ10o0WGdpP6GDhXcdOJPJuDgFtIDtN/9+ArJQ2NAfAmiuhTQdzkaTGR33v43GYS2UrSA0eX2pPPHoFVvpxA==}
+  '@babel/runtime@7.28.4':
+    resolution: {integrity: sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.26.8':
@@ -1831,8 +1831,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20250815':
-    resolution: {integrity: sha512-jo0HFTxlkm/wJq9vDZ94FdoSNyJzYAw1BFcMW0mbd4dMciwj8NyQybWcDHnBlRpf31oR83D4CvmNjeWyu2iT0w==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20250901':
+    resolution: {integrity: sha512-zcedmJhpVLmnUqoROC7/eRsJw1gO5zNTb0AAbbIESX8Cus1YETfdUTZVEQ2KxOb91dEwRHG6WcmxnyhRjUUuJA==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.4.20200806':
     resolution: {integrity: sha512-Jeo/KZqK39DI6ExXHcJ4lqnn1O/wEqboQ6eQ8WnNpu5eJ7wUnX/C5KazOgs1aRhnIB/dVzDe8wm62nmtkMIoaw==}
@@ -2137,11 +2137,11 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@22.17.2':
-    resolution: {integrity: sha512-gL6z5N9Jm9mhY+U2KXZpteb+09zyffliRkZyZOHODGATyC5B1Jt/7TzuuiLkFsSUMLbS1OLmlj/E+/3KF4Q/4w==}
+  '@types/node@22.18.1':
+    resolution: {integrity: sha512-rzSDyhn4cYznVG+PCzGe1lwuMYJrcBS1fc3JqSa2PvtABwWo+dZ1ij5OVok3tqfpEBCBoaR4d7upFJk73HRJDw==}
 
-  '@types/node@24.3.0':
-    resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
+  '@types/node@24.3.1':
+    resolution: {integrity: sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==}
 
   '@types/prismjs@1.26.5':
     resolution: {integrity: sha512-AUZTa7hQ2KY5L7AmtSiqxlhWxb4ina0yd8hNbl4TWuqnv/pFP0nDMb3YrfSBf4hJVGLh2YEIBfKaBW/9UEl6IQ==}
@@ -8210,7 +8210,7 @@ snapshots:
 
   '@babel/runtime@7.27.6': {}
 
-  '@babel/runtime@7.28.3': {}
+  '@babel/runtime@7.28.4': {}
 
   '@babel/template@7.26.8':
     dependencies:
@@ -9375,7 +9375,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -9405,7 +9405,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20250815':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20250901':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -9552,7 +9552,7 @@ snapshots:
 
   '@slorber/react-helmet-async@1.3.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@babel/runtime': 7.28.3
+      '@babel/runtime': 7.28.4
       invariant: 2.2.4
       prop-types: 15.8.1
       react: 19.1.1
@@ -9668,24 +9668,24 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/bonjour@3.5.13':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/concat-stream@2.0.3':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/connect-history-api-fallback@1.5.4':
     dependencies:
       '@types/express-serve-static-core': 5.0.6
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/debug@4.1.12':
     dependencies:
@@ -9711,14 +9711,14 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       '@types/qs': 6.14.0
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.5
 
   '@types/express-serve-static-core@5.0.6':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       '@types/qs': 6.14.0
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.5
@@ -9732,7 +9732,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.1.20250815
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.1.20250901
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -9760,7 +9760,7 @@ snapshots:
 
   '@types/http-proxy@1.17.16':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/is-empty@1.2.3': {}
 
@@ -9790,15 +9790,15 @@ snapshots:
 
   '@types/node-forge@1.3.11':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/node@17.0.45': {}
 
-  '@types/node@22.17.2':
+  '@types/node@22.18.1':
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@24.3.0':
+  '@types/node@24.3.1':
     dependencies:
       undici-types: 7.10.0
 
@@ -9837,12 +9837,12 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/send@0.17.5':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/serve-index@1.9.4':
     dependencies:
@@ -9851,12 +9851,12 @@ snapshots:
   '@types/serve-static@1.15.8':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       '@types/send': 0.17.5
 
   '@types/sockjs@0.3.36':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/supports-color@8.1.3': {}
 
@@ -9866,7 +9866,7 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -10951,7 +10951,7 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  docusaurus-theme-search-typesense@0.25.0(@algolia/client-search@5.27.0)(@babel/runtime@7.28.3)(@docusaurus/core@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(@docusaurus/theme-common@3.8.1(@docusaurus/plugin-content-docs@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(@types/react@19.1.11)(acorn@8.15.0)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3):
+  docusaurus-theme-search-typesense@0.25.0(@algolia/client-search@5.27.0)(@babel/runtime@7.28.4)(@docusaurus/core@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(@docusaurus/theme-common@3.8.1(@docusaurus/plugin-content-docs@3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(@types/react@19.1.11)(acorn@8.15.0)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3):
     dependencies:
       '@docusaurus/core': 3.8.1(@mdx-js/react@3.1.0(@types/react@19.1.11)(react@19.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.7.3)
       '@docusaurus/logger': 3.8.1
@@ -10968,8 +10968,8 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
       tslib: 2.8.1
-      typesense-docsearch-react: 3.4.1(@algolia/client-search@5.27.0)(@babel/runtime@7.28.3)(@types/react@19.1.11)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      typesense-instantsearch-adapter: 2.9.0(@babel/runtime@7.28.3)
+      typesense-docsearch-react: 3.4.1(@algolia/client-search@5.27.0)(@babel/runtime@7.28.4)(@types/react@19.1.11)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      typesense-instantsearch-adapter: 2.9.0(@babel/runtime@7.28.4)
       utility-types: 3.11.0
     transitivePeerDependencies:
       - '@algolia/client-search'
@@ -11559,7 +11559,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       require-like: 0.1.2
 
   eventemitter3@4.0.7: {}
@@ -12037,7 +12037,7 @@ snapshots:
 
   history@4.10.1:
     dependencies:
-      '@babel/runtime': 7.28.3
+      '@babel/runtime': 7.28.4
       loose-envify: 1.4.0
       resolve-pathname: 3.0.0
       tiny-invariant: 1.3.3
@@ -12424,7 +12424,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -12432,13 +12432,13 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -14138,7 +14138,7 @@ snapshots:
 
   regenerator-transform@0.15.2:
     dependencies:
-      '@babel/runtime': 7.28.3
+      '@babel/runtime': 7.28.4
 
   regexp.prototype.flags@1.5.4:
     dependencies:
@@ -14947,13 +14947,13 @@ snapshots:
 
   typesense-docsearch-css@0.4.1: {}
 
-  typesense-docsearch-react@3.4.1(@algolia/client-search@5.27.0)(@babel/runtime@7.28.3)(@types/react@19.1.11)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  typesense-docsearch-react@3.4.1(@algolia/client-search@5.27.0)(@babel/runtime@7.28.4)(@types/react@19.1.11)(algoliasearch@5.27.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       '@algolia/autocomplete-core': 1.8.2
       '@algolia/autocomplete-preset-algolia': 1.8.2(@algolia/client-search@5.27.0)(algoliasearch@5.27.0)
-      typesense: 1.8.2(@babel/runtime@7.28.3)
+      typesense: 1.8.2(@babel/runtime@7.28.4)
       typesense-docsearch-css: 0.4.1
-      typesense-instantsearch-adapter: 2.9.0(@babel/runtime@7.28.3)
+      typesense-instantsearch-adapter: 2.9.0(@babel/runtime@7.28.4)
     optionalDependencies:
       '@types/react': 19.1.11
       react: 19.1.1
@@ -14964,24 +14964,24 @@ snapshots:
       - algoliasearch
       - debug
 
-  typesense-instantsearch-adapter@2.9.0(@babel/runtime@7.28.3):
+  typesense-instantsearch-adapter@2.9.0(@babel/runtime@7.28.4):
     dependencies:
-      '@babel/runtime': 7.28.3
-      typesense: 2.1.0-8(@babel/runtime@7.28.3)
+      '@babel/runtime': 7.28.4
+      typesense: 2.1.0-8(@babel/runtime@7.28.4)
     transitivePeerDependencies:
       - debug
 
-  typesense@1.8.2(@babel/runtime@7.28.3):
+  typesense@1.8.2(@babel/runtime@7.28.4):
     dependencies:
-      '@babel/runtime': 7.28.3
+      '@babel/runtime': 7.28.4
       axios: 1.9.0
       loglevel: 1.9.2
     transitivePeerDependencies:
       - debug
 
-  typesense@2.1.0-8(@babel/runtime@7.28.3):
+  typesense@2.1.0-8(@babel/runtime@7.28.4):
     dependencies:
-      '@babel/runtime': 7.28.3
+      '@babel/runtime': 7.28.4
       axios: 1.9.0
       loglevel: 1.9.2
       tslib: 2.8.1
@@ -15017,7 +15017,7 @@ snapshots:
       '@types/concat-stream': 2.0.3
       '@types/debug': 4.1.12
       '@types/is-empty': 1.2.3
-      '@types/node': 22.17.2
+      '@types/node': 22.18.1
       '@types/unist': 3.0.3
       concat-stream: 2.0.0
       debug: 4.4.1
