@@ -1,16 +1,20 @@
 ":memo: documentation":
   - any:
-    - docs/**/*
-    - SIGs/**/*
+    - changed-files:
+      - docs/**/*
+      - SIGs/**/*
 ":pencil2: blog":
   - any:
-    - blog/**/*
+    - changed-files:
+      - blog/**/*
 ":taco: app":
   - any:
-    - src/**/*
-    - static/**/*
-    - ./*.js
-    - ./*.json
+    - changed-files:
+      - src/**/*
+      - static/**/*
+      - ./*.js
+      - ./*.json
 ":construction: actions":
   - any:
-    - .github/workflows/**/*
+    - changed-files:
+      - .github/workflows/**/*
