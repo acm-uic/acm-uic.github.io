@@ -58,7 +58,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.1.0",
     "prettier": "3.6.2",
-    "stylelint": "16.24.0",
+    "stylelint": "16.25.0",
     "stylelint-config-recommended": "17.0.0",
     "typescript": "5.7.3"
   },
