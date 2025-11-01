@@ -1,29 +1,22 @@
 ---
 slug: /math
-description: We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems.
+description: This Special Interest Group dedicated to exploring the intersection of mathematics and computing. We dive into both the theorical and applied aspect of mathematics to develop insights, understanding and solutions to  scientific and engineering problems by directly working on computational, approximations and machine learning projects.
 ---
 
 # SIG Math
 
 |              |                                                                 |
 | ------------ | --------------------------------------------------------------- |
-| **Weekday**  | TBD                                                             |
-| **Time**     | Please see the ACM Calendar for the most up-to-date information |
-| **Location** | TBD on #sig-math channel in the ACM Discord                     |
-| **Leaders**  | Soham Kaje                                                      |
+| **Weekday**  | Thursday                                                        |
+| **Time**     | 6 PM - 7PM                                                      |
+| **Location** | CDRLC 2433 and `#sig-math` Discord channel                      |
+| **Leaders**  | [Lam (Max) Nguyen](https://github.com/lamtnguyen989)                                              |
 
 ## About
 
-We are a Special Interest Group dedicated to analytical solutions to computational problems, and computational approximations of mathematical problems.
+This Special Interest Group dedicated to exploring the intersection of mathematics and computing. We dive into both the theorical and applied aspect of mathematics to develop insights, understanding and solutions to  scientific and engineering problems by directly working on computational, approximations and machine learning projects.
 
-### Previous Projects
+### Current project
 
-- Integral and derivative calculators
-- Reduced Row Echelon Form Calculator
+- [Numerical Differential equation solver with Physics-Informed Neural Network](https://github.com/acm-uic/SIG-Math-2025) (Fall 2025)
 
-### Possible Projects
-
-- Probability Calculator
-- Prime Factorization Calculator
-- Argument Solver
-- Your Input Matters: Highly open to other project ideas from members
