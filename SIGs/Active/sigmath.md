@@ -3,6 +3,8 @@ slug: /math
 description: The Special Interest Group dedicated to exploring the intersection of mathematics and computing. We dive into both the theoretical and applied aspect of mathematics to develop insights, understanding and solutions to scientific and engineering problems by directly working on computational, approximations and machine learning projects.
 ---
 
+import DiscordLink from "../../src/components/DiscordLink";
+
 # SIG Math
 
 |              |                                                                  |
