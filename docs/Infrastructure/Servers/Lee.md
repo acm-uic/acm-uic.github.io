@@ -5,7 +5,7 @@ tags: [server, compute, proxmox]
 
 # Lee
 
-Current Location: SELE 2266
+Current Location: CDRLC 2442
 
 ## Description
 
