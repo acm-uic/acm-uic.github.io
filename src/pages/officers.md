@@ -18,7 +18,8 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | SIG Game Leader                | Ethan Ky                 | eky2@...     |
 | SIG Hacks Leader               | Cat Markowska            | cmark10@...  |
 | SIG Indie Leader               | Danlon Hammons           | dhamm4@...   |
-| SIG Jobs Leader                | Jin ???                  | ?????@...    |
+| SIG Jobs Leader                | Musa Tahir               | ?????@...    |
+| SIG Jobs Leader                | Sedrik Punzalan          | ?????@...    |
 | SIG Math Leader                | Lam (Max) Nguyen         | lnguy4@...   |
 | SIG Mobile Dev Leader          | Joel John                | jjohn345@... |
 | SIG PC Building                | Luis Sanchez             | lsanc4@...   |
