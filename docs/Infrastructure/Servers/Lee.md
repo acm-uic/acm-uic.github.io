@@ -24,8 +24,8 @@ Machine Model: Dell PowerEdge R510|CQ87C2S
 ### CPU
 
 - Model: 2x Intel Xeon X5650
-    - Cores: 12c/24t total
-    - Clock Speed: 2.66 Ghz
+  - Cores: 12c/24t total
+  - Clock Speed: 2.66 Ghz
 
 ### Mainboard
 

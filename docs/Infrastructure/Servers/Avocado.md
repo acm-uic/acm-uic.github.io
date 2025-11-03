@@ -21,15 +21,15 @@ Machine Model: Dell R710|GLZ4KN1
 ### CPU
 
 - Model: 2x Intel Xeon X5650
-    - Cores: 12c/24t total
-    - Clock Speed: 2.66 Ghz
+  - Cores: 12c/24t total
+  - Clock Speed: 2.66 Ghz
 
 ### Mainboard
 
 - Model: Dell 00NH4P A12
 - Memory
-    - Type: PC3-12800R
-    - Total Capacity: 288 GB
+  - Type: PC3-12800R
+  - Total Capacity: 288 GB
 
 ### Addon Cards
 

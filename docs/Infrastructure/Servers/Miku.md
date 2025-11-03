@@ -23,15 +23,15 @@ Machine Model: Dell R610|19V6FP1
 ### CPU
 
 - Model: 2x Intel Xeon E5540
-    - Cores: 8c/16t total
-    - Clock Speed: 2.53 Ghz
+  - Cores: 8c/16t total
+  - Clock Speed: 2.53 Ghz
 
 ### Mainboard
 
 - Model: Dell 9P8FRD
 - Memory
-    - Type: PC3-12800R
-    - Capacity: 96 GB
+  - Type: PC3-12800R
+  - Capacity: 96 GB
 
 ### Addon Cards
 
