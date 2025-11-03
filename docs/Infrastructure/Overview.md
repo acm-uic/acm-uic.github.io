@@ -24,6 +24,6 @@ Primary ACM server infrastructure:
 | 33-32 | Lee           | Server         | Proxmox                   |
 | 31-30 | Chase         | Server         | Proxmox                   |
 | 29-26 | Bharat        | Server         | Proxmox, TrueNAS          |
-| 25    | Mikrotik Rose | Server, Switch | _TBD_                     |
-| 24    | Roxy          | Server         | _TBD_                     |
+|    25 | Mikrotik Rose | Server, Switch | _TBD_                     |
+|    24 | Roxy          | Server         | _TBD_                     |
 | 23-22 | Eris          | Server         | _TBD_                     |
