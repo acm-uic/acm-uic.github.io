@@ -11,7 +11,6 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | Co-Treasurer                   | Florianne Che            | fche2@...    |
 | Co-Treasurer                   | Amy Kodama               | akodam3@...  |
 | Secretary                      | Sam Stuckey              | sstuc2@...   |
-| Secretary                      | Connor Hunter            | chunt22@...  |
 | Secretary                      | Khin Yuupar Myat         | kmyat2@...   |
 | SIG Game Leader                | Ethan Ky                 | eky2@...     |
 | SIG Math Leader                | Soham Kaje               | skaje2@...   |
@@ -20,7 +19,7 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | SIG WebDev Leader              | Arslan Kamchybekov       | akamc@...    |
 | SIG WebDev Leader              | Adrian Knight            | aknig2@...   |
 | SIG SysAdmin Leader            | Chase Lee                | clee231@...  |
-| SIG Algorithmic Trading Leader | Connor Hunter            | chunt22@...  |
+| SIG Algorithmic Trading Leader | [Tuong Max Le](https://www.linkedin.com/in/tuong-max-le) <br/> <img src="/img/officers/max-le.png" alt="Max Le" width="80"/> | tle221@uic.edu  |
 | SIG Jobs Leader                | Isaac Alazar             | ialaz@...    |
 | SIG-Hacks Leader               | Michael Khan             | mkhan398@... |
 | SIG-Hacks Leader               | Samuel Effendy           | seffe2@...   |
@@ -30,7 +29,6 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | Tech Lead                      | Florianne Che            | fche2@...    |
 | Tech Lead                      | Sam Stuckey              | sstuc2@...   |
 | Tech Lead                      | Khin Yuupar Myat         | kmyat2@...   |
-| Tech Lead                      | Connor Hunter            | chunt22@...  |
 | Tech Lead                      | Niketan Doddamani        | ndodd@...    |
 | Faculty Advisor                | Professor Mitchell Theys | mtheys@...   |
 

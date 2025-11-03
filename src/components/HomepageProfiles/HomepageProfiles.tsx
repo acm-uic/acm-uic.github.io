@@ -79,10 +79,10 @@ const officers = [
     description: "Secretary\nTech Lead",
   },
   {
-    name: "Connor Hunter",
-    image: "/media/council_profiles/connor_hunter_400.jpg",
-    url: "https://github.com/Mohpann",
-    description: "Secretary\nTech Lead\nSIG Algorithmic Trading Leader",
+    name: "Tuong Max Le",
+    image: "/media/council_profiles/max_le_400.png",
+    url: "https://www.linkedin.com/in/tuong-max-le",
+    description: "SIG Algorithmic Trading Leader",
   },
   {
     name: "Khin Yuupar Myat",
