@@ -27,12 +27,3 @@ Primary ACM server infrastructure:
 | 25    | Mikrotik Rose | Server, Switch     | _TBD_                     |
 | 24    | Roxy          | Server             | _TBD_                     |
 | 23-22 | Eris          | Server             | _TBD_                     |
-
-<!-- TODO: 
-          - Document Ethan's server (Roxy and Eris based on the labels)
-          - Deploy the Mikrotik Rose server and document it
- -->
-
-## Office (CDRLC 2433) Rack Layout 
-
-<!-- If we want to, LOL -->
