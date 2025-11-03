@@ -29,6 +29,7 @@ description: Learn about the field of Quantitative Finance!
 We've hosted several events featuring industry professionals and HQ visits:
 
 - **HQ Visits**
+
   - CBOE (Chicago Board Options Exchange) in 2023 and 2024
   - CTC (Chicago Trading Company) in 2023 and 2024
 
