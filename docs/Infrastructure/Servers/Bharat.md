@@ -1,6 +1,6 @@
 ---
 slug: /infrastructure/servers/bharat
-tags: [server, storage, compute, vmware]
+tags: [server, storage, compute, proxmox]
 ---
 
 # Bharat
