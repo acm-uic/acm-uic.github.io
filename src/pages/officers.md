@@ -2,7 +2,7 @@
 
 All emails are suffixed with "uic.edu", unless otherwise noted.
 
-## 2024-2025
+## Fall 2025 - Spring 2026
 
 | OFFICE                         | NAME                     | EMAIL        |
 | :----------------------------- | :----------------------- | :----------- |
@@ -12,7 +12,7 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | SIG AI Project Leader          | Sammy Patel              | spate797@... |
 | SIG AI Theory Co-Lead          | Stanley ???              | ?????@...    |
 | SIG AI Theory Co-Lead          | Dahila ???               | ?????@...    |
-| SIG Algorithmic Trading Leader | Le ???                   | ?????@...    |
+| SIG Algorithmic Trading Leader | Tuong Max Le             | tle221@...   |
 | SIG CyberSecurity Co-Lead      | Ron ???                  | ?????@...    |
 | SIG CyberSecurity Co-Lead      | Teegan ???               | ?????@...    |
 | SIG Game Leader                | Ethan Ky                 | eky2@...     |
