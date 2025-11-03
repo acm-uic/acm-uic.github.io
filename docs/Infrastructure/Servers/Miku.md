@@ -3,7 +3,7 @@ slug: /infrastructure/servers/miku
 tags: [server, compute, proxmox]
 ---
 
-# Chase
+# Miku
 
 Current Location: SELE 2266
 
