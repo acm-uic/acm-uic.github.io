@@ -5,7 +5,7 @@ tags: [server, storage, compute, vmware]
 
 # Bharat
 
-Current Location: SELE 2266
+Current Location: CDRLC 2442
 
 ## Description
 
