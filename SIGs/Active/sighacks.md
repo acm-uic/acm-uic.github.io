@@ -1,6 +1,6 @@
 ---
 slug: /hacks
-description: If you're interested in mobile app development and want a personal project to add to your resume, then consider joining SIG-Mobile-Dev!
+description: If you're interested in competing in hackathons, this is the place for you!
 ---
 
 # SIG Hacks
@@ -9,8 +9,8 @@ description: If you're interested in mobile app development and want a personal 
 | ------------ | ----------------------------------- |
 | **Weekday**  | Varies; Please see the ACM Calendar |
 | **Time**     | Varies; Please see the ACM Calendar |
-| **Location** | ACM Office (SELE 2264)              |
-| **Leaders**  | Michael Khan, Samuel Effendy        |
+| **Location** | ACM Office (CDRLC 2433)             |
+| **Leaders**  | Cat Markowska                       |
 
 ## About
 
