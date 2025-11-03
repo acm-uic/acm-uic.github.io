@@ -19,7 +19,7 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | SIG WebDev Leader              | Arslan Kamchybekov       | akamc@...    |
 | SIG WebDev Leader              | Adrian Knight            | aknig2@...   |
 | SIG SysAdmin Leader            | Chase Lee                | clee231@...  |
-| SIG Algorithmic Trading Leader | [Tuong Max Le](https://www.linkedin.com/in/tuong-max-le) <br/> <img src="/img/officers/max-le.png" alt="Max Le" width="80"/> | tle221@uic.edu  |
+| SIG Algorithmic Trading Leader | Tuong Max Le             | tle221@...   |
 | SIG Jobs Leader                | Isaac Alazar             | ialaz@...    |
 | SIG-Hacks Leader               | Michael Khan             | mkhan398@... |
 | SIG-Hacks Leader               | Samuel Effendy           | seffe2@...   |
