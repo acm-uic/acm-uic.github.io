@@ -25,9 +25,9 @@ const officers = [
     description: "Co-Treasurer\nTech Lead",
   },
   {
-    name: "Soham Kaje",
-    image: "/media/council_profiles/soham_kaje_400.jpg",
-    url: "https://www.linkedin.com/in/soham-kaje-617b48175/",
+    name: "Lam (Max) Nguyen",
+    image: "https://avatars.githubusercontent.com/u/145540332?v=4",
+    url: "https://https://github.com/lamtnguyen989/",
     description: "SIG Math Leader",
   },
   {
@@ -146,6 +146,18 @@ const sysadmins = [
     image: "https://avatars.githubusercontent.com/u/87404863?s=100?v=4",
     url: "https://github.com/lowpolyneko",
     description: "Rack Server Enthusiast | LUG President",
+  },
+  {
+    name: "Harshit Modi",
+    image: "https://avatars.githubusercontent.com/u/129324567?v=4",
+    url: "https://github.com/hmodi51",
+    description: "Waiting for chaos | LUG Officer",
+  },
+  {
+    name: "Lam (Max) Nguyen",
+    image: "https://avatars.githubusercontent.com/u/145540332?v=4",
+    url: "https://https://github.com/lamtnguyen989/",
+    description: "Enjoyer of big and little stuff in life",
   },
 ];
 
