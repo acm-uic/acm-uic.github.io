@@ -28,7 +28,7 @@ Primary ACM server infrastructure:
 |    24 | Roxy          | Server             | _TBD_                     |
 | 23-22 | Eris          | Server             | _TBD_                     |
 
-## Maid-Caf&eacute;
+## Office (CDRLC 2433) rack
 
 |     U | Name                     | Type                 | Description                                                |
 | ----: | :----------------------- | :------------------- | :--------------------------------------------------------- |
