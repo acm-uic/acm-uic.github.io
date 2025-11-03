@@ -27,7 +27,7 @@ const officers = [
   {
     name: "Lam (Max) Nguyen",
     image: "https://avatars.githubusercontent.com/u/145540332?v=4",
-    url: "https://https://github.com/lamtnguyen989/",
+    url: "https://github.com/lamtnguyen989/",
     description: "SIG Math Leader",
   },
   {
@@ -156,7 +156,7 @@ const sysadmins = [
   {
     name: "Lam (Max) Nguyen",
     image: "https://avatars.githubusercontent.com/u/145540332?v=4",
-    url: "https://https://github.com/lamtnguyen989/",
+    url: "https://github.com/lamtnguyen989",
     description: "Enjoyer of big and little stuff in life",
   },
 ];
