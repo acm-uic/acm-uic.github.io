@@ -5,12 +5,12 @@ description: Come learn about cybersecurity!
 
 # SIG Cybersecurity
 
-|              |                        |
-| ------------ | ---------------------- |
-| **Weekday**  | TBD                    |
-| **Time**     | TBD                    |
-| **Location** | ACM Office (SELE 2264) |
-| **Leaders**  | Ron ???, Teegan ???    |
+|              |                         |
+| ------------ | ----------------------- |
+| **Weekday**  | Friday                  |
+| **Time**     | 3PM                     |
+| **Location** | ACM Office (CDRLC 2433) |
+| **Leaders**  | Ron ???, Teegan ???     |
 
 ## About
 
