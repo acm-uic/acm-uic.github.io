@@ -22,3 +22,6 @@ yarn-error.log*
 
 /.tmp
 .env
+
+# For Max's write up on the Maid-Café 
+docs/Infrastructure/Maid-Café/

@@ -17,8 +17,8 @@ Primary ACM server infrastructure:
 |    41 | acmswitch2    | Switch             | Arista 10G Base-T         |
 |    40 | acmswitch     | Switch             | Arista 10G SFP+           |
 |    39 | acmswitch3    | Switch             | Quanta 1G Base-T          |
-|    38 | ackem         | Server             | Router                    |
-|    37 | littlebell    | Server             | Router                    |
+|    38 | ackem         | Server             | Router, pfSense           |
+|    37 | littlebell    | Server             | Router, pfSense           |
 |    36 | Miku          | Server             | LUG's Hypervisor          |
 | 35-34 | Avocado       | Server             | Proxmox                   |
 | 33-32 | Lee           | Server             | Proxmox                   |
@@ -30,13 +30,13 @@ Primary ACM server infrastructure:
 
 ## Office (CDRLC 2433) rack
 
-|     U | Name                     | Type                 | Description                                                |
-| ----: | :----------------------- | :------------------- | :--------------------------------------------------------- |
-|    42 | USW-Pro-Max-48-PoE       | Switch               | Ubiquiti 48 PoE+/++ RJ45 and 4 SFP+                        |
-|    41 |                          | _RJ45 patch panel_   |                                                            |
-|    40 |                          | _Blank_              |                                                            |
-| 39-38 | _TBD_                    | Raspberry Pi cluster | 10 Raspberry Pis                                           |
-|    37 | Mikrotik CRS309-1G-8S+IN | Switch               | 8 SFP+ ports                                               |
-| 36-32 | Maid-Caf&eacute; cluster | Cluster              | 4 Minisforum MS-01 and 1 Minisforum MS-A2                  |
-| 31-26 | Max-Fi stuff             | `¯\_(ツ)_/¯`         |                                                            |
-| 25-18 | NERV Cluster             | Cluster              | 4 Minisforum 795S7, 3 of which has RTX 4000 Ada Generation |
+|     U | Name                     | Type                 | Description                                                              |
+| ----: | :----------------------- | :------------------- | :----------------------------------------------------------------------- |
+|    42 | USW-Pro-Max-48-PoE       | Switch               | Ubiquiti 48 PoE+/++ RJ45 along with 4 SFP+                               |
+|    41 |                          | _RJ45 patch panel_   |                                                                          |
+|    40 |                          | _Blank_              |                                                                          |
+| 39-38 | _TBD_                    | Raspberry Pi cluster | 10 Raspberry Pis                                                         |
+|    37 | CRS309-1G-8S+IN          | Switch               | Mikrotik 8 SFP+ ports                                                    |
+| 36-32 | Maid-Caf&eacute; cluster | Cluster              | 4 Minisforum MS-01 and 1 Minisforum MS-A2 plus Unifi Cloud Gateway Ultra |
+| 31-26 | Max-Fi stuff             | `¯\_(ツ)_/¯`         |                                                                          |
+| 25-18 | NERV Cluster             | Cluster              | 4 Minisforum 795S7, 3 of which has RTX 4000 Ada Generation               |
