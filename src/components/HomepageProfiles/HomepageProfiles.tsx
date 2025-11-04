@@ -136,7 +136,7 @@ const officers = [
     name: "Adrian Knight",
     image: "/media/council_profiles/adrian_knight_400.jpg",
     url: "https://github.com/Ajknight121",
-    description: "President Advisor\nSIG WebDev Leader",
+    description: "SIG WebDev Leader\nPresident 2022-2023",
   },
   {
     name: "Dominic",
