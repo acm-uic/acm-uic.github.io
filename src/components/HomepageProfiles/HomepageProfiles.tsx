@@ -16,7 +16,7 @@ const officers = [
     name: "Sam Stuckey",
     image: "https://avatars.githubusercontent.com/u/145505945?s=100&v=4",
     url: "https://github.com/SStuckey88",
-    description: "Vice President",
+    description: "Vice President\nCyberForce Team Captain",
   },
   {
     name: "Vansh (V) Mattraa",
@@ -44,9 +44,9 @@ const officers = [
   },
   {
     name: "Teegan",
-    image: "/media/council_profiles/max_le_400.png",
+    image: "/img/logo.png",
     url: "https://acm.cs.uic.edu/#",
-    description: "SIG CyberSecurity Leader",
+    description: "SIG CyberSecurity Leader\nCyberForce Team Captain",
   },
   {
     name: "Ron",
