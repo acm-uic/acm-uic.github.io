@@ -20,20 +20,20 @@ const officers = [
   },
   {
     name: "Vansh (V) Mattraa",
-    image: "/media/council_profiles/vmattra_400.png",
+    image: "/media/council_profiles/vmattraa_400.png",
     url: "https://www2.evl.uic.edu/entry.php?id=2929",
-    description: "Co-Treasurer\nTech Lead",
+    description: "Treasurer\nSIG VR Leader",
   },
   {
     name: "Stanley Huang",
-    image: "/media/council_profiles/anirudh_kuppili_400.jpg",
-    url: "http://www.linkedin.com/in/akuppili",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG AI Theory Leader",
   },
   {
     name: "Sammy Patel",
-    image: "/media/council_profiles/anirudh_kuppili_400.jpg",
-    url: "http://www.linkedin.com/in/akuppili",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Mobile Dev Leader",
   },
   {
@@ -45,13 +45,13 @@ const officers = [
   {
     name: "Teegan",
     image: "/media/council_profiles/max_le_400.png",
-    url: "https://www.linkedin.com/in/tuong-max-le",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG CyberSecurity Leader",
   },
   {
     name: "Ron",
-    image: "/media/council_profiles/max_le_400.png",
-    url: "https://www.linkedin.com/in/tuong-max-le",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG CyberSecurity Leader",
   },
   {
@@ -62,26 +62,26 @@ const officers = [
   },
   {
     name: "Cat Markowska",
-    image: "/media/council_profiles/ethan_ky_400.jpg",
-    url: "https://www.linkedin.com/in/ethan-ky2429",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Hacks Leader",
   },
   {
     name: "Danlon Hammons",
-    image: "/media/council_profiles/ethan_ky_400.jpg",
-    url: "https://www.linkedin.com/in/ethan-ky2429",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Indie Leader",
   },
   {
     name: "Musa Tahir",
-    image: "/media/council_profiles/isaac_alazar_400.jpg",
-    url: "https://www.linkedin.com/in/isaac-alazar-17b949311/",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Jobs Leader",
   },
   {
     name: "Sedrik Punzalan",
-    image: "/media/council_profiles/isaac_alazar_400.jpg",
-    url: "https://www.linkedin.com/in/isaac-alazar-17b949311/",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Jobs Leader",
   },
   {
@@ -92,20 +92,20 @@ const officers = [
   },
   {
     name: "Joel John",
-    image: "https://avatars.githubusercontent.com/u/145540332?v=4",
-    url: "https://github.com/lamtnguyen989/",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Mobile Dev Leader",
   },
   {
     name: "Sanskar",
-    image: "https://avatars.githubusercontent.com/u/145540332?v=4",
-    url: "https://github.com/lamtnguyen989/",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG Mobile Dev Leader",
   },
   {
     name: "Luis Sanchez",
-    image: "https://avatars.githubusercontent.com/u/145540332?v=4",
-    url: "https://github.com/lamtnguyen989/",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG PC Building Leader",
   },
   {
@@ -121,21 +121,15 @@ const officers = [
     description: "SIG Systems Leader",
   },
   {
-    name: "Vansh (V) Mattraa",
-    image: "/media/council_profiles/vmattra_400.png",
-    url: "https://www2.evl.uic.edu/entry.php?id=2929",
-    description: "SIG VR Leader",
-  },
-  {
     name: "Eon",
-    image: "/media/council_profiles/vmattra_400.png",
-    url: "https://www2.evl.uic.edu/entry.php?id=2929",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG VR Leader",
   },
   {
     name: "Oday",
-    image: "/media/council_profiles/vmattra_400.png",
-    url: "https://www2.evl.uic.edu/entry.php?id=2929",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG VR Leader",
   },
   {
@@ -146,8 +140,8 @@ const officers = [
   },
   {
     name: "Dominic",
-    image: "/media/council_profiles/adrian_knight_400.jpg",
-    url: "https://github.com/Ajknight121",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "SIG WebDev Leader",
   },
   {
@@ -158,21 +152,20 @@ const officers = [
   },
   {
     name: "Dima Medvedkov",
-    image: "https://avatars.githubusercontent.com/u/49312226?s100&v=4",
-    url: "https://github.com/dejazzhands",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "Tech Lead",
   },
-
   {
     name: "Safiyyah Ahmed",
-    image: "/media/council_profiles/khin_yuupar_myat_400.jpg",
-    url: "https://www.linkedin.com/in/khinyuuparmyat/",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "Secretary",
   },
   {
     name: "Andrew Wolk",
-    image: "/media/council_profiles/amy_kodama_400.jpg",
-    url: "http://www.linkedin.com/in/amy-kodama-a76519266",
+    image: "/img/logo.png",
+    url: "https://acm.cs.uic.edu/#",
     description: "Secretary",
   },
 ];
