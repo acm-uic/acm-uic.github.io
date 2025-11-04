@@ -5,12 +5,12 @@ description: Come prep for the job hunt! Cracking the coding interview can be di
 
 # SIG Jobs
 
-|              |                                                                 |
-| ------------ | --------------------------------------------------------------- |
-| **Weekday**  | Please see the ACM Calendar for the most up-to-date information |
-| **Time**     | Please see the ACM Calendar for the most up-to-date information |
-| **Location** | TBA on #sig-jobs channel in the ACM Discord                     |
-| **Leaders**  | Jin ?????                                                       |
+|              |                                             |
+| ------------ | ------------------------------------------- |
+| **Weekday**  | Monday                                      |
+| **Time**     | 4PM                                         |
+| **Location** | TBA on #sig-jobs channel in the ACM Discord |
+| **Leaders**  | Musa Tahir & Sedrik Punzalan                |
 
 ## About
 

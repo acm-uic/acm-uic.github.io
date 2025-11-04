@@ -5,13 +5,13 @@ description: Everything from Gen AI to Transformers!
 
 # SIG AI
 
-|                     |                              |
-| ------------------- | ---------------------------- |
-| **Weekday**         | TBD (Theory) / TBD (Project) |
-| **Time**            | TBD                          |
-| **Location**        | ACM Office (SELE 2264)       |
-| **Theory Leader**   | Stanley ???, Dahila ???      |
-| **Project Leaders** | Sammy Patel                  |
+|                     |                                        |
+| ------------------- | -------------------------------------- |
+| **Weekday**         | Tuesday (Theory) / Wednesday (Project) |
+| **Time**            | 5PM (Theory) / 5PM (Project)           |
+| **Location**        | ACM Office (CDRLC 2433)                |
+| **Theory Leader**   | Stanley Huang                          |
+| **Project Leaders** | Sammy Patel                            |
 
 ## About
 
