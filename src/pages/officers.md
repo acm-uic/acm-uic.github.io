@@ -193,3 +193,413 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | Flourish! Committee Head          | _Available_              |                                           |
 | Graduate Advisor                  | Sean Deitz               | sdeitz2@...                               |
 | Faculty Advisor                   | Professor Mitchell Theys | mtheys@...                                |
+
+## 2016-2017
+
+| OFFICE          | NAME                     |
+| :-------------- | :----------------------- |
+| President       | Mackenzie Carter         |
+| Vice President  | Jacqueline Tapia         |
+| Treasurer       | Alan Tran                |
+| Faculty Advisor | Professor Mitchell Theys |
+
+## 2015-2016
+
+| OFFICE          | NAME                     |
+| :-------------- | :----------------------- |
+| President       | Emily Austin             |
+| Vice President  | Allison Channic          |
+| Treasurer       | Abdulrahman Hussein      |
+| Faculty Advisor | Professor Mitchell Theys |
+
+## 2014-2015
+
+| OFFICE          | NAME                     |
+| :-------------- | :----------------------- |
+| President       | Tony Phelps              |
+| Vice President  | Emily Austin             |
+| Treasurer       | Zach Heine               |
+| Faculty Advisor | Professor Mitchell Theys |
+
+## 2013-2014
+
+| OFFICE          | NAME                     |
+| :-------------- | :----------------------- |
+| President       | Tom Phillips             |
+| Vice President  | Anthony "Tony" Phelps    |
+| Treasurer       | Jessica Shoukry          |
+| Faculty Advisor | Professor Mitchell Theys |
+
+## 2012-2013
+
+| OFFICE          | NAME                     |
+| :-------------- | :----------------------- |
+| President       | Walter Dworak            |
+| Vice President  | Tom Phillips             |
+| Treasurer       | Ashley Riley             |
+| Faculty Advisor | Professor Mitchell Theys |
+
+## 2011-2012
+
+| OFFICE          | NAME                     |
+| :-------------- | :----------------------- |
+| President       | Stephen Liang            |
+| Vice President  | Walter Dworak            |
+| Treasurer       | Brian Kapustka           |
+| Faculty Advisor | Professor Mitchell Theys |
+
+## 2010-2011
+
+| OFFICE         | NAME                         |
+| :------------- | :--------------------------- |
+| President      | Mike Hutcheson               |
+| Vice President | Andrew Suh                   |
+| Treasurer      | Aisha Halim & Brian Kapustka |
+
+## 2009-2010
+
+| OFFICE         | NAME           |
+| :------------- | :------------- |
+| President      | Sean Deitz     |
+| Vice President | Mike Hutcheson |
+| Treasurer      | Bryanna Denney |
+
+## 2008-2009
+
+| OFFICE         | NAME               |
+| :------------- | :----------------- |
+| President      | Gary Turovsky      |
+| Vice President | Anne Celestino     |
+| Treasurer      | Christine Costales |
+
+## 2007-2008
+
+| OFFICE         | NAME           |
+| :------------- | :------------- |
+| President      | Brian Mykietka |
+| Vice President | Ramón Franco   |
+| Treasurer      | Tom Indelli    |
+
+## 2006-2007
+
+| OFFICE         | NAME            |
+| :------------- | :-------------- |
+| President      | Tom Sakkos      |
+| Vice President | Ramón Franco    |
+| Treasurer      | Scott MacDonald |
+
+## 2005-2006
+
+| OFFICE         | NAME          |
+| :------------- | :------------ |
+| President      | Tom Palarz    |
+| Vice President | Mike Leonhard |
+| Treasurer      | Chris Diya    |
+
+## 2004-2005
+
+| OFFICE         | NAME          |
+| :------------- | :------------ |
+| President      | Tom Palarz    |
+| Vice President | Damien Palmer |
+| Treasurer      | Chris Diya    |
+
+## 2003-2004
+
+| OFFICE         | NAME          |
+| :------------- | :------------ |
+| President      | Chris Diya    |
+| Vice President | Dan Alverth   |
+| Treasurer      | Steve Berardi |
+
+## 2002-2003
+
+| OFFICE         | NAME             |
+| :------------- | :--------------- |
+| President      | Dave Sahota      |
+| Vice President | Jason Pengelly   |
+| Treasurer      | Christian Wagner |
+
+## 2001-2002
+
+| OFFICE         | NAME          |
+| :------------- | :------------ |
+| President      | James Houston |
+| Vice President | Shaun Litt    |
+| Treasurer      | Dave Sahota   |
+
+## 2000-2001
+
+| OFFICE         | NAME                               |
+| :------------- | :--------------------------------- |
+| President      | Christopher M. Studt / Ryan Landek |
+| Vice President | Unknown                            |
+| Treasurer      | Unknown                            |
+
+## 1999-2000
+
+| OFFICE         | NAME             |
+| :------------- | :--------------- |
+| President      | Joe Chesire      |
+| Vice President | Keith Richardson |
+| Treasurer      | Owais Bhurya     |
+
+## 1998-1999
+
+| OFFICE         | NAME             |
+| :------------- | :--------------- |
+| President      | Thomas Verbiscer |
+| Vice President | Jon A. Soucy     |
+| Treasurer      | Bemol Stephen    |
+
+## 1997-1998
+
+| OFFICE         | NAME            |
+| :------------- | :-------------- |
+| President      | Gary M. Houston |
+| Vice President | Nathan Totura   |
+| Treasurer      | Hiep Doan       |
+
+## 1996-1997
+
+| OFFICE         | NAME            |
+| :------------- | :-------------- |
+| President      | Gary M. Houston |
+| Vice President | Jack Majewski   |
+| Treasurer      | Vipul Dalal     |
+
+## 1995-1996
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1994-1995
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1993-1994
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1992-1993
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1991-1992
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1990-1991
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1989-1990
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1988-1989
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1987-1988
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1986-1987
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1985-1986
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1984-1985
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1983-1984
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1982-1983
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1981-1982
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1980-1981
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1979-1980
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1978-1979
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1977-1978
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1976-1977
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1975-1976
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1974-1975
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1973-1974
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1972-1973
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1971-1972
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1970-1971
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1969-1970
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1968-1969
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+## 1967-1968
+
+| OFFICE         | NAME    |
+| :------------- | :------ |
+| President      | Unknown |
+| Vice President | Unknown |
+| Treasurer      | Unknown |
+
+---
+
+**You have made it to the beginning of history!** Do you know any of the names that might go in the unknowns? Reach out to the officers at acm-officers@uic.edu or contribute directly on [GitHub](https://github.com/acm-uic/acm-uic.github.io)!
