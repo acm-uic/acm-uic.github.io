@@ -7,11 +7,11 @@ slug: /infrastructure/servers/about
 
 ACM main infrastructure servers are currently racked at CDRLC 2442. Currently, we have 8 servers available, 5 of which are in production which are
 
-- [Avocado](infrastructure/servers/avocado)
-- [Bharat](infrastructure/servers/bharat)
-- [Chase](infrastructure/servers/chase)
-- [Lee](infrastructure/servers/lee)
-- [Miku](infrastructure/servers/miku)
+- [Avocado](infrastructure/servers/Avocado)
+- [Bharat](infrastructure/servers/Bharat)
+- [Chase](infrastructure/servers/Chase)
+- [Lee](infrastructure/servers/Lee)
+- [Miku](infrastructure/servers/Miku)
 
 The 3 servers that are in the process of deploying to production are
 
