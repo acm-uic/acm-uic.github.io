@@ -10,11 +10,10 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | Vice President                 | Sam Stuckey              | sstuc2@...   |
 | Treasurer                      | Vansh "V" Mattraa        | vmattr2@...  |
 | SIG AI Project Leader          | Sammy Patel              | spate797@... |
-| SIG AI Theory Co-Lead          | Stanley Huang            | shuan106@... |
-| SIG AI Theory Co-Lead          | Dahila ???               | ?????@...    |
+| SIG AI Theory Leader           | Stanley Huang            | shuan106@... |
 | SIG Algorithmic Trading Leader | Tuong (Max) Le           | tle221@...   |
-| SIG CyberSecurity Co-Lead      | Ron ???                  | ?????@...    |
-| SIG CyberSecurity Co-Lead      | Teegan ???               | ?????@...    |
+| SIG CyberSecurity Co-Lead      | Ron Pham                 | tpham67@...  |
+| SIG CyberSecurity Co-Lead      | Teegan Springer          | tspri@...    |
 | SIG Game Leader                | Ethan Ky                 | eky2@...     |
 | SIG Hacks Leader               | Cat Markowska            | cmark10@...  |
 | SIG Indie Leader               | Danlon Hammons           | dhamm4@...   |
@@ -26,8 +25,8 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | SIG SysAdmin Leader            | Chase Lee                | clee231@...  |
 | SIG Systems Leader             | Jacob Cohen              | jcohen30@... |
 | SIG VR Leader                  | Vansh "V" Mattraa        | vmattr2@...  |
-| SIG VR Co-Lead                 | ???? ????                | ???????@...  |
-| SIG VR Co-Lead                 | ???? ????                | ???????@...  |
+| SIG VR Co-Lead                 | Darshan Zaware           | dzawa2@...   |
+| SIG VR Co-Lead                 | Oday Suleiman            | osule2@...   |
 | SIG WebDev Leader              | Adrian Knight            | aknig2@...   |
 | SIG WebDev Co-Lead             | Dominic ???              | ??????@...   |
 | Tech Lead                      | Samuel Skean             | sskean2@...  |
