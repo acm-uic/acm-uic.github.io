@@ -16,7 +16,7 @@ const officers = [
     name: "Sam Stuckey",
     image: "https://avatars.githubusercontent.com/u/145505945?s=100&v=4",
     url: "https://github.com/SStuckey88",
-    description: "Vice President\nCyberForce Team Captain",
+    description: "Vice President",
   },
   {
     name: "Vansh (V) Mattraa",
@@ -43,13 +43,13 @@ const officers = [
     description: "SIG Algorithmic Trading Leader",
   },
   {
-    name: "Teegan",
+    name: "Teegan Springer",
     image: "/img/logo.png",
     url: "https://acm.cs.uic.edu/#",
     description: "SIG CyberSecurity Leader\nCyberForce Team Captain",
   },
   {
-    name: "Ron",
+    name: "Ron Pham",
     image: "/img/logo.png",
     url: "https://acm.cs.uic.edu/#",
     description: "SIG CyberSecurity Leader",
@@ -121,13 +121,13 @@ const officers = [
     description: "SIG Systems Leader",
   },
   {
-    name: "Eon",
+    name: "Darshan Zaware",
     image: "/img/logo.png",
     url: "https://acm.cs.uic.edu/#",
     description: "SIG VR Leader",
   },
   {
-    name: "Oday",
+    name: "Oday Suleiman",
     image: "/img/logo.png",
     url: "https://acm.cs.uic.edu/#",
     description: "SIG VR Leader",
