@@ -18,4 +18,4 @@ The networking and firewall is managed by:
 - [Ubiquiti Cloud Gateway Ultra](https://store.ui.com/us/en/category/all-cloud-gateways/products/ucg-ultra)
 - [Ubiquiti Pro 48 POE](https://store.ui.com/us/en/category/switching-professional/products/usw-pro-48-poe)
 
-Generously donated by out previous admin (sugar daddy) [Chase Lee](https://github.com/clee231).
+Generously donated by our previous admin (sugar daddy) [Chase Lee](https://github.com/clee231).
