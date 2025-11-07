@@ -31,7 +31,7 @@ Current Location: CDRLC 2433
 
 ### Mainboard
 
-- Minisforum MS-01 motherboard.
+- Minisforum MS-01 motherboard
 - 96 GB of DDR5 RAM
 
 ### Storage
