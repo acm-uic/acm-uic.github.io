@@ -32,7 +32,7 @@ Current Location: CDRLC 2433
 ### Mainboard
 
 - Minisforum MS-A2 motherboard.
-- 96 GB of DDR5 RAM
+- 2x 48GB DDR5-5600
 
 ### Storage
 

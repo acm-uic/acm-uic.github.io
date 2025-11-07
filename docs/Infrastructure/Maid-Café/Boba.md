@@ -32,11 +32,12 @@ Current Location: CDRLC 2433
 ### Mainboard
 
 - Minisforum MS-01 motherboard
-- 96 GB of DDR5 RAM
+- 2x 48GB DDR5-5200
 
 ### Storage
 
-- 4TB of M.2 NVMe SSD
+- 4TB Samsung 990 EVO PLUS M.2 NVMe SSD (Ceph)
+- 1TB Fanxiang S880E M.2 NVMe SSD (boot drive)
 
 ### PSU
 
