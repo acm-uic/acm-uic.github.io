@@ -11,8 +11,8 @@ description: VR design principles, tech talks and projects
 | **Time**     | 4PM                    |
 | **Location** | ACM Office (SELE 2264) |
 | **Leaders**  | Vansh “V” Mattraa      |
-| **Leaders**  | Eon                    |
-| **Leaders**  | Oday                   |
+| **Leaders**  | Eon / Darshan          |
+| **Leaders**  | Oday Farid Suleiman    |
 
 ## About
 
