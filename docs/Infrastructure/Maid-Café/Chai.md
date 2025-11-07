@@ -36,7 +36,8 @@ Current Location: CDRLC 2433
 
 ### Storage
 
-- 4TB of Gen 4 M.2 NVMe SSD
+- 4TB Samsung 990 EVO PLUS M.2 NVMe SSD (Ceph)
+- 1TB Fanxiang S880E M.2 NVMe SSD (boot drive)
 
 ### PSU
 
