@@ -5,7 +5,7 @@ description: VR design principles, tech talks and projects
 
 # SIG VR
 
-|              |                        |
+
 | ------------ | ---------------------- |
 | **Weekday**  | Wednesday              |
 | **Time**     | 4PM                    |
