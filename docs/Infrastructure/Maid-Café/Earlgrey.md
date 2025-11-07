@@ -36,7 +36,8 @@ Current Location: CDRLC 2433
 
 ### Storage
 
-- 4TB of M.2 NVMe SSD
+- 4TB Fanxiang S880E M.2 NVMe SSD (Ceph)
+- 1TB Fanxiang S880 M.2 NVMe SSD (boot drive)
 
 ### PSU
 
