@@ -40,7 +40,7 @@ Current Location: CDRLC 2433
 
 ### PSU
 
-1x Minisforum MS-01 180W (external) power supply.
+- 1x Minisforum MS-01 180W (external) power supply
 
 ## Setup Details
 
