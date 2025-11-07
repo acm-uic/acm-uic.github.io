@@ -1,6 +1,6 @@
 ---
 slug: /vr
-description: Your first VR Project
+description: VR design principles, tech talks and projects
 ---
 
 # SIG Virtual Reality
@@ -11,7 +11,12 @@ description: Your first VR Project
 | **Time**     | 4PM                    |
 | **Location** | ACM Office (SELE 2264) |
 | **Leaders**  | Vansh “V” Mattraa      |
+| **Leaders**  | Eon                    |
+| **Leaders**  | Oday                   |
 
 ## About
 
-Learn how to make your first VR project.
+Learn about Virtual Reality technology and new innovations in the field.
+Additionally, learn how to think spatially and how to design and program VR and AR apps.
+No prior experience is expected, just come and enjoy nerdy talks! You do not need to own a VR HMD.
+A laptop able to launch Unity is recommended.
