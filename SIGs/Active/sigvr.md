@@ -3,7 +3,7 @@ slug: /vr
 description: VR design principles, tech talks and projects
 ---
 
-# SIG Virtual Reality
+# SIG VR
 
 |              |                        |
 | ------------ | ---------------------- |
