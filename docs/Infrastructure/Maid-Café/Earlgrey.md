@@ -21,7 +21,7 @@ Current Location: CDRLC 2433
   - 2x USB 3.2 Gen2 (Type-C)
   - 1x HDMI
   - 2x SFP+ ports (Chipset Intel X710)
-  - 2x RJ45 2.5Gbe (1 with Intel i226-V, 1 Realtek RTL8125)
+  - 2x RJ45 2.5Gbe (1 with Intel i226-V, 1 with Realtek RTL8125)
 
 ### CPU
 
