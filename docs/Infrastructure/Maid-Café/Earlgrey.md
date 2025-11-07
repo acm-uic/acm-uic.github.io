@@ -3,7 +3,7 @@ slug: /infrastructure/maid-café/earlgrey
 tags: [server, compute, proxmox]
 ---
 
-# Boba
+# Earlgrey
 
 Current Location: CDRLC 2433
 
