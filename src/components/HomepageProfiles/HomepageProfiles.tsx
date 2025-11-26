@@ -26,15 +26,15 @@ const officers = [
   },
   {
     name: "Stanley Huang",
-    image: "/img/logo.png",
-    url: "https://acm.cs.uic.edu/#",
+    image: "/media/council_profiles/stanley_huang_224.png",
+    url: "https://www.linkedin.com/in/stanley-huang-0a2294243",
     description: "SIG AI Theory Leader",
   },
   {
     name: "Sammy Patel",
-    image: "/img/logo.png",
-    url: "https://acm.cs.uic.edu/#",
-    description: "SIG Mobile Dev Leader",
+    image: "/media/council_profiles/sammy_patel_400.jpg",
+    url: "https://www.github.com/sammypatel06",
+    description: "SIG AI Project Leader",
   },
   {
     name: "Tuong Max Le",
@@ -44,7 +44,7 @@ const officers = [
   },
   {
     name: "Teegan Springer",
-    image: "/img/logo.png",
+    image: "/media/council_profiles/teegan_springer_400.jpg",
     url: "https://acm.cs.uic.edu/#",
     description: "SIG CyberSecurity Leader\nCyberForce Team Captain",
   },
@@ -117,19 +117,19 @@ const officers = [
   {
     name: "Jacob Cohen",
     image: "https://avatars.githubusercontent.com/u/11198575?s=100&v=4",
-    url: "https://github.com/CJacob314",
+    url: "https://jacobcohen.info/",
     description: "SIG Systems Leader",
   },
   {
     name: "Darshan Zaware",
     image: "/img/logo.png",
-    url: "https://acm.cs.uic.edu/#",
+    url: "www.linkedin.com/in/darshan-zaware-62011b345",
     description: "SIG VR Leader",
   },
   {
     name: "Oday Suleiman",
-    image: "/img/logo.png",
-    url: "https://acm.cs.uic.edu/#",
+    image: "https://avatars.githubusercontent.com/u/143299292?s=100&v=4",
+    url: "https://github.com/odismaximus",
     description: "SIG VR Leader",
   },
   {
@@ -152,7 +152,7 @@ const officers = [
   },
   {
     name: "Dima Medvedkov",
-    image: "/img/logo.png",
+    image: "https://avatars.githubusercontent.com/u/38975569?s=100&v=4",
     url: "https://acm.cs.uic.edu/#",
     description: "Tech Lead",
   },
