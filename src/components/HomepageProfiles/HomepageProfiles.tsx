@@ -116,7 +116,7 @@ const officers = [
   },
   {
     name: "Jacob Cohen",
-    image: "https://avatars.githubusercontent.com/u/11198575?s=100&v=4",
+    image: "/media/council_profiles/jacob_cohen_400.jpg",
     url: "https://jacobcohen.info/",
     description: "SIG Systems Leader",
   },
@@ -137,12 +137,6 @@ const officers = [
     image: "/media/council_profiles/adrian_knight_400.jpg",
     url: "https://github.com/Ajknight121",
     description: "SIG WebDev Leader\nPresident 2022-2023",
-  },
-  {
-    name: "Dominic",
-    image: "/img/logo.png",
-    url: "https://acm.cs.uic.edu/#",
-    description: "SIG WebDev Leader",
   },
   {
     name: "Samuel Skean",
