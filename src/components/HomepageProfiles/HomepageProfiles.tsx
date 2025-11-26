@@ -32,7 +32,7 @@ const officers = [
   },
   {
     name: "Sammy Patel",
-    image: "/media/council_profiles/sammy_patel_400.jpg",
+    image: "/media/council_profiles/sammy_patel_400.png",
     url: "https://www.github.com/sammypatel06",
     description: "SIG AI Project Leader",
   },
@@ -97,7 +97,7 @@ const officers = [
     description: "SIG Mobile Dev Leader",
   },
   {
-    name: "Sanskar",
+    name: "Sanskar Kalal",
     image: "/img/logo.png",
     url: "https://acm.cs.uic.edu/#",
     description: "SIG Mobile Dev Leader",
