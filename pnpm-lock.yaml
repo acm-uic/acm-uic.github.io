@@ -109,8 +109,8 @@ importers:
         specifier: 7.0.1
         version: 7.0.1(eslint@8.57.1)
       prettier:
-        specifier: 3.7.2
-        version: 3.7.2
+        specifier: 3.7.4
+        version: 3.7.4
       stylelint:
         specifier: 16.26.1
         version: 16.26.1(typescript@5.7.3)
@@ -5689,8 +5689,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.7.2:
-    resolution: {integrity: sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA==}
+  prettier@3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -14434,7 +14434,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.7.2: {}
+  prettier@3.7.4: {}
 
   pretty-error@4.0.0:
     dependencies:
