@@ -15,7 +15,7 @@ const officers = [
   {
     name: "Sam Stuckey",
     image: "https://avatars.githubusercontent.com/u/145505945?s=100&v=4",
-    url: "https://github.com/SStuckey88",
+    url: "https://github.com/SStuckey816",
     description: "Vice President",
   },
   {
