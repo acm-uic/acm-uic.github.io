@@ -28,7 +28,6 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | SIG VR Co-Lead                 | Darshan Zaware           | dzawa2@...   |
 | SIG VR Co-Lead                 | Oday Suleiman            | osule2@...   |
 | SIG WebDev Leader              | Adrian Knight            | aknig2@...   |
-| SIG WebDev Co-Lead             | Dominic ???              | ??????@...   |
 | Tech Lead                      | Samuel Skean             | sskean2@...  |
 | Tech Lead                      | Dima Medvedkov           | dmedve2@...  |
 | Tech Lead                      | Luis Sanchez             | lsanc4@...   |
