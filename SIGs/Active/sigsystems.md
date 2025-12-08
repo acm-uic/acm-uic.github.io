@@ -5,12 +5,12 @@ description: Whether you're new to coding or have some experience, this group is
 
 # SIG Systems
 
-|              |                        |
-| ------------ | ---------------------- |
-| **Weekday**  | Fridays                |
-| **Time**     | 1PM                    |
-| **Location** | ACM Office (SELE 2264) |
-| **Leaders**  | Jacob Cohen            |
+|              |                         |
+| ------------ | ----------------------- |
+| **Weekday**  | Wednesdays              |
+| **Time**     | 12PM                    |
+| **Location** | ACM Office (CDRLC 2433) |
+| **Leaders**  | Jacob Cohen             |
 
 ## About
 
