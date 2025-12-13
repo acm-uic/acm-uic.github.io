@@ -32,8 +32,8 @@
     "file-loader": "6.2.0",
     "linkify-react": "^4.3.2",
     "linkifyjs": "^4.3.2",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "swr": "2.3.7",
     "url-loader": "4.1.1"
   },
