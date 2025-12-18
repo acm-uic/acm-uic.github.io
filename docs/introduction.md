@@ -5,12 +5,9 @@ slug: /introduction
 
 # Introduction
 
-:::caution
+Welcome to the documentation pages for ACM. Mainly, we are keeping 2 types of documentations:
 
-Documentation migration in process from old website.
-
-:::
-
-The following pages already contain some information.
+- [**Infrastructure**](Infrastructure/About.md): which are holding the current information about the organization's servers
+- [**kb**](kb/Overview.md): The wisdom of individuals and/or groups that they are willing to share. (Mostly outdated nowadays, but you can change that by contributing!!!)
 
 Join ACM to find out how you can volunteer to help!
