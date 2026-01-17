@@ -33,8 +33,7 @@ Primary ACM server infrastructure:
 |     U | Name                     | Type                 | Description                                                |
 | ----: | :----------------------- | :------------------- | :--------------------------------------------------------- |
 |    42 | USW-Pro-Max-48-PoE       | Switch               | Ubiquiti 48 PoE+/++ RJ45 along with 4 SFP+                 |
-|    41 |                          | _RJ45 patch panel_   |                                                            |
-|    40 |                          | _Blank_              |                                                            |
+| 41-40 |                          | _RJ45 patch panels_  |                                                            |
 | 39-38 | _TBD_                    | Raspberry Pi cluster | 10 Raspberry Pis                                           |
 |    37 | CRS309-1G-8S+IN          | Switch               | Mikrotik 8 SFP+ ports                                      |
 | 36-32 | Maid-Caf&eacute; cluster | Cluster              | 4 Minisforum MS-01; 1 Minisforum MS-A2; 1 Unifi UCG-Ultra  |
