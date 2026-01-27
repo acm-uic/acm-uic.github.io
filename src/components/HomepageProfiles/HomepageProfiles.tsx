@@ -82,7 +82,7 @@ const officers = [
     name: "Sedrik Punzalan",
     image: "/img/logo.png",
     url: "https://www.linkedin.com/in/sedrik-punzalan-7a9b5036b",
-    description: "SIG Jobs Leader",
+    description: "SIG Jobs Leader\nSIG WebDev Lead",
   },
   {
     name: "Lam (Max) Nguyen",
@@ -136,7 +136,19 @@ const officers = [
     name: "Adrian Knight",
     image: "/media/council_profiles/adrian_knight_400.jpg",
     url: "https://github.com/Ajknight121",
-    description: "SIG WebDev Leader\nPresident 2022-2023",
+    description: "SIG WebDev Lead\nPresident 2022-2023",
+  },
+  {
+    name: "Dan Barajas",
+    image: "https://avatars.githubusercontent.com/u/83979618?s=100&v=4",
+    url: "https://github.com/danbarajas",
+    description: "SIG WebDev Lead",
+  },
+  {
+    name: "Dominic Irla",
+    image: "https://avatars.githubusercontent.com/u/81499555?s=100&v=4",
+    url: "https://github.com/ddomir",
+    description: "SIG WebDev Lead",
   },
   {
     name: "Samuel Skean",
