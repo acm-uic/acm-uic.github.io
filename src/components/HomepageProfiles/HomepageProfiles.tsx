@@ -147,7 +147,7 @@ const officers = [
   {
     name: "Dominic Irla",
     image: "https://avatars.githubusercontent.com/u/81499555?s=100&v=4",
-    url: "https://github.com/ddomir,
+    url: "https://github.com/ddomir",
     description: "SIG WebDev Lead",
   },
   {
