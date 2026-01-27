@@ -4,7 +4,6 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 
 ## Spring 2026
 
-
 | OFFICE                            | NAME                     | EMAIL        |
 | :-------------------------------- | :----------------------- | :----------- |
 | President                         | Eva Pisabaj              | episa3@...   |
@@ -38,39 +37,38 @@ All emails are suffixed with "uic.edu", unless otherwise noted.
 | Secretary                         | Andrew Wolk              | awolk2@...   |
 | Faculty Advisor                   | Professor Mitchell Theys | mtheys@...   |
 
-
 ## Fall 2025
 
-| OFFICE                            | NAME                     | EMAIL        |
-| :-------------------------------- | :----------------------- | :----------- |
-| President                         | Eva Pisabaj              | episa3@...   |
-| Vice President                    | Sam Stuckey              | sstuc2@...   |
-| Treasurer                         | Vansh "V" Mattraa        | vmattr2@...  |
-| SIG AI Project Leader             | Sammy Patel              | spate797@... |
-| SIG AI Theory Leader              | Stanley Huang            | shuan106@... |
-| SIG Algorithmic Trading Leader    | Tuong (Max) Le           | tle221@...   |
-| SIG CyberSecurity Co-Lead         | Ron Pham                 | tpham67@...  |
-| SIG CyberSecurity Co-Lead         | Teegan Springer          | tspri@...    |
-| SIG Game Leader                   | Ethan Ky                 | eky2@...     |
-| SIG Hacks Leader                  | Cat Markowska            | cmark10@...  |
-| SIG Indie Leader                  | Danlon Hammons           | dhamm4@...   |
-| SIG Jobs Leader | Musa Tahir               | mtahi2@...   |
-| SIG Jobs Leader                   | Sedrik Punzalan          | punzalan@... |
-| SIG Math Leader                   | Lam (Max) Nguyen         | lnguy4@...   |
-| SIG Mobile Dev Leader             | Joel John                | jjohn345@... |
-| SIG PC Building                   | Luis Sanchez             | lsanc4@...   |
-| SIG SysAdmin Leader               | Chase Lee                | clee231@...  |
-| SIG Systems Leader                | Jacob Cohen              | jcohen30@... |
-| SIG VR Leader                     | Vansh "V" Mattraa        | vmattr2@...  |
-| SIG VR Co-Lead                    | Darshan Zaware           | dzawa2@...   |
-| SIG VR Co-Lead                    | Oday Suleiman            | osule2@...   |
-| SIG WebDev Leader                 | Adrian Knight            | aknig2@...   |
-| Tech Lead                         | Samuel Skean             | sskean2@...  |
-| Tech Lead                         | Dima Medvedkov           | dmedve2@...  |
-| Tech Lead                         | Luis Sanchez             | lsanc4@...   |
-| Secretary                         | Safiyyah Ahmed           | sahme213@... |
-| Secretary                         | Andrew Wolk              | awolk2@...   |
-| Faculty Advisor                   | Professor Mitchell Theys | mtheys@...   |
+| OFFICE                         | NAME                     | EMAIL        |
+| :----------------------------- | :----------------------- | :----------- |
+| President                      | Eva Pisabaj              | episa3@...   |
+| Vice President                 | Sam Stuckey              | sstuc2@...   |
+| Treasurer                      | Vansh "V" Mattraa        | vmattr2@...  |
+| SIG AI Project Leader          | Sammy Patel              | spate797@... |
+| SIG AI Theory Leader           | Stanley Huang            | shuan106@... |
+| SIG Algorithmic Trading Leader | Tuong (Max) Le           | tle221@...   |
+| SIG CyberSecurity Co-Lead      | Ron Pham                 | tpham67@...  |
+| SIG CyberSecurity Co-Lead      | Teegan Springer          | tspri@...    |
+| SIG Game Leader                | Ethan Ky                 | eky2@...     |
+| SIG Hacks Leader               | Cat Markowska            | cmark10@...  |
+| SIG Indie Leader               | Danlon Hammons           | dhamm4@...   |
+| SIG Jobs Leader                | Musa Tahir               | mtahi2@...   |
+| SIG Jobs Leader                | Sedrik Punzalan          | punzalan@... |
+| SIG Math Leader                | Lam (Max) Nguyen         | lnguy4@...   |
+| SIG Mobile Dev Leader          | Joel John                | jjohn345@... |
+| SIG PC Building                | Luis Sanchez             | lsanc4@...   |
+| SIG SysAdmin Leader            | Chase Lee                | clee231@...  |
+| SIG Systems Leader             | Jacob Cohen              | jcohen30@... |
+| SIG VR Leader                  | Vansh "V" Mattraa        | vmattr2@...  |
+| SIG VR Co-Lead                 | Darshan Zaware           | dzawa2@...   |
+| SIG VR Co-Lead                 | Oday Suleiman            | osule2@...   |
+| SIG WebDev Leader              | Adrian Knight            | aknig2@...   |
+| Tech Lead                      | Samuel Skean             | sskean2@...  |
+| Tech Lead                      | Dima Medvedkov           | dmedve2@...  |
+| Tech Lead                      | Luis Sanchez             | lsanc4@...   |
+| Secretary                      | Safiyyah Ahmed           | sahme213@... |
+| Secretary                      | Andrew Wolk              | awolk2@...   |
+| Faculty Advisor                | Professor Mitchell Theys | mtheys@...   |
 
 ## 2024-2025
 
