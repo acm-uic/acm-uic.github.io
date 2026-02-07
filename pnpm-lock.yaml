@@ -45,8 +45,8 @@ importers:
         specifier: 19.2.4
         version: 19.2.4(react@19.2.4)
       swr:
-        specifier: 2.3.8
-        version: 2.3.8(react@19.2.4)
+        specifier: 2.4.0
+        version: 2.4.0(react@19.2.4)
       url-loader:
         specifier: 4.1.1
         version: 4.1.1(file-loader@6.2.0(webpack@5.102.1))(webpack@5.102.1)
@@ -1985,8 +1985,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260126':
-    resolution: {integrity: sha512-DuXKxkL847wCoe0IcXSzKd+jbLecP3IcZx6Iz7l7pQHpZy94TmixXhB2pRzOyFCttaV9EFaeSqUiee5MroA4Yw==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260201':
+    resolution: {integrity: sha512-YIPSK1GeE5k70Ftz3hw9py99ZeoR8J5C1k4KS6jf4ztMXLhdzj9sgWdX9RzD7/OfJWSS9tORJIAXCSl+MCkySw==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.4.20200806':
     resolution: {integrity: sha512-Jeo/KZqK39DI6ExXHcJ4lqnn1O/wEqboQ6eQ8WnNpu5eJ7wUnX/C5KazOgs1aRhnIB/dVzDe8wm62nmtkMIoaw==}
@@ -3945,11 +3945,12 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-dirs@3.0.1:
     resolution: {integrity: sha512-NBcGGFbBA9s1VzD41QXDG+3++t9Mn5t1FpLdhESY6oKY4gYTFpX4wO3sqGUa0Srjtbfj3szX0RnemmrVRUdULA==}
@@ -6469,8 +6470,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  swr@2.3.8:
-    resolution: {integrity: sha512-gaCPRVoMq8WGDcWj9p4YWzCMPHzE0WNl6W8ADIx9c3JBEIdMkJGMzW+uzXvxHMltwcYACr9jP+32H8/hgwMR7w==}
+  swr@2.4.0:
+    resolution: {integrity: sha512-sUlC20T8EOt1pHmDiqueUWMmRRX03W7w5YxovWX7VR2KHEPCTMly85x05vpkP5i6Bu4h44ePSMD9Tc+G2MItFw==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -7046,7 +7047,7 @@ snapshots:
       '@ai-sdk/provider-utils': 3.0.16(zod@4.1.12)
       ai: 5.0.89(zod@4.1.12)
       react: 19.2.4
-      swr: 2.3.8(react@19.2.4)
+      swr: 2.4.0(react@19.2.4)
       throttleit: 2.1.0
     optionalDependencies:
       zod: 4.1.12
@@ -9909,7 +9910,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260126':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260201':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -10235,7 +10236,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.1.20260126
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.1.20260201
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -15474,7 +15475,7 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
 
-  swr@2.3.8(react@19.2.4):
+  swr@2.4.0(react@19.2.4):
     dependencies:
       dequal: 2.0.3
       react: 19.2.4
