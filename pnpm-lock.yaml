@@ -27,8 +27,8 @@ importers:
         specifier: 0.26.0
         version: 0.26.0(@algolia/client-search@5.43.0)(@babel/runtime@7.28.6)(@docusaurus/core@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.10)(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.7.3))(@docusaurus/theme-common@3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.10)(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.7.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@mdx-js/react@3.1.1(@types/react@19.2.10)(react@19.2.4))(@types/react@19.2.10)(algoliasearch@5.43.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.7.3)
       dotenv:
-        specifier: 17.2.4
-        version: 17.2.4
+        specifier: 17.3.1
+        version: 17.3.1
       file-loader:
         specifier: 6.2.0
         version: 6.2.0(webpack@5.102.1)
@@ -1985,8 +1985,8 @@ packages:
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260201':
-    resolution: {integrity: sha512-YIPSK1GeE5k70Ftz3hw9py99ZeoR8J5C1k4KS6jf4ztMXLhdzj9sgWdX9RzD7/OfJWSS9tORJIAXCSl+MCkySw==}
+  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260211':
+    resolution: {integrity: sha512-HVuvecjuwyR2hC9k49GyJ+WX3Ey697ngHcXG9LhECfSYacjES0orXTFb/p9EKV3jz6IBMOqg3n90XA/K4n/pqg==}
 
   '@maxim_mazurok/gapi.client.discovery-v1@0.4.20200806':
     resolution: {integrity: sha512-Jeo/KZqK39DI6ExXHcJ4lqnn1O/wEqboQ6eQ8WnNpu5eJ7wUnX/C5KazOgs1aRhnIB/dVzDe8wm62nmtkMIoaw==}
@@ -3394,8 +3394,8 @@ packages:
     resolution: {integrity: sha512-tE7ztYzXHIeyvc7N+hR3oi7FIbf/NIjVP9hmAt3yMXzrQ072/fpjGLx2GxNxGxUl5V73MEqYzioOMoVhGMJ5cA==}
     engines: {node: '>=10'}
 
-  dotenv@17.2.4:
-    resolution: {integrity: sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw==}
+  dotenv@17.3.1:
+    resolution: {integrity: sha512-IO8C/dzEb6O3F9/twg6ZLXz164a2fhTnEWb95H23Dm4OuN+92NmEAlTrupP9VW6Jm3sO26tQlqyvyi4CsnY9GA==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -9910,7 +9910,7 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.5': {}
 
-  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260201':
+  '@maxim_mazurok/gapi.client.calendar-v3@0.1.20260211':
     dependencies:
       '@types/gapi.client': 1.0.8
       '@types/gapi.client.discovery-v1': 0.0.4
@@ -10236,7 +10236,7 @@ snapshots:
 
   '@types/gapi.client.calendar-v3@0.0.4':
     dependencies:
-      '@maxim_mazurok/gapi.client.calendar-v3': 0.1.20260201
+      '@maxim_mazurok/gapi.client.calendar-v3': 0.1.20260211
 
   '@types/gapi.client.discovery-v1@0.0.4':
     dependencies:
@@ -11584,7 +11584,7 @@ snapshots:
     dependencies:
       is-obj: 2.0.0
 
-  dotenv@17.2.4: {}
+  dotenv@17.3.1: {}
 
   dunder-proto@1.0.1:
     dependencies:
