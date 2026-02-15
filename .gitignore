@@ -22,3 +22,6 @@ yarn-error.log*
 
 /.tmp
 .env
+
+# You know it's coming
+docs/Infrastructure/NERV/
