@@ -15,4 +15,4 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v6
       - name: Run Labeler 🏷
-        uses: crazy-max/ghaction-github-labeler@v5
+        uses: crazy-max/ghaction-github-labeler@v6
