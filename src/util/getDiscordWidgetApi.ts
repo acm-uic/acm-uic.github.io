@@ -8,7 +8,6 @@ export interface DiscordChannel {
 
 export interface DiscordMember {
   avatar: string | null;
-  // eslint-disable-next-line camelcase
   avatar_url: string;
   discriminator: string;
   id: string;
@@ -19,11 +18,9 @@ export interface DiscordMember {
 export interface DiscordWidgetApiResponse {
   channels: DiscordChannel[];
   id: string;
-  // eslint-disable-next-line camelcase
   instant_invite: string;
   members: DiscordMember[];
   name: string;
-  // eslint-disable-next-line camelcase
   presence_count: number;
 }
 
