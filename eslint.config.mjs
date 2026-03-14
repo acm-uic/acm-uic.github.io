@@ -1,3 +1,4 @@
+import { defineConfig } from "eslint/config";
 import js from "@eslint/js";
 import tseslint from "typescript-eslint";
 import eslintReact from "@eslint-react/eslint-plugin";
@@ -11,7 +12,7 @@ const OFF = 0;
 const WARNING = 1;
 const ERROR = 2;
 
-export default tseslint.config(
+export default defineConfig([
   {
     ignores: [
       "dist/",
@@ -76,15 +77,9 @@ export default tseslint.config(
   {
     ...mdx.flat,
     files: ["**/*.{md,mdx}"],
-    rules: {
-      ...mdx.flat.rules,
-    },
   },
   {
     ...mdx.flatCodeBlocks,
     files: ["**/*.{md,mdx}"],
-    rules: {
-      ...mdx.flatCodeBlocks.rules,
-    },
   },
-);
+]);
