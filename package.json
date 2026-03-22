@@ -48,7 +48,7 @@
     "@types/react": "19.2.14",
     "@types/react-helmet": "6.1.11",
     "@types/react-router-dom": "5.3.3",
-    "eslint": "10.0.3",
+    "eslint": "10.1.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-mdx": "3.7.0",
