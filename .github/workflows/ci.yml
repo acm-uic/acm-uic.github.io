@@ -28,10 +28,10 @@ jobs:
         with:
           version: 10
 
-      - name: Use Node 22.x 🔧
+      - name: Use Node 24.x 🔧
         uses: actions/setup-node@v6
         with:
-          node-version: "22.x"
+          node-version: "24.x"
           cache: "pnpm"
 
       - name: Install Dependencies 📦
@@ -85,10 +85,10 @@ jobs:
         with:
           version: 10
 
-      - name: Use Node 22.x 🔧
+      - name: Use Node 24.x 🔧
         uses: actions/setup-node@v6
         with:
-          node-version: "22.x"
+          node-version: "24.x"
           cache: "pnpm"
 
       - name: Setup Pages 📃
