@@ -33,10 +33,13 @@ updates:
           - "docusaurus-theme-search-typesense"
       eslint:
         patterns:
+          - "@eslint/*"
+          - "@eslint-react/*"
           - "@typescript-eslint/*"
           - "eslint"
           - "eslint-config-*"
           - "eslint-plugin-*"
+          - "typescript-eslint"
       prettier:
         patterns:
           - "prettier"
