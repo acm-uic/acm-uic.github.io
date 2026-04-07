@@ -21,3 +21,4 @@ The Special Interest Group dedicated to exploring the intersection of mathematic
 ### Current project
 
 - [Numerical Differential Equation solver with Physics-Informed Neural Network](https://github.com/acm-uic/SIG-Math-2025) (Fall 2025)
+- [High-performance Spectral Method implementations and applications](https://github.com/acm-uic/SIG-MATH-Fourier) (Spring 2026)
