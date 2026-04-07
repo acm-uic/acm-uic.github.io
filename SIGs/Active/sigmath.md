@@ -10,7 +10,7 @@ import DiscordLink from "../../src/components/DiscordLink";
 |              |                                                                  |
 | ------------ | ---------------------------------------------------------------- |
 | **Weekday**  | Thursday                                                         |
-| **Time**     | 6:00 PM - 7:00 PM                                                |
+| **Time**     | 5:00 PM - 6:00 PM                                                |
 | **Location** | CDRLC 2433 and `#sig-math` on <DiscordLink>Discord</DiscordLink> |
 | **Leaders**  | [Lam (Max) Nguyen](https://github.com/lamtnguyen989)             |
 
