@@ -19,7 +19,7 @@ Current Location: CDRLC 2433
 
 ## Hardware Configuration
 
-- (The KVM...)
+- [GL.iNet Comet PoE KVM](https://store-us.gl-inet.com/products/comet-poe-gl-rm1pe-remote-kvm-control-over-internet?variant=54323505430819&country=US&currency=USD)
 - I/O (including front panel connectors):
   - 3x USB 3.2 Gen 1
   - 3x USB 2.0
@@ -42,3 +42,5 @@ Current Location: CDRLC 2433
 - 400W TFX Power Supply
 
 ## Setup Details
+
+This is configured as a login node in the NERV cluster, managed via Slurm.

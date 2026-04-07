@@ -18,7 +18,7 @@ import DiscordLink from "../../src/components/DiscordLink";
 
 The Special Interest Group dedicated to exploring the intersection of mathematics and computing. We dive into both the theoretical and applied aspect of mathematics to develop insights, understanding and solutions to scientific and engineering problems by directly working on computational, approximations and machine learning projects.
 
-### Current project
+### Projects
 
 - [Numerical Differential Equation solver with Physics-Informed Neural Network](https://github.com/acm-uic/SIG-Math-2025) (Fall 2025)
 - [High-performance Spectral Method implementations and applications](https://github.com/acm-uic/SIG-MATH-Fourier) (Spring 2026)
