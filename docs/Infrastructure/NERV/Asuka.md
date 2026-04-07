@@ -35,7 +35,7 @@ Current Location: CDRLC 2433
 ### Storage
 
 - 1TB Fanxiang M.2 NVMe SSD (boot drive)
-- NFS storage for data 
+- NFS storage for data
 
 ### PSU
 
