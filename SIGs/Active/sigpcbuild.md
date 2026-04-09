@@ -3,7 +3,7 @@ slug: /pc-build
 description: Learn how PCs are built!
 ---
 
-# SIG Virtual Reality
+# SIG PC Build
 
 |              |                         |
 | ------------ | ----------------------- |
