@@ -54,7 +54,7 @@
     "eslint-plugin-mdx": "3.7.0",
     "eslint-plugin-react-hooks": "7.0.1",
     "globals": "17.4.0",
-    "prettier": "3.8.1",
+    "prettier": "3.8.2",
     "stylelint": "17.6.0",
     "stylelint-config-recommended": "18.0.0",
     "typescript": "5.9.3",
