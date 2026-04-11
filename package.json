@@ -57,7 +57,7 @@
     "prettier": "3.8.1",
     "stylelint": "17.6.0",
     "stylelint-config-recommended": "18.0.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "typescript-eslint": "8.58.0"
   },
   "browserslist": {
