@@ -36,7 +36,11 @@ const config = {
   url: gitHubPagesUrl,
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   favicon: "img/favicon.png",
   organizationName: gitHubOrg,
   projectName: gitHubRepoName, // Usually your repo name.
