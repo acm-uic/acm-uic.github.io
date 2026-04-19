@@ -74,5 +74,17 @@
   },
   "engines": {
     "node": ">=24.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "docusaurus-theme-search-typesense>@docusaurus/core": "3.10.0",
+      "docusaurus-theme-search-typesense>@docusaurus/utils": "3.10.0",
+      "docusaurus-theme-search-typesense>@docusaurus/logger": "3.10.0",
+      "docusaurus-theme-search-typesense>@docusaurus/theme-common": "3.10.0",
+      "docusaurus-theme-search-typesense>@docusaurus/utils-validation": "3.10.0",
+      "docusaurus-theme-search-typesense>@docusaurus/theme-translations": "3.10.0",
+      "docusaurus-theme-search-typesense>@docusaurus/plugin-content-docs": "3.10.0",
+      "webpackbar": "7.0.0"
+    }
   }
 }
