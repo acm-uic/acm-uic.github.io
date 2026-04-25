@@ -113,11 +113,11 @@ importers:
         specifier: 3.8.3
         version: 3.8.3
       stylelint:
-        specifier: 17.6.0
-        version: 17.6.0(typescript@6.0.3)
+        specifier: 17.9.0
+        version: 17.9.0(typescript@6.0.3)
       stylelint-config-recommended:
         specifier: 18.0.0
-        version: 18.0.0(stylelint@17.6.0(typescript@6.0.3))
+        version: 18.0.0(stylelint@17.9.0(typescript@6.0.3))
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2196,8 +2196,8 @@ packages:
   ajv@6.14.0:
     resolution: {integrity: sha512-IWrosm/yrn43eiKqkfkHis7QioDleaXQHdDVPKg0FSwwd/DuvyX79TZnFOnYpB7dcsFAMmtFztZuXPDvSePkFw==}
 
-  ajv@8.18.0:
-    resolution: {integrity: sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==}
+  ajv@8.20.0:
+    resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
   algoliasearch-helper@3.28.1:
     resolution: {integrity: sha512-6iXpbkkrAI5HFpCWXlNmIDSBuoN/U1XnEvb2yJAoWfqrZ+DrybI7MQ5P5mthFaprmocq+zbi6HxnR28xnZAYBw==}
@@ -5889,8 +5889,8 @@ packages:
     peerDependencies:
       stylelint: ^17.0.0
 
-  stylelint@17.6.0:
-    resolution: {integrity: sha512-tokrsMIVAR9vAQ/q3UVEr7S0dGXCi7zkCezPRnS2kqPUulvUh5Vgfwngrk4EoAoW7wnrThqTdnTFN5Ra7CaxIg==}
+  stylelint@17.9.0:
+    resolution: {integrity: sha512-xO0jeY6z1/urFL5L/BZLmB1yYlbRiRMQnYH6ArZIDWJ+SZXGssOY7XoYb1JIv/L220+EBnwwJXJS4Mt/F96SvA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -9565,17 +9565,17 @@ snapshots:
       clean-stack: 2.2.0
       indent-string: 4.0.0
 
-  ajv-formats@2.1.1(ajv@8.18.0):
+  ajv-formats@2.1.1(ajv@8.20.0):
     optionalDependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
 
   ajv-keywords@3.5.2(ajv@6.14.0):
     dependencies:
       ajv: 6.14.0
 
-  ajv-keywords@5.1.0(ajv@8.18.0):
+  ajv-keywords@5.1.0(ajv@8.20.0):
     dependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
       fast-deep-equal: 3.1.3
 
   ajv@6.14.0:
@@ -9585,7 +9585,7 @@ snapshots:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
 
-  ajv@8.18.0:
+  ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
       fast-uri: 3.1.0
@@ -13738,9 +13738,9 @@ snapshots:
   schema-utils@4.3.3:
     dependencies:
       '@types/json-schema': 7.0.15
-      ajv: 8.18.0
-      ajv-formats: 2.1.1(ajv@8.18.0)
-      ajv-keywords: 5.1.0(ajv@8.18.0)
+      ajv: 8.20.0
+      ajv-formats: 2.1.1(ajv@8.20.0)
+      ajv-keywords: 5.1.0(ajv@8.20.0)
 
   search-insights@2.17.3: {}
 
@@ -14097,11 +14097,11 @@ snapshots:
       postcss: 8.5.10
       postcss-selector-parser: 6.1.2
 
-  stylelint-config-recommended@18.0.0(stylelint@17.6.0(typescript@6.0.3)):
+  stylelint-config-recommended@18.0.0(stylelint@17.9.0(typescript@6.0.3)):
     dependencies:
-      stylelint: 17.6.0(typescript@6.0.3)
+      stylelint: 17.9.0(typescript@6.0.3)
 
-  stylelint@17.6.0(typescript@6.0.3):
+  stylelint@17.9.0(typescript@6.0.3):
     dependencies:
       '@csstools/css-calc': 3.2.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -14188,7 +14188,7 @@ snapshots:
 
   table@6.9.0:
     dependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
       lodash.truncate: 4.4.2
       slice-ansi: 4.0.0
       string-width: 4.2.3
