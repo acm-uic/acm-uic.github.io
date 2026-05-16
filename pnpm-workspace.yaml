@@ -1,7 +1,7 @@
-ignoredBuildDependencies:
-  - core-js
-  - core-js-pure
-  - typesense-instantsearch-adapter
+allowBuilds:
+  core-js: false
+  core-js-pure: false
+  typesense-instantsearch-adapter: false
 
 overrides:
   docusaurus-theme-search-typesense>@docusaurus/core: 3.10.0
