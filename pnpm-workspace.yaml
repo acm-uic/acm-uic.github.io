@@ -1,9 +1,13 @@
 allowBuilds:
-  core-js: set this to true or false
-  core-js-pure: set this to true or false
-  typesense-instantsearch-adapter: set this to true or false
-ignoredBuiltDependencies:
-  - core-js
-  - core-js-pure
-  - typesense-instantsearch-adapter
-strictDepBuilds: false
+  core-js: false
+  core-js-pure: false
+  typesense-instantsearch-adapter: false
+
+overrides:
+  docusaurus-theme-search-typesense>@docusaurus/core: 3.10.1
+  docusaurus-theme-search-typesense>@docusaurus/utils: 3.10.1
+  docusaurus-theme-search-typesense>@docusaurus/logger: 3.10.1
+  docusaurus-theme-search-typesense>@docusaurus/theme-common: 3.10.1
+  docusaurus-theme-search-typesense>@docusaurus/utils-validation: 3.10.1
+  docusaurus-theme-search-typesense>@docusaurus/theme-translations: 3.10.1
+  docusaurus-theme-search-typesense>@docusaurus/plugin-content-docs: 3.10.1
