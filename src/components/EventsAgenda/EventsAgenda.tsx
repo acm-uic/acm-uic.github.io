@@ -177,7 +177,7 @@ export const EventsAgenda: React.FC<EventsAgendaProps> = ({ count }) => {
         {!eventsError && eventsData && eventsData.items?.length === 0 && (
           <>
             <EventsAgendaEmpty />
-            {renderEmptyItems()}
+            {renderEmptyItems(false)}
           </>
         )}
 

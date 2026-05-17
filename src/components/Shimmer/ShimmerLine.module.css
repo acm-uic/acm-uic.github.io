@@ -1,6 +1,12 @@
 .shine {
-  background: #f6f7f8;
-  background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background: var(--ifm-color-emphasis-200);
+  background-image: linear-gradient(
+    to right,
+    var(--ifm-color-emphasis-200) 0%,
+    var(--ifm-color-emphasis-300) 20%,
+    var(--ifm-color-emphasis-200) 40%,
+    var(--ifm-color-emphasis-200) 100%
+  );
   background-repeat: no-repeat;
   background-size: 800px 104px;
   display: inline-block;
