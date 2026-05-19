@@ -202,9 +202,9 @@ const config = {
           {
             title: "External",
             items: [
-              { label: "LUG", to: "https://lug.cs.uic.edu",},
-              { label: "LOGICA", to: "https://logica.students.uic.edu",},
-              { label: "WiCS", to: "https://wics-uic.github.io/WiCS-Website/",},
+              { label: "LUG", to: "https://lug.cs.uic.edu" },
+              { label: "LOGICA", to: "https://logica.students.uic.edu" },
+              { label: "WiCS", to: "https://wics-uic.github.io/WiCS-Website/" },
               { label: "WiCyS", to: "https://wiep.uic.edu/student-organizations/women-in-cybersecurity-wicys/" },
               { label: "ACM", to: "https://www.acm.org" },
               { label: "UIC Computer Science", to: "https://cs.uic.edu" },
