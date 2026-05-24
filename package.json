@@ -45,7 +45,7 @@
     "@types/gapi": "0.0.47",
     "@types/gapi.client.calendar-v3": "0.0.4",
     "@types/node": "25.8.0",
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.15",
     "@types/react-helmet": "6.1.11",
     "@types/react-router-dom": "5.3.3",
     "eslint": "10.3.0",
