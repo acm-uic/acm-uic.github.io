@@ -1,5 +1,5 @@
 ---
-description: Logos used by ACM@UIC.
+description: Logos used by ACMSG.
 tags: [style, logo]
 ---
 

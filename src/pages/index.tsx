@@ -16,7 +16,7 @@ const HomepageHeader: React.FC = () => {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/join">
-            Join ACM 💖
+            Join ACMSG 💖
           </Link>
           <Link className="button button--secondary button--lg" to="/blog">
             Announcements 📰
