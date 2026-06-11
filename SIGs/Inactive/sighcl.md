@@ -10,12 +10,12 @@ This SIG is inactive.
 
 :::
 
-|          |                       |
-| -------- | --------------------- |
-| Weekday  | Tuesdays              |
-| Time     | 11:00 AM              |
+|          |                         |
+| -------- | ----------------------- |
+| Weekday  | Tuesdays                |
+| Time     | 11:00 AM                |
 | Location | ACMSG Office, SELE 2264 |
-| Leader   | Dan Heller            |
+| Leader   | Dan Heller              |
 
 ## About
 
