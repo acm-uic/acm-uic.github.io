@@ -31,8 +31,8 @@ const footerExternalLink = (link, imageUrl, ariaLabel) => ({
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ACM@UIC",
-  tagline: "Association for Computing Machinery Student Chapter at University of Illinois at Chicago",
+  title: "ACM Student Group",
+  tagline: "Association for Computing Machinery Student Group at University of Illinois at Chicago",
   url: gitHubPagesUrl,
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -77,7 +77,7 @@ const config = {
       },
       navbar: {
         logo: {
-          alt: "ACM@UIC",
+          alt: "ACMSG",
           src: "img/logo.png",
         },
         items: [
@@ -101,7 +101,7 @@ const config = {
             type: "dropdown",
             items: [
               {
-                label: "About ACM",
+                label: "about ACMSG",
                 href: "/about",
               },
               {
@@ -164,25 +164,25 @@ const config = {
               {
                 link: discordServerInviteLink,
                 imageUrl: `https://img.shields.io/discord/${discordServerId}?label=Discord&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2`,
-                ariaLabel: "ACM@UIC Discord server",
+                ariaLabel: "ACMSG Discord server",
               },
               // Slack
               {
                 link: slackWorkspaceSignUpLink,
                 imageUrl: "https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white",
-                ariaLabel: "ACM@UIC Slack workspace",
+                ariaLabel: "ACMSG Slack workspace",
               },
               // GitHub
               {
                 link: gitHubOrgUrl,
                 imageUrl: "https://img.shields.io/badge/GitHub-24292e?logo=github&logoColor=white",
-                ariaLabel: "ACM@UIC GitHub organization",
+                ariaLabel: "ACMSG GitHub organization",
               },
               // YouTube
               {
                 link: youTubeChannelLink,
                 imageUrl: "https://img.shields.io/badge/YouTube-c4302b?logo=youtube&logoColor=white",
-                ariaLabel: "ACM@UIC YouTube channel",
+                ariaLabel: "ACMSG YouTube channel",
               },
             ].map(({ link, imageUrl, ariaLabel }) => footerExternalLink(link, imageUrl, ariaLabel)),
           },
@@ -212,7 +212,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ACM@UIC. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ACMSG. Built with Docusaurus.`,
       },
     }),
 
@@ -231,8 +231,8 @@ const config = {
         blog: {
           showReadingTime: true,
           path: "blog",
-          blogTitle: "ACM@UIC Announcements",
-          blogDescription: "ACM@UIC Announcements and Updates",
+          blogTitle: "ACMSG Announcements",
+          blogDescription: "ACMSG Announcements and Updates",
           blogSidebarCount: "ALL",
           blogSidebarTitle: "All Posts",
           routeBasePath: "blog",

@@ -14,7 +14,7 @@ export const GoogleCalendarEmbed: React.FC<GoogleCalendarEmbedProps> = () => (
     </div>
     <div className="row">
       <iframe
-        title="ACM@UIC Google Calendar"
+        title="ACMSG Google Calendar"
         className={clsx(styles.calendar)}
         src={appConfig.googleCalendarLink}
         width="100%"

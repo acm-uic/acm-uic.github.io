@@ -14,7 +14,7 @@ This SIG is inactive.
 | -------- | --------------------- |
 | Weekday  | Tuesdays              |
 | Time     | 11:00 AM              |
-| Location | ACM Office, SELE 2264 |
+| Location | ACMSG Office, SELE 2264 |
 | Leader   | Dan Heller            |
 
 ## About

@@ -1,4 +1,4 @@
-# ACM@UIC Website and Systems Documentation
+# ACMSG's ebsite and Systems Documentation
 
 [![CI](https://github.com/acm-uic/acm-uic.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/acm-uic/acm-uic.github.io/actions/workflows/ci.yml)
 
