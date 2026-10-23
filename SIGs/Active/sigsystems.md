@@ -1,6 +1,6 @@
 ---
 slug: /systems
-description: Whether you're new to coding or have some experience, this group is for you!
+description: SIG Systems is for people who want to understand what's actually happening on their computers. We explore operating systems, hardware, performance, security, and more by digging into real systems and peeling back layers of abstraction. Whether you're new to coding or have some experience, this group is for you!
 ---
 
 # SIG Systems
@@ -14,7 +14,8 @@ description: Whether you're new to coding or have some experience, this group is
 
 ## About
 
-Whether you're new to coding or have some experience, this group is for you!
+SIG Systems is for people who want to understand what's actually happening on their computers. We explore operating systems, hardware, performance, security, and more by digging into real systems and peeling back layers of abstraction. Whether you're new to coding or have some experience, this group is for you!
+
 We'll look at:
 
 - How the Linux operating system works

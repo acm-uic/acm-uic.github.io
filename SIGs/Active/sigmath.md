@@ -7,12 +7,12 @@ import DiscordLink from "../../src/components/DiscordLink";
 
 # SIG Math
 
-|              |                                                                  |
-| ------------ | ---------------------------------------------------------------- |
-| **Weekday**  | Thursday                                                         |
-| **Time**     | 5:00 PM - 6:00 PM                                                |
-| **Location** | CDRLC 2433 and `#sig-math` on <DiscordLink>Discord</DiscordLink> |
-| **Leaders**  | [Lam (Max) Nguyen](https://github.com/lamtnguyen989)             |
+|              |                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------- |
+| **Weekday**  | Thursday                                                                                          |
+| **Time**     | 5:00 PM - 6:00 PM                                                                                 |
+| **Location** | CDRLC 2433 and `#sig-math` on <DiscordLink>Discord</DiscordLink>                                  |
+| **Leaders**  | Naga Sai Dhiraj Kasam, Ajay Kollur, [Roman Stashkiv](https://www.linkedin.com/in/roman-stashkiv/) |
 
 ## About
 

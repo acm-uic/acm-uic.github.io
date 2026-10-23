@@ -10,7 +10,7 @@ description: Come prep for the job hunt! Cracking the coding interview can be di
 | **Weekday**  | Monday                                      |
 | **Time**     | 4PM                                         |
 | **Location** | TBA on #sig-jobs channel in the ACM Discord |
-| **Leaders**  | Musa Tahir & Sedrik Punzalan                |
+| **Leaders**  | Ibrahim Ceker & Tuan Van Thai               |
 
 ## About
 

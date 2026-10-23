@@ -10,7 +10,7 @@ description: If you're interested in competing in hackathons, this is the place 
 | **Weekday**  | Varies; Please see the ACM Calendar |
 | **Time**     | Varies; Please see the ACM Calendar |
 | **Location** | ACM Office (CDRLC 2433)             |
-| **Leaders**  | Cat Markowska                       |
+| **Leaders**  | Catherine Markowska                 |
 
 ## About
 

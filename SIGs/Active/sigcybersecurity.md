@@ -10,7 +10,7 @@ description: Come learn about cybersecurity!
 | **Weekday**  | Friday                  |
 | **Time**     | 3PM                     |
 | **Location** | ACM Office (CDRLC 2433) |
-| **Leaders**  | Ron ???, Teegan ???     |
+| **Leaders**  | Caleb Scott             |
 
 ## About
 

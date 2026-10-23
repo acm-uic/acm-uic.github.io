@@ -5,12 +5,12 @@ description: Learn about the field of Quantitative Finance!
 
 # SIG Algorithmic Trading
 
-|              |                                                          |
-| ------------ | -------------------------------------------------------- |
-| **Weekday**  | Sundays                                                  |
-| **Time**     | 1PM                                                      |
-| **Location** | Online                                                   |
-| **Leaders**  | [Tuong Max Le](https://www.linkedin.com/in/tuong-max-le) |
+|              |                                                                               |
+| ------------ | ----------------------------------------------------------------------------- |
+| **Weekday**  | Sundays                                                                       |
+| **Time**     | 1PM                                                                           |
+| **Location** | Online                                                                        |
+| **Leaders**  | Michael Figura, [Roman Stashkiv](https://www.linkedin.com/in/roman-stashkiv/) |
 
 ## About
 

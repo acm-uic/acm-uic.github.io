@@ -5,6 +5,12 @@ description: If you're interested in mobile app development and want a personal 
 
 # SIG Mobile Development
 
+:::info
+
+This SIG is inactive.
+
+:::
+
 |              |                         |
 | ------------ | ----------------------- |
 | **Weekday**  | Friday, Bi-Weekly       |

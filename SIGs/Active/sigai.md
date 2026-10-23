@@ -5,19 +5,19 @@ description: Everything from Gen AI to Transformers!
 
 # SIG AI
 
-|                     |                                        |
-| ------------------- | -------------------------------------- |
-| **Weekday**         | Tuesday (Theory) / Wednesday (Project) |
-| **Time**            | 5PM (Theory) / 5PM (Project)           |
-| **Location**        | ACM Office (CDRLC 2433)                |
-| **Theory Leader**   | Stanley Huang                          |
-| **Project Leaders** | Sammy Patel                            |
+|                        |                                            |
+| ---------------------- | ------------------------------------------ |
+| **Weekday**            | Tuesday (AI Fluency) / Wednesday (Project) |
+| **Time**               | 5PM (AI Fluency) / 5PM (Project)           |
+| **Location**           | ACM Office (CDRLC 2433)                    |
+| **AI Fluency Leaders** | Srihas, Isabella Wu                        |
+| **Project Leaders**    | Uzair Azizuddin                            |
 
 ## About
 
 :::tip
 
-This semester (Fall 2025), SIG AI will be running beginner (Lecture-based) and advanced (Project-based) tracks.
+This semester (Fall 2026), SIG AI will be running AI Fluency and advanced (Project-based) tracks.
 Make sure you check the calendar to attend the appropriate meeting!
 
 :::
