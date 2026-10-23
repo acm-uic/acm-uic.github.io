@@ -5,12 +5,12 @@ description: If you're interested in competing in hackathons, this is the place 
 
 # SIG Hacks
 
-|              |                                     |
-| ------------ | ----------------------------------- |
-| **Weekday**  | Varies; Please see the ACM Calendar |
-| **Time**     | Varies; Please see the ACM Calendar |
-| **Location** | ACM Office (CDRLC 2433)             |
-| **Leaders**  | Catherine Markowska                 |
+|              |                     |
+| ------------ | ------------------- |
+| **Weekday**  | Friday              |
+| **Time**     | 4-4:30PM            |
+| **Location** | CDRLC 2426          |
+| **Leaders**  | Catherine Markowska |
 
 ## About
 

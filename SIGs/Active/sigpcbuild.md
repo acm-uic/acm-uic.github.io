@@ -7,8 +7,8 @@ description: Learn how PCs are built!
 
 |              |                         |
 | ------------ | ----------------------- |
-| **Weekday**  | Wednesday, Bi-weekly    |
-| **Time**     | 4PM                     |
+| **Weekday**  | Asynchronous            |
+| **Time**     | Asynchronous            |
 | **Location** | ACM Office (CDRLC 2433) |
 | **Leaders**  | Luis Sanchez            |
 

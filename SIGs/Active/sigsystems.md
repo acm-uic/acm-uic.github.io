@@ -7,8 +7,8 @@ description: SIG Systems is for people who want to understand what's actually ha
 
 |              |                         |
 | ------------ | ----------------------- |
-| **Weekday**  | Wednesdays              |
-| **Time**     | 12PM                    |
+| **Weekday**  | Monday                  |
+| **Time**     | 4-5PM                   |
 | **Location** | ACM Office (CDRLC 2433) |
 | **Leaders**  | Jacob Cohen             |
 

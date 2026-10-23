@@ -7,9 +7,9 @@ description: Learn about the field of Quantitative Finance!
 
 |              |                                                                               |
 | ------------ | ----------------------------------------------------------------------------- |
-| **Weekday**  | Sundays                                                                       |
-| **Time**     | 1PM                                                                           |
-| **Location** | Online                                                                        |
+| **Weekday**  | Friday                                                                        |
+| **Time**     | 3-4PM                                                                         |
+| **Location** | ACM Office (CDRLC 2433)                                                       |
 | **Leaders**  | Michael Figura, [Roman Stashkiv](https://www.linkedin.com/in/roman-stashkiv/) |
 
 ## About

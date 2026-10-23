@@ -5,13 +5,13 @@ description: Everything from Gen AI to Transformers!
 
 # SIG AI
 
-|                        |                                            |
-| ---------------------- | ------------------------------------------ |
-| **Weekday**            | Tuesday (AI Fluency) / Wednesday (Project) |
-| **Time**               | 5PM (AI Fluency) / 5PM (Project)           |
-| **Location**           | ACM Office (CDRLC 2433)                    |
-| **AI Fluency Leaders** | Srihas, Isabella Wu                        |
-| **Project Leaders**    | Uzair Azizuddin                            |
+|                        |                                              |
+| ---------------------- | -------------------------------------------- |
+| **Weekday**            | Monday                                       |
+| **Time**               | 1-2PM & 2-3PM (Project) / 3-4PM (AI Fluency) |
+| **Location**           | ACM Office (CDRLC 2433)                      |
+| **AI Fluency Leaders** | Srihas, Isabella Wu                          |
+| **Project Leaders**    | Uzair Azizuddin                              |
 
 ## About
 
