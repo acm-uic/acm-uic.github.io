@@ -1,3 +1,82 @@
+/* Brighter link colors than the site default so names and card links are easier to read. */
+.profiles {
+  --ifm-link-color: var(--ifm-color-primary-light);
+  --ifm-link-hover-color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme="dark"] .profiles {
+  --ifm-link-color: #ff6b6b;
+  --ifm-link-hover-color: #ff8f8f;
+}
+
 .profileDescription {
   white-space: pre-line;
+}
+
+.profileCardWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileTrigger {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.profileName {
+  color: var(--ifm-link-color);
+  font-weight: inherit;
+}
+
+.profileName:hover {
+  text-decoration: underline;
+}
+
+.profileCard {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: var(--ifm-z-index-dropdown);
+  width: 16rem;
+  max-width: calc(100vw - 1rem);
+  margin-top: 0.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  text-align: left;
+}
+
+/* Invisible bridge so the mouse can move from the profile into the card without closing it. */
+.profileCard::before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+}
+
+.profileCard[hidden] {
+  display: none;
+}
+
+.profileCardName {
+  font-weight: var(--ifm-font-weight-bold);
+}
+
+.profileCardBio {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+}
+
+.profileCardList {
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  overflow-wrap: anywhere;
 }

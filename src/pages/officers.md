@@ -2,6 +2,39 @@
 
 All emails are suffixed with "uic.edu", unless otherwise noted.
 
+## Fall 2026
+
+| OFFICE                          | NAME                     | EMAIL        |
+| :------------------------------ | :----------------------- | :----------- |
+| President                       | Sam Stuckey              | sstuc2@...   |
+| Vice President                  | Sammy Patel              | spate797@... |
+| Treasurer                       | Andrew Wolk              | awolk2@...   |
+| SIG AI Project Leader           | Uzair Azizuddin          | uaziz2@...   |
+| SIG AI Fluency Leader           | Srihas                   | pgupt50@...  |
+| SIG AI Fluency Leader           | Isabella Wu              | iwu@...      |
+| SIG Algorithmic Trading Leader  | Michael Figura           | mfigu37@...  |
+| SIG Algorithmic Trading Co-Lead | Roman Stashkiv           | rstas@...    |
+| SIG CyberSecurity Leader        | Caleb Scott              | cscot42@...  |
+| SIG Game Leader                 | Luke Deany               | ldean7@...   |
+| SIG Hacks Leader                | Catherine Markowska      | cmark10@...  |
+| SIG Indie Leader                | Danlon Hammons           | dhamm4@...   |
+| SIG Jobs Leader                 | Ibrahim Ceker            | ihceke@...   |
+| SIG Jobs Leader                 | Tuan Van Thai            | tthai4@...   |
+| SIG Math Leader                 | Naga Sai Dhiraj Kasam    | nkasa3@...   |
+| SIG Math Co-Lead                | Ajay Kollur              | akoll10@...  |
+| SIG Math Co-Lead                | Roman Stashkiv           | rstas@...    |
+| SIG PC Building                 | Luis Sanchez             | lsanc4@...   |
+| SIG SysAdmin Leader             | Chase Lee                | clee231@...  |
+| SIG Systems Leader              | Jacob Cohen              | jcohen30@... |
+| SIG WebDev Leader               | Sedrik Punzalan          | punzalan@... |
+| SIG WebDev Co-Lead              | Andres Quesada           | aques@...    |
+| Secretary of Marketing          | Justin Perez             | jpere257@... |
+| Secretary                       | Luis Sanchez             | lsanc4@...   |
+| Secretary                       | Michael Khan             | mkhan398@... |
+| Secretary                       | Safiyyah Ahmed           | sahme213@... |
+| Secretary                       | Yael Pena                | ypena@...    |
+| Faculty Advisor                 | Professor Mitchell Theys | mtheys@...   |
+
 ## Spring 2026
 
 | OFFICE                            | NAME                     | EMAIL        |
