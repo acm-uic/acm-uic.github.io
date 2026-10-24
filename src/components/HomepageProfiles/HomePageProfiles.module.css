@@ -1,7 +1,7 @@
 /* Brighter link colors than the site default so names and card links are easier to read. */
 .profiles {
-  --ifm-link-color: var(--ifm-color-primary-light);
-  --ifm-link-hover-color: var(--ifm-color-primary-lighter);
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-dark);
 }
 
 [data-theme="dark"] .profiles {
