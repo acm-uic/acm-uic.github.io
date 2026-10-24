@@ -287,7 +287,12 @@ const ProfileCard: React.FC<{ profile: Profile }> = ({ profile }) => {
       if (!wrapperRef.current?.contains(event.target as Node)) setOpen(false);
     };
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") {
+        if (cardRef.current?.contains(document.activeElement)) {
+          wrapperRef.current?.querySelector<HTMLButtonElement>('button:not([tabindex="-1"])')?.focus();
+        }
+        setOpen(false);
+      }
     };
     document.addEventListener("pointerdown", onPointerDown);
     document.addEventListener("keydown", onKeyDown);
