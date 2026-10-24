@@ -56,8 +56,11 @@ const officers: Profile[] = [
     name: "Srihas",
     image: "/media/council_profiles/srihas_400.jpg",
     description: "SIG AI Fluency Lead",
-    emails: ["pgupt50 at uic.edu", "srihasgupta at gmail.com"],
-    links: [{ label: "LinkedIn", url: "https://www.linkedin.com/in/srihas115/" }],
+    emails: ["pgupt50 at uic.edu"],
+    links: [
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/srihas115/" },
+      { label: "GitHub", url: "https://github.com/srihas115" },
+    ],
   },
   {
     name: "Isabella Wu",
@@ -158,7 +161,7 @@ const officers: Profile[] = [
   },
   {
     name: "Sedrik Punzalan",
-    image: "/media/council_profiles/sedrik_punzalan_400.jpg",
+    image: "/img/logo.png",
     description: "SIG WebDev Lead",
     emails: ["sedrikpunzalan at gmail.com"],
     links: [{ label: "LinkedIn", url: "https://www.linkedin.com/in/sedrik-punzalan-7a9b5036b" }],
