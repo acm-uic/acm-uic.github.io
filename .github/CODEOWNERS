@@ -15,6 +15,7 @@
 
 # web devs
 /src/ @acm-uic/web-developers
+/static/ @acm-uic/web-developers
 *.js @acm-uic/web-developers
 *.jsx @acm-uic/web-developers
 *.ts @acm-uic/web-developers
