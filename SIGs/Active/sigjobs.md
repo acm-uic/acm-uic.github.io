@@ -5,12 +5,12 @@ description: Come prep for the job hunt! Cracking the coding interview can be di
 
 # SIG Jobs
 
-|              |                                             |
-| ------------ | ------------------------------------------- |
-| **Weekday**  | Monday                                      |
-| **Time**     | 4PM                                         |
-| **Location** | TBA on #sig-jobs channel in the ACM Discord |
-| **Leaders**  | Musa Tahir & Sedrik Punzalan                |
+|              |                               |
+| ------------ | ----------------------------- |
+| **Weekday**  | Monday                        |
+| **Time**     | 3-4PM                         |
+| **Location** | CDRLC 2422                    |
+| **Leaders**  | Ibrahim Ceker & Tuan Van Thai |
 
 ## About
 

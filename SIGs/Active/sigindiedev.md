@@ -7,8 +7,8 @@ description: Learn from first hand experience what it means to be an indie dev!
 
 |              |                         |
 | ------------ | ----------------------- |
-| **Weekday**  | Thursday & Friday       |
-| **Time**     | 4-5PM                   |
+| **Weekday**  | Thursday                |
+| **Time**     | 3:15-4:15PM             |
 | **Location** | ACM Office (CDRLC 2433) |
 | **Leaders**  | Danlon Hammons          |
 
