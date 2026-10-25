@@ -56,7 +56,6 @@ const officers: Profile[] = [
     name: "Srihas",
     image: "/media/council_profiles/srihas_400.jpg",
     description: "SIG AI Fluency Lead",
-    emails: ["pgupt50 at uic.edu"],
     links: [
       { label: "LinkedIn", url: "https://www.linkedin.com/in/srihas115/" },
       { label: "GitHub", url: "https://github.com/srihas115" },
